@@ -1,2 +1,2 @@
 # Truc-
-Projet commun (Alina, Luisa, Sandra)
+Projet commun (Alina, Luisa, Sandra Jagodzinska)
