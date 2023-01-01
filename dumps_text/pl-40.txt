@@ -1,0 +1,1007 @@
+   #Infor.pl - Adopcja
+
+   IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-KMPD5C
+
+   INFOR logo
+   Kategorie
+   ____________________
+   szukaj
+
+     * Księgowość firm
+          + Podatki
+               o PIT
+               o Program do rozliczenia PIT 2021
+               o VAT
+               o CIT
+               o Ryczałt
+               o Akcyza
+               o Koszty
+               o Urząd Skarbowy
+               o Karta podatkowa
+               o zobacz więcej »
+          + Rachunkowość
+               o Zasady ogólne
+               o Księgi rachunkowe
+               o Ewidencja księgowa
+               o Sprawozdawczość
+               o Amortyzacja
+               o Rachunkowość rolnicza
+               o Inwentaryzacja
+               o Rachunkowość budżetowa
+               o Rachunkowość organizacji non-profit
+          + Obrót gospodarczy
+               o Działalność gospodarcza
+               o Spółki
+               o Cło
+               o Finanse i inwestycje
+               o Zamówienia publiczne
+               o Windykacja
+               o Fundacje, stowarzyszenia
+               o Inne zagadnienia
+          + ZUS i kadry
+               o Składki
+               o Urlopy
+               o Wynagrodzenia
+               o Zatrudnianie i zwalnianie
+               o Umowy zlecenia
+               o Inne zagadnienia
+               o Księgowość firm - aktualności
+               o Aktualności z Ministerstwa Finansów
+     * Kadry
+          + Indywidualne prawo pracy
+               o Czas pracy
+               o Ochrona danych osobowych
+               o Odpowiedzialność, prawa i obowiązki
+               o Uprawnienia rodzicielskie
+               o Zatrudnianie i zwalnianie
+               o Zakaz konkurencji
+               o Mobbing
+               o Sygnalista
+          + Wynagrodzenia
+               o Dokumentacja płacowa
+               o Działalność socjalna
+               o Ochrona wynagrodzenia
+               o Podróże służbowe
+               o Rozliczanie wynagrodzeń
+               o Składniki wynagrodzenia
+               o Wynagrodzenie minimalne
+               o Podatki
+          + Ubezpieczenia
+               o Emerytury i renty
+               o Pracownicze Plany Kapitałowe
+               o Składki na ubezpieczenie społeczne
+               o Świadczenie przedemerytalne
+               o Ubezpieczenie zdrowotne
+               o Zasady podlegania
+               o Zasiłki i inne świadczenia
+          + Urlopy
+               o Macierzyński
+               o Urlop rodzicielski
+               o Urlop na żądanie
+               o Urlopy okolicznościowe
+               o Wychowawczy
+               o Wypoczynkowy
+               o Zwolnienia od pracy
+               o Urlop bezpłatny
+               o Urlop ojcowski
+     * Moja Firma
+          + Biznes i finanse
+               o Wiadomości
+               o Firma
+               o Finanse
+               o Prawo
+               o Zarządzanie
+               o Poradniki
+               o Cykle tematyczne
+          + Finanse
+               o Notowania
+               o Kredyty
+               o Inwestycje
+               o Karty kredytowe
+               o Lokaty
+               o Budżet domowy
+               o Kursy walut
+          + Moto
+               o Moto porady
+               o Auto i prawo
+               o Eksploatacja auta
+               o Opony
+               o Technika jazdy
+               o Testy aut
+               o Jednoślad
+               o Motonews
+               o Alkomat online
+               o Kalkulator opłacalności instalacji LPG
+          + Zarządzanie
+               o Szkolenia
+               o Manager
+               o Personel
+               o Outsourcing
+               o Sekretariat
+               o Korespondencja w biznesie
+               o Etykieta w biznesie
+          + Zakładam firmę
+               o Podejmowanie działalności
+               o Opodatkowanie
+               o Zatrudnianie
+               o ZUS
+               o Oprogramowanie
+     * Sektor publiczny
+          + Organizacja
+               o Prawo administracyjne
+               o Postępowanie administracyjne
+               o Ustrój i jednostki
+               o Pracownicy
+               o Klienci
+               o Spółka komunalna
+               o RODO
+               o Compliance
+               o Prawo wodne
+               o Orzeczenia
+          + Finanse
+               o Rachunkowość budżetowa
+               o Podatki i opłaty
+               o Zamówienia publiczne
+               o Audyt i kontrola
+               o Dobre praktyki
+               o Budżet
+          + Zadania
+               o Bezpieczeństwo
+               o Oświata
+               o Kultura
+               o Pomoc społeczna
+               o Zdrowie
+               o Sport i turystyka
+               o Środowisko
+               o Gospodarka komunalna
+               o Gospodarka przestrzenna
+               o Zarządzanie nieruchomościami
+          + Rozwój i promocja
+               o Fundusze unijne
+               o Współpraca
+               o Partnerstwo publiczno-prywatne
+               o Marketing
+               o Dobre praktyki
+          + Edukacja
+               o Rodzice i Uczniowie
+               o Studenci
+               o Nauczyciele
+               o Egzamin ósmoklasisty
+               o Matura
+     * Księgowość budżetowa
+          + Rachunkowość budżetowa
+               o Ewidencja
+               o Klasyfikacja
+               o Wydatki strukturalne
+               o Nieprawidłowości
+          + Sprawozdawczość
+               o Sprawozdawczość budżetowa
+               o Sprawozdawczość w zakresie operacji finansowych
+               o Sprawozdawczość finansowa
+               o Inwentaryzacja
+               o Pozostałe
+          + Podatki
+               o Procedury podatkowe
+               o Podatki dochodowe
+               o VAT
+               o Podatki i opłaty lokalne
+               o Pozostałe podatki i opłaty
+               o Centralizacja Vat
+          + Kadry i płace
+               o Zatrudnianie i zwalnianie
+               o Wynagrodzenia
+               o Urlopy
+               o Podnoszenie kwalifikacji i awanse
+               o Działalność socjalna (ZFŚS)
+               o Podróże służbowe
+               o Pracownicy oświaty
+               o Pracownicy służby zdrowia
+          + ZUS
+               o Ubezpieczenia społeczne
+               o Ubezpieczenia zdrowotne
+               o Ubezpieczenia majątkowe i osobowe
+          + Zamówienia publiczne
+               o Strony umowy
+               o Tryby udzielania zamówienia
+               o Środki ochrony prawnej
+     * Biura rachunkowe
+          + Zakładam biuro rachunkowe
+               o Obowiązkowe ubezpieczenie OC biura rachunkowego
+               o Wybór lokalu i urządzenie biura
+               o Czy biuro rachunkowe może być prowadzone w formie
+                 działalności nierejestrowanej?
+               o W jakiej formie założyć biuro rachunkowe: jednoosobowej
+                 działalności czy spółki
+               o Jak założyć biuro rachunkowe?
+               o zobacz więcej »
+          + Prowadzę biuro rachunkowe
+               o Świadczenie usług księgowych na podstawie umowy ustnej
+               o Nowoczesne biuro rachunkowe - czyli jakie?
+               o Zmiana biura rachunkowego a księgi rachunkowe
+               o Nowy jednolity plik kontrolny a odpowiedzialność biura
+                 rachunkowego
+               o Czy biuro rachunkowe musi udzielić komornikowi informacji
+                 o klientach?
+               o zobacz więcej »
+          + Korzystam z biura rachunkowego
+               o 3 argumenty za wyborem nowoczesnego biura
+               o Odpowiedzialność biura rachunkowego - orzecznictwo
+               o E-dokumentacja pracownicza prowadzona w biurze
+                 rachunkowym
+               o Odpowiedzialność za rachunkowość, gdy prowadzenie ksiąg
+                 rachunkowych powierzono biuru rachunkowemu
+               o zobacz więcej »
+          + INFORLEX
+               o INFORLEX Biuro Rachunkowe
+               o INFORLEX Księgowość
+               o INFORLEX Księgowość i Kadry
+               o INFORLEX Biznes
+               o e-Wydania czasopism
+     * Prawo
+          + Sprawy rodzinne
+               o Spadki
+               o Darowizny
+               o Rozwody
+               o Alimenty
+               o Małżeństwo
+               o Prawa seniora
+               o Pomoc społeczna
+          + Sprawy karne
+               o Prawo karne
+               o Kodeks karny
+               o Wykroczenia
+               o Więziennictwo
+          + Konsument i umowy
+               o Umowy
+               o Prawa konsumenta
+               o Reklamacje
+               o W sądzie
+               o Ubezpieczenia
+          + Sprawy urzędowe
+               o Pozwy
+               o Notariusz
+               o Gmina
+               o Powiat
+               o Konstytucja
+               o Wybory
+               o Pisma i druki
+               o Pomoc prawna
+               o Egzekucja komornicza
+          + Służby mundurowe
+               o Wojsko
+               o Policja
+               o Straż Pożarna
+               o Leśnictwo
+               o Straż Graniczna
+               o Straż miejska
+     * Nieruchomości
+          + Wiadomości
+               o Ceny gazu w 2022 roku
+               o Ceny mieszkań w 2022
+               o Budownictwo 2022. Czy Polska pozostanie największym
+                 placem budowy w Europie?
+               o Domowa mikroinstalacja fotowoltaiczna - nowe zasady
+                 rozliczeń od kwietnia 2022 roku
+               o zobacz więcej »
+          + Prawo
+               o Polski Ład: Dom 70 m2 bez pozwolenia - jak ruszyć z
+                 budową?
+               o Jak złożyć deklarację CEEB?
+               o Zasiedzenie mieszkania - przepisy, zasady
+               o Kiedy sprzedaż prywatnej nieruchomości podlega
+                 opodatkowaniu?
+               o zobacz więcej »
+          + Nieruchomości
+               o Wakacje kredytowe 2022
+               o Fundusz Wsparcia kredytobiorców - jak z niego skorzystać?
+               o Dodatek węglowy
+               o Nowa ustawa deweloperska od 1 lipca 2022 roku - co się
+                 zmieniło?
+               o zobacz więcej »
+          + Finanse
+               o Wynajem mieszkań - czynsze w 2022 roku
+               o Kredyt hipoteczny a spadek wartości mieszkania
+               o Renta dożywotnia - od czego zależy jej wysokość
+               o Fotowoltaika sposobem na obniżenie kosztów energii
+               o zobacz więcej »
+
+   Szukaj
+   ____________________
+   szukaj
+   Sklep
+   Kalkulatory
+   Obserwowane
+   Załóż konto
+   INFOR logo
+   Zaloguj się
+   ____________________
+   ____________________ (BUTTON)
+   (BUTTON) Zaloguj
+   Nie pamiętam hasła
+   Zaloguj się
+   INFOR logo
+
+   Zarejestruj się
+   ____________________ Proszę podać poprawny adres e-mail
+   ____________________ (BUTTON) Hasło musi zawierać min. 3 znaki i max.
+   12 znaków_____________________ (BUTTON)
+   * - pole obowiązkowe
+   (BUTTON) Załóż konto
+   Załóż konto Zaloguj się
+   INFOR logo
+   Przypomnij hasło
+   ____________________
+   (BUTTON) Przypomnij hasło
+   INFOR logo
+   Witaj
+   (BUTTON) Zmień dane Usuń konto
+   Twoje dane
+   INFOR logo
+   Aktualizacja danych
+     Informacja
+   Twoje dane będą wykorzystywane do certyfikatów.
+   ____________________ ____________________
+   (BUTTON) Zmień dane
+   Konto
+     * Rejestracja
+     * Zaloguj się
+
+   Serwisy
+   ____________________
+   szukaj
+     * Zaloguj się
+     * Zarejestruj się
+     * Wiadomości
+     * Certyfikaty
+     * Testy
+     * Obserwowane
+     * Historia
+     * Ulubione
+     * Kalkulatory
+     * Wskaźniki i stawki
+     * Sklep
+     * Kursy walut
+     * Monitor Polski
+     * Terminarz
+     * Dziennik Ustaw
+     * Dzienniki Urzędowe
+     * Dzienniki Unii Europejskiej
+     * Akty ujednolicone
+     * Eksperci
+     * Firmy
+     * Forum
+     * Newsletter
+     * Druki
+     * Wzory umów
+     * Inforlex
+     * InforAkademia
+     * Encyklopedia prawa
+     * Słownik
+     * Paremie łacińskie
+     * Aktualności z MF
+
+     * Księgowość firm
+     * Kadry
+     * Biznes
+     * Samorząd
+     * Księgowość budżetowa
+     * Biura rachunkowe
+     * Prawo
+     * Nieruchomości
+     * Moto
+     * Polski Ład
+
+   Strona główna » Prawo » Sprawy rodzinne » Dziecko i prawo » Adopcja »
+   Procedura adopcyjna – na co się przygotować
+
+Procedura adopcyjna – na co się przygotować
+
+   19 lipca 2012, 14:37
+   Dołącz do grona ekspertów
+   Katarzyna Goździkowska
+   Wioleta Matela
+   Spotkanie z dzieckiem to kolejny etap procesu adopcyjnego, potrzebny,
+   aby oswoić dziecko i przyszłych rodziców.
+   Spotkanie z dzieckiem to kolejny etap procesu adopcyjnego, potrzebny,
+   aby oswoić dziecko i przyszłych rodziców.
+   Zdecydowaliście się na adopcję? Najważniejsze, to uzbroić się w
+   cierpliwość potrzebną do przejścia przez długi i skomplikowany proces
+   adopcyjny. Oto jak należy postępować krok po kroku, żeby powiększyć
+   swoja rodzinę o wyczekiwanego malca. Zanim sąd wyrazi zgodę na
+   przysposobienie, dziecko i rodzice muszą się dobrze poznać.
+
+   Baza ośrodków adopcyjno - opiekuńczych
+
+   Nad procesem przysposobienia czuwają w pierwszej fazie ośrodki
+   adopcyjno – opiekuńcze, później także sądy rodzinne.
+
+Krok po kroku
+
+   Rodzic, który jest zdecydowany przysposobić dziecko może w pierwszej
+   kolejności do ośrodka adopcyjnego. Warto wcześniej zadzwonić na
+   miejsce, albo skorzystać z formularza w Internecie, by umówić się na
+   spotkanie z pracownikiem.
+
+   Pierwsze spotkanie to zwykle rozmowa informacyjna. Rodzice zostan�
+   przepytani o ich oczekiwania wobec dziecka i to co mogą mu zaoferować.
+   Zapoznają się też z formalnymi wymogami, jakie muszą spełnić, z
+   procedurą adopcyjną, przekażą wstępne informacje o sobie. Otrzymają też
+   wykaz dokumentów, które należy zgłosić, aby uruchomić procedurę.
+
+Wymagane dokumenty
+
+     * Życiorys.
+
+     * Odpis aktu małżeństwa (aktualny) (w razie wcześniejszego rozwodu -
+       akt rozwodowy)
+
+     * Odpis aktu urodzenia – rodzice nie pozostający w związku
+       małżeńskim.
+
+     * Potwierdzenie stałego zameldowania
+
+     * Zaświadczenia o zatrudnieniu i dochodach
+
+     * Zaświadczenia z poradni uzależnień
+
+     * Zaświadczenia lekarskie o ogólnym stanie zdrowia z adnotacją, że
+       wymienione osoby mogą opiekować się dzieckiem oraz badania
+       dodatkowe
+
+     * Zaświadczenia lekarskie z poradni zdrowia psychicznego
+
+     * Opinie z miejsc pracy
+
+   Sam ośrodek wystąpi do rejestru karnego o oświadczenie o
+   niekaralności.
+
+Rodzica oceni psycholog
+
+   Ośrodki dbają o to, by kandydaci na rodziców posiadali odpowiednie
+   predyspozycje psychologiczne. W tym celu aranżują rozmowy z
+   psychologiem, który po przeprowadzeniu testów wydaję odpowiedni�
+   opinię.
+
+   Następnie pracownik bada warunki, w jakich żyją przyszli rodzice -
+   ogląda mieszkanie, poznaje tryb życia kandydatów i ich sytuację
+   rodzinną. W czasie tego badania nie angażuje się otoczenia np.
+   sąsiadów, jest to raczej wywiad wewnątrzrodzinny.
+
+   Na tym etapie Komisja Kwalifikacyjna Ośrodka Adopcyjnego decyduje o
+   dopuszczeniu rodziców do dalszej procedury.
+
+   Pozytywna decyzja nie przesądza jeszcze o powodzeniu adopcji – jest to
+   dopiero połowa drogi. Przed rodzicami jeszcze szkolenie. Minimalna
+   długość szkolenia to 35 godzin dydaktycznych. Powinno być ono
+   prowadzone w taki sposób, a by zapewnić rodzicom aktywny udział w
+   zajęciach.
+
+   Obowiązek posiadania świadectwa ukończenia szkolenia nie dotyczy
+   kandydatów spokrewnionych lu spowinowaconych z dzieckiem lub
+   sprawujących nad nim rodzinna pieczę zastępczą.
+
+   Pięć godzin szkolenia powinny zajmować warsztaty z zakresu wzmacniania
+   prawidłowej motywacji kandydatów do adopcji. Przyszli rodzice zapoznaj�
+   się też z aspektami prawnymi przysposobienia oraz z formami pomocy
+   państwowej dla rodziców adopcyjnych. Zajęcia obejmują również elementy
+   rozwoju dziecka, jego zdrowia czy pielęgnacji niemowląt. Kandydaci
+   uczestniczą w warsztatach umiejętności wychowawczych. Uczą się
+   wspomagania rozwoju dziecka z różnorodnymi problemami czy zaburzeniami.
+   Poznają tez problematykę jawności adopcji, czyli prawdy o pochodzeniu
+   dziecka.
+
+   Dopiero po odbyciu takiej serii zajęć, Komisja wydaje ostateczn�
+   decyzję.
+
+   Gdy decyzja jest pozytywna pozostaje czekać na przedstawienie dziecka.
+
+   Spotkanie z dzieckiem to kolejny etap procesu adopcyjnego, który często
+   jest jeszcze dłuższy, jednak, jak argumentują niektórzy potrzebny, aby
+   oswoić dziecko i przyszłych rodziców z wizją ich przyszłej rodziny.
+
+   Zobacz też: Adopcja - kiedy możliwa?
+
+Poczytajcie o dziecku...
+
+   Zanim rodzice spotkają się z dzieckiem otrzymują pełną dokumentację na
+   jego temat. Opinie psychologa, lekarzy, opis charakteru, wyglądu maj�
+   pomóc rodzicom podjąć decyzję o ewentualnym spotkaniu. Taki „papierowy
+   wywiad” jest konieczny, pozwala rodzicom dokonać właściwego wyboru bez
+   narażania dziecka na niepotrzebne cierpienia, jakich może doświadczyć w
+   razie odmowy.
+
+   Gdy rodzice zaakceptują dziecko ośrodek adopcyjny aranżuje spotkanie.
+   Odbywa się ono w domu dziecka, przy asyście opiekunów malca, w
+   warunkach, które powinny zapewniać dziecku jak największy komfort.
+
+   Jedno spotkanie nie wystarczy, kandydaci na rodziców muszą regularnie
+   odwiedzać placówkę, bawić się z dzieckiem, poznawać je i oswajać.
+   Ważne, żeby nawiązać więź zanim zabierze się je do domu.
+
+   Na tym etapie, należy złożyć wniosek o przysposobienie do Wydziału
+   Rodzinnego i Nieletnich Sądu Rejonowego.
+
+Przed sądem
+
+   Ośrodek adopcyjny wspiera rodziców przed sądem, dostarczając
+   dokumentację, zebraną na początku procesu adopcyjnego. Ośrodek
+   przesyła  opinię na temat kandydata i wniosek o zgodę na zmianę miejsca
+   pobytu dziecka – do czasu rozprawy sądowej rozstrzygającej ten wniosek
+   dziecko pozostaje w ośrodku adopcyjnym.
+
+Dziecko już w domu
+
+   Gdy sąd wyrazi zgodę na zmianę pobytu dziecka rodzice mogą je zabrać do
+   domu. Dla nich i dla dziecka rozpoczyna się tzw. okres preadopcyjny, w
+   którym należy się przygotować na wizyty kuratora sądowego i pracowników
+   ośrodka adopcyjnego.
+
+   Ten stan niepewności musi potrwać jakiś czas, aby odwiedziny w domu
+   rodziców zastępczych dostarczyły odpowiednio dużo materiału do
+   sporządzenia opinii dla sądu, który zadecyduje o przysposobieniu. W tym
+   czasie całkowite koszty utrzymania malucha ponoszą przysposabiający.
+
+   W rozprawie o przysposobienie uczestniczą rodzice i dotychczasowy
+   opiekun prawny dziecka.  Gdy sąd wyrazi upragnioną zgodę należy
+   poczekać aż orzeczenie się uprawomocni.
+
+   Następnie należy udać się do urzędu stanu cywilnego miejsca urodzenia
+   dziecka. W razie adopcji pełnej sporządza się nowy odpis aktu urodzenia
+   dziecka a w rubryce rodzice wpisuje się nazwisko nowych rodziców.
+
+   Opisana procedura może różnić się zależnie od ośrodka adopcyjnego –
+   każdy może wprowadzić dodatkowe wymogi dla zagwarantowania jak
+   najlepszego doboru stron, oraz przygotowania rodziców adopcyjnych do
+   pełnienia właściwych im funkcji.
+
+   Zobacz serwis: Adopcja
+   Reklama
+   Więcej na ten temat przeczytasz w naszej publikacji
+   Darowizny, testamenty, spadki. Prawidłowe zapisy. Przykładowe wzory
+   Darowizny, testamenty, spadki. Prawidłowe zapisy. Przykładowe wzory
+   Tylko teraz
+   19,90 zł
+   Przejdź do sklepu
+   Źródło: INFOR
+     * adopcja
+     * dziecko
+     * procedura
+
+     *
+
+   Wersja do druku
+   Napisz do nas
+   Zapisz się na newsletter
+   Udostępnij na Linkedin
+   Udostępnij
+   Podziel się na Facebook
+   Podziel się
+   Wyślij na Twitter
+   Wyślij
+   Czy ten artykuł był przydatny?
+   tak
+   nie
+   Dziękujemy za powiadomienie
+   Jeśli nie znalazłeś odpowiedzi na swoje pytania w tym artykule, powiedz
+   jak możemy to poprawić.
+   UWAGA: Ten formularz nie służy wysyłaniu zgłoszeń . Wykorzystamy go aby
+   poprawić artykuł.
+   Jeśli masz dodatkowe pytania prosimy o kontakt
+   Jest nieaktualna
+   (*)
+   Jest niedokładna
+   ( )
+   Nie dotyczy informacji, których szukam
+   ( )
+   Inny powód
+   ( )
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   (BUTTON) anuluj (BUTTON) wyślij
+
+Komentarze(0)
+
+Pokaż:
+
+   Najnowsze
+   Popularne
+   Najstarsze
+
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   (BUTTON) wyślij komentarz
+   Uwaga, Twój komentarz może pojawić się z opóźnieniem do 10 minut. Zanim
+   dodasz komentarz -zapoznaj się z zasadami komentowania artykułów.
+
+   QR Code
+
+   © Materiał chroniony prawem autorskim - wszelkie prawa zastrzeżone.
+   Dalsze rozpowszechnianie artykułu za zgodą wydawcy INFOR PL S.A.
+   Wynagrodzenie minimalne 2023 [quiz]
+   certificate
+   Jak zdobyć Certyfikat:
+     * Czytaj artykuły
+     * Rozwiązuj testy
+     * Zdobądź certyfikat
+
+   1/15
+   Kiedy będą miały miejsce podwyżki minimalnego wynagrodzenia w 2023
+   roku?
+   od 1 stycznia i od 1 lipca
+   od 1 stycznia i od 1 czerwca
+   od 1 lutego i od 1 lipca
+   Następne
+
+   Bestsellery
+   Zatrudnianie cudzoziemców. po zmianach od 29 stycznia 2022 r.
+   Zatrudnianie cudzoziemców. po zmianach od 29 stycznia 2022 r.
+   49,00 zł
+   Przejdź do sklepu
+   Kup
+   KOMPLET PODATKI 2023
+   KOMPLET PODATKI 2023
+   469,00 zł
+   Przejdź do sklepu
+   Kup
+   Zatrudnienie oraz pomoc socjalna dla obywateli Ukrainy. Na podstawie
+   specustawy i innych regulacji
+   Zatrudnienie oraz pomoc socjalna dla obywateli Ukrainy. Na podstawie
+   specustawy i innych regulacji
+   29,80 zł
+   Przejdź do sklepu
+   Kup
+   Kodeks pracy 2023. Praktyczny komentarz z przykładami
+   Kodeks pracy 2023. Praktyczny komentarz z przykładami
+   149,00 zł
+   Przejdź do sklepu
+   Kup
+   pokaż więcej
+   Twój koszyk
+   [lcl9pdGVtXzEuNGJiNTlmM2QucG5nIn0.jpg]
+   Nowy JPK_VAT z deklaracją i ewidencją"
+   39,00 zł
+   [lcl9pdGVtXzIuNzliMDNkMDAucG5nIn0.jpg]
+   Nowy JPK_VAT z deklaracją i ewidencją"
+   39,00 zł
+   Przejdź do koszyka
+
+   Kalkulatory
+   Kalkulator składki zdrowotnej dla przedsiębiorcy Kalkulator dla
+   przedsiębiorców Polski Ład Kalkulator wynagrodzeń Polski Ład 2.0
+   Kalkulator umów zlecenia Polski Ład 2.0 Kalkulator umów o dzieło Polski
+   Ład 2.0 Kalkulator kosztów energii Kalkulator dodatek osłonowy
+   Kalkulator emerytalny Kalkulator ilości dni Kalkulator kredytowy
+   Kalkulator odsetek ustawowych Kalkulator opłat notarialnych Kalkulator
+   prawny Kalkulator dat
+
+   Aktywne formularze
+   Postępowanie cywilne Postępowanie administracyjne Prawo karne Wzory
+   umów Wniosek o 500 plus
+
+   Wskaźniki
+   Odsetki ustawowe i odsetki za opóźnienie Odsetki za zwłokę od
+   zaległości podatkowych Opłaty za czynności adwokackie Opłaty za
+   czynności radców prawnych Maksymalne stawki taksy notarialnej Opłaty za
+   usunięcie drzew i krzewów oraz kary za zniszczenie zieleni Podatek od
+   czynności cywilnoprawnych Testy wiedzy
+
+   Terminarz Styczeń
+     * 26
+     * 27
+     * 28
+     * 29
+     * 30
+     * 31
+     * 1
+
+   Rodzina 500 plus
+   Terminy przelewów świadczenia 500+ w okresie 2022/2023 Terminy
+   przelewów świadczenia 500+ w okresie 2022/2023
+   Od 1 lutego 2022 r. wniosek o 500 plus na nowy okres Od 1 lutego 2022
+   r. wniosek o 500 plus na nowy okres
+   Wypłaty 500 plus w 2022 r. Wypłaty 500 plus w 2022 r.
+   Kreator wniosku o 500+ Kreator wniosku o 500+
+   500 plus z podwyżką? Polacy podzieleni [BADANIE] 500 plus z podwyżką?
+   Polacy podzieleni [BADANIE]
+
+   Zmiany prawa 2022
+   OFERTA 2023. Katalog produktów U nas odpowiedzi czekają na Ciebie!
+   OFERTA 2023. Katalog produktów
+   Porady prawne online. Wyślij zapytanie - wycena w ciągu godziny Porady
+   prawne online. Wyślij zapytanie - wycena w ciągu godziny
+   Program Program "Ciepłe Mieszkanie" z budżetem 1,4 mld zł
+   Karta Polaka dla obywatela Ukrainy będzie łatwiejsza do zdobycia Karta
+   Polaka dla obywatela Ukrainy będzie łatwiejsza do zdobycia
+   250 zł dofinansowania do zakupu telewizora (DVB-T2/HEVC) 250 zł
+   dofinansowania do zakupu telewizora (DVB-T2/HEVC)
+   Waloryzacja emerytur i rent w 2023 r.- prognozowany wskaźnik
+   Waloryzacja emerytur i rent w 2023 r.- prognozowany wskaźnik
+   Kary i mandaty dla kierowców w 2022 r. Kary i mandaty dla kierowców w
+   2022 r.
+
+   Prawo
+
+   Wiadomości Konsument i umowy Praca Sprawy karne Sprawy rodzinne Sprawy
+   urzędowe Encyklopedia prawa Służby mundurowe
+   Zapisz się na newsletter
+   Zobacz przykładowy newsletter
+   ____________________
+   Zapisz się
+   Wpisz poprawny e-mail
+
+   Sylwestrowa noc ponad trzy razy droższa niż zwykła. Jakie są ceny?
+   30 gru 2022
+   Ostatniej nocy w roku towarzyszyć mogą nie tylko szalona zabawa, ale
+   też szalone koszty. Sylwestrowe noclegi potrafią być nawet ponad
+   trzykrotnie droższe niż w normalnych warunkach – sugerują dane jednego
+   z popularnych portali rezerwacyjnych. W Gdańsku za pojedynczy nocleg
+   dla dwóch osób zapłacimy ponad 1,5 tys. złotych.
+   Legitymacja emeryta i rencisty - co się zmienia od stycznia 2023 r.?
+   30 gru 2022
+   W styczniu 2023 roku każdy emeryt i rencista otrzyma elektroniczn�
+   wersję legitymacji ZUS – mLegitymację. Będzie ona dostępna na każdym
+   urządzeniu mobilnym z dostępem do internetu (np. smartfonie), przy
+   użyciu bezpłatnej aplikacji mObywatel.
+   Prawa konsumenta - jakie zmiany od 1 stycznia 2023 r.?
+   30 gru 2022
+   1 stycznia 2023 r. wchodzi w życie wiele ważnych przepisów. O czym
+   powinni pamiętać kupujący on-line, miłośnicy wyprzedaży, seniorzy i
+   pozostali konsumenci?
+   Maseczki w szpitalach i aptekach - obowiązek przedłużony do końca marca
+   2023 r.
+   30 gru 2022
+   Nowe rozporządzenie przedłuża do końca marca 2023 r. obowiązek noszenia
+   maseczek w szpitalach i aptekach.
+   Porównywanie cen - ważne zmiany dla konsumentów od 1 stycznia 2023 r.
+   30 gru 2022
+   1 stycznia 2023 r. wchodzi w życie rozporządzenie Ministra Rozwoju i
+   Technologii dotyczące uwidaczniania cen towarów i usług. Co to oznacza
+   dla konsumentów?
+   Z rynku znikają jednoosobowe firmy. Eksperci ostrzegają: W 2023 roku
+   będzie tylko gorzej
+   30 gru 2022
+   Zdaniem ekspertów obecnie firmy najbardziej trapi niepewność, wywołana
+   zmianami podatkowymi. Trudnymi do udźwignięcia ciężarami są też coraz
+   wyższe składki na ZUS i rosnące koszty prowadzenia samej działalności.
+   Dłuższa praca sposobem na wyższą emeryturę?
+   30 gru 2022
+   Rekordowo wysokie i bardzo niskie emerytury z ZUS to dowód na to, że
+   warto długo pracować i płacić składki. Dłuższa praca sprawia, że
+   wypłacana na starość emerytura jest wysoka z racji tego, że środki
+   gromadzone na indywidualnym koncie emerytalnym są dłużej odkładane, a
+   statystyczna średnia długość życia się skraca.
+   Obowiązkowe zezwolenie na przetrzymywanie lancetogłowa królewskiego do
+   23 lutego 2023
+   29 gru 2022
+   Do 2 lutego 2023 r. należy złożyć wnioski o przetrzymywanie
+   lancetogłowa królewskiego
+   RPO zwraca uwagę na problem seniorki z elektronicznym rozliczeniem z
+   ZUS
+   29 gru 2022
+   Od 1 stycznia 2023 r. właściciele małych firm (zatrudniających do 5
+   pracowników) i osoby samozatrudnione, które same płacą składki, musz�
+   korzystać z profilu informacyjnego ZUS. Z powodu wieku i braku
+   umiejętności cyfrowych osoba 60+ skarży się RPO na obowiązek składania
+   miesięcznej deklaracji rozliczeniowej wyłącznie drogą elektroniczną. W
+   ocenie RPO w takich sytuacjach powinien być dopuszczony dotychczasowy
+   sposób rozliczania z ZUS
+   Bon turystyczny 2023 - dla kogo?
+   29 gru 2022
+   Z bonu turystycznego, przyznanego dzieciom w ramach programu Polski Bon
+   Turystyczny, można skorzystać jeszcze w 2023 roku. Do kiedy jest ważny
+   i gdzie można z niego skorzystać?
+   Najważniejsze zmiany prawa w 2023 r.
+   29 gru 2022
+   Jakie są ważne zmiany w prawie w 2023 r.? O jakich nowościach prawnych
+   warto pamiętać? Prezentujemy przydatne zestawienie,
+   Nowe miasta w Polsce w 2023
+   29 gru 2022
+   Od 1 stycznia 2023 r. na mapie Polski pojawi się 15 nowych miast. Jakie
+   to będą miasta?
+   Nowy program wsparcia dla osób z zaburzeniami psychicznymi "Od
+   zależności ku samodzielności"
+   29 gru 2022
+   Wsparcie osób z zaburzeniami psychicznymi i ich rodzin w pokonywaniu
+   napotkanych trudności – to główny cel programu „Od zależności ku
+   samodzielności”. Minister rodziny i polityki społecznej Marlena Maląg
+   podpisała program, którego budżet na rok 2023 to 3 mln zł.
+   Lekarze zachęcają do szczepień przeciw grypie
+   29 gru 2022
+   Szczepionka na grypę. Do szczepień przeciw grypie zachęcają,
+   szczególnie osoby starsze, lekarze ze Szpitala Miejskiego nr 4 w
+   Gliwicach. Wskazują, że grypa jest wirusową chorobą sezonową i co sezon
+   epidemiczny opracowywany jest nowy skład szczepionki.
+   „Ochrona Danych Osobowych – Zaskarżanie decyzji Prezesa UODO”.
+   Konferencja online 26 stycznia 2023 r.
+   29 gru 2022
+   W dniu Inspektorów Ochrony Danych (26 stycznia 2023 r.) odbędzie się
+   Konferencja Rzeczowo o Prawie „Ochrona Danych Osobowych – Zaskarżanie
+   decyzji Prezesa UODO” zorganizowana przez Kancelarię Radców Prawnych –
+   Lubasz i Wspólnicy. Wydarzenie obejmie część wykładową i panel
+   dyskusyjny, w których udział wezmą uznani eksperci z dziedziny ochrony
+   danych osobowych. Konferencja będzie miała miejsce w przestrzeni
+   online, a udział w niej ma charakter otwarty i bezpłatny. Portal
+   infor.pl objął patronat medialny nad tą Konferencją.
+   Minister Moskwa: import węgla dla gospodarstw domowych także w 2023 r.
+   29 gru 2022
+   Import węgla dla gospodarstw domowych. W 2023 r. Polska dalej będzie
+   importować węgiel na potrzeby gospodarstw domowych - oświadczyła
+   minister klimatu i środowiska Anna Moskwa. Przekazała, że w dalszym
+   ciągu zadanie to będą realizować spółki Węglokoks i PGE Paliwa.
+   Soboń: z wakacji kredytowych skorzystało 1,04 mln Polaków
+   29 gru 2022
+   Z wakacji kredytowych skorzystało 1,04 mln Polaków, objęły one 53 proc.
+   łącznej liczby wszystkich złotowych kredytów hipotecznych – powiedział
+   wiceminister finansów Artur Soboń.
+   Nowy Fundusz Kompensacyjny Zdarzeń Medycznych może poprawić sytuację
+   pacjentów
+   29 gru 2022
+   Fundusz Kompensacyjny Zdarzeń Medycznych. Zapowiedziane przez rząd
+   powołanie Funduszu ułatwi uzyskiwanie rekompensat za szkody poniesione
+   przez pacjentów. Będzie to możliwe bez postępowania sądowego i
+   orzekania o winie lekarza. Projekt wymaga jednak zmian, jeżeli ma
+   skutecznie realizować zakładane cele - pisze Instytut Logos w pierwszej
+   analizie na ten temat.
+   Komunikacyjne OC staniało, AC nieznacznie droższe w 2022 roku
+   29 gru 2022
+   Eksperci CUK Ubezpieczenia sprawdzili ceny ubezpieczeń komunikacyjnych
+   w 2022 roku oraz pokusili się o prognozy na rok 2023. Oto
+   najistotniejsze wnioski.
+   Podwyżki cen lub usług w 2023 dla odbiorców u 66% firm
+   29 gru 2022
+   66 proc. respondentów badania PIE planuje podwyżki cen lub usług dla
+   odbiorców w 2023 roku
+   Wsparcie na inwestycje chroniące wody przed zanieczyszczeniami
+   azotanami ze źródeł rolniczych zwiększone do 150 tys. zł
+   28 gru 2022
+   Weszło w życie rozporządzenie zwiększające limit wsparcia na inwestycje
+   chroniące wody przed zanieczyszczeniami azotanami ze źródeł rolniczych
+   - poinformowało w środę Ministerstwo Rolnictwa i Rozwoju Wsi. Stawka
+   pomocy na beneficjenta wzrosła ze 100 tys. do 150 tys. zł.
+   Odsetki ustawowe za opóźnienie w transakcjach handlowych 2023
+   28 gru 2022
+   Jaka jest wysokość odsetek ustawowych za opóźnienie w transakcjach
+   handlowych od 1 stycznia do 30 czerwca 2023 r.?
+   Hakerzy w sieci. I co dalej?
+   28 gru 2022
+   Hakerzy w internecie. Internauci miesiącami często nie zdają sobie
+   sprawy z tego, że padli ofiarą cyberataku. Hakerzy działają po cichu i
+   w ukryciu. Potrafią przebywać w wewnętrznej sieci przedsiębiorstwa
+   wiele miesięcy zanim zostaną zauważeni.
+   Fajerwerki - podstawowe zasady bezpieczeństwa
+   28 gru 2022
+   Policja przypomina o używaniu petard zgodnie z instrukcją obsługi. O
+   jakich zasadach bezpieczeństwa należy pamiętać?
+   Dlaczego świętujemy 31 grudnia? Krótka historia nocy sylwestrowej
+   28 gru 2022
+   Celebrowanie nadejścia nowego roku jest bardzo starą tradycją. Sposób,
+   w jaki obecnie spędzamy noc sylwestrową, łączy w sobie elementy różnych
+   zwyczajów naszych przodków. O tym, dlaczego świętujemy 31 grudnia,
+   opowiada dr Małgorzata Bulaszewska, kulturoznawczyni z Uniwersytetu
+   SWPS.
+   1 - 25 z 21 619 artykułów
+   1 2 3
+   ...
+   865
+   pokaż więcej
+
+   (BUTTON)
+
+   Zapisz się na newsletter
+   Zobacz przykładowy newsletter
+   ____________________
+   Zapisz się
+   Wpisz poprawny e-mail
+
+   Księgowość firm
+     * Podatki
+     * Rachunkowość
+     * Obrót gospodarczy
+     * ZUS i kadry
+     * Zawody księgowe
+     * Podatki 2021
+
+   Kadry
+     * Indywidualne prawo pracy
+     * Wynagrodzenia
+     * Ubezpieczenia
+     * Urlopy
+     * BHP
+     * HRM
+
+   Prawo
+     * Sprawy rodzinne
+     * Sprawy karne
+     * Konsument i umowy
+     * Sprawy urzędowe
+     * Praca
+     * Sklep Infor
+
+   Biznes
+     * Biznes i finanse
+     * Spółki
+     * Praca i ubezpieczenia
+     * Moto
+     * Leasing w firmie
+     * Jak założyć firmę
+
+   Biura rachunkowe
+     * Zakładam biuro rachunkowe
+     * Prowadzę biuro rachunkowe
+     * Korzystam z biura rachunkowego
+     * Rachunkowość 2021
+     * Sprawozdania finansowe
+
+   Nieruchomości
+     * Wiadomości
+     * Nieruchomości
+     * Finanse
+     * Budowa i remont
+     * Wnętrza
+     * Ogród i kwiaty
+
+   Sektor publiczny
+     * Organizacja
+     * Finanse
+     * Zadania
+     * Rozwój i promocja
+     * Edukacja
+     * Wiadomości
+
+   Księgowość budżetowa
+     * Rachunkowość budżetowa
+     * Sprawozdawczość
+     * Podatki
+     * Kadry i płace
+     * ZUS
+     * Zamówienia publiczne
+
+   Akty prawne
+     * Dziennik Ustaw
+     * Monitor Polski
+     * Dzienniki Urzędowe
+     * Dzienniki Unii Europejskiej
+     * Akty prawne ujednolicone
+     * Kodeksy
+
+   Kalkulatory
+     * Kalkulator PPK
+     * Kalkulator brutto-netto
+     * Kalkulator Wynagrodzeń
+     * Kalkulator odsetek
+     * Kalkulator umów zlecenia
+     * Kalkulator stażu pracy
+
+   Wskaźniki i stawki
+     * Podróże służbowe w kraju
+     * Minimalne wynagrodzenie
+     * Składki ubezpieczeniowe
+     * Podróże służbowe
+     * Odsetki ustawowe
+     * Skala podatku dochodowego
+
+   Aktywne formularze
+     * Wniosek o 500+
+     * Wzory umów
+     * Formularze kadrowe
+     * Formularze z rachunkowości
+     * Formularze podatkowe
+     * Formularze PIT
+
+     * O nas
+     * Ochrona prywatności
+     * Zmień ustawienia prywatności
+     * Regulamin
+     * Kariera
+     * RSS
+     * Kontakt
+     * Reklama
+     * Mapa serwisu
+     * BOK
+
+   Copyright © 2023 INFOR PL S.A.
