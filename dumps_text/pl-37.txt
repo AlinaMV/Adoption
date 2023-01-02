@@ -1,0 +1,748 @@
+   IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-5D6ZSD9
+
+     * Przejdź do menu głównego
+     * Przejdź do treści
+
+     * Biblia
+     * Magazyn
+     * Modlitwa w drodze
+     * La Civiltà Cattolica
+     * Blogi
+     * faceBóg
+     * Sklep
+
+     * Facebook
+     * Twitter
+     * Instagram
+
+   (BUTTON)
+   DEON.pl
+     * Świat
+     * Kościół
+     * Wiara
+     * Inteligentne Życie
+     * Po godzinach
+     * Czytelnia
+     * Blogi
+     * Magazyn
+     * Wideo
+     * Magazyn 2020-04
+
+   Więcej
+   (BUTTON) Warszawa
+   14°
+     * (BUTTON) Biała Podlaska
+     * (BUTTON) Białystok
+     * (BUTTON) Bielsko-Biała
+     * (BUTTON) Bydgoszcz
+     * (BUTTON) Chełm
+     * (BUTTON) Ciechanów
+     * (BUTTON) Częstochowa
+     * (BUTTON) Elbląg
+     * (BUTTON) Gdańsk
+     * (BUTTON) Gorzów Wielkopolski
+     * (BUTTON) Jelenia Góra
+     * (BUTTON) Kalisz
+     * (BUTTON) Katowice
+     * (BUTTON) Kielce
+     * (BUTTON) Konin
+     * (BUTTON) Koszalin
+     * (BUTTON) Kraków
+     * (BUTTON) Krosno
+     * (BUTTON) Legnica
+     * (BUTTON) Leszno
+     * (BUTTON) Lublin
+     * (BUTTON) Łódź
+     * (BUTTON) Łomża
+     * (BUTTON) Nowy Sącz
+     * (BUTTON) Olsztyn
+     * (BUTTON) Opole
+     * (BUTTON) Ostrołęka
+     * (BUTTON) Piła
+     * (BUTTON) Piotrków
+     * (BUTTON) Piotrków Trybunalski
+     * (BUTTON) Płock
+     * (BUTTON) Poznań
+     * (BUTTON) Przemyśl
+     * (BUTTON) Radom
+     * (BUTTON) Rzeszów
+     * (BUTTON) Siedlce
+     * (BUTTON) Sieradz
+     * (BUTTON) Słupsk
+     * (BUTTON) Suwałki
+     * (BUTTON) Szczecin
+     * (BUTTON) Tarnobrzeg
+     * (BUTTON) Tarnów
+     * (BUTTON) Toruń
+     * (BUTTON) Wałbrzych
+     * (BUTTON) Warszawa
+     * (BUTTON) Włocławek
+     * (BUTTON) Wrocław
+     * (BUTTON) Zakopane
+     * (BUTTON) Zamość
+     * (BUTTON) Zielona Góra
+     * (BUTTON) Londyn
+     * (BUTTON) Dublin
+     * (BUTTON) Chicago
+     * (BUTTON) New York
+
+   (BUTTON) Automat. na podstawie geolokalizacji
+   (BUTTON)
+   (BUTTON)
+   (BUTTON) [logo-ua.svg]
+     * Schowek
+     * Ustawienia konta
+     * Donacje
+     * Wyloguj się
+
+   (BUTTON)
+     * Świat
+          + Wiadomości z Polski
+          + Wiadomości ze świata
+     * Kościół
+          + Patronaty
+          + Komentarze
+          + Serwis Papieski
+          + Światowe Dni Młodzieży
+     * Wiara
+          + Duchowość
+          + Komentarze do Ewangelii
+          + Świadectwa
+          + Modlitwy
+          + Wiara i społeczeństwo
+          + Pytania o wiarę
+          + Rekolekcje Wielkopostne
+          + Rekolekcje Adwentowe
+          + Ślub
+          + Wspólny dom
+          + Przyjąć przybysza
+     * Inteligentne Życie
+          + Dziecko
+          + Ona i on
+          + Psychologia na co dzień
+          + Wygrać z depresj�
+          + Poradnia
+          + Zdrowie
+          + Styl życia
+          + #COŚWIĘCEJ
+          + Pro-life
+          + Męski punkt widzenia
+     * Po godzinach
+          + Nauka i technologia
+          + Rozrywka i relaks
+          + Muzyka
+          + Film
+          + Dobra Reklama
+          + Ludzie i inspiracje
+          + Michałki
+          + Historia
+          + DEONcafe
+          + Podróże
+          + Przepisy
+     * Czytelnia
+          + Czasopisma
+          + Książki
+     * Blogi
+          + Artykuły blogerów
+     * Magazyn
+     * Wideo
+     * Magazyn 2020-04
+
+   Wspieraj naszą misję WSPOMÓŻ NAS
+   (BUTTON) Warszawa
+   14°
+     * (BUTTON) Biała Podlaska
+     * (BUTTON) Białystok
+     * (BUTTON) Bielsko-Biała
+     * (BUTTON) Bydgoszcz
+     * (BUTTON) Chełm
+     * (BUTTON) Ciechanów
+     * (BUTTON) Częstochowa
+     * (BUTTON) Elbląg
+     * (BUTTON) Gdańsk
+     * (BUTTON) Gorzów Wielkopolski
+     * (BUTTON) Jelenia Góra
+     * (BUTTON) Kalisz
+     * (BUTTON) Katowice
+     * (BUTTON) Kielce
+     * (BUTTON) Konin
+     * (BUTTON) Koszalin
+     * (BUTTON) Kraków
+     * (BUTTON) Krosno
+     * (BUTTON) Legnica
+     * (BUTTON) Leszno
+     * (BUTTON) Lublin
+     * (BUTTON) Łódź
+     * (BUTTON) Łomża
+     * (BUTTON) Nowy Sącz
+     * (BUTTON) Olsztyn
+     * (BUTTON) Opole
+     * (BUTTON) Ostrołęka
+     * (BUTTON) Piła
+     * (BUTTON) Piotrków
+     * (BUTTON) Piotrków Trybunalski
+     * (BUTTON) Płock
+     * (BUTTON) Poznań
+     * (BUTTON) Przemyśl
+     * (BUTTON) Radom
+     * (BUTTON) Rzeszów
+     * (BUTTON) Siedlce
+     * (BUTTON) Sieradz
+     * (BUTTON) Słupsk
+     * (BUTTON) Suwałki
+     * (BUTTON) Szczecin
+     * (BUTTON) Tarnobrzeg
+     * (BUTTON) Tarnów
+     * (BUTTON) Toruń
+     * (BUTTON) Wałbrzych
+     * (BUTTON) Warszawa
+     * (BUTTON) Włocławek
+     * (BUTTON) Wrocław
+     * (BUTTON) Zakopane
+     * (BUTTON) Zamość
+     * (BUTTON) Zielona Góra
+     * (BUTTON) Londyn
+     * (BUTTON) Dublin
+     * (BUTTON) Chicago
+     * (BUTTON) New York
+
+   (BUTTON) Automat. na podstawie geolokalizacji
+
+Dołącz do społeczności DEON.pl
+
+     * Facebook
+     * Twitter
+     * Instagram
+
+     * O portalu
+     * Regulamin
+     * Polityka prywatności
+     * Kontakt
+     * Dla mediów
+     * Reklama
+     * Informacje o cookies
+     * Patronat
+
+   (BUTTON)
+     * Świat
+     * Kościół
+     * Wiara
+     * Inteligentne Życie
+     * Po godzinach
+     * Czytelnia
+     * Blogi
+     * Magazyn
+     * Wideo
+     * Magazyn 2020-04
+
+   (BUTTON)
+
+Adopcja. Bać się zaburzeń psychicznych?
+
+     * Inteligentne Życie
+     * Dziecko
+
+   Adopcja. Bać się zaburzeń psychicznych?
+   (fot. Frau Böb (buuusyyyy) / flickr.com)
+   9 lat temu
+   A. M.K.
+     * (BUTTON)
+     * (BUTTON)
+     *
+
+     *
+     * (BUTTON)
+     *
+     * (BUTTON)
+
+   (BUTTON)
+   (BUTTON)
+
+   Bycie rodzicem, zarówno biologicznym, jak i adopcyjnym, to udział w
+   loterii. Im młodsze dziecko, tym mniej wiemy, patrząc na nie. Jakie
+   cechy odziedziczyło po swoich przodkach? Czy warto bać się zaburzeń
+   psychicznych? - spojrzenie psychiatry i rodzica adopcyjnego.
+
+   Coś się zaczyna i coś się kończy. Przechodzicie w nowy etap. Może ty,
+   przyszła mamo, cisnęłaś do kosza wymiętą wizytówkę gabinetu leczenia
+   niepłodności, a ty, przyszły tato, po raz pierwszy wykręciłeś numer
+   telefonu do ośrodka adopcyjnego. Może czujecie ulgę i podniosłość tej
+   chwili. Ale żeby podjąć decyzję o przysposobieniu dziecka, musieliście
+   stoczyć w sobie walkę z lękami i uprzedzeniami - i po raz pierwszy
+   wygrać. Bitwę, ale jeszcze nie wojnę.
+
+   Potem, im bardziej zagłębiacie się w realia ośrodka adopcyjnego, tym
+   bardziej dociera do Was śmieszność stereotypu, mającego korzenie
+   jeszcze w realiach Polski powojennej. Okazuje się, że nigdzie nie ma
+   mnóstwa biednych sierotek, które czekają tylko, aby dobrzy i szlachetni
+   ludzie zabrali je do siebie ze złego domu dziecka. Ustawiacie się zatem
+   w kolejce na kilka lat oczekiwania, poddajecie się szkoleniom, wywiadom
+   i testom psychologicznym, gromadzicie pokaźną teczkę dokumentów.
+   Wszystko to ma świadczyć o tym, czy się nadajecie. A tu jeszcze drugi
+   stereotyp, trudniejszy na początku do podważenia i powtarzany przez
+   różnych "życzliwych" - dzieci adopcyjne zamiast was pokochać, pójdą w
+   ślady rodziców biologicznych, nie tylko powielą w tajemniczy sposób ich
+   cechy charakteru, ale wręcz fizycznie będą do nich dążyć i do nich
+   uciekać.
+
+   A do prawdy o adopcji przybliża, według mnie, zupełnie inna perspektywa
+   - spotkania ze sobą dwóch światów - dzieci oraz rodziców adopcyjnych,
+   obu cierpiących, choć na różne sposoby i na innym etapie życia, ale
+   tęskniących za czymś podobnym: bliskością, zaufaniem, przynależnością,
+   możliwością rozwoju najpotrzebniejszych uczuć. To spotkanie może
+   sprawić, że wzajemnie sobie pomogą.
+
+   Dziecko pozbawione troski i opieki rodzicielskiej cierpi, dopóki nie
+   nawiąże osobistej i wyjątkowej relacji z kimś, kto zaspokoi jego
+   podstawowy głód bezpieczeństwa, wysłuchania, bycia blisko. Jego rodzice
+   biologiczni nie mogli zaspokoić tych potrzeb z różnych względów: czasem
+   wchodził w grę wiek, choroba i niepełnosprawność fizyczna, obecnie
+   bardzo rzadko śmierć rodzica, a najczęściej różnego rodzaju dysfunkcje
+   społeczne, spowodowane przez zaburzenia emocjonalne i zdiagnozowane lub
+   nie choroby psychiczne. Cierpienie dziecka bywa dewastujące dla jego
+   rozwoju: płacz, złość, odrętwienie, myśli, że jest niechciane,
+   niepotrzebne, gorsze od innych, jest dla wszystkich kłopotem. "Skoro
+   rodzice mnie opuścili, to widocznie nie zasługuję na miłość" - może to
+   starania, aby uratować w sobie obraz dobrego rodzica, nawet kosztem
+   siebie? Albo najbardziej niekorzystne: zamknięcie w sobie z poczuciem
+   krzywdy i utratą zaufania do wszystkich.
+
+   Z drugiej strony stoi zraniony dojrzały człowiek, który mimo chęci i
+   różnych prób nie może posiadać własnego potomstwa. Potrzeba posiadania
+   dzieci jest podstawowa i naturalna, właściwa wszystkim istotom żywym.
+
+   Chcemy przekazać siebie w przyszłość nie tylko w sensie cech ciała,
+   zapisanych w DNA, ale i całego naszego sposobu myślenia, odczuwania,
+   systemu wartości, a nawet dorobku materialnego. Chcemy doznać
+   nieskończenie prostego szczęścia bycia kochanym przez dziecko, zapłacić
+   nawet wysoką cenę setek nieprzespanych nocy, potu i łez, aby doznać w
+   końcu wdzięczności i zobaczyć po latach dojrzały owoc naszego trudu.
+
+   Na przeszkodzie stoi najczęściej smutna i frustrująca choroba -
+   niepłodność. W pełni spełnia definicję choroby według WHO, choć ta
+   prawda zdaje się nie docierać w pełni do różnych liderów społecznych w
+   naszym kraju.
+
+   Dotknięte nią pary, którym nie pomaga leczenie (lub z różnych powodów
+   na nie decydują się go podjąć), cierpią samotnie, nieraz w izolacji od
+   rówieśników i reszty rodziny, w smutku, irytacji i zawstydzeniu, z
+   poczuciem zmarnowanych lat. Pojawiają się wówczas różne myśli, np.:
+   "Jesteśmy mniej wartościowi niż inni ludzie", "Nie spełniamy oczekiwań
+   naszych bliskich", "Nie jesteśmy pełnowartościową rodziną". Czasem
+   rozwija się pełnoobjawowy zespół depresyjny, z brakiem satysfakcji z
+   życia, przewlekłym zmęczeniem, nierzadko z martwieniem się o wszystko i
+   bezsennością. Depresja z kolei obniża szanse na zajście w ciążę i mamy
+   do czynienia z błędnym kołem.
+
+   Oczywiście są również inne przyczyny bezdzietności, nieraz równie
+   smutne lub tragiczne: poronienia, śmierci już urodzonych dzieci, czasem
+   niemożność znalezienia przez kobietę odpowiedniego partnera lub zbyt
+   późne jego odnalezienie, aby mieć potomstwo biologiczne itd.
+
+   I tu pojawia się cud - jedno cierpienie może się spotkać z drugim, aby
+   się wzajemnie wyleczyły. Adopcja we współczesnej formie to owoc
+   doświadczeń wielu pokoleń, wynalazek specyficznie ludzki, daleko
+   odbiegający od występujących czasem w przyrodzie instynktownych reakcji
+   macierzyńskich zwierząt. Musi być aktem racjonalnym, nie tylko
+   uleganiem emocjom. Emocje mogą nas zwodzić: miłość do dziecka nie musi
+   się pojawić od razu i od pierwszego wejrzenia, co nie znaczy, że nie
+   rozwinie się w pełni za kilka tygodni. Podobnie bywa przecież przy
+   porodzie. Tak samo w podjęciu decyzji o adopcji mogą nam przeszkadzać
+   nadmierne lęki i obawy.
+
+   Jesteśmy szczególnie podatni na zamartwianie, gdy nie poradziliśmy
+   sobie ze smutkiem i frustracją z poprzedniego etapu życia. "Czy dziecko
+   nas będzie potrafiło pokochać?", "Czy nas uzna za swoich prawdziwych
+   rodziców?", "A czy my będziemy potrafili być dobrymi rodzicami?" i
+   wreszcie "Czy dziecko będzie dobre do wychowywania?" Wśród tych pytań i
+   wątpliwości szczególne miejsce zajmuje lęk przed nieznanym -
+   ujawnieniem się dziedzicznych zaburzeń i chorób psychicznych u
+   przysposobionego dziecka. Mając doświadczenie przygnębienia i
+   cierpienia, nieraz demonizujemy zagrożenia, co może się przedłużać w
+   nasz późniejszy pełen lęku stosunek do dziecka. Może się to wyrażać
+   jego nadmierną kontrolą, zbyt częstym karceniem, a także
+   nadopiekuńczością czy zbyt dużą uległością. Umieszczamy wówczas w
+   dziecku własne obawy i negatywne emocje, biorąc każdy przejaw
+   przejściowej, zwykłej "niegrzeczności" za początek poważnych problemów.
+
+   W naszym społeczeństwie choroby i zaburzenia psychiczne wciąż budz�
+   lęk, podszyty niechęcią. Wiedza na ich temat jest szczątkowa i oparta
+   na negatywnych stereotypach. Ludzie cierpiący psychicznie nieraz
+   odsuwają od siebie myśl o skorzystaniu z pomocy psychiatry, bo obawiaj�
+   się ujawnienia i napiętnowania w swoim środowisku. Panuje też dziwne i
+   nieznajdujące potwierdzenia w faktach ze świata nauki przekonanie o
+   niepodatności tych chorób na leczenie (w rzeczywistości na przykład
+   leki przeciwdepresyjne są jednymi ze skuteczniejszych w całej
+   medycynie). Ostatnie dziesięciolecia są również epoką nadmiernej wiary
+   w genetyczne podłoże naszych cech, zaburzeń i chorób.
+
+   Powszechnie przecenia się wpływ genów na wystąpienie chorób
+   psychicznych, zresztą podobne zjawisko dotyczy innych chorób, na
+   przykład raka (nowotwory z tkanek nabłonkowych tylko w około 10
+   procentach mają przyczyny genetyczne). Ciekawe, że jeszcze 40-50 lat
+   temu w świadomości masowej mieliśmy do czynienia z tendencją odwrotną.
+   W dekadach triumfu psychoanalizy we wiodącej na świecie amerykańskiej
+   psychiatrii, w opinii wielu gorliwych wyznawców wszelkie zaburzenia, a
+   nawet choroby psychiczne, łącznie ze schizofrenią, miały być głównie
+   skutkiem zgubnych oddziaływań tak zwanych toksycznych rodziców. Kultura
+   masowa lubi sensację i przemieszczanie się między skrajnościami.
+
+   Proces doprowadzający do wystąpienia u kogoś choroby psychicznej jest w
+   rzeczywistości wieloczynnikowy. Nawet w przypadku najbardziej
+   biologicznie uwarunkowanych chorób, takich jak schizofrenia, z genami
+   dziedziczy się tylko podatność na zaburzenia z kręgu schizofrenii, co
+   jeszcze nie znaczy, że musi ona wystąpić. Dla wystąpienia choroby
+   potrzebny jest zwykle jeszcze czynnik środowiskowy. W przypadku
+   schizofrenii, według dość dobrze udokumentowanych hipotez, tym
+   czynnikiem może być jakaś infekcja wewnątrzmaciczna u rozwijającego się
+   płodu (może grypy) albo pewniej reakcja immunologiczna organizmu na
+   nią. Nie bez wpływu są również poród oraz wczesny okres życia dziecka,
+   a także wydarzenia poprzedzające wystąpienie choroby (choć ich wpływ
+   zwykle bywa przeceniany przez rodzinę). Choroba, utajona zwykle w
+   dzieciństwie, wybucha w okresie dojrzewania lub wczesnej dorosłości,
+   gdy mózg z zaburzeniem funkcji niektórych dróg nerwowych zostaje
+   obciążony nowymi zadaniami.
+
+   Choć dobrzy i troskliwi rodzice adopcyjni młodego człowieka w świetle
+   tych danych nie mają zbyt wielkiego wpływu na to, czy ta choroba
+   wystąpi, ich dalsza rola może być ogromna. Wcześnie i dobrze
+   zdiagnozowana, a potem odpowiednio leczona, ma szansę zostać zatrzymana
+   i ograniczona w swoich niszczących skutkach. Dziś, dzięki nowoczesnym
+   lekom i rehabilitacji, chorzy na schizofrenię rzadziej i krócej
+   przebywają w szpitalach, pracują, a nawet zakładają szczęśliwe rodziny.
+   Na koniec warto podać suchą liczbę: jeżeli jedno z rodziców
+   biologicznych chorowało na schizofrenię, to ryzyko zachorowania u
+   dziecka w ciągu życia wynosi 13%. To nie tak dużo, zważywszy na ryzyko
+   w populacji ogólnej, wynoszące blisko 1%.
+
+   Mniej znana niż schizofrenia, ale częstsza, jest choroba afektywna
+   dwubiegunowa (w łagodniejszych przypadkach zwana raczej zaburzeniem
+   afektywnym dwubiegunowym, gdy nie występują objawy psychotyczne). Jest
+   to choroba związana ze skrajnymi zmianami nastroju - od depresji aż do
+   jej odwrotności zwanej manią. Kobiety z ChAD mogą się stać niezdolne do
+   opieki nad dzieckiem, kiedy po okresie euforii lub drażliwości,
+   pobudzenia i nadmiernej, często bezkrytycznej aktywności, także
+   seksualnej, nieuchronnie pojawia się depresja. W tym przypadku dość
+   często to właśnie poród i towarzyszące mu wahania hormonalne prowadz�
+   do pogorszenia stanu psychicznego pod postacią psychozy albo depresji
+   poporodowej.
+
+   Zawsze w psychozie i przeważnie w cięższej depresji matka nie jest w
+   stanie właściwie zajmować się noworodkiem, czasem nawet może być dla
+   niego (i dla samej siebie) zagrożeniem. Nie zawsze dysponuje też
+   odpowiednim oparciem w rodzinie, z którą więzi często zostaj�
+   nadszarpnięte przez zachowania chorobowe. Nawet leczona, nie zawsze
+   akceptuje później dziecko. ChAD jest zaburzeniem, na temat którego
+   nasza wiedza rozwija się obecnie bardzo dynamicznie. Jest dość trudna
+   do zdiagnozowania, gdyż tylko część chorych ma tak nasilone objawy, jak
+   w przytoczonym opisie. Jest kameleonem psychiatrii, nader często
+   błędnie rozpoznawaną jako depresja nawracająca, zaburzenia osobowości,
+   "silna" nerwica czy nawet schizofrenia.
+
+   Po co tyle o niej piszę? Dlatego, że jest najlepszym przykładem na to,
+   że cechy, które u chorych w dużym natężeniu dają obraz choroby i
+   dezorganizują życie, w mniejszym natężeniu, np. u ich krewnych, mog�
+   być atrakcyjne i nawet korzystne dla społeczeństwa, na przykład łatwość
+   tworzenia, wiara we własne siły, towarzyskość, szybkość myślenia,
+   odwaga. Objawy te są charakterystyczne dla stanów tak zwanej hipomanii
+   (czyli stanów mniej nasilonej manii). Próba wymienienia tylko
+   niektórych wybitnych artystów, pisarzy, polityków, u których dziś na
+   podstawie między innymi ich pamiętników rozeznajemy objawy ChAD,
+   przekroczyłaby ramy tego artykułu. We współczesnych badaniach
+   odnajdujemy związki choroby z cechą kreatywności. Jeśli adoptujesz
+   dziecko chorego na ChAD, może się zdarzyć, że odziedziczy ono jakąś
+   postać choroby - cięższą lub łagodniejszą, może być też zupełnie
+   psychicznie zdrowe, może też na przykład okazać się niezwykle
+   utalentowane!
+
+   Bycie rodzicem, zarówno biologicznym, jak i adopcyjnym, to udział w
+   loterii. Im młodsze dziecko, tym mniej wiemy, patrząc na nie. Jakie
+   cechy odziedziczyło po swoich przodkach? Niektóre są bardziej
+   uwarunkowane genetycznie, na przykład temperament, inne rozwijają się
+   pod wpływem danego środowiska, na przykład religijność. Wiemy, które
+   zaburzenia zależą głównie od urazów i innych niekorzystnych czynników
+   środowiskowych, a które mają pewne podłoże genetyczne. (Oczywiście
+   istnieją w medycynie także choroby "czysto" genetyczne). Rodzic
+   adopcyjny jest nieco uprzywilejowany - widzi dziecko i kartę jego badań
+   lekarskich, w większości przypadków zna w zarysie jego historię po
+   urodzeniu i ma niektóre informacje o krewnych, na tej podstawie może
+   podjąć decyzję - tak lub nie.
+
+   Jeśli tak - weź do siebie dziecko takie jakie jest, z jego
+   temperamentem, ograniczeniami i uzdolnieniami. I kochaj go najmądrzej
+   jak umiesz. Pozwól mu być sobą w piękny sposób. Niech upór zamieni się
+   w wytrwałość, ruchliwość stworzy sportowca, nieśmiałość - delikatną i
+   wierną towarzyszkę życia, a wrażliwość - człowieka pełnego empatii.
+
+   Ośrodek Adopcyjny "Dzieło Pomocy Dzieciom"
+   ul. Rajska 10, 31-124 Kraków, Filia Żmiąca
+   oarajskazmiaca@dpd.pl
+   www.dpd.pl
+   www.adopcja.dpd.pl
+
+   Marek Sowa
+   Marszałek Województwa Małopolskiego
+
+   Dzieło Pomocy Dzieciom
+     * (BUTTON)
+     * (BUTTON)
+     *
+
+     *
+     * (BUTTON)
+     *
+     * (BUTTON)
+
+   (BUTTON)
+   (BUTTON)
+   Tworzymy DEON.pl dla Ciebie
+   Tu możesz nas wesprzeć.
+   Wspomóż nas
+
+Tematy w artykule
+
+   #schizofrenia #zaburzenia psychiczne #choroby psychiczne #adopcja
+   dziecka #chad #choroba afektywna dwubiegunowa
+
+Więcej w: Dziecko
+
+   Od razu poznałam, że mój syn ma autyzm. Tego nie da się pomylić z
+   niczym innym
+
+Od razu poznałam, że mój syn ma autyzm. Tego nie da się pomylić z niczym
+innym
+
+   Dziecko
+   "Chciałbym być tak ważny, jak ich telefon". Poruszające notatki z
+   terapii dzieci
+
+"Chciałbym być tak ważny, jak ich telefon". Poruszające notatki z terapii
+dzieci
+
+   Dziecko
+   Naukowcy: picie w czasie ciąży zmienia strukturę mózgu dziecka
+
+Naukowcy: picie w czasie ciąży zmienia strukturę mózgu dziecka
+
+   Dziecko
+
+Skomentuj artykuł
+
+   Adopcja. Bać się zaburzeń psychicznych?
+   Wystąpił problem podczas pobierania komentarzy.
+   Komentarze ()
+     * Najnowsze
+     * Najpopularniejsze
+
+   (BUTTON) Czytaj więcej komentarzy
+   Nikt jeszcze nie skomentował tego wpisu.
+   (BUTTON)
+
+Podziel się linkiem do artykułu ze znajomym
+
+     * {{ error }}
+
+   Twoje dane *
+   ____________________
+   Komu chcesz polecić artykuł? *
+   ____________________
+   (1) Wyślij
+
+Wybrane dla Ciebie
+
+Nikt o niej nie wiedział, chociaż jej głos znał cały świat. Wszystko zmieniło
+się po występie w "Mam Talent"
+
+   Nikt o niej nie wiedział, chociaż jej głos znał cały świat. Wszystko
+   zmieniło się po występie w "Mam Talent"
+
+Od razu poznałam, że mój syn ma autyzm. Tego nie da się pomylić z niczym
+innym
+
+   Od razu poznałam, że mój syn ma autyzm. Tego nie da się pomylić z
+   niczym innym
+
+Ksiądz z Osiedla o wizycie duszpasterskiej: wręczanie duchownemu "koperty"
+nie jest konieczne
+
+   Ksiądz z Osiedla o wizycie duszpasterskiej: wręczanie duchownemu
+   "koperty" nie jest konieczne
+
+Abp Galbas: za wieloma przejawami dawnej postaci Kościoła nie ma co płakać
+
+   Abp Galbas: za wieloma przejawami dawnej postaci Kościoła nie ma co
+   płakać
+
+Nie narażajmy praktyk pokutnych na śmieszność
+
+   Nie narażajmy praktyk pokutnych na śmieszność
+
+{{ item.title }}
+
+Najczęściej czytane
+
+   1
+   Ksiądz z Osiedla o wizycie duszpasterskiej: wręczanie duchownemu
+   "koperty" nie jest konieczne
+   0 komentarzy
+   2
+   Abp Galbas: za wieloma przejawami dawnej postaci Kościoła nie ma co
+   płakać
+   2 komentarzy
+   3
+   Nie żyje Benedykt XVI. Papież senior zmarł w wieku 95 lat
+   4 komentarzy
+   4
+   Stan zdrowia Benedykta XVI jest stabilny. Papież senior rano
+   koncelebrował mszę
+   0 komentarzy
+   5
+   Ks. Tischner: Umniejsza Stwórcę, kto twierdzi, że stworzenie wciąż Go
+   potrzebuje
+   4 komentarzy
+   6
+   Czy w piątek 30 grudnia katolików obowiązuje post?
+   0 komentarzy
+   7
+   Niecodzienna sytuacja po śmierci Benedykta XVI. Franciszek będzie
+   przewodniczył uroczystościom pogrzebowym
+   0 komentarzy
+
+Bądź na bieżąco
+
+   Śledź nas na Facebooku Śledź nas na Twitterze Śledź nas na Instagramie
+
+Zapisz się do newslettera
+
+Zapisz się do newslettera
+
+   ____________________ (BUTTON) Zapisz się
+   (BUTTON)
+   DEON.pl
+
+Potwierdź wymagane zgody
+
+i dołącz do rodziny Deon.pl
+
+   ____________________
+   (1) Zapisz się
+   [ ] *Zapoznałem się z Informacją o ochronie danych osobowych.
+
+Rekomendowane dla Ciebie / Polecane artykuły
+
+   Od razu poznałam, że mój syn ma autyzm. Tego nie da się pomylić z
+   niczym innym
+
+Od razu poznałam, że mój syn ma autyzm. Tego nie da się pomylić z niczym
+innym
+
+   Inteligentne Życie
+   "Chciałbym być tak ważny, jak ich telefon". Poruszające notatki z
+   terapii dzieci
+
+"Chciałbym być tak ważny, jak ich telefon". Poruszające notatki z terapii
+dzieci
+
+   Inteligentne Życie
+   Mama najczęściej mówi mi, że jestem niegrzeczna. "Wtedy pęka mi
+   serduszko"
+
+Mama najczęściej mówi mi, że jestem niegrzeczna. "Wtedy pęka mi serduszko"
+
+   Inteligentne Życie
+   "Nie pytaj, jak było w szkole. Nie krzycz. I pozwól się czasem
+   przytulić"
+
+"Nie pytaj, jak było w szkole. Nie krzycz. I pozwól się czasem przytulić"
+
+   Dziecko
+   15 porad jak najgorzej wychować własne dziecko
+
+15 porad jak najgorzej wychować własne dziecko
+
+   Dziecko
+   Rodzice porzucili go po narodzinach, bo miał zdeformowaną twarz. Dziś
+   nie czuje do nich urazy
+
+Rodzice porzucili go po narodzinach, bo miał zdeformowaną twarz. Dziś nie
+czuje do nich urazy
+
+   Dziecko
+   Pedagogika "mądrej miłości" Korczaka
+
+Pedagogika "mądrej miłości" Korczaka
+
+   Dziecko
+   Najważniejsze jest to, by nie karmić dzieci lękiem
+
+Najważniejsze jest to, by nie karmić dzieci lękiem
+
+   Inteligentne Życie
+
+{{ item.title }}
+
+   {{ item.category_name }}
+
+   DEON.pl
+     * Świat
+     * Wiara
+     * Po godzinach
+     * Inteligentne życie
+     * Kościół
+     * Czytelnia
+     * Blogi
+     * Wideo
+
+Wybrane kategorie
+
+     * Serwis papieski
+     * Duchowość
+     * Czytania liturgiczne
+     * Biblia
+     * Artykuły blogerów
+     * Świadectwa
+     * Wspólny dom
+     * Psychologia na co dzień
+     * #COŚWIĘCEJ
+     * Ludzie i inspiracje
+     * Ślub
+     * Imiona i święci
+     * Modlitwy
+
+Dołącz do społeczności DEON.pl
+
+     * Facebook
+     * Twitter
+     * Instagram
+
+Zapisz się do newslettera
+
+   ____________________ (BUTTON) Zapisz się
+   (BUTTON)
+   DEON.pl
+
+Potwierdź wymagane zgody
+
+i dołącz do rodziny Deon.pl
+
+   ____________________
+   (1) Zapisz się
+   [ ] *Zapoznałem się z Informacją o ochronie danych osobowych.
+
+     * Jezuici.pl
+     * Wydawnictwo WAM
+     * Modlitwa w drodze
+
+   Wspieraj naszą misję WSPOMÓŻ NAS
+
+     * O portalu
+     * Regulamin
+     * Polityka prywatności
+     * Kontakt
+     * Dla mediów
+     * Reklama
+     * Informacje o cookies
+     * Patronat
+
+   Copyright 2019 © Deon.pl Wszystkie prawa zastrzeżone. Realizacja
+   ideo.pl
