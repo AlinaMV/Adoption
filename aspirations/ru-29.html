@@ -1,0 +1,574 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<HTML xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<HEAD><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<TITLE>Требования к усыновителям</TITLE>
+<META content="" name="Keywords">
+<META content="" name="Description">                             
+<META http-equiv="Cache-Control" content="no-cache">
+<META http-equiv="ROBOTS" content="main,follow">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon_.ico" type="image/x-icon">
+<link rel="alternate" type="application/rss+xml" title="RSS-канал сайта" href="/rss/rss.xml" />
+
+<!-- <script type="text/javascript" src="/incl/js/jquery-1.7.2.min.js"></script> -->
+<script type="text/javascript" src="/incl/js/jquery.js"></script>
+<script type="text/javascript" src="/incl/js/radm.js"></script>
+<link rel="stylesheet" href="/incl/js/modal/magnific-popup.css"> 
+<script src="/incl/js/modal/jquery.magnific-popup.js"></script>
+<script type="text/javascript">
+function show_popap(id_popap) {
+  var id = "#" + id_popap;
+  $(id).addClass('active');
+}
+
+$(".close_popap").click( function(){
+  $(".overlay").removeClass("active");
+});</script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.yesimg').click(function(event){
+			$('.yesimg').attr('class', 'noimg');
+			var images = document.getElementsByTagName('img');
+			for (var i=0; i<images.length; i++){
+			   images[i].style.display = "";
+			}
+
+			
+		});
+
+	
+	$.scrollUp({
+		animation: 'fade',
+		scrollImg: { active: true, type: 'background', src: 'img/top.png' }
+	});
+	$('.municipal, .spravka').magnificPopup({
+		type: 'ajax',alignTop: true,overflowY: 'scroll' // модальное окно будет можно будет листать
+	});
+	$('.site, .actgor').magnificPopup({
+		type: 'ajax',alignTop: true,overflowY: 'none' // модальное окно нельзя будет листать
+	});
+  $('.modalmap').magnificPopup({
+		disableOn: 700,
+		type: 'iframe',
+		mainClass: 'mfp-fade',
+		removalDelay: 160,
+		preloader: false,
+
+		fixedContentPos: false
+	});
+	
+	$('.carousel').carousel({
+  	interval: 0
+	})
+	$('.fg').magnificPopup({
+	  type: 'image',
+	  gallery:{
+	    enabled:true
+	  }
+	});
+  $('.gal_dop').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Загрузка фото #%curr%...',
+
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [1,1] // Предзагрузка перед выбранной фотографией, и после
+		},
+		image: {
+			tError: '<a href="%url%">Фотография #%curr%</a> не может быть загружена!',
+			
+		}
+	});
+	 
+});
+</script>
+
+
+
+<script type='text/javascript' src='/incl/js/slab/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='/incl/js/slab/resize.js?ver=4.0.1'></script>
+<script type="text/javascript" src="/incl/js/slab/jquery.cookie+.js"></script>
+<script type="text/javascript" src="/incl/js/slab/jquery.speccialversion.js"></script>
+<script>
+jQuery( document ).ready( function() {
+   jQuery('#special_version_link').specialVersion({'base-style' : '/incl/js/slab/special_base.css'});
+   jQuery('#special_version_link2').specialVersion({'base-style' : '/incl/js/slab/special_base.css'});
+});
+</script>
+<LINK href="/incl/main.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/incl/js/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="/incl/js/new.css" />
+<script src="/incl/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/incl/js/tabs/modernizr.custom.04022.js"></script>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+</HEAD>
+<BODY >
+<div class="main-content" >
+<div   style=""  >
+<div class="header" style="" >
+	<div id="header">
+		<div class="menu-top">
+			<div class="fix_w">
+				<div class="menu_top_r head__menu-selector">
+					<div class="menu-top2" style="display: none;">
+						<div class="head__menu-selector2"></div>
+							<ul class="">
+							 
+								<li class=""><a href="/mob_kam/" title="">Мобильные камеры</a></li>
+							 
+								<li class=""><a href="/education/" title="">Образование</a></li>
+							 
+								<li class=""><a href="/health/" title="">Здравоохранение</a></li>
+							 
+								<li class=""><a href="/zags/" title="ЗАГС - запись актов гражданского состояния">ЗАГС</a></li>
+							 
+								<li class=""><a href="/zan/" title="Центр занятости населения">Центр занятости населения</a></li>
+							 
+								<li class=""><a href="/gaz/" title="Газификация Гатчинского муниципального района">Газификация</a></li>
+							 
+								<li class=""><a href="/gkh_gmr/" title="">Жилищно - коммунальное хозяйство</a></li>
+							 
+								<li class=""><a href="/transport/" title="">Пассажирский транспорт</a></li>
+							 
+								<li class=""><a href="/gostehnadzor/" title="">Гостехнадзор ЛО</a></li>
+							 
+								<li class=""><a href="/obch_pol/" title="">Общественная палата</a></li>
+							 
+								<li class=""><a href="/tko/" title="Реестр мест накопления твердых коммунальных отходов">Твердые коммунальные отходы</a></li>
+							 
+								<li class=""><a href="/regvoz/" title="Оценка регулирующего воздействия">Оценка регулирующего воздействия</a></li>
+							 
+								<li class=""><a href="/go_cs/" title="">МКУ «Управление безопасности, гражданской защиты населения и территории»</a></li>
+							 
+								<li class=""><a href="/ukaz2012/" title="Исполнение указов Президента Российской Федерации">Указы Президента Российской Федерации</a></li>
+							 
+								<li class=""><a href="/neformal/" title="Неформальная занятость населения">Неформальная занятость</a></li>
+							 
+								<li class=""><a href="/inftel_security/" title="Информационно-телекоммуникационная безопасность">Информационно-телекоммуникационная безопасность</a></li>
+														</ul>
+					
+	
+					
+				
+				</div>
+			</div>
+				<div class="menu_top_l">
+					<div class="index-down">
+						<ul class="main-menu">
+						 
+							<li class="main-li "><a href="/administration/" title="Администрация Гатчинского муниципального района">Администрация</a></li>
+						 
+							<li class="main-li active"><a href="/activity/" title="Деятельность ГМР">Деятельность</a></li>
+						 
+							<li class="main-li "><a href="/sovet/" title="Совет депутатов Гатчинского муниципального района">Совет депутатов</a></li>
+						 
+							<li class="main-li "><a href="/ksp/" title="">К.-счетная палата</a></li>
+						 
+							<li class="main-li "><a href="/documents/" title="Нормативно-справочная информация">Документы</a></li>
+						 
+							<li class="main-li "><a href="/raion/" title="Информация о Гатчинском районе">Район</a></li>
+						 
+							<li class="main-li "><a href="/events/" title="Новости, события, мероприятия">События</a></li>
+						 
+							<li class="main-li "><a href="/virtual/" title="Обращения граждан">Приемная</a></li>
+						 
+							<li class="main-li "><a href="/ustav/" title="Устав Гатчинского муниципального района">Устав</a></li>
+												</ul>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>  <!--  // menu-top -->         
+	</div> <!-- // закрываем id header -->
+	<div class="top-s_hidd ">
+		<!--<div class="top-s_"></div>-->
+    <div class="top-s" ><div class="fix_w"  style="background:#fff;"><div class="" style="background:#fff;">
+			<div class="rflag">
+				<div class="rflag_wh"></div>
+				<div class="rflag_bl"></div>
+			</div>
+			<div class="gerb">
+				<a href="/"><img src="/img/gerb_.png" width="78" height="90" alt="Гатчинский район" title="Гатчинский район"></a>
+			</div>
+			<div class="sitename">
+				<h1 class="cl_st uppercase nopadding">Официальный сайт<br>Гатчинского муниципального района<div class="cl_s"></div><div class="cl_s">Ленинградской области</div></h1>
+			</div>
+			<div class="sitelink">
+				<div class="sitelink_"><a class="municipal" href="/_municipal.php">Муниципальные образования</a></div>
+				<div class="sitelink_"><a class="spravka" href="/_spravka.php">Телефонный справочник</a></div>
+				<div class="sitelink_"><a class="site" href="/_site.php">Сайты подведомственных учреждений</a></div>
+			</div>
+			<div class="sitebutt">
+				<div class="sitemap"><a href="/about/" title="Карта сайта и законодательная карта сайта" alt="Карта сайта и законодательная карта сайта"></a></div>
+				<div class="slab"><a href="" id="special_version_link" title="Версия для слабовидящих" alt="Версия для слабовидящих"></a></div>
+				<div class="vk"><a href="https://vk.com/gmr47" title="Мы В Контакте" alt="Мы В Контакте" target="_blank"></a></div>
+				
+				
+			</div>
+		  <div class="clear"></div>
+		</div></div></div>   <!-- // top-s -->
+	</div>  <!-- // fix-w   -->
+  <div class="clear"></div>
+	
+	
+
+</div>
+
+<div class=" fix_w" style="background:#fff;"><div class="padd_t20"><ul class="croshki"><li><a href="/" class="cl_b">Главная</a></li><li><a href="/activity/" class="cl_b">Деятельность</a></li><li><a href="/activity/opeka/" class="cl_b">Комитет по опеке и попечительству</a></li><li><a href="/activity/opeka/forms/" class="cl_b">Формы устройства</a></li><li><a href="/activity/opeka/forms/adoption/" class="cl_b">Усыновление</a></li><li class="current">Требования к усыновителям</li></ul></div></div>	<div class="fix_w" style="background:#fff;">
+  <div class="padd_t10">
+		<div >
+			<div class="w_25">
+				<div id="dd" class="select_down blue_btn">
+							<div class="hid "><span class="">Комитет по опеке и попечительству</span></div>
+					    <ul class="dropdown">
+							<li><a href="/activity/finance/" >Комитет финансов</a></li><li><a href="/activity/free_uch/" >О бесплатном предоставлении земельных участков 75-оз</a></li><li><a href="/activity/kui/" >Комитет по управлению имуществом</a></li><li><a href="/activity/kczn/" >Отдел по организационной работе с населением</a></li><li><a href="/activity/sport/" >Комитет по физической культуре, спорту, туризму и молодежной политике</a></li><li><a href="/activity/culture/" >Комитет по  культуре и туризму</a></li><li><a href="/activity/opeka/" class="select">Комитет по опеке и попечительству</a></li><li><a href="/activity/economy/" >Отдел по экономическому развитию и инвестициям</a></li><li><a href="/activity/m_sr_bisnes/" >Малый и средний бизнес</a></li><li><a href="/activity/otd_gil_pol/" >Отдел жилищной политики</a></li><li><a href="/activity/potreb_torg/" >Потребительский рынок</a></li><li><a href="/activity/kom_cx/" >Отдел по агропромышленному комплексу</a></li><li><a href="/activity/center_soz_z/" >Центр социальной защиты населения</a></li><li><a href="/activity/arhiv_otd/" >Архивный отдел</a></li><li><a href="/activity/mun_kontr/" >Отдел муниципального контроля</a></li><li><a href="/activity/gorxoz/" >Жилищно-коммунальное хозяйство</a></li><li><a href="/activity/uslugi/" >Реестр муниципальных услуг</a></li><li><a href="/activity/municipalprogram/" >Муниципальные программы</a></li><li><a href="/activity/gosprogr/" >Участие в государственных программах ГМР</a></li><li><a href="/activity/gosprogr_g/" >Участие в государственных программах г. Гатчина</a></li><li><a href="/activity/subsidii/" >Субсидии</a></li><li><a href="/activity/partnership/" >Международное сотрудничество</a></li><li><a href="/activity/gradstroy/" >Комитет строительства и градостроительного развития территорий</a></li><li><a href="/activity/zakupki/" >Закупки</a></li><li><a href="/activity/gto/" >ГТО</a></li>								<li><a href="/activity/">- вернуться -</a></li>
+							</ul>
+							<script >
+							function DropDown(el) {
+								this.dd = el;
+								this.initEvents();
+							}
+							DropDown.prototype = {
+								initEvents : function() {
+									var obj = this;
+									obj.dd.on('click', function(event){
+										$(this).toggleClass('active');
+										event.stopPropagation();
+									});
+								}
+							}
+							$(function() {
+								var dd = new DropDown( $('#dd') );
+								$(document).click(function() {
+									$('.select_down').removeClass('active');
+								});
+							});
+					    </script>
+			</div>
+		  </div>
+	
+		  
+				<div class="w_25">
+				<div id="dd1" class="select_down blue_btn">
+							<div class="hid "><span class="">Формы устройства</span></div>
+					    <ul class="dropdown">
+							<li><a href="/activity/opeka/sopr_int/" >Пост интернатное сопровождение</a></li><li><a href="/activity/opeka/sbsd/" >Субсидии</a></li><li><a href="/activity/opeka/forms/" class="select">Формы устройства</a></li><li><a href="/activity/opeka/docum/" >Нормативные документы</a></li><li><a href="/activity/opeka/homerules/" >Жилищные права детей-сирот</a></li><li><a href="/activity/opeka/ya_jdy/" >Рубрика "Я ЖДУ"</a></li><li><a href="/activity/opeka/change/" >Изменение имени и фамилии</a></li><li><a href="/activity/opeka/married_age/" >Снижение брачного возраста</a></li><li><a href="/activity/opeka/fdjhff/" >Имущественные права</a></li><li><a href="/activity/opeka/nedeesp/" >Бланки заявлений.Перечень документов</a></li>								<li><a href="/activity/opeka/">- вернуться -</a></li>
+							</ul>
+							<script >
+							function DropDown(el) {
+								this.dd1 = el;
+								this.initEvents();
+							}
+							DropDown.prototype = {
+								initEvents : function() {
+									var obj = this;
+									obj.dd1.on('click', function(event){
+										$(this).toggleClass('active');
+										event.stopPropagation();
+									});
+								}
+							}
+							$(function() {
+								var dd1 = new DropDown( $('#dd1') );
+								$(document).click(function() {
+									$('.select_down').removeClass('active');
+								});
+							});
+					    </script>
+			</div>
+		  </div>
+		
+		
+	
+				<div class="w_25 fl_left">
+				<div id="dd2" class="select_down blue_btn">
+							<div class="hid"><span>Усыновление</span></div>
+					    <ul class="dropdown">
+							<li><a href="/activity/opeka/forms/adoption/" >Усыновление</a></li><li><a href="/activity/opeka/forms/opeka/" >Опека (попечительство)</a></li><li><a href="/activity/opeka/forms/fosterhome/" >Приемная семья</a></li><li><a href="/activity/opeka/forms/opekatime/" >Временная передача в семью</a></li><li><a href="/activity/opeka/forms/socpodd/" >Меры социальной поддержки</a></li>								<li><a href="/activity/opeka/forms/">- вернуться -</a></li>
+							</ul>
+							<script >
+							function DropDown(el) {
+								this.dd2 = el;
+								this.initEvents();
+							}
+							DropDown.prototype = {
+								initEvents : function() {
+									var obj = this;
+									obj.dd2.on('click', function(event){
+										$(this).toggleClass('active');
+										event.stopPropagation();
+									});
+								}
+							}
+							$(function() {
+								var dd2 = new DropDown( $('#dd2') );
+								$(document).click(function() {
+									$('.select_down').removeClass('active');
+								});
+							});
+					    </script>
+			</div>
+		  </div>
+						<div class="w_25 fl_left">
+				<div id="dd3" class="select_down blue_btn">
+							<div class="hid"><span>Требования к усыновителям</span></div>
+					    <ul class="dropdown">
+							<li><a href="/activity/opeka/forms/adoption/adoption_rules/" class="select">Требования к усыновителям</a></li>								<li><a href="/activity/opeka/forms/adoption/">- вернуться -</a></li>
+							</ul>
+							<script >
+							function DropDown(el) {
+								this.dd3 = el;
+								this.initEvents();
+							}
+							DropDown.prototype = {
+								initEvents : function() {
+									var obj = this;
+									obj.dd3.on('click', function(event){
+										$(this).toggleClass('active');
+										event.stopPropagation();
+									});
+								}
+							}
+							$(function() {
+								var dd3 = new DropDown( $('#dd3') );
+								$(document).click(function() {
+									$('.select_down').removeClass('active');
+								});
+							});
+					    </script>
+			</div>
+		  </div>
+			    
+		
+	<div class="clear"></div>
+	</div>
+	</div>
+	<div class="blank-h20"></div>
+  </div>
+	<div class="fix_w" style="background:#fff;">
+<div class="inCenter">
+  
+	<div class="clearfix padd_t5">
+				<div class="">
+			 
+			<h1 class="padd_b20">Требования к усыновителям</h1><div class="padd_b20"><div style="text-align: justify;"><u><strong>Усыновителями могут быть совершеннолетние лица обоего пола, за исключением:</strong></u><br />
+<br />
+лиц, признанных судом недееспособными или ограниченно дееспособными;<br />
+<br />
+супругов, один из которых признан судом недееспособным или ограниченно дееспособным;<br />
+<br />
+лиц, лишенных по суду родительских прав или ограниченных судом в родительских правах;<br />
+<br />
+лиц, отстраненных от обязанностей опекуна (попечителя) за ненадлежащее выполнение возложенных на него законом обязанностей;<br />
+<br />
+бывших усыновителей, если усыновление отменено судом по их вине;<br />
+<br />
+лиц, которые на момент установления усыновления не имеют дохода, обеспечивающего усыновляемому ребенку прожиточный минимум, установленный в субъекте Российской Федерации, на территории которого проживают усыновители (усыновитель);<br />
+лиц, не имеющих постоянного места жительства;<br />
+<br />
+лиц, имеющих или имевших судимость, подвергающихся или подвергавшихся уголовному преследованию (за исключением лиц, уголовное преследование в отношении которых прекращено по реабилитирующим основаниям) за преступления против жизни и здоровья, свободы, чести и достоинства личности (за исключением незаконного помещения в психиатрический стационар, клеветы и оскорбления), половой неприкосновенности и половой свободы личности, против семьи и несовершеннолетних, здоровья населения и общественной нравственности, а также против общественной безопасности;<br />
+лиц, имеющих неснятую или непогашенную судимость за тяжкие или особо тяжкие преступления;<br />
+<br />
+лиц, не прошедших подготовки приемных родителей (кроме близких родственников ребенка, а также лиц, которые являются или являлись усыновителями и в отношении которых усыновление не было отменено, и лиц, которые являются или являлись опекунами (попечителями) детей и которые не были отстранены от исполнения возложенных на них обязанностей);<br />
+<br />
+лиц, состоящих в союзе, заключенном между лицами одного пола, признанном браком и зарегистрированном в соответствии с законодательством государства, в котором такой брак разрешен, а также лиц, являющихся гражданами указанного государства и не состоящих в браке;<br />
+<br />
+лиц, которые по состоянию здоровья не могут усыновить (удочерить) ребенка (медицинское освидетельствование лиц, желающих усыновить (удочерить) детей, оставшихся без попечения родителей, проводится в рамках программы государственных гарантий бесплатного оказания гражданам медицинской помощи). Перечень заболеваний, при наличии которых лицо не может усыновить (удочерить) ребенка, принять его под опеку (попечительство), взять в приемную или патронатную семью утвержден постановлением Правительства Российской Федерации от 14 февраля 2013 г. N 117 (ред. от 11.07.2020):<br />
+<br />
+1. Туберкулез органов дыхания у лиц, относящихся к I и II группам диспансерного наблюдения.<br />
+<br />
+2. Инфекционные заболевания до прекращения диспансерного наблюдения в связи со стойкой ремиссией. Для лиц с ВИЧ-инфекцией - нахождение на диспансерном наблюдении у врача-инфекциониста менее одного года, определяемая вирусная нагрузка, уровень CD4+ лимфоцитов менее 350 клеток/мл.<br />
+<br />
+3. Злокачественные новообразования любой локализации III и IV стадий, а также злокачественные новообразования любой локализации I и II стадий до проведения радикального лечения.<br />
+<br />
+4. Психические расстройства и расстройства поведения до прекращения диспансерного наблюдения.<br />
+<br />
+5. Наркомания, токсикомания, алкоголизм.<br />
+<br />
+6. Заболевания и травмы, приведшие к инвалидности I группы.<br />
+<br />
+Порядок медицинского освидетельствования граждан, желающих стать усыновителями, опекунами (попечителями) или приемными родителями, утвержден приказом Минздрава России от 18.06.2014 N 290н .<br />
+<br />
+Лица, не состоящие между собой в браке, не могут совместно усыновить одного и того же ребенка.<br />
+<br />
+Разница в возрасте между усыновителем, не состоящим в браке, и усыновляемым ребенком должна быть не менее шестнадцати лет (по причинам, признанным судом уважительными, разница в возрасте может быть сокращена; при усыновлении ребенка отчимом (мачехой) наличие разницы в возрасте не требуется).<br />
+<br />
+При наличии нескольких лиц, желающих усыновить одного и того же ребенка, преимущественное право предоставляется родственникам ребенка.<br />
+<br />
+Запрещается передача детей, являющихся гражданами Российской Федерации, на усыновление (удочерение) гражданам Соединенных Штатов Америки.<br />
+<br />
+При вынесении решения об усыновлении ребенка суд вправе отступить от положений, установленных подпунктами 7 и 12 пункта 1 статьи 127 Семейного кодекса Российской Федерации, с учетом интересов усыновляемого ребенка и заслуживающих внимания обстоятельств.<br />
+<br />
+Положения, установленные подпунктами 7 и 12 пункта 1 статьи 127 Семейного кодекса Российской Федерации, не распространяются на отчима (мачеху) усыновляемого ребенка.</div></div>			</div>
+					<div class="bann_bott">
+			<div class="fix_w">
+				<div class="">
+					<div class=" fl_left">
+						<div class="">
+							<div class="fl_left"><a data-slide="prev" href="#myCarousel2" class="carousel-control carousel-bann left">‹</a></div>
+						  <div class="carousel slide fl_left" id="myCarousel2">
+								<div class="carousel-inner">
+									<div class="item active">
+										<ul class="thumbnail">
+										 
+											<li class="span2">
+												<a href="http://lenobl.ru/about/programms/roadmap" target="_blank"><div class="thumbnail_foto"><img src="/_banner/425b1692259e098fc2ec8187910daf60.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Инф. Администрации Лен.обл об исполнении Указов Президента РФ</div></div><div class="clear"</div></a>
+											</li>
+										 
+											<li class="span2">
+												<a href="http://lenobl.ru" target="_blank"><div class="thumbnail_foto"><img src="/_banner/lenobl.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Портал Администрации Ленинградской области</div></div><div class="clear"</div></a>
+											</li>
+										 
+											<li class="span2">
+												<a href="http://kremlin.ru" target="_blank"><div class="thumbnail_foto"><img src="/_banner/kremlin.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Президент Российской Федерации</div></div><div class="clear"</div></a>
+											</li>
+										 
+											<li class="span2">
+												<a href="http://lenkadastr.ru/" target="_blank"><div class="thumbnail_foto"><img src="/_banner/29737d3bd641e03adf3f0796c953c1be.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Ленинградское областное учреждение кадастровой оценки</div></div><div class="clear"</div></a>
+											</li>
+										 
+											<li class="span2">
+												<a href="http://government.ru" target="_blank"><div class="thumbnail_foto"><img src="/_banner/goverment.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Правительство Российской Федерации</div></div><div class="clear"</div></a>
+											</li>
+										</ul></div><!-- /Slide5 --><div class="item"><ul class="thumbnail"> 
+											<li class="span2">
+												<a href="http://roi.ru" target="_blank"><div class="thumbnail_foto"><img src="/_banner/roi.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Российская общественная инициатива</div></div><div class="clear"</div></a>
+											</li>
+										 
+											<li class="span2">
+												<a href="http://data.gov.ru/information-usage" target="_blank"><div class="thumbnail_foto"><img src="/_banner/b5f031b61b1ae5bf996b7a0039dc3795.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Открытые данные России</div></div><div class="clear"</div></a>
+											</li>
+										 
+											<li class="span2">
+												<a href="http://migrussia.ru" target="_blank"><div class="thumbnail_foto"><img src="/_banner/47dbda93f80d5e49f0ce9659b9699f0d.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Миграция и мигранты межрегиональный информационный портал</div></div><div class="clear"</div></a>
+											</li>
+										 
+											<li class="span2">
+												<a href="http://pfrf.ru" target="_blank"><div class="thumbnail_foto"><img src="/_banner/pfrf.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Пенсионный фонд Российской Федерации</div></div><div class="clear"</div></a>
+											</li>
+										 
+											<li class="span2">
+												<a href="http://gosuslugi.ru" target="_blank"><div class="thumbnail_foto"><img src="/_banner/gosuslugi.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Портал государственных услуг</div></div><div class="clear"</div></a>
+											</li>
+										</ul></div><!-- /Slide10 --><div class="item"><ul class="thumbnail"> 
+											<li class="span2">
+												<a href="http://nalog.ru" target="_blank"><div class="thumbnail_foto"><img src="/_banner/nalog.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Федеральная Налоговая служба</div></div><div class="clear"</div></a>
+											</li>
+										 
+											<li class="span2">
+												<a href="http://prokuratura-lenobl.ru" target="_blank"><div class="thumbnail_foto"><img src="/_banner/prokuratura.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Прокуратура Ленинградской области</div></div><div class="clear"</div></a>
+											</li>
+										 
+											<li class="span2">
+												<a href="http://gu.lenobl.ru" target="_blank"><div class="thumbnail_foto"><img src="/_banner/25468ec6af57088e9cce661c5a332139.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Портал государственных улуг Ленинградской области</div></div><div class="clear"</div></a>
+											</li>
+										 
+											<li class="span2">
+												<a href="http://fssprus.ru" target="_blank"><div class="thumbnail_foto"><img src="/_banner/fssprus.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Федеральная служба судебных приставов</div></div><div class="clear"</div></a>
+											</li>
+										 
+											<li class="span2">
+												<a href="http://finance.lenobl.ru" target="_blank"><div class="thumbnail_foto"><img src="/_banner/e4eb14c157c19eb8e729ce009694554e.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Комитет финансов Ленинградской области</div></div><div class="clear"</div></a>
+											</li>
+										</ul></div><!-- /Slide15 --><div class="item"><ul class="thumbnail"> 
+											<li class="span2">
+												<a href="http://minfin.ru" target="_blank"><div class="thumbnail_foto"><img src="/_banner/f5edf53a0ebb3f2a5707bfcc0cf46b70.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Министерство финансов Российской Федерации</div></div><div class="clear"</div></a>
+											</li>
+										 
+											<li class="span2">
+												<a href="http://budget.lenobl.ru/new/" target="_blank"><div class="thumbnail_foto"><img src="/_banner/57a91f74b1c9f1da070a3a97ad801c10.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Открытый бюджет Ленинградской области</div></div><div class="clear"</div></a>
+											</li>
+										 
+											<li class="span2">
+												<a href="http://www.budget.gov.ru" target="_blank"><div class="thumbnail_foto"><img src="/_banner/94248e9a43669ab732ad594b65a0d4d6.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Электронный бюджет</div></div><div class="clear"</div></a>
+											</li>
+										 
+											<li class="span2">
+												<a href="http://leningrad.roskazna.ru" target="_blank"><div class="thumbnail_foto"><img src="/_banner/bbe757841a3292b5af2b36b50dc1e822.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Управление Федерального казначейства по Ленинградской области</div></div><div class="clear"</div></a>
+											</li>
+										 
+											<li class="span2">
+												<a href="http://www.oprf.ru/1449/2134/2412/2413/" target="_blank"><div class="thumbnail_foto"><img src="/_banner/3238e1de0e3dc5719e07391494ccd197.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Экстремизм, пропаганда терроризма в Интернете? Сообщите</div></div><div class="clear"</div></a>
+											</li>
+										</ul></div><!-- /Slide20 --><div class="item"><ul class="thumbnail"> 
+											<li class="span2">
+												<a href="http://mfc47.ru" target="_blank"><div class="thumbnail_foto"><img src="/_banner/648f156933c00b3f07f12c1fb341f692.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Мои документы, МФЦ (Многофункциональные центры)</div></div><div class="clear"</div></a>
+											</li>
+										 
+											<li class="span2">
+												<a href="http://trudvsem.ru" target="_blank"><div class="thumbnail_foto"><img src="/_banner/8c73dff9089aac3bf577832e7cb49cb2.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Работа в России - общероссийская база вакансий</div></div><div class="clear"</div></a>
+											</li>
+										 
+											<li class="span2">
+												<a href="http://смотрицифру.рф" target="_blank"><div class="thumbnail_foto"><img src="/_banner/70833e0baf55d82f92005487a7da6c05.jpg" title="" /></div><div class="F14 cl_st namer"><div class="thumbnail_name">Цифровое эфирное телевидение</div></div><div class="clear"</div></a>
+											</li>
+										<li class="span2 not"></li><li class="span2 not"></li>										</ul>
+									</div><!-- /Slide25 -->
+									
+								</div><!-- /carousel-inner -->
+							</div><!-- /#myCarousel2 -->
+							<div class="fl_left"><a data-slide="next" href="#myCarousel2" class="carousel-control carousel-bann right">›</a></div>
+							<div class="clear"></div>
+						</div><!-- / --> 
+					</div><!-- / -->
+			</div>
+		</div><!-- bann_bott конец -->	</div>
+</div><!-- // inCenter -->
+</div>
+	
+  
+<div class="bottom">
+	<div class="blank-h5"></div>
+	<div class="fix_w">
+		<div class="bott_232">
+			<span class="F18">Администрация Гатчинского<br>муниципального района</span>
+			<div class="marg_t5"><a class="bott_adr F15 modalmap" href="https://maps.google.com/maps?q=ул.+Карла+Маркса,+44,+Гатчина,+Ленинградская+обл.,+Россия,+188300/@59.5665336,30.127345,17z">188300, г. Гатчина, ул. Карла Маркса, д.44 (ул. Киргетова д.1)</a></div>
+			<div class="marg_t10 F14">Создание сайта: <a class="" href="http://www.81371.ru/" target="_blank">Гатчинский район</a></div>
+      <div class="marg_t10 F14"><span id="sputnik-informer"></span></div>
+		</div>
+		<div class="bott_250">
+			<ul>
+		</ul></div><div class="bott_250"><ul> 
+			<li><a href="/raion/" target="_self">О районе</a></li>
+		 
+			<li><a href="/events/" target="_self">События</a></li>
+		 
+			<li><a href="/sovet/glava_gmr/" target="_self">Глава ГМР</a></li>
+		 
+			<li><a href="/documents/" target="_self">Документы</a></li>
+		 
+			<li><a href="" target="_self">Контакты</a></li>
+		 
+			<li><a href="/sovet/" target="_self">Совет депутатов</a></li>
+		</ul></div><div class="bott_250"><ul> 
+			<li><a href="/virtual/message_new/" target="_self">Отправить обращение</a></li>
+		 
+			<li><a href="/about/zakonmap/" target="_self">Информация о деятельности ОМСУ</a></li>
+		 
+			<li><a href="/about/" target="_self">О сайте</a></li>
+		 
+			<li><a href="/about/sitemap/" target="_self">Карта сайта</a></li>
+		 
+			<li><a href="/administration/corrup/" target="_self">Противодействие коррупции</a></li>
+		 
+			<li><a href="https://t.me/gatchina_gov" target="_blank">Наш Telegram-канал</a></li>
+		        <!--<li><a href="" id="special_version_link2" title="В РАЗРАБОТКЕ" alt="В РАЗРАБОТКЕ">Версия для слабовидящих</a></li>-->
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+
+</div>
+</div><!-- // main-content -->
+<script type="text/javascript">
+       (function(d, t, p) {
+           var j = d.createElement(t); j.async = true; j.type = "text/javascript";
+           j.src = ("https:" == p ? "https:" : "http:") + "//stat.sputnik.ru/cnt.js";
+           var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
+       })(document, "script", document.location.protocol);
+</script>
+</BODY></HTML>                                                
