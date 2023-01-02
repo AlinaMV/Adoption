@@ -18,7 +18,7 @@ then
 	exit
 fi
 
-mot=egrep "(У|у)(сынов|дочер)\S*" 
+mot=grep"(У|у)(сынов|дочер)[а-я]*" 
 compte=$mot | wc
 
 echo $fichier_urls;
@@ -28,7 +28,7 @@ echo "<html><body>" > ./tableau/$fichier_tableau
 echo "<h2>Tableau $basename :</h2>" >> ./tableau/$fichier_tableau
 echo "<br/>" >> ./tableau/$fichier_tableau
 echo "<table>" >> ./tableau/$fichier_tableau
-echo "<tr><th>ligne</th><th>code</th><th>URL</th><th>encodage</th><th>concordance</th></tr>" >> ./tableaux/$fichier_tableau
+echo "<tr><th>ligne</th><th>code</th><th>URL</th><th>encodage</th><th>concordance</th></tr>" >> ./tableau/$fichier_tableau
 
 lineno=1;
 while read -r URL; do
