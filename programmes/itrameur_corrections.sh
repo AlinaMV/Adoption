@@ -3,12 +3,12 @@
 #corection iTrammeur
 #attention ce script doit etre lance depuis la racine du projet cela lui permet de recuperer les fichiers dans les bons dossiers. 
 # se lancera donc comme ca
-# $ ./programmes/itrameur_correction.sh
+# $ ./programmes/itrameur_corrections.sh
 
 
 if [[ $# -ne 2 ]]
 then 
-	echo "Deux arguments attendues: <dossier> <langue>"
+	echo "Deux arguments attendus : <dossier> <langue>"
 	exit
 fi
 
@@ -16,16 +16,16 @@ folder=$1 #dump-text ou contextes
 basename=$2 #langue qu'on etudie p.ex polonais -> pl
 lineno=1
 
-echo "<lang=\"$basename\">" > "./itrameur/$folder-$basename.txt" #nom de langue etudie
+echo "<lang=\"$basename\">" > "./itrameur/$folder-$basename.txt" #nom de la langue etudiee
 
 for filepath in $(ls $folder/$basename*.txt)
 do
 	#filepath == dumps_text/fr-1.txt
 	# pagename c'est langue-nombre
 	
-	pagename=$(basename -sed .txt $filepath) #suffix extension txt
+	pagename=$(basename -sed .txt $filepath) #suffixe extension txt
 	
-	echo "<page=\"$pagename\">" >> "./itrameur/$folder/$basename.txt"
+	echo "<page=\"$pagename\">" >> "./itrameur/$folder-$basename.txt"
 	echo "<text>" >> "./itrameur/$folder-$basename.txt"
 	
 	#on recupere les dumps / contextes
