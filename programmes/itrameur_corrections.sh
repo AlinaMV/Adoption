@@ -18,14 +18,14 @@ lineno=1
 
 echo "<lang=\"$basename\">" > "./itrameur/$folder-$basename.txt" #nom de langue etudie
 
-for filepath in $(ls $folder/$basename_*.txt)
+for filepath in $(ls $folder/$basename*.txt)
 do
 	#filepath == dumps_text/fr-1.txt
 	# pagename c'est langue-nombre
 	
 	pagename=$(basename -sed .txt $filepath) #suffix extension txt
 	
-	echo "<page=\"$pagename\">" >> "./itrameur/$folder-$basename.txt"
+	echo "<page=\"$pagename\">" >> "./itrameur/$folder/$basename.txt"
 	echo "<text>" >> "./itrameur/$folder-$basename.txt"
 	
 	#on recupere les dumps / contextes
