@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-#corection iTrammeur
+#corection iTrameur
 #attention ce script doit etre lance depuis la racine du projet cela lui permet de recuperer les fichiers dans les bons dossiers. 
 # se lancera donc comme ca
 # $ ./programmes/itrameur_corrections.sh
