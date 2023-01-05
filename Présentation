@@ -1,0 +1,46 @@
+## Présentation de l'équipe (qui sommes-nous ?)  
+Nous sommes trois filles étrangères à Paris qui s'entendent très bien depuis la première rencontre.
+Nous sommes venues en France pour vivre le rêve parisien, c'est-à-dire : nous sommes étudiantes en master TAL.
+Cliquez ici pour en découvrir plus !
+
+
+## Présentation de chaque personne du groupe  
+
+Alina M   
+
+
+Sandra J   
+
+
+Luísa BATISTA   
+
+Originaire du Brésil, j'ai quitté mon monde tropical pour travailler en France dans un programme de l'Éducation nationale. 
+Professeur de langues à la base, j'ai décidé d'élargir mes connaissances en linguistique en les alliant à l'informatique, un domaine qui attire mon attention dû à ses exploits merveilleux dans ce monde moderne.
+Je suis particulièremet intéressée par l'analyse syntaxique, mais aussi ça me plaît de découvrir les algorithmes et la création des scripts afin de diffuser des infos sur la web.
+
+
+
+## Sujet (qu'est-ce qu'on fait ?)  
+
+Ce projet a été développé pendant le cours de Programmation et Projet Encadré (le fameux PPE entre les étudiants) du premier semestre de la première année de master Traitement Automatique des Langues.
+Il s'agit d'analyser le comportement d'un mot dans différentes langues. À partir d'une série de traitements automatiques sur notre corpus, on analyse l'utilisation du mot, le contexte où il se trouve dans chaque langue.  
+
+En gros, on a suivi les étapes suivantes afin d'obtenir les résultats présentés dans ce site :  
+1. Choix du mot en français (adoption) ;  
+2. Choix des langues travaillées (polonais, portugais et russe) ;  
+3. Récupération des URLs ;  
+4. Création d'un script pour récupérer le contenu textuel, le contexte et le code du site ;  
+5. 
+
+
+
+
+
+
+## Le choix du mot (pourquoi ADOPTION ?)
+
+## Nos hypothèses
+
+## Répartition du travail
+
+## Analyse
