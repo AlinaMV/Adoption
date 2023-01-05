@@ -1,6 +1,5 @@
 <lang="pl">
-<page=".txt
-pl-10.txt">
+<page="pl-10.txt">
 <text>
    stosunek jak między rodzicami i dziećmi. Przysposobiony nabywa wówczas
    prawa i obowiązki wynikające z pokrewieństwa w stosunku do krewnych
@@ -63,9 +62,8 @@ pl-10.txt">
      * Będzie adopcja ze wskazaniem. Rodzice wybiorą dziecku nową rodzinę
      * TK: Zachowek słusznie chroni najbliższych członków rodziny
 </text>
-</page> §
-<page=".txt
-pl-11.txt">
+</page> �
+<page="pl-11.txt">
 <text>
      * Warto zobaczyć/warto przeczytać
      * Grupy wsparcia/ spotkania/ warsztaty dla rodzin
@@ -125,9 +123,8 @@ pl-11.txt">
     4. Kiedy byłeś adoptowany,
     5. Innych informacji.
 </text>
-</page> §
-<page=".txt
-pl-12.txt">
+</page> �
+<page="pl-12.txt">
 <text>
           + Współpraca
           + Polityka Prywatności
@@ -230,9 +227,8 @@ Adopcja dzieci z Polski za granicę
 
    9.Informacje o współpracujących z nami organizacjach w poszczególnych
 </text>
-</page> §
-<page=".txt
-pl-13.txt">
+</page> �
+<page="pl-13.txt">
 <text>
    1 minuta
 
@@ -249,9 +245,8 @@ pl-13.txt">
 
    © 2022 Stowarzyszenie Interwencji Prawnej
 </text>
-</page> §
-<page=".txt
-pl-14.txt">
+</page> �
+<page="pl-14.txt">
 <text>
    #Adopcja = Miłość » Kanał z wpisami Adopcja = Miłość » Kanał z
    komentarzami alternate alternate alternate
@@ -370,9 +365,8 @@ Najnowsze wpisy
      * Czy rodzina zastępcza może przyjąć dziecko z innego powiatu? –
        system do zmiany
 </text>
-</page> §
-<page=".txt
-pl-15.txt">
+</page> �
+<page="pl-15.txt">
 <text>
      * Aktualności
      * Zwierzęta
@@ -430,7 +424,7 @@ Jak przebiega adopcja
    zamieszkałą w Poznaniu, przy ul. Bukowskiej (pocztowy: 11-111)
    zwaną dalej Biorącym do adopcji
 
-   § 1
+   � 1
 
    Przedmiotem umowy jest adopcja nazwa gatunku rasy: nazwa rasy , płci:
    płeć, w wieku: 1 lat, o umaszczeniu: biało-czarnym, poddanego zabiegowi
@@ -441,7 +435,7 @@ Jak przebiega adopcja
    Z tytułu adopcji od Biorącego do adopcji pobrano opłatę w wysokości
    0,00 zł.
 
-   § 2
+   � 2
     1. Biorący do adopcji zobowiązuje się :
          1. traktować zwierzę zgodnie z ustawą z dnia 21 sierpnia 1997 r.
             o ochronie zwierząt (Dz. U. z 2003 r. Nr 106, poz. 1002, ze
@@ -453,7 +447,7 @@ Jak przebiega adopcja
        pracowników Schroniska lub przedstawicieli organizacji społecznej,
        której statutowym celem działania jest ochrona zwierząt.
     3. Biorący do adopcji wyraża zgodę na odebranie zwierzęcia przez osoby
-       wymienione w § 2 ust. 2, w przypadku stwierdzenia złamania warunków
+       wymienione w � 2 ust. 2, w przypadku stwierdzenia złamania warunków
        niniejszej umowy.
     4. Biorący do adopcji przyjmuje do wiadomości, że w przypadku
        stwierdzenia łamania postanowień ustawy o ochronie zwierząt,
@@ -522,9 +516,8 @@ Adopcje
 
    Pies mieszaniec do 5 roku życia włącznie                  40 zł
 </text>
-</page> §
-<page=".txt
-pl-16.txt">
+</page> �
+<page="pl-16.txt">
 <text>
      * Poradnik
      * Wiedza o psach
@@ -676,9 +669,8 @@ Podsumowanie
    zwierzakom szansę na szczęśliwy dom, ale zwiększa również możliwość
    lepszej opieki nad psami i zwierzętami, które zostają w placówce. Nie
 </text>
-</page> §
-<page=".txt
-pl-17.txt">
+</page> �
+<page="pl-17.txt">
 <text>
    Fundacja dla Zwierząt ARGOS | www.argos.org.pl
 
@@ -745,9 +737,8 @@ Adopcja zwierząt ze schronisk
    są stroną umów adopcyjnych, dopóty nie będzie jak i od kogo egzekwować
    odpowiedzialności za los zwierząt. Schronisko, organizacja czy inny
 </text>
-</page> §
-<page=".txt
-pl-18.txt">
+</page> �
+<page="pl-18.txt">
 <text>
    IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-P3HS6CZ
 
@@ -860,9 +851,8 @@ Pierwsze dni kota w domu po adopcji
    Poprzedni artykuł Następy artykuł
    X
 </text>
-</page> §
-<page=".txt
-pl-19.txt">
+</page> �
+<page="pl-19.txt">
 <text>
    #Fundacja KOT » Kanał z wpisami Fundacja KOT » Kanał z komentarzami
    Fundacja KOT » Koty do adopcji Kanał z komentarzami alternate alternate
@@ -966,9 +956,8 @@ kontakt
    zapytać - napisz lub zadzwoń. Działamy w Toruniu.
    698 175 160
 </text>
-</page> §
-<page=".txt
-pl-1.txt">
+</page> �
+<page="pl-1.txt">
 <text>
     2. Psychologia
     3. Relacje
@@ -1131,15 +1120,13 @@ Różnice między adopcją konwencjonalną a adopcją ze wskazaniem
    [Porada eksperta]
    Próchnica u małego dziecka [Porada eksperta]
 </text>
-</page> §
-<page=".txt
-pl-20.txt">
+</page> �
+<page="pl-20.txt">
 <text>
 
 </text>
-</page> §
-<page=".txt
-pl-21.txt">
+</page> �
+<page="pl-21.txt">
 <text>
    Wydarzenia
    Raporty specjalne
@@ -1164,21 +1151,18 @@ Jakie są rodzaje adopcji?
 
    Zdjęcie
 </text>
-</page> §
-<page=".txt
-pl-22.txt">
+</page> �
+<page="pl-22.txt">
 <text>
 
 </text>
-</page> §
-<page=".txt
-pl-23.txt">
+</page> �
+<page="pl-23.txt">
 <text>
 
 </text>
-</page> §
-<page=".txt
-pl-24.txt">
+</page> �
+<page="pl-24.txt">
 <text>
    tel. (81) 528-76-16 (17, 18, 19)
    fax (81) 528-76-18
@@ -1216,9 +1200,8 @@ pl-24.txt">
      * Właściwa postawa etyczno-moralna dająca gwarancję należytego
        wychowania dziecka
 </text>
-</page> §
-<page=".txt
-pl-25.txt">
+</page> �
+<page="pl-25.txt">
 <text>
           + PL encyclopedia
 
@@ -1261,9 +1244,8 @@ Bibliografia
        (Krótki fragment dotyczący adopcji i adrogatio, w języku
        francuskim).
 </text>
-</page> §
-<page=".txt
-pl-26.txt">
+</page> �
+<page="pl-26.txt">
 <text>
    Co dyskwalifikuje potencjalnych rodziców adopcyjnych?
 
@@ -1328,9 +1310,8 @@ Obciążenia genetyczne wśród dzieci adopcyjnych
    każdy Maluch dołącza do rodziny z wielkim bagażem doświadczeń. Rodzice
    stają wówczas przed całą masą problemów i pytań, na które często nie ma
 </text>
-</page> §
-<page=".txt
-pl-27.txt">
+</page> �
+<page="pl-27.txt">
 <text>
    #Adopcja = Miłość » Kanał z wpisami Adopcja = Miłość » Kanał z
    komentarzami alternate alternate alternate
@@ -1452,9 +1433,8 @@ Najnowsze wpisy
      * Czy rodzina zastępcza może przyjąć dziecko z innego powiatu? –
        system do zmiany
 </text>
-</page> §
-<page=".txt
-pl-28.txt">
+</page> �
+<page="pl-28.txt">
 <text>
           + ZAŚWIADCZENIA
           + Zaświadczenie do cesarskiego cięcia – tokofobia
@@ -1602,9 +1582,8 @@ Wsparcie psychologiczne na drodze do adopcji
 
    Oferujemy również doraźną i długoterminową pomoc
 </text>
-</page> §
-<page=".txt
-pl-29.txt">
+</page> �
+<page="pl-29.txt">
 <text>
           + Artykuły PREMIUM
      * Nowe
@@ -1653,9 +1632,8 @@ Tematy:
    naturalne, inseminacja, in vitro, adopcja.
    facebook-ftwitterinstagram zobacz profil
 </text>
-</page> §
-<page=".txt
-pl-2.txt">
+</page> �
+<page="pl-2.txt">
 <text>
    #alternate Edytuj Wikipedia (pl)
 
@@ -1730,9 +1708,8 @@ W polskim prawie współczesnym[edytuj | edytuj kod]
 
 Menu nawigacyjne
 </text>
-</page> §
-<page=".txt
-pl-30.txt">
+</page> �
+<page="pl-30.txt">
 <text>
    #Marlena Słupińska » Kanał z wpisami Marlena Słupińska » Kanał z
    komentarzami Marlena Słupińska » Adopcja dziecka krok po kroku Kanał z
@@ -1877,9 +1854,8 @@ Adopcja niemowlaka
    małżeństwa swoich partnerek. Co warto wiedzieć na ten temat? Jak
    wygląda przysposobienie dziecka przez... Czytaj więcej
 </text>
-</page> §
-<page=".txt
-pl-31.txt">
+</page> �
+<page="pl-31.txt">
 <text>
           + Dla samotnych matek
           + Często zadawane pytania
@@ -1956,9 +1932,8 @@ Inspektor Danych Os.
 
 Linki
 </text>
-</page> §
-<page=".txt
-pl-32.txt">
+</page> �
+<page="pl-32.txt">
 <text>
      * ARTYKUŁY
      * Najważniejsze, żeby pies nie wrócił z powrotem do schroniska.
@@ -2066,9 +2041,8 @@ Procedura adopcji
    indywidualnie ustalają kolejne kroki, np. termin wizyty
    przedadopcyjnej, zapoznanie się zwierząt, jeśli w domu, do którego pies
 </text>
-</page> §
-<page=".txt
-pl-33.txt">
+</page> �
+<page="pl-33.txt">
 <text>
      * Nasze usługi
      * Schronisko dla Małych Zwierząt
@@ -2109,15 +2083,13 @@ O MPGK
 
 Wyszukaj termin odbioru odpadów
 </text>
-</page> §
-<page=".txt
-pl-34.txt">
+</page> �
+<page="pl-34.txt">
 <text>
 
 </text>
-</page> §
-<page=".txt
-pl-35.txt">
+</page> �
+<page="pl-35.txt">
 <text>
      * Media o nas
 
@@ -2148,9 +2120,8 @@ Adopcja lub zakup od hodowcy zamiast na giełdzie
 
    Jeżeli chcesz zostać właścicielem psa lub kota RASOWEGO, również
 </text>
-</page> §
-<page=".txt
-pl-36.txt">
+</page> �
+<page="pl-36.txt">
 <text>
    #Staraniowy.pl » Kanał z wpisami Staraniowy.pl » Kanał z komentarzami
    Staraniowy.pl » Adopcja a choroby psychiczne w rodzinie Kanał z
@@ -2231,9 +2202,8 @@ Polecamy w kategorii
        Cygan-Kukla
      * in vitro (2) Jak rozmawiać z młodszymi dziećmi o in vitro? Brak
 </text>
-</page> §
-<page=".txt
-pl-37.txt">
+</page> �
+<page="pl-37.txt">
 <text>
    (BUTTON)
 
@@ -2282,15 +2252,13 @@ Skomentuj artykuł
    Wystąpił problem podczas pobierania komentarzy.
    Komentarze ()
 </text>
-</page> §
-<page=".txt
-pl-38.txt">
+</page> �
+<page="pl-38.txt">
 <text>
 #up Depresja.ws Community Calendar Najnowsze wpisy na blogach Kanał RSS Galerii Skocz do zawartości README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Logowanie >gt>gt README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Rejestracja Depresja Forum Szukaj Zaawansowane _________________ README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Przeszukaj README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau (*) Ten temat README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau ( ) Forum README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau ( ) Użytkownicy README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau ( ) Pomoc README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau ( ) Kalendarz README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau ( ) Blogi README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau ( ) Galeria README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau ( ) Pages Szukaj README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Wyświetl nową zawartość README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Depresja.ws - Forum README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Blogi README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Galeria README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Shoutbox README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Wgraj zdjęcie README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Kontakt README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Współpraca README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Regulamin README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Więcej [useropts_arrow.png] 1. Depresja.ws - Forum 2. ->gt Depresja i nerwice 3. ->gt Depresja - pytania i rozmowy Wykryto wyłączony javascript Aktualnie masz wyłączony javascript. Kilka funkcji może nie działać. Włącz ponownie javascript, aby korzystać z pełnej funkcjonalności. Zdjęcie - - - - - Depresja, a adopcja dziecka Rozpoczęty przez holfinka , 30 kwi 2018 10:14 adopcja README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Zaloguj się, aby dodać odpowiedź 6 odpowiedzi w tym temacie #1 Depresja, a adopcja dziecka: post #1 holfinka holfinka Nowy uczestnik README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau [photo-thumb-11463.jpg?_r=1479476570] README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Bywalec README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 18 postów README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Płeć:Kobieta README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau @Przywołaj Napisano 30 kwiecień 2018 - 10:14 [INS: :INS] Witajcie, Założyłam wątek, ponieważ nie znalazłam podobnego w temacie. Chodzi mianowicie o kwestię adopcji dziecka w zestawieniu z leczoną od kilku lat depresją (zaleczona) i szpitalem w historii (z tego samego powodu). Wiem, że są inne fora bliżej związane z tematyką rodzicielstwa, jednak to forum wydaje się być dużo bardziej zbliżonym do tego zagadnienia, niż te o tematyce wyżej wspomnianej. Oboje z mężem marzyliśmy o dziecku jednak los pokazał, że marzenia mogą rozminąć się z rzeczywistością. Niedawno okazało się, że nie możemy mieć dzieci (z przyczyn biologicznych - mniejsza o to po której stronie leży problem). Jestem w trakcie leczenia depresji - obecnie mój stan ustabilizował się i chyba można powiedzieć, że jest bardzo dobrze (narazie w mojej ocenie - wizyta u psychiatry w ciągu najbliższych tygodni). Mam za sobą najgorszy w życiu miniony rok w trakcie którego przeszłam trwającą kilka miesięcy hospitalizację ale dzięki której powoli wracam do zdrowia (wiadomo - z momentami lepszymi i gorszymi). Od kilku tygodni czuję się najlepiej odkąd depresja zawitała do mojego życia. Przywróciło mi to nadzieję, że w końcu się od niej uwolnię. I teraz pytanie - czy jeśli ostatecznie to nastąpi - i lekarz psychiatra to potwierdzi stosownym zaświadczeniem - to istnieją realne szanse na adopcję? Oboje mamy stabilną pracę, odpowiednie warunki mieszkaniowe dla dziecka (w tym roku ruszamy z budową domu), jesteśmy niekarani... - tylko ta choroba w tle... Czy ktoś z Was miał jakiekolwiek doświadczenia w temacie adopcji dziecka przy chorobie psychicznej jednego z potencjalnych rodziców? (interesuje mnie szczególnie depresja właśnie) Będę wdzięczna za wszelkie odpowiedzi. README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Do góry __________________________________________________________________ #2 Depresja, a adopcja dziecka: post #2 DariaAwaria DariaAwaria Nowy uczestnik README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau [a31aa52def2bb763ee3b04e575bfa22e?s=100&ampamp;d=https%3A%2F%2Fwww.dep resja.ws%2Fpublic%2Fstyle_images%2Fmaster%2Fprofile%2Fdefault_large .png] README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Bywalec README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 59 postów README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau @Przywołaj Napisano 30 kwiecień 2018 - 10:38 Hej Chyba najprościej będzie wejść na stronę ośrodka adopcyjnego i tam popytać. Osobiście myślę, że przy zaświadczeniu lekarskim i pozytywnym przebiegu badań psychologicznych nie powinno być problemu, ale nie wypowiem się dokładnie, bo osobiście tematu nie przerabiałam. Życzę powodzenia! README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Do góry __________________________________________________________________ #3 Depresja, a adopcja dziecka: post #3 Willow47 Willow47 Zadomowiony README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau [photo-thumb-11841.gif?_r=1552493609] README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Junior Admin README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 10366 postów README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Imię:Willow README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Płeć:Kobieta README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Lokalizacja:Skąd Inąd README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau @Przywołaj Napisano 30 kwiecień 2018 - 13:00 Choroby jednego z rodziców nie są przeszkodą w adopcji. Nawet pary fizycznie niewydolne mogą adoptować dziecko, pod warunkiem, że udowodnią, że będą w stanie się nim właściwie opiekować. Depresja teoretycznie też nie powinna być przeciwskazaniem. W rodzinach biologicznych rodzice chorują i zdrowieją a czasami umierają....tak jest w życiu. Pytanie tylko o jakie dziecko się staracie. Czy to ma być noworodek czy może starsze dziecko. Zwykle starsze dzieci są "po przejściach". I najbardziej ze wszystkiego potrzebują stabilizacji i zdrowych relacji. Przy depresji to może być trudne. Dlatego najpierw skoncentruj się na wyleczeniu siebie. Dobrej terapii, również małżeńskiej. Niepłodność i brak dzieci przy chęci ich posiadania bardzo mocno uderza w związek. Warto się najpierw zatroszczyć o siebie. Jeśli masz możliwość to porozmawiaj też z jakimś adwokatem specjalizującym się w adopcjach. Albo poszukaj we właściwym sądzie rodzinnym czy nie udzielają darmowych porad. Czasami MOPSy prowadzą takie specjalne kursy dla potencjalnych rodziców, tam można zadawać pytania, są fachowcy i chętnie pomogą. Z całego serca życzę Wam powodzenia :) README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau molenka i Zaklęta w marmur lubią to Dołączona grafika Odwaga to panowanie nad strachem a nie jego brak README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Do góry __________________________________________________________________ #4 Depresja, a adopcja dziecka: post #4 holfinka holfinka Nowy uczestnik README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau [photo-thumb-11463.jpg?_r=1479476570] README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Bywalec README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 18 postów README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Płeć:Kobieta README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau @Przywołaj Napisano 30 kwiecień 2018 - 13:34 Choroby jednego z rodziców nie są przeszkodą w adopcji. Nawet pary fizycznie niewydolne mogą adoptować dziecko, pod warunkiem, że udowodnią, że będą w stanie się nim właściwie opiekować. Depresja teoretycznie też nie powinna być przeciwskazaniem. W rodzinach biologicznych rodzice chorują i zdrowieją a czasami umierają....tak jest w życiu. Pytanie tylko o jakie dziecko się staracie. Czy to ma być noworodek czy może starsze dziecko. Zwykle starsze dzieci są "po przejściach". I najbardziej ze wszystkiego potrzebują stabilizacji i zdrowych relacji. Przy depresji to może być trudne. Dlatego najpierw skoncentruj się na wyleczeniu siebie. Dobrej terapii, również małżeńskiej. Niepłodność i brak dzieci przy chęci ich posiadania bardzo mocno uderza w związek. Warto się najpierw zatroszczyć o siebie. Jeśli masz możliwość to porozmawiaj też z jakimś adwokatem specjalizującym się w adopcjach. Albo poszukaj we właściwym sądzie rodzinnym czy nie udzielają darmowych porad. Czasami MOPSy prowadzą takie specjalne kursy dla potencjalnych rodziców, tam można zadawać pytania, są fachowcy i chętnie pomogą. Z całego serca życzę Wam powodzenia :) Bardzo Ci dziękuję za odpowiedź i pokrzepienie. :) Fakt - jestem dopiero "na dobrej drodze do dobrej drogi" i zdaję sobie sprawę z tego, że muszę dojść do momentu kiedy ja i mój lekarz będziemy pewni, że pożegnaliśmy depresję. Wiem, że na to trzeba czasu - nie spieszy mi się. Nie aż tak - bo nie mamy już z mężem po 20 lat. :) Wiem też, że proces wychodzenia z depresji trwa i że procedura adopcyjna to także długotrwały proces. Co do wieku dziecka - myślę, że to zależało by od "przypadku". Raczej nie zdecydowałabym się na adopcję dziecka po jakichś traumach, mocno "obciążonego" przez życie. Jestem z wykształcenia pedagogiem i wiem, że to są wyjątkowe przypadki wymagające bardzo specjalistycznej opieki i odpowiedniego prowadzenia (nieraz do końca życia). Wychowywanie "czystego" pod tym względem małego człowieka to inna historia i wymagania w stosunku do rodziców czy opiekunów. Wierzę, że mogąc być biologiczną matką podołałabym temu zadaniu (dziecko bez "trudnej historii" - kwestia wieku nie istotna). Jeszcze raz dzięki! :) Użytkownik holfinka edytował ten post 30 kwiecień 2018 - 13:41 README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Do góry __________________________________________________________________ #5 Depresja, a adopcja dziecka: post #5 SarkastyczneSerce SarkastyczneSerce Weteran forum README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau [photo-thumb-12838.jpg?_r=1521890379] README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Grupa z ograniczeniami README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 1016 postów README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Imię:SarkastyczneSerce README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Płeć:Mężczyzna README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau @Przywołaj Napisano 30 kwiecień 2018 - 17:17 Oboje mamy stabilną pracę, odpowiednie warunki mieszkaniowe dla dziecka (w tym roku ruszamy z budową domu), jesteśmy niekarani.... Sama sobie odpowiedziałaś. README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Do góry __________________________________________________________________ #6 Depresja, a adopcja dziecka: post #6 holfinka holfinka Nowy uczestnik README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau [photo-thumb-11463.jpg?_r=1479476570] README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Bywalec README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 18 postów README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Płeć:Kobieta README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau @Przywołaj Napisano 30 kwiecień 2018 - 19:01 Sama sobie odpowiedziałaś. Nie bardzo rozumiem... Czy możesz rozwinąć myśl? README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Do góry __________________________________________________________________ #7 Depresja, a adopcja dziecka: post #7 SarkastyczneSerce SarkastyczneSerce Weteran forum README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau [photo-thumb-12838.jpg?_r=1521890379] README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Grupa z ograniczeniami README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 1016 postów README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Imię:SarkastyczneSerce README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Płeć:Mężczyzna README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau @Przywołaj Napisano 30 kwiecień 2018 - 21:53 Skoro macie warunki to macie warunki ;) Więcej nie trzeba. README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Do góry __________________________________________________________________ __________________________________________________________________ Wróć do Depresja - pytania i rozmowy [print.png] [download.png] Podobne tematy Expand Collapse Temat Forum Autor Podsumowanie Ostatni post Praca a depresja README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 1 README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 2 Rozwój osobisty abnegat README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 31 odpowiedzi README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 1111 wyświetleń [d41d8cd98f00b204e9800998ecf8427e?s=100&ampamp;d=https%3A%2F%2Fwww.depresj a.ws%2Fpublic%2Fstyle_images%2Fmaster%2Fprofile%2Fdefault_large.png] README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 07 grudzień 2022 - 13:41 README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau przez Anonimo Podpięty Depresja-poporodowa.pl Depresja poporodowa Ender README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 5 odpowiedzi README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 13803 wyświetleń [photo-thumb-233.gif?_r=0] README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 03 wrzesień 2022 - 14:13 README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau przez anche Depresja mnie zabija Pokój zapoznawczy Kamilos0000 README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 11 odpowiedzi README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 1055 wyświetleń [d41d8cd98f00b204e9800998ecf8427e?s=100&ampamp;d=https%3A%2F%2Fwww.depresj a.ws%2Fpublic%2Fstyle_images%2Fmaster%2Fprofile%2Fdefault_large.png] README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 04 sierpień 2022 - 21:36 README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau przez Kamilos0000 Jak samemu upewnić się czy to depresja? Pokój zapoznawczy bignine README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 5 odpowiedzi README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 1165 wyświetleń [d41d8cd98f00b204e9800998ecf8427e?s=100&ampamp;d=https%3A%2F%2Fwww.depresj a.ws%2Fpublic%2Fstyle_images%2Fmaster%2Fprofile%2Fdefault_large.png] README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 02 lipiec 2022 - 16:21 README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau przez nik_T Witam (proszę o pomoc - depresja w kryzysie) Pokój zapoznawczy Sabishi README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 12 odpowiedzi README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 1438 wyświetleń [d41d8cd98f00b204e9800998ecf8427e?s=100&ampamp;d=https%3A%2F%2Fwww.depresj a.ws%2Fpublic%2Fstyle_images%2Fmaster%2Fprofile%2Fdefault_large.png] README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau 30 czerwiec 2022 - 20:22 README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau przez Nat4114 Użytkownicy przeglądający ten temat: 7 0 użytkowników, 7 gości, 0 anonimowych Odpowiedz na cytowane posty Wyczyść 1. Depresja.ws - Forum 2. ->gt Depresja i nerwice 3. ->gt Depresja - pytania i rozmowy 4. Polityka prywatności 5. Regulamin forum × README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Kanał RSS README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Zmień styl + Depresja.ws - standardowy + Depresja.ws - urządzenia mobilne + Depresja.ws - biało-niebieski + Depresja.ws - odcienie szarości README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Pomoc Community Forum Software by IP.Board Właściciel: depresja.ws Zaloguj się README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Potrzebujesz konta? Zarejestruj się! README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Nazwa użytkownika ______________________________ README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Hasło forum ______________________________ Zapomniałem hasło README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau [X] Zapamiętaj mnie Niepolecane dla współdzielonych komputerów README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau [ ] Logowanie anonimowe Nie dodawaj mnie do listy aktywnych użytkowników README.md URLs aspirations contextes dumps_text index.html itrameur programmes tableau Polityka prywatności Zaloguj się
 </text>
-</page> §
-<page=".txt
-pl-39.txt">
+</page> �
+<page="pl-39.txt">
 <text>
      * Relacje z dziećmi
      * Relacje między rodzicami
@@ -2360,9 +2328,8 @@ pl-39.txt">
           + Wspólne spędzanie czasu
           + Zwierzęta
 </text>
-</page> §
-<page=".txt
-pl-3.txt">
+</page> �
+<page="pl-3.txt">
 <text>
      * Podcasty
 
@@ -2490,9 +2457,8 @@ Jak adoptować dziecko?
    poród, macierzyństwo.
    Copyright by © Plodnosc.pl
 </text>
-</page> §
-<page=".txt
-pl-40.txt">
+</page> �
+<page="pl-40.txt">
 <text>
    #Infor.pl - Adopcja
 
@@ -2552,9 +2518,8 @@ Poczytajcie o dziecku...
      * dziecko
      * procedura
 </text>
-</page> §
-<page=".txt
-pl-41.txt">
+</page> �
+<page="pl-41.txt">
 <text>
 Proces adopcyjny
 
@@ -2611,9 +2576,8 @@ Proces adopcyjny
           + 1% dla królików
      * Bazarek dla królików
 </text>
-</page> §
-<page=".txt
-pl-42.txt">
+</page> �
+<page="pl-42.txt">
 <text>
    Prawo i finanse
 
@@ -2811,9 +2775,8 @@ Adopcja polskiego dziecka przez obcokrajowców
    prawa rodzicielskie
    rodzice adopcyjni
 </text>
-</page> §
-<page=".txt
-pl-43.txt">
+</page> �
+<page="pl-43.txt">
 <text>
                                  Proces adopcji
 
@@ -2999,9 +2962,8 @@ Zakończenie adopcji w sądzie stanu Nowy Jork
    doskonały sposób na omówienie odpowiednich do wieku odpowiedzi na
    pytania adoptowane przez dzieci dotyczące ich rodzin urodzenia i
 </text>
-</page> §
-<page=".txt
-pl-44.txt">
+</page> �
+<page="pl-44.txt">
 <text>
    Cześć i Łapą!
 
@@ -3043,9 +3005,8 @@ Adoptuj, nie kupuj!
      * Łasuch
      * Proces adopcyjny
 </text>
-</page> §
-<page=".txt
-pl-45.txt">
+</page> �
+<page="pl-45.txt">
 <text>
    #PIES.PL » Kanał z wpisami PIES.PL » Kanał z komentarzami PIES.PL » Jak
    wygląda adopcja psa i ile kosztuje? Kanał z komentarzami alternate
@@ -3174,9 +3135,8 @@ KOMENTARZE
        Odpowiedz
     2. Pingback: Znalazłem psa. Co zrobić ze znalezionym psem? - PIES.PL
 </text>
-</page> §
-<page=".txt
-pl-46.txt">
+</page> �
+<page="pl-46.txt">
 <text>
 
    Od 7 września na łamach tygodnika Twoje Tychy prezentujemy na ostatniej
@@ -3231,9 +3191,8 @@ pl-46.txt">
    nasze schroniskowe małżeństwo oraz Rojter (tutaj rozpoczęte s�
    procedury adopcyjne). Z 6 psami nadal pracujemy w kojcach ponieważ
 </text>
-</page> §
-<page=".txt
-pl-47.txt">
+</page> �
+<page="pl-47.txt">
 <text>
    Freitag, 12 März 2021 12:45
 
@@ -3373,15 +3332,13 @@ Awantura o adopcję - czyli łatwiej adopt…
    https://vod.tvp.pl/video/pozytecznipl,23052018,37053082 (8 minuta)*
    Kampania...
 </text>
-</page> §
-<page=".txt
-pl-48.txt">
+</page> �
+<page="pl-48.txt">
 <text>
 
 </text>
-</page> §
-<page=".txt
-pl-49.txt">
+</page> �
+<page="pl-49.txt">
 <text>
    W programie "Zaadoptuj rzekę" mogą uczestniczyć placówki oświatowe,
    samorządy, instytucje, firmy, organizacje społeczne i osoby
@@ -3389,9 +3346,8 @@ pl-49.txt">
    działania edukacyjne, związane np. z upowszechnianiem szeroko
    rozumianej troski o stan wód. Swoje inicjatywy można zaznaczać na
 </text>
-</page> §
-<page=".txt
-pl-4.txt">
+</page> �
+<page="pl-4.txt">
 <text>
     1. Słowniki
     2. Słownik języka polskiego
@@ -3409,9 +3365,8 @@ Słownik języka polskiego PWN*
    1. «akt prawny polegający na uznaniu cudzego dziecka za własne»
    2. «przyjęcie obcego prawa za obowiązujące prawo krajowe»
 </text>
-</page> §
-<page=".txt
-pl-50.txt">
+</page> �
+<page="pl-50.txt">
 <text>
    Artykuły autora
 
@@ -3431,9 +3386,8 @@ Przysposobienie dziecka małżonka
    lub przyjęcia dziecka na wychowanie, za czas urlopu na warunkach
    macierzyńskiego i rodzicielskiego przysługuje świadczenie w wysokości
 </text>
-</page> §
-<page=".txt
-pl-5.txt">
+</page> �
+<page="pl-5.txt">
 <text>
    #Adopcja = Miłość » Kanał z wpisami Adopcja = Miłość » Kanał z
    komentarzami alternate alternate alternate
@@ -3565,9 +3519,8 @@ Najnowsze wpisy
      * Czy rodzina zastępcza może przyjąć dziecko z innego powiatu? –
        system do zmiany
 </text>
-</page> §
-<page=".txt
-pl-6.txt">
+</page> �
+<page="pl-6.txt">
 <text>
    [button1.gif]
    [button3.gif]
@@ -3623,9 +3576,8 @@ Adopcja krok po kroku
 
    Publikacja Adopcja drogą do rodzicielstwa - pobierz
 </text>
-</page> §
-<page=".txt
-pl-7.txt">
+</page> �
+<page="pl-7.txt">
 <text>
      * Co robimy
      * Wsparcie dla rodzin z dziećmi
@@ -3735,9 +3687,8 @@ Kwalifikacja dziecka do adopcji i poszukiwanie rodziców adopcyjnych
    poszukiwani są oni na terenie całego województwa, a następnie w całym
    kraju.
 </text>
-</page> §
-<page=".txt
-pl-8.txt">
+</page> �
+<page="pl-8.txt">
 <text>
      * Podsumowanie Biblii
      * O nas
@@ -3784,9 +3735,8 @@ pl-8.txt">
    adoptowani, ponieważ Bóg myśli, że będą godnymi spadkobiercami. Bóg
    adoptuje ludzi, którzy są całkowicie niegodni, ponieważ czyni to na
 </text>
-</page> §
-<page=".txt
-pl-9.txt">
+</page> �
+<page="pl-9.txt">
 <text>
    pogłoski, że bliscy chcą odzyskać dwuletnią Zaharę.
 
@@ -3814,5 +3764,5 @@ pl-9.txt">
    odległość, dla dzieci z takich krajów jak: Etiopia, Gwatemala, Indie i
    Filipiny.
 </text>
-</page> §
+</page> �
 </lang>
