@@ -22,7 +22,7 @@ body {
 }
 
 p {
-  color: #7e8690;
+  color: #323537;
 }
 
 h1,
@@ -770,7 +770,7 @@ ul.navbar-dropdown li {
 }
 
 .bg-1 {
-  background: url("../images/bg/banner-1.jpg") no-repeat 50% 50%;
+  background: url("../images/bg/slider-1.1.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
 
