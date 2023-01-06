@@ -71,7 +71,7 @@ echo "$dump" > ./dumps_text/$basename-$lineno.txt
 	
 	fichierDump=./dumps_text/$basename-$lineno.txt
 	
-	mot="\b(A|a)dopcj(a(mi|ch)?|i|ę|ą|o|e|a)\b"
+	mot="(У|у)(сынов|дочер)[а-я]*"
 	
 	
 			compte=$(egrep $mot -wc $fichierDump)
