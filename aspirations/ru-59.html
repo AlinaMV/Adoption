@@ -1,0 +1,908 @@
+    ﻿<pre style="display:none">665</pre><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru"><head xmlns="">
+<base href="https://tgl.ru/">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="twitter:card" content="summary">
+<link rel="icon" type="image/png" href="favicon.png">
+<title>Усыновление / Департамент социального обеспечения / Структура администрации / Власть / Администрация городского округа Тольятти</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="/css/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+<link rel="stylesheet" href="/css/css.css" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="Мероприятия" href="https://tgl.ru/events/rss/">
+<link rel="alternate" type="application/rss+xml" title="Новости города" href="https://tgl.ru/press-releases/rss/">
+<link rel="alternate" type="application/rss+xml" title="Новости департаментов" href="https://tgl.ru/press-releases/rss/dep/">
+<link rel="alternate" type="application/rss+xml" title="Пресс-релизы" href="https://tgl.ru/press-releases/rss/">
+<script type="text/javascript" src="/js/ajax/libs/jquery/1.10.2/jquery.min.js"></script><script type="text/javascript" src="/js/jquery-latest.min.js"></script><script type="text/javascript" src="/js/ajax/libs/jquery/1.10.3/jquery-ui.min.js"></script><script type="text/javascript">
+			$(function() {				
+				$('#phoneHelperPopup .popup').draggable({ cancel: ".helper" });	
+				$('#popup_phoneHelperPopup').draggable({ cancel: "#podr_list" });				
+			});
+		</script><script type="text/javascript" src="/js/snowfall.js"></script><script type="text/javascript">
+    $(document).ready(function(){
+        $('body').snowfall({image :"/i/snow3.png", minSize: 10, maxSize:50, collection : '.footer'});
+    });
+		</script><script type="text/javascript" src="/css/bootstrap/js/bootstrap.min.js"></script><script type="text/javascript" src="/js/NEWinit2022.js"></script><script type="text/javascript" src="/js/js.js"></script><script type="text/javascript" src="/js/jquery.equalHeight.js"></script><script type="text/javascript" src="/js/themes.js"></script><script type="text/javascript" src="/js/sendError.js"></script><!--[if lte IE 9]>
+		<script type="text/javascript" src="/js/PIE.js"></script>
+		<link type="text/css" rel="stylesheet" href="/css/ie.css"/>
+	<![endif]--><script type="text/javascript" src="js/slimbox2.js"></script><link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen">
+<script type="text/javascript" src="js/fluidequalheight.js"></script><script type="text/javascript" src="/js/jqtransform/jquery.jqtransform.js"></script><link rel="stylesheet" href="/js/jqtransform/jqtransform.css" type="text/css" media="all">
+<script type="text/javascript" src="/js/jquery.jcarousel.min.js"></script><link rel="Stylesheet" href="/css/carousel.css" type="text/css">
+<script type="text/javascript">
+	
+		jQuery(document).ready(function() {
+			
+			$('input').focusout(function(){
+				$(this).css({
+					'border': '1px solid #cccccc',
+					'box-shadow': '0 1px 1px rgba(0, 0, 0, 0.075) inset'
+				})
+				$('.required').css ('color', '#666')					
+			});
+		
+			jQuery("#questionary :button.form_submit").click(function(){	
+				name = $('#name').attr('value')
+				if (name == ""){
+					$('#name').css({
+						'border-color': '#e9322d',
+						'box-shadow' : '0 0 6px #f8b9b7'
+					})
+					$('.required').css('color', '#e9322d')
+					return false;
+				}				
+				surname = $('#surname').attr('value')
+				if (surname == ""){
+					$('#surname').css({
+						'border-color': '#e9322d',
+						'box-shadow' : '0 0 6px #f8b9b7'
+					})
+					$('.required').css('color', '#e9322d')
+					return false;
+				}
+				phone = $('#phone').attr('value')
+				if (phone == ""){
+					$('#phone').css({
+						'border-color': '#e9322d',
+						'box-shadow' : '0 0 6px #f8b9b7'
+					})
+					$('.required').css('color', '#e9322d')
+					return false;
+				}
+				email = $('#email').attr('value')
+				if (email == ""){
+					$('#email').css({
+						'border-color': '#e9322d',
+						'box-shadow' : '0 0 6px #f8b9b7'
+					})
+					$('.required').css('color', '#e9322d')
+					return false;
+				}
+				activity = $('#activity').attr('value')
+				if (activity == ""){
+					$('#activity').css({
+						'border-color': '#e9322d',
+						'box-shadow' : '0 0 6px #f8b9b7'
+					})
+					$('.required').css('color', '#e9322d')
+					return false;
+				}
+				work = $('#work').attr('value')
+				if (work == ""){
+					$('#work').css({
+						'border-color': '#e9322d',
+						'box-shadow' : '0 0 6px #f8b9b7'
+					})
+					$('.required').css('color', '#e9322d')
+					return false;
+				}
+				competence = $('#competence').attr('value')
+				direction = $('#direction').attr('value')
+				note = $('#note').attr('value')
+				agree = $('#agree').prop('checked')
+				if (agree == false) {
+					$('#questionary input[type="checkbox"] + label').css('color', '#e9322d')
+					$('.required').css('color', '#e9322d')
+					return false;					
+				}
+				$.ajax({
+					type: "POST",
+					url: "questionarys/send",
+					data: {
+						name: name,
+						surname: surname,
+						phone: phone,
+						email: email,
+						activity: activity,
+						work: work,
+						competence: competence,
+						direction: direction,
+						note: note,
+					},
+					success: function(json){
+					  	if (json.status == 'error') {
+							$('#successMsg').html('<span style="padding:10px; border:1px solid #b2ccd3; display:block">' +json.text +'</span>');
+							$('#questionary').css("display", "none");
+					  	} else {
+							$('#successMsg').html('<span style="padding:10px; border:1px solid #b2ccd3; display:block">' +json.text +'</span>');
+							$('#questionary').trigger("reset");
+							$('#questionary').css("display", "none");
+					  	}
+					}
+				});
+					return false;
+			});
+			jQuery('#add_candidate').click(function(){
+				data = $(this).prev().attr('data')
+				if (data < 5){
+					new_data = Number(data)+1
+					prev_candidate = $(this).prev().get(0).outerHTML;
+					$(this).before(prev_candidate)
+					$(this).prev().attr('data', new_data)
+					$(this).prev().find('.fio').attr('id', 'fio'+new_data)
+					$(this).prev().find('.fio').attr('name', 'fio'+new_data)
+					$(this).prev().find('.contacts').attr('id', 'contacts'+new_data)
+					$(this).prev().find('.contacts').attr('name', 'contacts'+new_data)
+					//$(this).prev().append('<span>X</span>')
+					/*new_candidate = $(this).prev().clone();
+					console.log(new_candidate)*/
+				}
+			})
+			jQuery('#botslider').jcarousel({
+				visible: 3,
+				//visible: 5,
+				animation: 800
+			});
+			jQuery('#botslider2').jcarousel({
+				visible: 3,
+				//visible: 5,
+				animation: 800
+			});
+		});
+		</script><script>
+			var main = {
+					base:'https://tgl.ru/',
+					current: 'structure/department/usynovlenie'
+				};
+		</script>
+</head>
+<body xmlns="">
+<div class="popupWrapper" id="phoneHelperPopup"><div class="popup">
+<p class="title">Телефонный справочник</p>
+<a class="closePopup"></a><div class="helper">
+<div class="item opened">
+<div class="helperhead"><div class="helperheadIn"><p><span>Сотрудники администрации</span></p></div></div>
+<div class="helperbody"><form method="get" action="/phonebook-employees/search/" class="jq" name="phoneBookForm"><fieldset>
+<input type="text" name="fio" class="inputbox" placeholder="Имя, Фамилия, Отчество"><input type="text" name="phonenum" class="inputbox" placeholder="Номер телефона"><div class="podrazdeleniyaIn" style="padding-top:0px;">
+<p class="select_podr" style="cursor:pointer;"><a id="open_select_podr">Выбрать подразделение</a></p>
+<p class="selected_podrs" id="selected_podrs"></p>
+</div>
+<input type="submit" class="but_blue button" value="Найти">
+</fieldset></form></div>
+<div class="popupWrapper" id="podrPopup"><div class="popup" id="popup_phoneHelperPopup">
+<p class="title">Подразделения</p>
+<a class="closePopup"></a><div class="podr_list" id="podr_list">
+<a id="select_all_podrs">Все</a><form method="post" action="" id="divisionsForm"><fieldset><div class="thepodr"><a class="opener"></a><input type="checkbox" value="1" rel="Руководство" rev="1"/> Руководство<div class="thepodr"><input type="checkbox" value="303" rel="..." rev="0"/> ...</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="2" rel="Службы главы городского округа" rev="1"/> Службы главы городского округа<div class="thepodr"><a class="opener"></a><input type="checkbox" value="3" rel="Управление муниципальной службы и кадровой политики" rev="2"/> Управление муниципальной службы и кадровой политики<div class="thepodr"><input type="checkbox" value="4" rel="Отдел кадров" rev="3"/> Отдел кадров</div><div class="thepodr"><input type="checkbox" value="6" rel="Отдел организационно-нормативного обеспечения работы с персоналом" rev="3"/> Отдел организационно-нормативного обеспечения работы с персоналом</div><div class="thepodr"><input type="checkbox" value="7" rel="Сектор развития персонала" rev="3"/> Сектор развития персонала</div><div class="thepodr"><input type="checkbox" value="8" rel="Отдел профилактики коррупционных и иных правонарушений" rev="3"/> Отдел профилактики коррупционных и иных правонарушений</div><div class="thepodr"><input type="checkbox" value="305" rel="Сектор работы с руководителями МП и МУ" rev="3"/> Сектор работы с руководителями МП и МУ</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="11" rel="Департамент информационных технологий и связи" rev="2"/> Департамент информационных технологий и связи<div class="thepodr"><input type="checkbox" value="12" rel="Отдел планирования и контроля" rev="3"/> Отдел планирования и контроля</div><div class="thepodr"><input type="checkbox" value="13" rel="Отдел телекоммуникаций и связи" rev="3"/> Отдел телекоммуникаций и связи</div><div class="thepodr"><input type="checkbox" value="14" rel="Сектор информационной безопасности" rev="3"/> Сектор информационной безопасности</div><div class="thepodr"><input type="checkbox" value="15" rel="Отдел формирования электронного муниципалитета" rev="3"/> Отдел формирования электронного муниципалитета</div><div class="thepodr"><input type="checkbox" value="16" rel="Отдел информационных технологий" rev="3"/> Отдел информационных технологий</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="17" rel="Управление мобилизационной подготовки" rev="2"/> Управление мобилизационной подготовки<div class="thepodr"><input type="checkbox" value="18" rel="Бюро секретного и мобилизационного делопроизводства" rev="3"/> Бюро секретного и мобилизационного делопроизводства</div><div class="thepodr"><input type="checkbox" value="19" rel="Отдел планирования мобилизационной подготовки" rev="3"/> Отдел планирования мобилизационной подготовки</div><div class="thepodr"><input type="checkbox" value="20" rel="Сектор мобилизационной подготовки  по Автозаводскому району" rev="3"/> Сектор мобилизационной подготовки  по Автозаводскому району</div><div class="thepodr"><input type="checkbox" value="21" rel="Сектор мобилизационной подготовки  по Комсомольскому району" rev="3"/> Сектор мобилизационной подготовки  по Комсомольскому району</div><div class="thepodr"><input type="checkbox" value="22" rel="Сектор мобилизационной подготовки по Центральному району" rev="3"/> Сектор мобилизационной подготовки по Центральному району</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="24" rel="Департамент общественной безопасности" rev="2"/> Департамент общественной безопасности<div class="thepodr"><input type="checkbox" value="25" rel="Отдел обеспечения общественной безопасности" rev="4"/> Отдел обеспечения общественной безопасности</div><div class="thepodr"><input type="checkbox" value="28" rel="Отдел ГО и ЧС" rev="4"/> Отдел ГО и ЧС</div><div class="thepodr"><input type="checkbox" value="29" rel="Отдел обеспечения первичных мер пожарной безопасности" rev="4"/> Отдел обеспечения первичных мер пожарной безопасности</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="56" rel="Управление административной практики и контроля" rev="2"/> Управление административной практики и контроля<div class="thepodr"><input type="checkbox" value="233" rel="Отдел контрольных мероприятий" rev="3"/> Отдел контрольных мероприятий</div><div class="thepodr"><input type="checkbox" value="242" rel="Отдел административной практики" rev="3"/> Отдел административной практики</div><div class="thepodr"><input type="checkbox" value="265" rel="Сектор администрирования доходов " rev="3"/> Сектор администрирования доходов </div><div class="thepodr"><input type="checkbox" value="266" rel="Сектор правового обеспечения" rev="3"/> Сектор правового обеспечения</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="57" rel="Управление потребительского рынка" rev="2"/> Управление потребительского рынка<div class="thepodr"><input type="checkbox" value="59" rel="Финансово-экономический отдел (УПР)" rev="3"/> Финансово-экономический отдел (УПР)</div><div class="thepodr"><input type="checkbox" value="327" rel="Отдел оформления прав " rev="3"/> Отдел оформления прав </div><div class="thepodr"><input type="checkbox" value="328" rel="Отдел мониторинга объектов потребительского рынка" rev="3"/> Отдел мониторинга объектов потребительского рынка</div><div class="thepodr"><input type="checkbox" value="335" rel="Отдел аналитики и развития потребительского рынка" rev="3"/> Отдел аналитики и развития потребительского рынка</div></div><div class="thepodr"><input type="checkbox" value="61" rel="Контрольно-ревизионный отдел" rev="2"/> Контрольно-ревизионный отдел</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="202" rel="Правовой департамент" rev="2"/> Правовой департамент<div class="thepodr"><input type="checkbox" value="203" rel="Бюро документооборота" rev="3"/> Бюро документооборота</div><div class="thepodr"><input type="checkbox" value="204" rel="Сектор правового сопровождения по Автозаводскому району" rev="3"/> Сектор правового сопровождения по Автозаводскому району</div><div class="thepodr"><input type="checkbox" value="205" rel="Сектор правового сопровождения по Комсомольскому району" rev="3"/> Сектор правового сопровождения по Комсомольскому району</div><div class="thepodr"><input type="checkbox" value="206" rel="Сектор правового сопровождения по Центральному району" rev="3"/> Сектор правового сопровождения по Центральному району</div><div class="thepodr"><input type="checkbox" value="207" rel="Отдел правового обеспечения" rev="3"/> Отдел правового обеспечения</div><div class="thepodr"><input type="checkbox" value="209" rel="Нормативно-аналитическое управление" rev="3"/> Нормативно-аналитическое управление</div><div class="thepodr"><input type="checkbox" value="210" rel="Управление правового взаимодействия" rev="3"/> Управление правового взаимодействия</div></div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="23" rel="Службы первого заместителя главы городского округа" rev="1"/> Службы первого заместителя главы городского округа<div class="thepodr"><a class="opener"></a><input type="checkbox" value="63" rel="Департамент городского хозяйства" rev="2"/> Департамент городского хозяйства<div class="thepodr"><input type="checkbox" value="64" rel="Бюро документооборота" rev="3"/> Бюро документооборота</div><div class="thepodr"><input type="checkbox" value="67" rel="Отдел инженерной инфраструктуры" rev="3"/> Отдел инженерной инфраструктуры</div><div class="thepodr"><input type="checkbox" value="68" rel="Сметно-договорной отдел" rev="3"/> Сметно-договорной отдел</div><div class="thepodr"><input type="checkbox" value="71" rel="Отдел жилищно-коммунального хозяйства" rev="3"/> Отдел жилищно-коммунального хозяйства</div><div class="thepodr"><input type="checkbox" value="72" rel="Отдел программ развития ЖКХ" rev="3"/> Отдел программ развития ЖКХ</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="75" rel="Управление природопользования и охраны окружающей среды" rev="3"/> Управление природопользования и охраны окружающей среды<div class="thepodr"><input type="checkbox" value="76" rel="Отдел мероприятий природопользования " rev="4"/> Отдел мероприятий природопользования </div><div class="thepodr"><input type="checkbox" value="77" rel="Отдел государственного экологического надзора (контроля)" rev="4"/> Отдел государственного экологического надзора (контроля)</div><div class="thepodr"><input type="checkbox" value="78" rel="Сектор  обращения с отходами " rev="4"/> Сектор  обращения с отходами </div></div><div class="thepodr"><input type="checkbox" value="79" rel="Финансово-экономический отдел (ДГХ)" rev="3"/> Финансово-экономический отдел (ДГХ)</div><div class="thepodr"><input type="checkbox" value="81" rel="Отдел благоустройства и озеленения" rev="3"/> Отдел благоустройства и озеленения</div><div class="thepodr"><input type="checkbox" value="82" rel="Отдел лесного хозяйства" rev="3"/> Отдел лесного хозяйства</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="263" rel="Управление муниципального  контроля" rev="3"/> Управление муниципального  контроля<div class="thepodr"><input type="checkbox" value="264" rel="Отдел аналитики и правового обеспечения" rev="15"/> Отдел аналитики и правового обеспечения</div><div class="thepodr"><input type="checkbox" value="332" rel="Отдел муниципального жилищного контроля" rev="4"/> Отдел муниципального жилищного контроля</div><div class="thepodr"><input type="checkbox" value="333" rel="Отдел муниципального контроля в сфере благоустройства" rev="4"/> Отдел муниципального контроля в сфере благоустройства</div></div><div class="thepodr"><input type="checkbox" value="334" rel="Отдел организации похоронного дела" rev="3"/> Отдел организации похоронного дела</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="84" rel="Департамент дорожного хозяйства и транспорта" rev="2"/> Департамент дорожного хозяйства и транспорта<div class="thepodr"><input type="checkbox" value="85" rel="Финансово-экономический отдел (ДДХиТ)" rev="3"/> Финансово-экономический отдел (ДДХиТ)</div><div class="thepodr"><input type="checkbox" value="86" rel="Отдел смет и договоров" rev="3"/> Отдел смет и договоров</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="87" rel="Управление дорожного хозяйства" rev="3"/> Управление дорожного хозяйства<div class="thepodr"><input type="checkbox" value="88" rel="Отдел развития дорожного хозяйства" rev="4"/> Отдел развития дорожного хозяйства</div><div class="thepodr"><input type="checkbox" value="89" rel="Отдел контроля за автомобильными дорогами" rev="4"/> Отдел контроля за автомобильными дорогами</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="90" rel="Управление транспорта" rev="3"/> Управление транспорта<div class="thepodr"><input type="checkbox" value="91" rel="Отдел развития транспорта" rev="4"/> Отдел развития транспорта</div><div class="thepodr"><input type="checkbox" value="92" rel="Контрольно-ревизорский отдел" rev="4"/> Контрольно-ревизорский отдел</div></div></div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="62" rel="Службы заместителя главы городского округа по финансам, экономике и развитию" rev="1"/> Службы заместителя главы городского округа по финансам, экономике и развитию<div class="thepodr"><a class="opener"></a><input type="checkbox" value="9" rel="Управление международных и межрегиональных связей" rev="2"/> Управление международных и межрегиональных связей<div class="thepodr"><input type="checkbox" value="10" rel="Сектор развития туризма" rev="3"/> Сектор развития туризма</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="30" rel="Департамент финансов" rev="2"/> Департамент финансов<div class="thepodr"><a class="opener"></a><input type="checkbox" value="33" rel="Управление доходов и муниципального долга" rev="3"/> Управление доходов и муниципального долга<div class="thepodr"><input type="checkbox" value="34" rel="Сектор мониторинга и урегулирования задолженности по доходам бюджета" rev="4"/> Сектор мониторинга и урегулирования задолженности по доходам бюджета</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="35" rel="Казначейское управление" rev="3"/> Казначейское управление<div class="thepodr"><input type="checkbox" value="36" rel="Отдел по ведению лицевых счетов бюджетных и автономных учреждений" rev="4"/> Отдел по ведению лицевых счетов бюджетных и автономных учреждений</div><div class="thepodr"><input type="checkbox" value="37" rel="Отдел по ведению лицевых счетов органов местного самоуправления и казенных учреждений" rev="4"/> Отдел по ведению лицевых счетов органов местного самоуправления и казенных учреждений</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="38" rel="Управление расходов жилищно-коммунальной сферы, транспорта и бюджетных инвестиций" rev="3"/> Управление расходов жилищно-коммунальной сферы, транспорта и бюджетных инвестиций<div class="thepodr"><input type="checkbox" value="39" rel="Отдел расходов жилищно-коммунального хозяйства" rev="4"/> Отдел расходов жилищно-коммунального хозяйства</div><div class="thepodr"><input type="checkbox" value="40" rel="Отдел расходов транспорта и бюджетных инвестиций" rev="4"/> Отдел расходов транспорта и бюджетных инвестиций</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="41" rel="Управление расходов социальной сферы и сводного планирования бюджета" rev="3"/> Управление расходов социальной сферы и сводного планирования бюджета<div class="thepodr"><input type="checkbox" value="42" rel="Отдел расходов социальной сферы" rev="4"/> Отдел расходов социальной сферы</div><div class="thepodr"><input type="checkbox" value="43" rel="Отдел сводного  планирования бюджета" rev="4"/> Отдел сводного  планирования бюджета</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="44" rel="Управление по учету и отчетности исполнения бюджета" rev="3"/> Управление по учету и отчетности исполнения бюджета<div class="thepodr"><input type="checkbox" value="45" rel="Отдел учета доходов и расходов бюджета" rev="4"/> Отдел учета доходов и расходов бюджета</div><div class="thepodr"><input type="checkbox" value="46" rel="Отдел бюджетного учета и отчетности" rev="4"/> Отдел бюджетного учета и отчетности</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="277" rel="Административный отдел" rev="3"/> Административный отдел<div class="thepodr"><input type="checkbox" value="31" rel="Бюро документооборота (Деп. финансов)" rev="4"/> Бюро документооборота (Деп. финансов)</div></div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="47" rel="Департамент экономического развития" rev="2"/> Департамент экономического развития<div class="thepodr"><a class="opener"></a><input type="checkbox" value="50" rel="Управление регулирования контрактной системы" rev="3"/> Управление регулирования контрактной системы<div class="thepodr"><input type="checkbox" value="51" rel="Отдел контроля и координации в сфере закупок" rev="4"/> Отдел контроля и координации в сфере закупок</div><div class="thepodr"><input type="checkbox" value="52" rel="Отдел планирования и мониторинга муниципальных закупок" rev="4"/> Отдел планирования и мониторинга муниципальных закупок</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="260" rel="Управление коммунального комплекса и муниципального сектора экономики" rev="3"/> Управление коммунального комплекса и муниципального сектора экономики<div class="thepodr"><input type="checkbox" value="54" rel="Отдел прогнозирования, мониторинга и анализа социально-экономического развития" rev="4"/> Отдел прогнозирования, мониторинга и анализа социально-экономического развития</div><div class="thepodr"><input type="checkbox" value="55" rel="Отдел тарифов, энергосбережения и мониторинга программ развития инфраструктуры" rev="4"/> Отдел тарифов, энергосбережения и мониторинга программ развития инфраструктуры</div><div class="thepodr"><input type="checkbox" value="291" rel="Отдел муниципальных программ" rev="4"/> Отдел муниципальных программ</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="309" rel="Управление инвестиций и предпринимательской деятельности" rev="3"/> Управление инвестиций и предпринимательской деятельности<div class="thepodr"><input type="checkbox" value="48" rel="Отдел инвестиций и стратегического планирования" rev="4"/> Отдел инвестиций и стратегического планирования</div><div class="thepodr"><input type="checkbox" value="53" rel="Отдел поддержки предпринимательства" rev="4"/> Отдел поддержки предпринимательства</div></div></div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="93" rel="Службы заместителя главы городского округа по имуществу и градостроительству" rev="1"/> Службы заместителя главы городского округа по имуществу и градостроительству<div class="thepodr"><a class="opener"></a><input type="checkbox" value="94" rel="Департамент градостроительной деятельности" rev="2"/> Департамент градостроительной деятельности<div class="thepodr"><input type="checkbox" value="99" rel="Бюро документооборота (ДГД)" rev="3"/> Бюро документооборота (ДГД)</div><div class="thepodr"><input type="checkbox" value="100" rel="Финансово-экономический отдел" rev="3"/> Финансово-экономический отдел</div><div class="thepodr"><input type="checkbox" value="101" rel="Бюро бухгалтерского учета и отчетности" rev="3"/> Бюро бухгалтерского учета и отчетности</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="102" rel="Управление архитектуры и градостроительства" rev="3"/> Управление архитектуры и градостроительства<div class="thepodr"><input type="checkbox" value="108" rel="Сектор опорного плана" rev="4"/> Сектор опорного плана</div><div class="thepodr"><input type="checkbox" value="109" rel="Бюро информационного обеспечения градостроительной деятельности" rev="4"/> Бюро информационного обеспечения градостроительной деятельности</div><div class="thepodr"><input type="checkbox" value="111" rel="Отдел комплексного развития территорий" rev="4"/> Отдел комплексного развития территорий</div></div><div class="thepodr"><input type="checkbox" value="262" rel="Отдел правового обеспечения" rev="15"/> Отдел правового обеспечения</div><div class="thepodr"><input type="checkbox" value="283" rel="Сметно-договорной отдел" rev="3"/> Сметно-договорной отдел</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="316" rel="Управление капитального строительства" rev="3"/> Управление капитального строительства<div class="thepodr"><input type="checkbox" value="317" rel="Отдел капитального строительства" rev="4"/> Отдел капитального строительства</div><div class="thepodr"><input type="checkbox" value="318" rel="Проектно-технический сектор" rev="4"/> Проектно-технический сектор</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="319" rel="Управление муниципальных услуг и мониторинга градостроительной деятельности " rev="3"/> Управление муниципальных услуг и мониторинга градостроительной деятельности <div class="thepodr"><input type="checkbox" value="98" rel="Отдел мониторинга объектов градостроительной деятельности" rev="5"/> Отдел мониторинга объектов градостроительной деятельности</div><div class="thepodr"><input type="checkbox" value="107" rel="Сектор инженерно - транспортной инфраструктуры" rev="4"/> Сектор инженерно - транспортной инфраструктуры</div><div class="thepodr"><input type="checkbox" value="321" rel="Архитектурно-планировочный отдел " rev="4"/> Архитектурно-планировочный отдел </div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="325" rel="Управление земельных ресурсов" rev="3"/> Управление земельных ресурсов<div class="thepodr"><input type="checkbox" value="124" rel="Отдел учета и администрирования доходов" rev="4"/> Отдел учета и администрирования доходов</div><div class="thepodr"><input type="checkbox" value="255" rel="Отдел пользования земельными ресурсами" rev="4"/> Отдел пользования земельными ресурсами</div><div class="thepodr"><input type="checkbox" value="312" rel="Отдел  предоставления земельных участков" rev="4"/> Отдел  предоставления земельных участков</div></div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="112" rel="Департамент по управлению муниципальным имуществом" rev="2"/> Департамент по управлению муниципальным имуществом<div class="thepodr"><input type="checkbox" value="113" rel="Бюро документооборота (ДУМИ)" rev="3"/> Бюро документооборота (ДУМИ)</div><div class="thepodr"><input type="checkbox" value="114" rel="Отдел имущества в хозяйственном ведении и оперативном управлении" rev="3"/> Отдел имущества в хозяйственном ведении и оперативном управлении</div><div class="thepodr"><input type="checkbox" value="121" rel="Отдел муниципальной казны и пользования муниципальным имуществом" rev="3"/> Отдел муниципальной казны и пользования муниципальным имуществом</div><div class="thepodr"><input type="checkbox" value="123" rel="Отдел оформления и учета муниципальной собственности" rev="3"/> Отдел оформления и учета муниципальной собственности</div><div class="thepodr"><input type="checkbox" value="126" rel="Отдел найма жилых помещений" rev="3"/> Отдел найма жилых помещений</div><div class="thepodr"><input type="checkbox" value="127" rel="Отдел предоставления жилых помещений и социальных выплат" rev="3"/> Отдел предоставления жилых помещений и социальных выплат</div><div class="thepodr"><input type="checkbox" value="128" rel="Отдел жилищного фонда" rev="3"/> Отдел жилищного фонда</div><div class="thepodr"><input type="checkbox" value="130" rel="Информационно-аналитический сектор" rev="3"/> Информационно-аналитический сектор</div><div class="thepodr"><input type="checkbox" value="257" rel="Отдел расходов " rev="3"/> Отдел расходов </div><div class="thepodr"><input type="checkbox" value="326" rel="Сектор администрирования доходов" rev="3"/> Сектор администрирования доходов</div></div><div class="thepodr"><input type="checkbox" value="215" rel="Отдел организации муниципальных торгов" rev="2"/> Отдел организации муниципальных торгов</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="132" rel="Службы заместителя главы городского округа по социальным вопросам" rev="1"/> Службы заместителя главы городского округа по социальным вопросам<div class="thepodr"><a class="opener"></a><input type="checkbox" value="157" rel="Департамент образования" rev="2"/> Департамент образования<div class="thepodr"><input type="checkbox" value="159" rel="Финансово-экономический отдел" rev="3"/> Финансово-экономический отдел</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="160" rel="Управление  образования и занятости" rev="3"/> Управление  образования и занятости<div class="thepodr"><input type="checkbox" value="161" rel="Отдел общего и дополнительного образования" rev="4"/> Отдел общего и дополнительного образования</div><div class="thepodr"><input type="checkbox" value="162" rel="Отдел дошкольного образования" rev="4"/> Отдел дошкольного образования</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="163" rel="Управление  ресурсного обеспечения и развития образования" rev="3"/> Управление  ресурсного обеспечения и развития образования<div class="thepodr"><a class="opener"></a><input type="checkbox" value="164" rel="Организационный отдел" rev="4"/> Организационный отдел<div class="thepodr"><input type="checkbox" value="158" rel="Бюро документооборота" rev="5"/> Бюро документооборота</div></div><div class="thepodr"><input type="checkbox" value="166" rel="Отдел обеспечения технического содержания и благоустройства" rev="4"/> Отдел обеспечения технического содержания и благоустройства</div></div><div class="thepodr"><input type="checkbox" value="165" rel="Отдел сопровождения деятельности учреждений отрасли образования" rev="3"/> Отдел сопровождения деятельности учреждений отрасли образования</div><div class="thepodr"><input type="checkbox" value="169" rel="Управление по делам молодежи " rev="3"/> Управление по делам молодежи </div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="170" rel="Департамент социального обеспечения " rev="2"/> Департамент социального обеспечения <div class="thepodr"><input type="checkbox" value="176" rel="Финансово-экономический отдел" rev="3"/> Финансово-экономический отдел</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="177" rel="Управление опеки и попечительства" rev="3"/> Управление опеки и попечительства<div class="thepodr"><input type="checkbox" value="178" rel="Отдел реализации имущественных и личных неимущественных прав несовершеннолетних" rev="4"/> Отдел реализации имущественных и личных неимущественных прав несовершеннолетних</div><div class="thepodr"><input type="checkbox" value="179" rel="Отдел организации деятельности по опеке, попечительству и усыновлению" rev="4"/> Отдел организации деятельности по опеке, попечительству и усыновлению</div><div class="thepodr"><input type="checkbox" value="181" rel="Отдел реализации опеки и попечительства на территории Автозаводского района" rev="4"/> Отдел реализации опеки и попечительства на территории Автозаводского района</div><div class="thepodr"><input type="checkbox" value="182" rel="Отдел реализации опеки и попечительства на территории Центрального и Комсомольского районов" rev="4"/> Отдел реализации опеки и попечительства на территории Центрального и Комсомольского районов</div><div class="thepodr"><input type="checkbox" value="183" rel="Отдел реализации опеки и попечительства над совершеннолетними лицами" rev="4"/> Отдел реализации опеки и попечительства над совершеннолетними лицами</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="294" rel="Управление муниципальных программ и реализации национальных проектов" rev="3"/> Управление муниципальных программ и реализации национальных проектов<div class="thepodr"><input type="checkbox" value="315" rel="Сектор реализации национальных проектов" rev="4"/> Сектор реализации национальных проектов</div><div class="thepodr"><input type="checkbox" value="336" rel="Отдел муниципальных программ" rev="4"/> Отдел муниципальных программ</div></div></div><div class="thepodr"><input type="checkbox" value="173" rel="Отдел организации деятельности КДНиЗП" rev="2"/> Отдел организации деятельности КДНиЗП</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="184" rel="Управление физической культуры и спорта" rev="2"/> Управление физической культуры и спорта<div class="thepodr"><input type="checkbox" value="186" rel="Отдел планирования и развития" rev="3"/> Отдел планирования и развития</div><div class="thepodr"><input type="checkbox" value="189" rel="Финансово-экономический отдел" rev="3"/> Финансово-экономический отдел</div><div class="thepodr"><input type="checkbox" value="280" rel="Отдел сопровождения деятельности муниципальных учреждений" rev="3"/> Отдел сопровождения деятельности муниципальных учреждений</div><div class="thepodr"><input type="checkbox" value="299" rel="Отдел организации физкультурно-спортивных мероприятий" rev="3"/> Отдел организации физкультурно-спортивных мероприятий</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="190" rel="Департамент культуры" rev="2"/> Департамент культуры<div class="thepodr"><input type="checkbox" value="192" rel="Отдел развития отрасли культуры" rev="3"/> Отдел развития отрасли культуры</div><div class="thepodr"><input type="checkbox" value="194" rel="Финансово-экономический отдел" rev="3"/> Финансово-экономический отдел</div><div class="thepodr"><input type="checkbox" value="195" rel="Управление образования, культуры и искусства" rev="3"/> Управление образования, культуры и искусства</div></div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="196" rel="Службы заместителя главы- руководителя аппарата администрации" rev="1"/> Службы заместителя главы- руководителя аппарата администрации<div class="thepodr"><a class="opener"></a><input type="checkbox" value="197" rel="Бухгалтерия (управление) администрации г.о. Тольятти" rev="2"/> Бухгалтерия (управление) администрации г.о. Тольятти<div class="thepodr"><input type="checkbox" value="199" rel="Отдел планирования и анализа финансовой деятельности" rev="3"/> Отдел планирования и анализа финансовой деятельности</div><div class="thepodr"><input type="checkbox" value="200" rel="Отдел расчетов по заработной плате с работниками" rev="3"/> Отдел расчетов по заработной плате с работниками</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="211" rel="Управление по делам архивов" rev="2"/> Управление по делам архивов<div class="thepodr"><input type="checkbox" value="213" rel="Отдел развития архивного дела" rev="3"/> Отдел развития архивного дела</div><div class="thepodr"><input type="checkbox" value="329" rel="Сектор сопровождения и организационной работы с ведомственными архивами" rev="3"/> Сектор сопровождения и организационной работы с ведомственными архивами</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="217" rel="Управление взаимодействия с общественностью " rev="2"/> Управление взаимодействия с общественностью <div class="thepodr"><input type="checkbox" value="220" rel="Общественная приемная" rev="3"/> Общественная приемная</div><div class="thepodr"><input type="checkbox" value="301" rel="Отдел по работе с общественностью" rev="3"/> Отдел по работе с общественностью</div><div class="thepodr"><input type="checkbox" value="311" rel="Отдел этноконфессиональных отношений" rev="3"/> Отдел этноконфессиональных отношений</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="218" rel="Организационное управление " rev="2"/> Организационное управление <div class="thepodr"><input type="checkbox" value="219" rel="Канцелярия (отдел)" rev="3"/> Канцелярия (отдел)</div><div class="thepodr"><input type="checkbox" value="221" rel="Организационный отдел" rev="3"/> Организационный отдел</div><div class="thepodr"><input type="checkbox" value="261" rel="Отдел планирования и контроля" rev="3"/> Отдел планирования и контроля</div><div class="thepodr"><input type="checkbox" value="323" rel="Отдел информационной политики" rev="3"/> Отдел информационной политики</div></div><div class="thepodr"><input type="checkbox" value="225" rel="Отдел охраны труда" rev="2"/> Отдел охраны труда</div><div class="thepodr"><input type="checkbox" value="330" rel="Муниципальный центр управления (отдел) " rev="2"/> Муниципальный центр управления (отдел) </div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="229" rel="Администрация Автозаводского района " rev="2"/> Администрация Автозаводского района <div class="thepodr"><a class="opener"></a><input type="checkbox" value="230" rel="Управление по работе с населением" rev="3"/> Управление по работе с населением<div class="thepodr"><input type="checkbox" value="231" rel="Отдел организации работы по месту жительства" rev="4"/> Отдел организации работы по месту жительства</div><div class="thepodr"><input type="checkbox" value="232" rel="Отдел по связям с общественностью и организационной работе" rev="4"/> Отдел по связям с общественностью и организационной работе</div></div><div class="thepodr"><input type="checkbox" value="234" rel="Бюро документооборота (Админ. Автоз. р-на)" rev="3"/> Бюро документооборота (Админ. Автоз. р-на)</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="235" rel="Управление ЖКХ (Администрация Автозаводского района)" rev="3"/> Управление ЖКХ (Администрация Автозаводского района)<div class="thepodr"><input type="checkbox" value="236" rel="Отдел территориального мониторинга" rev="4"/> Отдел территориального мониторинга</div><div class="thepodr"><input type="checkbox" value="237" rel="Сектор по вопросам ЖКХ и перепланировок (Администрация Автозаводского района)" rev="4"/> Сектор по вопросам ЖКХ и перепланировок (Администрация Автозаводского района)</div></div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="238" rel="Администрация Центрального района " rev="2"/> Администрация Центрального района <div class="thepodr"><input type="checkbox" value="240" rel="Отдел по работе с населением" rev="3"/> Отдел по работе с населением</div><div class="thepodr"><input type="checkbox" value="241" rel="Бюро документооборота" rev="3"/> Бюро документооборота</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="243" rel="Управление ЖКХ (Администрация Центрального района)" rev="3"/> Управление ЖКХ (Администрация Центрального района)<div class="thepodr"><input type="checkbox" value="244" rel="Отдел территориального мониторинга (Администрация Центрального района)" rev="4"/> Отдел территориального мониторинга (Администрация Центрального района)</div><div class="thepodr"><input type="checkbox" value="245" rel="Сектор по вопросам ЖКХ и перепланировок (Администрация Центрального района)" rev="4"/> Сектор по вопросам ЖКХ и перепланировок (Администрация Центрального района)</div></div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="246" rel="Администрация Комсомольского района " rev="2"/> Администрация Комсомольского района <div class="thepodr"><input type="checkbox" value="248" rel="Отдел по работе с населением" rev="3"/> Отдел по работе с населением</div><div class="thepodr"><input type="checkbox" value="249" rel="Бюро документооборота" rev="3"/> Бюро документооборота</div><div class="thepodr"><input type="checkbox" value="250" rel="Сектор по работе на территории микрорайона Поволжский" rev="3"/> Сектор по работе на территории микрорайона Поволжский</div><div class="thepodr"><input type="checkbox" value="251" rel="Сектор по работе на территории микрорайона Федоровка" rev="3"/> Сектор по работе на территории микрорайона Федоровка</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="252" rel="Управление ЖКХ (Администрация Комсомольского района)" rev="3"/> Управление ЖКХ (Администрация Комсомольского района)<div class="thepodr"><input type="checkbox" value="253" rel="Отдел территориального мониторинга (Администрация Комсомольского района)" rev="4"/> Отдел территориального мониторинга (Администрация Комсомольского района)</div><div class="thepodr"><input type="checkbox" value="254" rel="Сектор по вопросам ЖКХ и перепланировок(Администрация Комсомольского района)" rev="4"/> Сектор по вопросам ЖКХ и перепланировок(Администрация Комсомольского района)</div></div></div><input type="submit" class="button but_blue" value="Выбрать">
+</fieldset></form>
+</div>
+</div></div>
+</div>
+<div class="item">
+<div class="helperhead"><div class="helperheadIn"><p><span>Муниципальные и подведомственные организации</span></p></div></div>
+<div class="helperbody"><form method="post" action="/phonebook/organizations/" class="jq"><fieldset>
+<input type="text" value="Название организации" name="title" class="inputbox" onclick="if(this.value=='Название организации')this.value=''" onblur="if(this.value=='')this.value='Название организации'"><select name="type"><option value="0">Выберите тип организации</option><option value="8">Библиотека</option><option value="14">Гимназия</option><option value="12">Детский сад</option><option value="4">Институт</option><option value="11">Культурно-досуговые учреждения</option><option value="17">Лицей</option><option value="25">Межшкольный учебный комбинат</option><option value="10">Музей</option><option value="5">Музыкальная школа</option><option value="26">Муниципальное автономное учреждение культуры городского округа Тольятти "Парковый комплекс истории техники имени К.Г. Сахарова"</option><option value="27">МФЦ</option><option value="16">Образовательно-оздоровительное учреждение</option><option value="23">Предприятие</option><option value="20">Прогимназия</option><option value="15">Спортивная школа</option><option value="9">Театр</option><option value="19">Учреждение дополнительного образования детей</option><option value="24">Учреждение дополнительного профессионального образования</option><option value="21">Учреждение социально-бытового обслуживания</option><option value="7">Художественная школа</option><option value="22">Центр социальной помощи семье и детям</option><option value="13">Школа</option><option value="6">Школа искусств</option></select><select name="region"><option value="0">Выберите район</option><option value="1">Автозаводской</option><option value="2">Центральный</option><option value="3">Комсомольский</option></select><input type="submit" class="but_blue button" value="Найти">
+</fieldset></form></div>
+</div>
+<div class="item">
+<div class="helperhead"><div class="helperheadIn"><p><span>Управляющие компании</span></p></div></div>
+<div class="helperbody"><form method="post" action="/phonebook/control/" class="jq"><fieldset>
+<input type="text" value="Название компании" name="title" class="inputbox" onclick="if(this.value=='Название компании')this.value=''" onblur="if(this.value=='')this.value='Название компании'"><input type="text" value="Адрес места жительства" name="address" class="inputbox" onclick="if(this.value=='Адрес места жительства')this.value=''" onblur="if(this.value=='')this.value='Адрес места жительства'"><input type="submit" class="but_blue button" value="Найти">
+</fieldset></form></div>
+</div>
+</div>
+</div></div>
+<script type="text/javascript">
+				
+					function submit_blocker(){
+						
+						var tmp = getSerializedArray($(":checkbox:checked"), '-');
+						
+						$('#selected_podrs').html('Выбранные подразделения <input type="hidden" name="id_divisions" value="' + tmp +'">');				
+			
+
+					}
+					/**
+					 * Возващает массив в виде строки с разделителем
+					 * @param array myArr Входной массив
+					 * @param string separator Разделитель элементов
+					 * @return string
+					 */
+					function getSerializedArray( myArr, mySep ) {
+						if (mySep == '') mySep = '-';
+						var ret = '';
+						myArr.each(function(index){
+							ret = ret + $(this).val() + mySep;
+						});
+						ret = ret.substring(0, ret.length - mySep.length);
+						return ret;
+					}
+		</script><div class="banner_new_year_2022" style="min-width:996px;max-width:1220px; margin: 0 auto;"><img src="/i/banner_new_year_2023.jpg" style="display:table;width:100%;"></div>
+<div class="page">
+<div class="padding">
+<div class="centering"><div class="header">
+<div class="headerLeft">
+<div class="specialmenu"><ul>
+<li><a href="/en/">In English</a></li>
+<li><a href="" id="changeTheme" theme="eyesight">Версия для слабовидящих</a></li>
+</ul></div>
+<div class="sitename">
+<b><a href="/">Администрация городского округа Тольятти</a></b><p>официальный портал</p>
+</div>
+</div>
+<div class="logo"><a href="/"><div class="logo1" style="position: absolute;"><img src="/i/new_year2.png" style="width: 310px; left: -92px; bottom: -37px;" height="100"></div>
+<img src="/i/logo.png" height="100"><div class="logo2" style="position: absolute; right: -35px; top: -3px;"><img src="/i/tree_logo2.png" style="width: 120px;" height="100"></div></a></div>
+<div class="topSearch">
+<form method="get" action="/search/" accept-charset="utf-8">
+<input type="hidden" name="searchid" value="2698178"><input type="hidden" name="reqenc" value=""><input type="hidden" name="l10n" value="ru"><fieldset><div class="topSearchIn">
+<div class="searchInput"><input type="text" name="text" value="поиск" onclick="if(this.value=='поиск')this.value=''" onblur="if(this.value=='')this.value='поиск'" id="searchinput" size="20"></div>
+<div class="searchButton"><input type="submit" class="button" value=""></div>
+</div></fieldset>
+</form>
+<p class="tip">например: <a onclick="getElementById('searchinput').value='строительство дорог'">строительство дорог</a></p>
+<p style="margin-left: 145px; margin-top: 30px;">При некорректном отображении  информации на сайте необходимо руководствоваться следующими <a href="/structure/department/pravila-polzovaniya">Правилами</a>.</p>
+</div>
+</div></div>
+<div class="topmenu">
+<ul>
+<li class="tm1"><div>
+<a href="/togliatty/">О Тольятти</a><span class="specialpopupmenu"><span class="title"><a href="/togliatty/">О Тольятти</a></span><span class="container clear"><span class="white"></span><span class="spm_l"><a href="/tgl-in-figures/">Тольятти в цифрах</a><a href="//"></a><a href="/about/">О городе</a><a href="/structure/department/ustav-gorodskogo-okruga-tolyatti//">Устав</a><a href="/structure/department/gradostroitelstvo/">Градостроительство</a><a href="/structure/department/departament-ekonomicheskogo-razvitiya-socialno-ekonomicheskoe-razvitie//">Социально-экономическое развитие</a><a href="/history/">История</a><a href="/symbolism/">Символы</a><a href="/anniversaries/">Памятные даты</a><a href="/sworn-brothers/">Города побратимы</a><a href="/honorary/">Почетные граждане</a><a href="/statistics/">Статистика</a><a href="http://emgis.ru/" target="_blank">Карта Тольятти</a><a href="/tourism/">Туризм в Тольятти</a><a href="/photogallery/">Фото города</a></span><span class="spm_r"><span class="name">Тольятти<br>в цифрах</span><div class="spm_infgr clear">
+<div class="infgr_population">
+														685 619
+													</div>
+<div class="infgr_sexes clear">
+<p class="man"><big>45,6%</big></p>
+<p class="woman"><big>54,4%</big></p>
+</div>
+<div class="infgr_age">
+<p>40,7 <span>лет</span></p>
+<big>Средний<br>возраст</big>
+</div>
+</div></span><a href="/tgl-in-figures/" class="center">Посмотреть инфрормацию о городе</a></span></span>
+</div></li>
+<li class="active tm2"><div><a href="/rule/">Власть</a></div></li>
+<li class="tm3"><div>
+<a>Деятельность</a><div class="sssqqq" style="display:none">1</div>
+<span class="specialpopupmenu"><span class="title"><a>Деятельность</a></span><span class="container clear"><span class="white"></span><span class="spm_l"><a href="/structure/department/otdel-municipalnogo-zemelnogo-kontrolya-rassmotrenie-del-ob-administrativnyh-pravonarusheniyah/">Административная практика</a><a href="//"></a><a href="/structure/department/about-administraciya-avtozavodskogo-rayona/">Администрация Автозаводского района</a><a href="/structure/department/about-administraciya-centralnogo-rayona/">Администрация Центрального района</a><a href="/structure/department/about-administraciya-komsomolskogo-rayona/">Администрация Комсомольского района</a><a href="/structure/department/about-upravlenie-po-delam-arhivov/">Архивное дело</a><a href="/structure/department/about-departament-gradostroitelnoy-deyatelnosti/">Архитектура и градостроительство</a><a href="/../../structure/department/vzaimodeystvie-v-sfere-etnokonfessionalnyh-otnosheniy-novosti/">Вопросы этноконфессиональных отношений</a><a href="/../../structure/department/about-upravlenie-vzaimodeystviya-s-obschestvennostyu/">Взаимодействие с общественностью</a><a href="/structure/department/about-departament-gorodskogo-hozyaystva/">Городское хозяйство</a><a href="/../structure/department/gradostroitelstvo/">Градостроительство</a><a href="/structure/department/about-departament-dorozhnogo-hozyaystva-i-transporta/">Дорожное хозяйство и транспорт</a><a href="/structure/department/zhilischnye-voprosy/">Жилищные вопросы</a><a href="/structure/department/investoram//">Инвестиционная деятельность</a><a href="/structure/department/about-departament-informacionnyh-tehnologiy-i-svyazi/">Информатизация и связь</a><a href="/structure/department/about-departament-kultury/">Культура</a><a href="/structure/department/about-upravlenie-mezhdunarodnyh-i-mezhregionalnyh-svyazey/">Международные и межрегиональные связи</a><a href="/structure/department/interesnaya-informaciya-dlya-molodezhi//">Молодежная политика</a><a href="/structure/department/about-upravlenie-municipalnoy-sluzhby-i-kadrovoy-politiki/">Муниципальная служба и кадровая политика</a><a href="/structure/department/municipalniy-zemelniy-control/">Муниципальный земельный контроль</a><a href="/structure/department/about-departament-obrazovaniya/">Образование</a><a href="/structure/department/about-upravlenie-po-orgrabote-i-svyazyam-s-obschestvennostyu/">Организационная деятельность</a><a href="/structure/department/about-upravlenie-organizacii-municipalnyh-torgov/">Организация муниципальных торгов</a><a href="/structure/department/about-otdel-ohrany-truda/">Охрана труда</a><a href="/structure/department/about-departament-obschestvennoy-bezopasnosti/">Правопорядок и общественная безопасность</a><a href="/structure/department/upravlenie-po-orgrabote-i-svyazyam-s-obschestvennostyu-organizaciya-raboty-s-obrascheniyami-grazhdan/">Прием обращений граждан</a><a href="/structure/department/about-otdel-razvitiya-potrebitelskogo-rynka//">Развитие потребительского рынка</a><a href="/structure/department/predprinimatelyam/">Развитие предпринимательства</a><a href="/structure/department/razvitie-turizma//">Развитие туризма</a><a href="/structure/department/about-departament-po-voprosam-semi-opeki-i-popechitelstva/">Социальное обеспечение</a><a href="/structure/department/about-departament-po-upravleniyu-municipalnym-imuschestvom/">Управление муниципальным имуществом</a><a href="/structure/department/about-upravlenie-fizicheskoy-kultury-i-sporta/">Физическая культура и спорт</a><a href="/structure/department/about-departament-finansov/">Финансы</a><a href="/structure/department/ekologiya/">Экология</a><a href="/structure/department/about-departament-ekonomicheskogo-razvitiya/">Экономика</a></span></span></span>
+</div></li>
+<li class="tm4"><div><a href="/services/">Услуги</a></div></li>
+<li class="tm5"><div><a href="/events/">Мероприятия</a></div></li>
+<li class="tm6"><div>
+<a href="/press-center/">Пресс-центр</a><span class="specialpopupmenu pressmenu"><span class="title"><a href="/press-center/">Пресс-центр</a></span><span class="container clear"><span class="white"></span><span class="spm_l"><a href="/poll/">Опросы</a><a href="//"></a><a href="/prezentacii/">Презентации</a><a href="/news/">Новости</a><a href="/foto/">Фотогалерея</a><a href="/video/">Видео</a><a href="/tlt-285/">Тольятти - 285</a></span><span class="spm_r"><span class="spn_press"><a href="/news/item/20429-dorogie-tolyattincy/"><img src="/files/news/10_small_1672379609.jpg" alt="Дорогие тольяттинцы!" width="120" height="90"></a><a href="/news/item/20429-dorogie-tolyattincy/">Дорогие тольяттинцы!</a></span></span></span></span>
+</div></li>
+<li class="tm7"><div>
+<a href="/callback/">Обратная связь</a><span class="specialpopupmenu"><span class="title"><a href="/callback/">Обратная связь</a></span><span class="container clear"><span class="white"></span><span class="spm_l"><a href="/structure/department/o-gku-centr-zanyatosti-naseleniya-gorodskogo-okruga-tolyatti/">Центр занятости населения</a><a href="//"></a><a href="/dorozhnye-karty/">Дорожные карты</a><a href="/phonebook-employees/">Контактная информация</a><a href="/pravovoe-informirovanie-grazhdan/">Правовое информирование граждан</a><a href="/blagotvoritelnost/">Организации, оказывающие благотворительную помощь</a></span></span></span>
+</div></li>
+</ul>
+<div class="submenu"><ul>
+<li><a href="/structure/department/meriaglavn/">Администрация г.о. Тольятти</a></li>
+<li class="active"><a href="/structure/">Структура администрации</a></li>
+<li><a href="/mayor/">Глава г.о. Тольятти</a></li>
+<li><a href="/deputy-mayors/">Руководство администрации</a></li>
+<li><a href="/documentation/">Документы</a></li>
+<li><a href="/municipal-program/">Муниципальные и иные программы</a></li>
+<li><a href="/elections/">Выборы</a></li>
+<li><a href="/structure/department/prozrachnyy-byudzhet/">Бюджет для граждан</a></li>
+<li><a href="/ControlSection/control_types/">Контрольно-надзорная деятельность</a></li>
+<li><a href="/municipal-service/">Муниципальная служба</a></li>
+<li><a href="/public-discussions/">Публичные обсуждения</a></li>
+<li><a href="/AnticorruptionExpertise/">Независимая антикоррупционная экспертиза</a></li>
+<li><a href="/opendata/">Открытые данные</a></li>
+<li><a href="/structure/department/gorodproc-inform/">Прокуратура</a></li>
+<li><a href="/bdd/">ГИБДД УМВД России по г.Тольятти</a></li>
+<li><a href="/structure/department/antiterroristicheskaya-zaschischennost//">Противодействие терроризму</a></li>
+<li><a href="/structure/department/protivodeystvie-korrupcii/">Противодействие коррупции</a></li>
+</ul></div>
+</div>
+<div class="centering">
+<div class="body clear"><div class="content"><div class="power_structure">
+<div class="head"></div>
+<div class="table">
+<div class="leftCol">
+<style>
+									.jobsTitle span:nth-of-type(1) {	
+										display: inline-block;	
+										color: #004570;
+										border-bottom: 1px dashed #004570;
+										font-size: 17px;
+										font-weight:bold;
+										margin-bottom: 10px;
+										cursor: pointer;
+									}
+
+									.jobsTitle span:nth-of-type(1):hover {
+										color: #0066b3;
+										border-bottom: 1px dashed #0066b3;
+									}
+
+									.jobsBody span:nth-of-type(1) {
+										display: inline-block;
+										margin-bottom: 10px;
+										font-size: 16px;
+										font-weight:bold;
+										font-style: italic;
+									}
+
+									.jobsBody {
+										display: none;
+										margin-left: 10px;
+									
+									}
+
+									.jobsBody ul {
+										list-style: square outside;
+										margin-left: 30px;
+										margin-bottom: 15px;
+									}
+
+									.jobsBody p {
+										margin-bottom: 10px;
+									}
+
+									.jobsSend {
+										margin-top: 20px;
+										width: 400px;
+									}
+
+								</style>
+<h1>Департамент социального обеспечения</h1>
+<div class="breadcrumbs"><a href="/structure/">Структура администрации</a><span>Департамент социального обеспечения</span></div>
+<h2>Усыновление</h2>&nbsp;<div id="static_text"><p>В соответствии&nbsp;со ст.124 Семейного кодекса Российской Федерации&nbsp;&nbsp;<strong>усыновление -</strong>&nbsp;одна из приоритетных форм устройства детей, оставшихся без попечения родителей, в семью.</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;<strong>Процесс усыновления состоит из четырех этапов:</strong></p>
+<p align="center">(Глава 19 Семейного кодекса РФ)</p>
+<p align="left"><br />Этап 1. Подготовка документов для получения заключения о возможности быть усыновителем.</p>
+<p align="justify">Этап 2. Подбор ребенка.</p>
+<p align="justify">Этап 3. Судебное рассмотрение.</p>
+<p align="justify">Этап 4. Прием ребенка в семью.&nbsp;</p>
+<div align="center">&nbsp;</div>
+<p align="center">&nbsp;<strong>Этап 1. Подготовка документов для заключения о возможности быть усыновителем</strong></p>
+<div><strong>&nbsp;</strong></div>
+<p align="justify"><span style="font-size: small;" data-mce-mark="1"><strong>(информация подготовлена на основании Постановления Правительства РФ от 29.03.2000 N 275&nbsp;(ред. от 30.12.2017)&nbsp;"Об утверждении правил передачи детей на усыновление (удочерение) и осуществления контроля за условиями их жизни и воспитания в семьях усыновителей на территории Российской Федерации и Правил постановки на учет консульскими учреждениями Российской Федерации детей, являющихся гражданами Российской Федерации и усыновленных иностранными гражданами или лицами без гражданства"</strong><strong>)</strong>&nbsp;</span></p>
+<p align="justify"><span style="font-size: small;" data-mce-mark="1">Граждане Российской Федерации, желающие усыновить ребенка, подают в орган опеки и попечительства по месту своего жительства (для жителей г.о. Тольятти: </span><span style="font-size: small;" data-mce-mark="1">б-р Ленина, 15, каб. 17, тел. 54-37-69)</span><span style="font-size: small;" data-mce-mark="1">&nbsp;заявление с просьбой дать заключение о возможности быть усыновителями (далее - заявление), в котором указываются:</span></p>
+<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
+<p class="ConsPlusNormal"><span style="font-size: small;">- фамилия, имя, отчество (при наличии) граждан, желающих усыновить ребенка;</span></p>
+<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
+<p class="ConsPlusNormal"><span style="font-size: small;">- сведения о документах, удостоверяющих личность граждан, желающих усыновить ребенка;</span></p>
+<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
+<p class="ConsPlusNormal"><span style="font-size: small;">- сведения о гражданах, зарегистрированных по месту жительства гражданина, желающего усыновить ребенка;</span></p>
+<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
+<p class="ConsPlusNormal"><span style="font-size: small;">- сведения, подтверждающие отсутствие у гражданина обстоятельств, указанных в подпунктах 9 - 11 пункта 1 статьи 127 Семейного кодекса Российской Федерации (судимость);</span></p>
+<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
+<p class="ConsPlusNormal"><span style="font-size: small;">- сведения о получаемой пенсии, ее виде и размере (для лиц, основным источником доходов которых являются страховое обеспечение по обязательному пенсионному страхованию или иные пенсионные выплаты).</span></p>
+<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
+<p class="ConsPlusNormal"><span style="font-size: small;">Граждане, желающие усыновить ребенка, подтверждают своими подписями с проставлением даты подачи заявления указанные в нем сведения, а также осведомленность об ответственности за представление недостоверной либо искаженной информации в соответствии с законодательством Российской Федерации.</span></p>
+<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
+<p class="ConsPlusNormal"><span style="text-decoration: underline;"><span style="font-size: small;">К заявлению прилагаются следующие документы:</span></span></p>
+<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
+<p class="ConsPlusNormal"><span style="font-size: small;">1) краткая автобиография лица, желающего усыновить ребенка;</span></p>
+<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
+<p class="ConsPlusNormal"><span style="font-size: small;">2) справка с места работы лица, желающего усыновить ребенка, с указанием должности и размера средней заработной платы за последние 12 месяцев и (или) иной документ, подтверждающий доход указанного лица, или справка с места работы супруга (супруги) лица, желающего усыновить ребенка, с указанием должности и размера средней заработной платы за последние 12 месяцев и (или) иной документ, подтверждающий доход супруга (супруги) указанного лица;</span></p>
+<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
+<p class="ConsPlusNormal"><span style="font-size: small;">3) заключение о результатах медицинского освидетельствования граждан, намеревающихся усыновить (удочерить), взять под опеку (попечительство), в приемную или патронатную семью детей-сирот и детей, оставшихся без попечения родителей, оформленное в порядке, установленном Министерством здравоохранения Российской Федерации <span>(Приказ от 18.06.2014 г. № 290н)</span>;</span></p>
+<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
+<p class="ConsPlusNormal"><span style="font-size: small;">4) копия свидетельства о браке (если граждане, желающие усыновить ребенка, состоят в браке);</span></p>
+<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
+<p class="ConsPlusNormal"><span style="font-size: small;">5) копия свидетельства о прохождении подготовки лиц, желающих принять на воспитание в свою семью ребенка, оставшегося без попечения родителей, на территории Российской Федерации в порядке, установленном пунктом 6 статьи 127 Семейного кодекса Российской Федерации (за исключением близких родственников ребенка, а также лиц, которые являются или являлись усыновителями и в отношении которых усыновление не было отменено, и лиц, которые являются или являлись опекунами (попечителями) детей и которые не были отстранены от исполнения возложенных на них обязанностей). Форма указанного свидетельства утверждается Министерством образования и науки Российской Федерации.</span></p>
+<p align="justify"><span style="font-size: small;" data-mce-mark="1"><strong><em>Для получения&nbsp;</em><strong><em>свидетельства о прохождении подготовки лица, желающего усыновить ребенка, в порядке, установленном п. 4 ст. 127 Семейного Кодекса РФ&nbsp;</em></strong></strong><strong><strong><em>необходимо пройти&nbsp;<strong><strong><em><strong>Школу кандидатов в усыновители и приемные родители</strong></em></strong></strong></em></strong></strong><strong><strong><em>&nbsp;в&nbsp;ГКУ СО&nbsp;&laquo;Комплексный центр социального обслуживания населения Центрального округа&raquo; по адресу: г. Тольятти, ул. К. Маркса, д. 40, тел. 79-94-90.</em></strong></strong></span></p>
+<p align="justify"><span style="font-size: small;" data-mce-mark="1">Документы, указанные в п. 2, действительны в течение года со дня выдачи, документы, указанные в п. 3, действительны в течение 6 месяцев со дня выдачи.</span></p>
+<p align="justify"><strong style="font-size: small;"><em>Орган опеки и попечительства в течение 2 рабочих дней со дня подачи заявления запрашивает у соответствующих уполномоченных органов подтверждение следующих сведений,&nbsp;указанных гражданами в заявлении:</em></strong></p>
+<p align="justify"><span style="font-size: small;">а) о гражданах, зарегистрированных по месту жительства гражданина, желающего усыновить ребенка;</span></p>
+<p align="justify"><span style="font-size: small;">б) об&nbsp;отсутствии у гражданина обстоятельств, указанных в подпунктах 9 - 11 пункта 1 статьи 127 Семейного кодекса Российской Федерации.</span></p>
+<p align="justify">&nbsp;</p>
+<p align="center"><strong>ПРЕДСТАВЛЕННЫЕ ДОКУМЕНТЫ НЕ ДОЛЖНЫ СОДЕРЖАТЬ ПОДЧИСТОК, ПРИПИСОК, ЗАЧЕРКНУТЫХ СЛОВ И ИНЫХ НЕ ОГОВОРЕННЫХ ИСПРАВЛЕНИЙ,</strong></p>
+<p align="center"><strong>А ТАКЖЕ СЕРЪЕЗНЫХ ПОВЕРЕЖДЕНИЙ, НАЛИЧИЕ КОТОРЫХ НЕ ПОЗВОЛЯЕТ ОДНОЗНАЧНО ИСТОЛКОВАТЬ ИХ СОДЕРЖАНИЕ.</strong></p>
+<div align="center"><strong>&nbsp;</strong></div>
+<p align="center"><strong>&nbsp;Этап 2. Подбор ребенка</strong></p>
+<p align="justify"><strong>(информация подготовлена на основании приказа министерства социально-демографического развития Самарской области от 12.07.2012 г. № 189 &laquo;Об утверждении&nbsp;</strong><strong>Административного регламента министерства социально-демографического развития Самарской области &laquo;Передача детей-сирот и детей, оставшихся без попечения родителей, на воспитание в замещающие семьи граждан&raquo;</strong><strong>)</strong></p>
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp; После постановки на учет граждан в качестве кандидатов в усыновители специалисты органа опеки и попечительства предоставляют им информацию о ребенке, который может быть усыновлен, и выдает им направление для посещения ребенка по месту его нахождения (в детский дом, социальный приют, реабилитационный центр, дом ребенка).</p>
+<p align="justify">Направление на подбор ребенка выдается на посещение одного ребенка и действительно в течение 10 дней, с даты его выдачи.&nbsp;</p>
+<p align="justify"><strong>Кандидаты в усыновители имеют право:</strong></p>
+<p align="justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Получить подробную информацию о ребенке, по какой причине он остался без попечения родителей, сведения о наличии у него родственников, сведения о состоянии его здоровья;</p>
+<p align="justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Обратиться в медицинское учреждение для проведения независимого медицинского освидетельствования усыновляемого ребенка с участием представителя учреждения, в котором находится ребенок.</p>
+<p align="justify"><strong>Кандидаты в усыновители обязаны лично:</strong></p>
+<p align="justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Познакомиться с ребенком и установить с ним контакт;</p>
+<p align="justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Познакомиться с документами усыновляемого ребенка;</p>
+<p align="justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Подтвердить в письменной форме факт ознакомления с медицинским заключением о состоянии здоровья ребенка.</p>
+<p align="justify">Если кандидаты в усыновители не смогли подобрать для усыновления ребенка по месту жительства, они могут обратиться за получением сведений о детях, оставшихся без попечения родителей, подлежащих усыновлению, в любой орган опеки и попечительства,&nbsp;региональный&nbsp;либо федеральный банк данных о детях, оставшихся без попечения родителей.</p>
+<p align="justify">Обязательным условием получения информации о детях, оставшихся без попечения родителей из регионального или федерального банка данных, является личная подача в письменной форме заявления кандидатом в усыновители и заключение органа опеки и попечительства о возможности быть усыновителем.</p>
+<p align="justify">В случае если сведения о ребенке, которого кандидаты в усыновители хотели бы принять в свою семью, отсутствуют, специалисты органов опеки не реже одного раза в месяц уведомляют кандидатов в усыновители о поступлении (не поступлении) новых анкет детей, содержащих сведения, которые соответствуют пожеланиям кандидатов в усыновители.</p>
+<p align="justify">Граждане в 15-дневный срок со дня получения такого уведомления могут ознакомиться с новыми анкетами детей.</p>
+<p align="justify">Указанный срок может быть продлен, если заявитель в 15-дневный срок со дня получения уведомления проинформирует специалистов органов опеки, об основаниях, препятствующих ему ознакомиться с новыми анкетами детей (болезнь, служебная командировка и др.).&nbsp;</p>
+<p align="justify">Гражданин, обращающийся с просьбой о подборе ребенка, должен предъявить паспорт, а в случаях, предусмотренных законодательством Российской Федерации, иной документ, удостоверяющий личность.</p>
+<p align="justify">Присутствие обоих супругов при подборе ребенка обязательно.</p>
+<p align="justify">По вопросу подбору ребенка для усыновления&nbsp;гражданам необходимо обращаться в отдел организации деятельности по опеке, попечительству и усыновлению управления опеки и попечительства, департамента социального обеспечения администрации городского округа Тольятти &nbsp;по адресу:</p>
+<p align="center"><a href="http://go.2gis.ru/yuyb" target="_blank">г. Тольятти,</a><a href="http://portal2013.tgl.ru/admin/">&nbsp;б-р</a> Ленина, 15, каб. 17</p>
+<p align="center">телефон для консультаций 54-37-69</p>
+<p align="center">Приемные дни:&nbsp;<strong>понедельник - четверг</strong>&nbsp;с 8.00 до 12.00 и&nbsp;с 13.00 до 17.00</p>
+<p align="center">обед с 12.00 до 13.00</p>
+<p align="justify">&nbsp;</p>
+<p align="center"><strong>&nbsp;Этап 3. Судебное рассмотрение</strong></p>
+<p align="justify">(материалы подготовлены на основании главы 29 гражданско-процессуального кодекса РФ)&nbsp;</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp; Усыновление ребенка производится федеральным судом по заявлению кандидатов в усыновители, которое подается ими лично в суд по месту нахождения (жительства) ребенка.&nbsp;</p>
+<p align="justify">&nbsp;&nbsp;&nbsp; В исковом заявлении в суд об установлении усыновления ребенка указываются:</p>
+<p align="justify">1. Фамилия, имя, отчество усыновителей, место их жительства, паспортные данные, сумма среднего ежемесячного заработка, дата вступления в брак, наличие детей.</p>
+<p align="justify">2. Фамилия, имя, отчество и дата рождения усыновляемого ребенка, его место жительства, сведения о родителях усыновляемого ребенка, наличии у него братьев, сестер.</p>
+<p align="justify">3. Обстоятельства, обосновывающие просьбу усыновителей об установлении усыновления ребенка и доказательства, подтверждающие эти обстоятельства.&nbsp;</p>
+<p align="justify">К заявлению в суд должны быть приложены все документы, представленные кандидатами в усыновители на этапе&nbsp;<strong>подготовки документов для получения заключения о возможности быть усыновителем, а так же документы на усыновляемого ребенка, подготовленные органами опеки и попечительства.</strong></p>
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Дела об усыновлении детей рассматриваются в ходе закрытого судебного заседания с обязательным участием усыновителей (усыновителя), представителя органа опеки и попечительства, прокурора, ребенка, достигшего возраста четырнадцати лет, а в исключительных случаях родителей, других заинтересованных лиц и самого ребенка в возрасте от десяти до четырнадцати лет.</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Для обеспечения тайны усыновления по просьбе усыновителей могут быть изменены имя, фамилия, отчество, дата рождения усыновленного ребенка, но не более чем на три месяца, а также место его рождения.</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp; Изменение даты рождения усыновленного ребенка допускается только при усыновлении ребенка в возрасте до года. По причинам, признанным судом уважительными, изменение даты рождения усыновленного ребенка может быть разрешено при усыновлении ребенка, достигшего возраста одного года и старше.</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Решение об установлении усыновления вступает в законную силу через 10 дней с момента его вынесения.</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp; Копия решения суда об установлении усыновления ребенка, выдается усыновителям лично на руки.</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Граждане, усыновившие ребенка, самостоятельно предоставляют&nbsp;копии решения суда:</p>
+<p align="justify">- &nbsp;в органы опеки и попечительства;</p>
+<p align="justify">- &nbsp;в ЗАГС по месту вынесения решения для государственной регистрации усыновленного ребенка;</p>
+<p align="justify">- в государственное учреждение, где находился ребенок до вынесения решения об усыновлении;</p>
+<p align="justify">- &nbsp;в ГКУ СО &laquo;Областной Центр помощи детям, оставшимся без попечения родителей&raquo; для назначения и выплаты единовременного пособия при усыновлении</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;<strong>Этап 4. Прием ребенка в семью</strong></p>
+<div>После вступления решения суда в законную силу усыновитель обязан лично забрать ребенка из детского дома (приюта, реабилитационного центра).</div>
+<div>Усыновленные дети по отношению к усыновителям приравниваются в личных неимущественных и имущественных правах и обязанностях к родственникам по происхождению.</div>
+<div>Усыновленные дети утрачивают личные неимущественные и имущественные права и освобождаются от обязанностей по отношению к своим родителям (своим родственникам).</div>
+<div>Ребенок, имеющий к моменту своего усыновления право на пенсию и пособия, полагающиеся ему в связи со смертью родителей, сохраняет это право и при его усыновлении.</div>
+<div>Органы опеки и попечительства в течение трех лет (а в случае возникновения особых обстоятельств и более) наблюдают за условиями содержания и воспитания усыновленного ребенка.</div>
+<div align="center">&nbsp;</div>
+<div align="center"><strong>При усыновлении ребенка гражданам РФ выплачивается единовременное пособие,</strong></div>
+<div align="center"><strong>в</strong>&nbsp;<strong>размере 26 759 руб. 09 коп.&nbsp;</strong>(размер пособия установлен на период 2018 года)</div>
+<div align="center">&nbsp;</div>
+<div style="text-align: center;" align="center"><span style="font-size: small;"><strong>&nbsp;В случае усыновления ребенка-инвалида, ребенка в возрасте старше семи лет, а также детей, являющихся братьями и (или) сестрами, размер этого пособия составляет 128 053,08 рублей на каждого такого ребенка</strong> - ст.ст. 12.1-12.2 Федерального закона РФ от 19.05.1995 № 81-ФЗ "О государственных пособиях гражданам, имеющим детей" (<span style="text-align: justify; line-height: 16px; widows: 1; text-transform: none; background-color: #ffffff; font-variant: normal; font-style: normal; text-indent: 0px; display: inline !important; font-family: Tahoma; white-space: normal; float: none; letter-spacing: normal; color: #000000; font-weight: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px;">выплата относится ко всем усыновлениям, судебные решения по которым вступили в силу после 1 января 2013 года.)</span></span></div>
+<div align="center">&nbsp;</div>
+<div>За назначением и выплатой единовременного пособия, гражданам,&nbsp;усыновившим детей, необходимо обращаться&nbsp;в&nbsp;</div>
+<div><strong>ГКУСО &laquo;Областной центр содействия семейному устройству детей-сирот и детей, оставшихся без попечения родителей, <strong>&laquo;</strong>Надежда&raquo;, расположенный по адресу: </strong></div>
+<div><strong>г. Самара, проспект К. Маркса, д. 448 А, тел. 8(846) 956 06 56</strong></div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&nbsp;8(846) 956 06 01</strong></div>
+<div><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8(846) 331 10 97</strong></div>
+<div>&nbsp;</div>
+<div>Маршрут проезда: автобус №№ 21,41, трамвай №№ 21,22,24,24к,25, маршрутное такси №№ 89,264,297 до остановки &ldquo;Рынок 15-го микрорайона&rdquo;</div>
+<div align="center">Ориентир:&nbsp; Психоневрологический диспансер (ул. Ташкентская, 100), рынок 15-го микрорайона</div>
+<div><strong>&nbsp;</strong></div>
+<div>К заявлению о назначении единовременного пособия усыновителям (одному из усыновителей) необходимо предоставить следующие документы:</div>
+<div>- копию вступившего в законную силу решения суда об усыновлении;</div>
+<div>- копию свидетельства о рождении усыновленного ребенка;</div>
+<div>- реквизиты лицевого счета заявления (копии сберкнижки, открытой в сбербанке РФ, реквизитов данного отделения Сбербанка РФ).</div>
+<p align="justify">&nbsp;</p>
+<hr />
+<p align="center">&nbsp;<strong>Органы, рассматривающие вопросы усыновления ребенка, оставшегося без попечения родителей</strong></p>
+<p>-<em> По вопросу усыновления ребенка, оставшегося без попечения родителей (<strong>из государственной организации</strong>)&nbsp;необходимо обратиться</em>:</p>
+<ul>
+<li>в департамент социального обеспечения администрации городского округа Тольятти расположенному по адресу:<a href="http://go.2gis.ru/yuyb" target="_blank">г. Тольятти,</a><a href="http://portal2013.tgl.ru/admin/">&nbsp;б-</a>р Ленина, 15, каб. 17, тел. 54-37-69.&nbsp;Приемные дни: понедельник - четверг, с 8.30 до 11.30 и&nbsp;с 13.00 до 16.30, перерыв на обед с 12.00 до 13.00</li>
+</ul>
+<p>При себе необходимо иметь следующие документы (оригинал):</p>
+<ul>
+<ul>
+<li>документ, удостоверяющие личность;</li>
+<li>свидетельство о регистрации брака;</li>
+<li>для одиноких граждан - свидетельство о рождении.</li>
+</ul>
+</ul>
+<blockquote>
+<p>Присутствие обоих супругов обязательно.</p>
+</blockquote>
+<p>&nbsp;-<em>&nbsp;За консультацией по вопросу усыновления ребенка&nbsp;<strong>одним из супругов</strong>&nbsp;(отчимом, мачехой) необходимо обратиться</em>:</p>
+<ul>
+<li>в департамент социального обеспечения администрации городского округа Тольятти расположенному по адресу:<a href="http://go.2gis.ru/yuyb" target="_blank">г. Тольятти,</a><a href="http://portal2013.tgl.ru/admin/">&nbsp;</a>б-р Ленина, 15, каб. 17, тел. 54-37-69.&nbsp;Приемные дни: понедельник - четверг, с 8.30 до 11.30 и&nbsp;с 13.00 до 16.30, перерыв на обед с 12.00 до 13.00</li>
+</ul>
+<p dir="ltr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; При себе необходимо иметь оригиналы документов:</p>
+<ul>
+<ul>
+<li>документы, удостоверяющие личность&nbsp;заявителей;</li>
+<li>свидетельство о рождении ребенка;</li>
+<li>
+<p>свидетельство о заключении брака;</p>
+</li>
+</ul>
+</ul>
+<blockquote>
+<p>В случае если ребенок рожден в браке,&nbsp;необходимо предоставить один из следующих документов:</p>
+</blockquote>
+<ul>
+<ul>
+<li>согласие родного отца/матери, удостоверенное нотариусом;</li>
+<li>свидетельство о смерти;</li>
+<li>решение суда о признании неизвестными;</li>
+<li>решение суда о признании безвестно отсутствующим;</li>
+<li>решение суда о признании недееспособным;</li>
+<li>решение суда о лишении родительских прав.</li>
+</ul>
+</ul>
+<blockquote dir="ltr">
+<blockquote dir="ltr">
+<p>В случае если ребенок рожден вне брака, документы не представляют.</p>
+</blockquote>
+<p>Присутствие обоих супругов обязательно.</p>
+</blockquote>
+<p>Согласно ст.269 Гражданского процессуального кодекса РФ,&nbsp;заявление об усыновлении или удочерении подается гражданами Российской Федерации, желающими усыновить ребенка, в районный суд по месту жительства или месту нахождения усыновляемого ребенка.</p>
+<p>В заявлении об усыновлении (ст. 270 ГПК РФ)&nbsp;должны быть указаны:&nbsp;</p>
+<ul>
+<li>фамилия, имя, отчество усыновителей (усыновителя), место их жительства;</li>
+<li>фамилия, имя, отчество и дата рождения усыновляемого ребенка, его место жительства или место нахождения, сведения о родителях усыновляемого ребенка, наличии у него братьев и сестер;</li>
+<li>обстоятельства, обосновывающие просьбу усыновителей (усыновителя) об усыновлении ребенка, и документы, подтверждающие эти обстоятельства;</li>
+<li>просьба об изменении фамилии, имени, отчества, места рождения усыновляемого ребенка, а также даты его рождения (при усыновлении ребенка в возрасте до года), о записи усыновителей (усыновителя) родителями (родителем) в записи акта о рождении.</li>
+</ul>
+<p>&nbsp;</p>
+<p>К заявлению об усыновлении должны быть приложены:</p>
+<ul>
+<li>копия свидетельства о браке усыновителя с матерью (отцом) усыновляемого ребенка;</li>
+<li>согласие матери (отца) на усыновление ребенка;</li>
+<li>медицинское заключение о состоянии здоровья усыновителя (утвержденное приказом министерства здравоохранения РФ от 18.06.2014 №290н);</li>
+<li>документ, подтверждающий право пользования жилым помещением или право собственности на жилое помещение.</li>
+</ul>
+<p>Суд при необходимости может затребовать и иные документы.</p>
+<p>Судья при подготовке дела к судебному разбирательству обязывает органы опеки и попечительства по месту жительства или месту нахождения усыновляемого ребенка представить в суд заключение об обоснованности и о соответствии усыновления интересам усыновляемого ребенка<br /><br /></p></div>
+<style>
+			#npoll h1 {text-align:center;}
+			#npoll h2 {font-size:13px; color:#0066b3; line-height:22px; margin-top:20px;}
+			#npoll h3 {font: italic bold 22px Georgia, serif; text-align:center; margin:10px 0;color:#0066b3; margin-bottom:30px;}
+			#npoll h4 {margin-bottom:20px; font-size:16px; margin-top:20px;}
+			
+			#npoll .polls {padding-left: 100px;}
+			#npoll .poll {background:#fff; margin:20px; padding:20px 40px 25px; border: 1px solid #d9d9d9; border-radius:3px;}
+			
+			#npoll .answer {margin-bottom:10px;}
+			#npoll .answer p {font-size:13px; margin-bottom:5px;}
+			#npoll .answer .counters {float:right;}
+			#npoll .bar {background:#ccc; height:4px; border-radius:1px;}
+			#npoll .bar span {background:#0066b3;height:4px;}
+			#npoll .year {margin-bottom:30px;}
+			#npoll .year p {
+				color:#0066b3;
+				font-weight:bold;
+				font-size:14px;
+				border:1px solid rgb(57, 153, 226);
+				display:inline-block;
+				padding:1px 4px;
+				border-radius:2px;
+				background:#fff;
+				cursor:default;
+				margin-bottom:0;
+			}
+			#npoll .titles li { margin-top:10px;}
+			#npoll label {font-size:12px;}
+			#npoll .show-result-poll {float:right; margin-top:7px;}
+			#npoll .counters {font-size:12px; color}
+			#npoll .poll {width:600px; margin:0 auto;}			
+		</style>
+<script>
+
+			function pollVote( id, poll ) {
+				var vote = $(poll).parent().serialize();
+				$.ajax({
+					url: '/poll/pollVoteAdm/',
+					type: 'POST',
+					data: {
+						poll_id: id,
+						vote: vote
+					},
+					success: function( d ) {
+						switch(d) {
+							case 'err_code_5' :
+								alert('Вы должны ответить на все вопросы.');
+								return false;
+								break;
+							case 'err_code_6' :
+								alert('Пожалуйста, заполните все поля');
+								return false;
+								break;
+							case 'err_code_7' :
+								alert('Ваш голос уже учтён');
+								return false;
+								break;
+							case 'err_code_8' :
+								alert('Неверный код подтверждения, повторите попытку');
+								$(poll).parent().find('img').attr('src', 'core/library/captcha/index.php?'+Math.random());
+								return false;
+								break;
+							case 'err_code_9':
+								alert('Имя пользователя может содержать не более 25 символов');
+								$(poll).parent().find('img').attr('src', 'core/library/captcha/index.php?'+Math.random());
+								return false;
+								break;
+							case 'err_code_10':
+								alert('Сообщение может содержать не более 250 символов');
+								$(poll).parent().find('img').attr('src', 'core/library/captcha/index.php?'+Math.random());
+								return false;
+								break;
+							case 'Спасибо за Ваш ответ!' :
+								alert('Спасибо за Ваш ответ!');
+								pollResult(id, poll);
+								break;
+							
+							case 'success_1' :
+								alert('Ваш коментарий будет опубликован после проверки модератором');
+								pollResult(id, poll);
+								break;
+							case 'success_0' :
+								pollResult(id, poll);
+								break;
+							default:
+								alert(d);
+						}
+						
+
+						
+					}
+				});
+			}
+
+
+
+
+			function pollResult( id, poll ) {
+				$.ajax({
+					url: '/poll/pollResult/',
+					type: 'POST',
+					data: {
+						id: id
+					},
+					success: function( d ) {
+						$(poll).parent().hide().parent().append(d);
+						//$(poll).parent().hide().parent().parent().find('.pollresults').html(d);
+					}
+				});
+			}
+
+			function backToPoll( poll ) {
+				$(poll).parent().parent().parent();
+				$(ch).show();
+				$(poll).parent().parent().parent().detach();
+
+			}
+
+			function pageWithComments( element, offset, poll_id ) {
+				
+				$.ajax({
+					url: '/poll/pageWithComments/',
+					type: 'POST',
+					data: {
+						poll_id: poll_id,
+						offset: offset
+					},
+					success: function( d ) {
+						if(d == 'error1') return false;
+						if(!d) return false;
+						$(element).parent().hide().after(d);
+					}
+				});
+			}
+
+			function prevComment( element ) {
+					if ( $(element).parent().prev().is('div') ) {
+						$(element).parent().hide().prev().show();
+					}
+			}
+
+			$(document).ready(function() {
+				//$('.poll label').live('click', function() {
+				//	$('.comment-form').hide();
+				//});
+
+				$('.poll label').live('click', function() {
+					if ( $(this).find('input').hasClass('custom-answer') ) {
+						$(this).parent().parent().parent().find('.comment-form').removeClass('hide');
+						$(this).parent().parent().parent().find('.captcha-block').removeClass('hide');
+					} else {
+						$(this).parent().parent().parent().find('.comment-form').addClass('hide');
+						$(this).parent().parent().parent().find('.captcha-block').addClass('hide');
+					}
+				});	
+				
+				
+				$('.radio').click(function(){
+					name = $(this).find('input').attr('name')
+					if (name == 133) {
+						val = $(this).find('input').val()
+						console.log(val)
+						if(val == 475 || val == 476){
+							$('input[name=134]').attr('disabled','disabled')
+							$('input[name=135]').attr('disabled','disabled')
+						}
+						else{
+							$('input[name=134]').removeAttr('disabled')
+							$('input[name=135]').removeAttr('disabled')
+						}						
+					}
+					$('.checkbox input[name="'+name+'"]').removeAttr("checked");
+				})
+				
+				$('.checkbox').click(function(){
+					name = $(this).find('input').attr('name')
+					if (name == 70){
+						chk = $('input[name=70]:checked').length
+						if (chk > 3){
+							alert ("Вы можете выбрать только 3 варианта ответа!")
+							$(this).find('input').removeAttr("checked");
+						}
+					}
+					if (name == 74){
+						chk = $('input[name=74]:checked').length
+						if (chk > 2){
+							alert ("Вы можете выбрать только 2 варианта ответа!")
+							$(this).find('input').removeAttr("checked");
+						}
+					}
+					$('.radio input[name="'+name+'"]').removeAttr("checked");
+					console.log(name)
+				})
+			});	
+			
+		</script><div id="npoll" class="indexpoll clear"></div>
+<div class="press_question_polls"></div>
+<div class="questionary"></div>
+</div>
+<div class="rightCol">
+<div class="icons">
+<a href="/print/s/665//" class="print"></a><a href="#" class="bookmark" onclick="return addFav( this );" title="Добавить в закладки"></a><a href="#" class="mail"></a><img src="../i/senderror.png" title="Отправить сообщение об ошибке" alt="Отправить сообщение об ошибке" class="senderror" style="margin-top: 10px; display:block; cursor: pointer;"><div class="clearfix"> </div>
+</div>
+<a href="/structure/" class="but_gray goback"><span>Вернуться в структуру</span></a><div class="sidemenu"><ul><li><a href="/structure/department/about-departament-po-voprosam-semi-opeki-i-popechitelstva/"><i></i><u>О подразделении</u></a></li></li><li><a href="/documentation/?departments=6"><i></i><u>Нормативные правовые акты</u></a></li></li><li><a href="/structure/department/departament-po-voprosam-semi-opeki-i-popechitelstv-municipalnye-i-inye-programmy/"><i></i><u>Муниципальные и иные программы</u></a></li></li><li><a href="/services/searchparams/?departments=6"><i></i><u>Услуги</u></a></li></li><li><a href="/structure/department/poryadok-oformleniya-dokumentov/"><i></i><u>Порядок оформления документов</u></a></li></li><li><a href="/structure/department/formy-zayavleniy-blankov/"><i></i><u>Формы заявлений бланков</u></a></li></li><li><a href="/structure/department/opeka-i-popechitelstvo/"><i></i><u>Опека и попечительство</u></a></li></li><li><a href="/structure/department/dopolnitelnye-mery-socialnoy-podderzhki-naseleniya/"><i></i><u>Дополнительные меры социальной поддержки населения</u></a></li></li><li><a href="/structure/department/../../needfamily/"><i></i><u>Нам нужна семья</u></a></li></li><li><a href="/structure/department/departament-po-voprosam-semi-opeki-i-popechitelstva-informaciya-dlya-roditeley-detey-invalidov/"><i></i><u>Информация для маломобильных граждан</u></a></li></li><li><a href="/structure/department/zozh-novosti/"><i></i><u>Укрепление общественного здоровья, ЗОЖ</u></a></li></li><li><a href="/structure/department/besplatnaya-yuridicheskaya-pomosch/"><i></i><u>Бесплатная юридическая помощь</u></a></li></li><li><a href="http://63.rospotrebnadzor.ru"><i></i><u>Информация от Роспотребнадзора Самарской области</u></a></li></li></ul></div><a class="openPhoneHelperNew" href="https://tgl.ru/phonebook-employees/search/?last_name=&first_name=&middle_name=&phonenum=&id_divisions=170-176-177-178-179-181-182-183-294-315-336"> <u>Телефонный<br />справочник</u> </a></div>
+</div>
+</div></div></div>
+<div class="botmenuWrapper">
+<a class="showmenu"><u>Весь сайт</u></a><div class="botmenu"><div class="table">
+<div class="col">
+<p class="title"><a href="/togliatty/">О Тольятти</a></p>
+<ul>
+<li><a href="/tgl-in-figures/">Тольятти в цифрах</a></li>
+<li><a href="//"></a></li>
+<li><a href="/about/">О городе</a></li>
+<li><a href="/structure/department/ustav-gorodskogo-okruga-tolyatti//">Устав</a></li>
+<li><a href="/structure/department/gradostroitelstvo/">Градостроительство</a></li>
+<li><a href="/structure/department/departament-ekonomicheskogo-razvitiya-socialno-ekonomicheskoe-razvitie//">Социально-экономическое развитие</a></li>
+<li><a href="/history/">История</a></li>
+<li><a href="/symbolism/">Символы</a></li>
+<li><a href="/anniversaries/">Памятные даты</a></li>
+<li><a href="/sworn-brothers/">Города побратимы</a></li>
+<li><a href="/honorary/">Почетные граждане</a></li>
+<li><a href="/statistics/">Статистика</a></li>
+<li><a href="/http://emgis.ru//">Карта Тольятти</a></li>
+<li><a href="/tourism/">Туризм в Тольятти</a></li>
+<li><a href="/photogallery/">Фото города</a></li>
+</ul>
+</div>
+<div class="col">
+<p class="title"><a href="/rule/">Власть</a></p>
+<ul>
+<li><a href="/structure/department/meriaglavn/">Администрация г.о. Тольятти</a></li>
+<li><a href="//"></a></li>
+<li><a href="/structure/">Структура администрации</a></li>
+<li><a href="/mayor/">Глава г.о. Тольятти</a></li>
+<li><a href="/deputy-mayors/">Руководство администрации</a></li>
+<li><a href="/documentation/">Документы</a></li>
+<li><a href="/municipal-program/">Муниципальные и иные программы</a></li>
+<li><a href="/elections/">Выборы</a></li>
+<li><a href="/structure/department/prozrachnyy-byudzhet/">Бюджет для граждан</a></li>
+<li><a href="/ControlSection/control_types/">Контрольно-надзорная деятельность</a></li>
+<li><a href="/municipal-service/">Муниципальная служба</a></li>
+<li><a href="/public-discussions/">Публичные обсуждения</a></li>
+<li><a href="/AnticorruptionExpertise/">Независимая антикоррупционная экспертиза</a></li>
+<li><a href="/opendata/">Открытые данные</a></li>
+<li><a href="/structure/department/gorodproc-inform/">Прокуратура</a></li>
+<li><a href="/bdd/">ГИБДД УМВД России по г.Тольятти</a></li>
+<li><a href="/structure/department/antiterroristicheskaya-zaschischennost//">Противодействие терроризму</a></li>
+<li><a href="/structure/department/protivodeystvie-korrupcii/">Противодействие коррупции</a></li>
+</ul>
+</div>
+<div class="col">
+<p class="title"><a href="/activity/">Деятельность</a></p>
+<ul>
+<li><a href="/structure/department/otdel-municipalnogo-zemelnogo-kontrolya-rassmotrenie-del-ob-administrativnyh-pravonarusheniyah/">Административная практика</a></li>
+<li><a href="//"></a></li>
+<li><a href="/structure/department/about-administraciya-avtozavodskogo-rayona/">Администрация Автозаводского района</a></li>
+<li><a href="/structure/department/about-administraciya-centralnogo-rayona/">Администрация Центрального района</a></li>
+<li><a href="/structure/department/about-administraciya-komsomolskogo-rayona/">Администрация Комсомольского района</a></li>
+<li><a href="/structure/department/about-upravlenie-po-delam-arhivov/">Архивное дело</a></li>
+<li><a href="/structure/department/about-departament-gradostroitelnoy-deyatelnosti/">Архитектура и градостроительство</a></li>
+<li><a href="/../../structure/department/vzaimodeystvie-v-sfere-etnokonfessionalnyh-otnosheniy-novosti/">Вопросы этноконфессиональных отношений</a></li>
+<li><a href="/../../structure/department/about-upravlenie-vzaimodeystviya-s-obschestvennostyu/">Взаимодействие с общественностью</a></li>
+<li><a href="/structure/department/about-departament-gorodskogo-hozyaystva/">Городское хозяйство</a></li>
+<li><a href="/../structure/department/gradostroitelstvo/">Градостроительство</a></li>
+<li><a href="/structure/department/about-departament-dorozhnogo-hozyaystva-i-transporta/">Дорожное хозяйство и транспорт</a></li>
+<li><a href="/structure/department/zhilischnye-voprosy/">Жилищные вопросы</a></li>
+<li><a href="/structure/department/investoram//">Инвестиционная деятельность</a></li>
+<li><a href="/structure/department/about-departament-informacionnyh-tehnologiy-i-svyazi/">Информатизация и связь</a></li>
+<li><a href="/structure/department/about-departament-kultury/">Культура</a></li>
+<li><a href="/structure/department/about-upravlenie-mezhdunarodnyh-i-mezhregionalnyh-svyazey/">Международные и межрегиональные связи</a></li>
+<li><a href="/structure/department/interesnaya-informaciya-dlya-molodezhi//">Молодежная политика</a></li>
+<li><a href="/structure/department/about-upravlenie-municipalnoy-sluzhby-i-kadrovoy-politiki/">Муниципальная служба и кадровая политика</a></li>
+<li><a href="/structure/department/municipalniy-zemelniy-control/">Муниципальный земельный контроль</a></li>
+<li><a href="/structure/department/about-departament-obrazovaniya/">Образование</a></li>
+<li><a href="/structure/department/about-upravlenie-po-orgrabote-i-svyazyam-s-obschestvennostyu/">Организационная деятельность</a></li>
+<li><a href="/structure/department/about-upravlenie-organizacii-municipalnyh-torgov/">Организация муниципальных торгов</a></li>
+<li><a href="/structure/department/about-otdel-ohrany-truda/">Охрана труда</a></li>
+<li><a href="/structure/department/about-departament-obschestvennoy-bezopasnosti/">Правопорядок и общественная безопасность</a></li>
+<li><a href="/structure/department/upravlenie-po-orgrabote-i-svyazyam-s-obschestvennostyu-organizaciya-raboty-s-obrascheniyami-grazhdan/">Прием обращений граждан</a></li>
+<li><a href="/structure/department/about-otdel-razvitiya-potrebitelskogo-rynka//">Развитие потребительского рынка</a></li>
+<li><a href="/structure/department/predprinimatelyam/">Развитие предпринимательства</a></li>
+<li><a href="/structure/department/razvitie-turizma//">Развитие туризма</a></li>
+<li><a href="/structure/department/about-departament-po-voprosam-semi-opeki-i-popechitelstva/">Социальное обеспечение</a></li>
+<li><a href="/structure/department/about-departament-po-upravleniyu-municipalnym-imuschestvom/">Управление муниципальным имуществом</a></li>
+<li><a href="/structure/department/about-upravlenie-fizicheskoy-kultury-i-sporta/">Физическая культура и спорт</a></li>
+<li><a href="/structure/department/about-departament-finansov/">Финансы</a></li>
+<li><a href="/structure/department/ekologiya/">Экология</a></li>
+<li><a href="/structure/department/about-departament-ekonomicheskogo-razvitiya/">Экономика</a></li>
+</ul>
+</div>
+<div class="col"><p class="title"><a href="/services/">Услуги</a></p></div>
+<div class="col"><p class="title"><a href="/events/">Мероприятия</a></p></div>
+<div class="col">
+<p class="title"><a href="/press-center/">Пресс-центр</a></p>
+<ul>
+<li><a href="/poll/">Опросы</a></li>
+<li><a href="//"></a></li>
+<li><a href="/prezentacii/">Презентации</a></li>
+<li><a href="/news/">Новости</a></li>
+<li><a href="/foto/">Фотогалерея</a></li>
+<li><a href="/video/">Видео</a></li>
+<li><a href="/tlt-285/">Тольятти - 285</a></li>
+</ul>
+</div>
+<div class="col">
+<p class="title"><a href="/callback/">Обратная связь</a></p>
+<ul>
+<li><a href="/structure/department/o-gku-centr-zanyatosti-naseleniya-gorodskogo-okruga-tolyatti/">Центр занятости населения</a></li>
+<li><a href="//"></a></li>
+<li><a href="/dorozhnye-karty/">Дорожные карты</a></li>
+<li><a href="/phonebook-employees/">Контактная информация</a></li>
+<li><a href="/pravovoe-informirovanie-grazhdan/">Правовое информирование граждан</a></li>
+<li><a href="/blagotvoritelnost/">Организации, оказывающие благотворительную помощь</a></li>
+</ul>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<div class="new_year" style=""></div>
+<div class="footerIn">
+<div class="logo_small"><img src="/i/logo_small.png" width="34" height="40"></div>
+<div class="copy">
+<p>
+					© 2004–2021. Администрация городского округа Тольятти<br>
+					445011 Россия, г. Тольятти, пл.Свободы, 4<br>
+					Факс: 8(8482)54-36-66<br>
+					Эл. почта: <a href="mailto:tgl@tgl.ru">tgl@tgl.ru</a><br>
+				 	Законодательная карта портала: <a href="/structure/department/zakonodatelnaya-karta-portala/">перейти</a><br><a href="/sitemap/">Карта сайта</a><br>
+				 	Техническая поддержка: <a href="mailto:portal@tgl.ru">portal@tgl.ru</a></p>
+				Все материалы сайта доступны по лицензии:<br><a href="http://creativecommons.org/licenses/by/4.0/deed.ru" target="_blank">Creative Commons Attribution 4.0 International</a><br><br>
+					Обнародование и дальнейшее использование изображения гражданина<br>(в том числе его фотографии, а также видеозаписи или произведения <br>изобразительного искусства, в которых он изображен) осуществляется<br>в соответствии с действующим законодательством<br>(Гражданским кодексом РФ, Федеральным законом от 27.07.2006г. №152-ФЗ "О персональных данных")
+				</div>
+<div class="counters" style="margin-top: 15px;">
+<script type="text/javascript" src="/js/cLI.js"></script><script type="text/javascript" src="/js/cMail.js"></script><a href="https://metrika.yandex.ru/stat/?id=10434451" target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/10434451/1_0_FFFFFFFF_FFFFFFFF_0_pageviews" style="width:80px; height:15px; border:0;" alt="yainformer" title="countYandex"></a><script type="text/javascript">
+       (function(d, t, p) {
+           var j = d.createElement(t); j.async = true; j.type = "text/javascript";
+           j.src = ("https:" == p ? "https:" : "http:") + "//stat.sputnik.ru/cnt.js";
+           var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
+       })(document, "script", document.location.protocol);
+    </script><img height="31" src="http://stat.sputnik.ru/informer?domain=tgl.ru&amp;tz=240" title="Просмотры, визиты, посетители за текущие сутки" width="88">
+</div>
+</div>
+<div></div>
+</div>
+</div>
+<div class="popupWrapper" id="mailPopup"><div class="popup">
+<p class="title">Запомнить страницу</p>
+<a class="closePopup"></a><div class="newsSubscribe"><form method="post" action="" id="mailForm"><fieldset>
+<label for="emailMail">Ваша электронная почта</label><input type="text" name="emailMail" id="emailMail" size="20" class="inputbox"><input type="submit" class="button_send button" value="Отправить" disabled>
+</fieldset></form></div>
+</div></div>
+<div style="display:none;"><script type="text/javascript">
+	 (function(w, c) {
+		 (w[c] = w[c] || []).push(function() {
+			 try {
+				 w.yaCounter10434451 = new Ya.Metrika({id:10434451, enableAll: true});
+			 }
+			 catch(e) { }
+		 });
+	 })(window, "yandex_metrika_callbacks");
+	 </script></div>
+<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript" defer></script><noscript><div><img src="//mc.yandex.ru/watch/10434451" style="position:absolute; left:-9999px;" alt=""></div></noscript>
+</body></html>
