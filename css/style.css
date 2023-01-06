@@ -173,6 +173,13 @@ textarea:focus {
   color: #fff;
 }
 
+.contact-section {
+  border-color: #dedede;
+  background: rgb(241, 242, 227);
+  color: #fff;
+}
+
+
 .btn-solid-border {
   border-color: #dedede;
   background: transparent;
