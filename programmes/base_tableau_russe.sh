@@ -18,8 +18,8 @@ then
 	exit
 fi
 
-mot=grep"(У|у)(сынов|дочер)[а-я]*" 
-compte=$mot | wc
+mot="(У|у)(сынов|дочер)[а-я]*" 
+
 
 echo $fichier_urls;
 basename=$(basename -s .txt $fichier_urls)
@@ -62,22 +62,16 @@ while read -r URL; do
 					dump=$(echo $dump | iconv -f $charset -t UTF-8//IGNORE)
 			fi
 		else
-			echo -e "\tcode différent de 200 utilisation d'un dump vide"
-			dump=""
-			charset=""
+			continue
 	fi
 	
 echo "$dump" > ./dumps_text/$basename-$lineno.txt
 	
 	fichierDump=./dumps_text/$basename-$lineno.txt
 	
-	mot="(У|у)(сынов|дочер)[а-я]*"
-	
-	
 			compte=$(egrep $mot -wc $fichierDump)
 			contexte=$(egrep -B 2 -A 2 $mot $fichierDump)
-			echo "$contexte" >  ./contextes/$basename-$lineno.txt
-		
+			echo "$contexte" >  ./contextes/$basename-$lineno.txt		
 		
 	echo "<tr><td>$lineno</td><td>$code</td><td><a href=\"$URL\">$URL</a></td><td>$charset</td><td>$compte</td></tr>" >> ./tableau/$fichier_tableau
 	echo -e "\t--------------------------------"

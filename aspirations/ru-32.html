@@ -1,470 +1,492 @@
-<head>
-    <meta charset="UTF-8" />
-</head>
-
-<script src='https://pos.gosuslugi.ru/bin/script.min.js'></script> 
-<style>
-#js-show-iframe-wrapper{position:relative;display:flex;align-items:center;justify-content:center;width:100%;min-width:293px;max-width:100%;background:linear-gradient(138.4deg,#38bafe 26.49%,#2d73bc 79.45%);color:#fff;cursor:pointer}#js-show-iframe-wrapper .pos-banner-fluid *{box-sizing:border-box}#js-show-iframe-wrapper .pos-banner-fluid .pos-banner-btn_2{display:block;width:240px;min-height:56px;font-size:18px;line-height:24px;cursor:pointer;background:#0d4cd3;color:#fff;border:none;border-radius:8px;outline:0}#js-show-iframe-wrapper .pos-banner-fluid .pos-banner-btn_2:hover{background:#1d5deb}#js-show-iframe-wrapper .pos-banner-fluid .pos-banner-btn_2:focus{background:#2a63ad}#js-show-iframe-wrapper .pos-banner-fluid .pos-banner-btn_2:active{background:#2a63ad}@-webkit-keyframes fadeInFromNone{0%{display:none;opacity:0}1%{display:block;opacity:0}100%{display:block;opacity:1}}@keyframes fadeInFromNone{0%{display:none;opacity:0}1%{display:block;opacity:0}100%{display:block;opacity:1}}@font-face{font-family:LatoWebLight;src:url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Light.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Light.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Light.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:LatoWeb;src:url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Regular.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Regular.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Regular.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:LatoWebBold;src:url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Bold.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Bold.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Lato/fonts/Lato-Bold.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:RobotoWebLight;src:url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Light.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Light.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Light.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:RobotoWebRegular;src:url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Regular.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Regular.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Regular.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:RobotoWebBold;src:url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Bold.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Bold.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Roboto/Roboto-Bold.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:ScadaWebRegular;src:url(https://pos.gosuslugi.ru/bin/fonts/Scada/Scada-Regular.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Scada/Scada-Regular.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Scada/Scada-Regular.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:ScadaWebBold;src:url(https://pos.gosuslugi.ru/bin/fonts/Scada/Scada-Bold.woff2) format("woff2"),url(https://pos.gosuslugi.ru/bin/fonts/Scada/Scada-Bold.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Scada/Scada-Bold.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:Geometria;src:url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria.eot);src:url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria.eot?#iefix) format("embedded-opentype"),url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:Geometria-ExtraBold;src:url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria-ExtraBold.eot);src:url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria-ExtraBold.eot?#iefix) format("embedded-opentype"),url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria-ExtraBold.woff) format("woff"),url(https://pos.gosuslugi.ru/bin/fonts/Geometria/Geometria-ExtraBold.ttf) format("truetype");font-weight:800;font-style:normal}
-</style>
-
-<style>
-#js-show-iframe-wrapper{background:var(--pos-banner-fluid-5__background)}#js-show-iframe-wrapper .pos-banner-fluid .pos-banner-btn_2{width:100%;min-height:52px;background:#fff;color:#0b1f33;font-size:16px;font-family:LatoWeb,sans-serif;font-weight:400;padding:0;line-height:1.2}#js-show-iframe-wrapper .pos-banner-fluid .pos-banner-btn_2:active,#js-show-iframe-wrapper .pos-banner-fluid .pos-banner-btn_2:focus,#js-show-iframe-wrapper .pos-banner-fluid .pos-banner-btn_2:hover{background:#e4ecfd}#js-show-iframe-wrapper .bf-5{position:relative;display:grid;grid-template-columns:var(--pos-banner-fluid-5__grid-template-columns);grid-template-rows:var(--pos-banner-fluid-5__grid-template-rows);width:100%;max-width:var(--pos-banner-fluid-5__max-width);box-sizing:border-box;grid-auto-flow:row dense}#js-show-iframe-wrapper .bf-5__decor{background:var(--pos-banner-fluid-5__bg-url) var(--pos-banner-fluid-5__bg-url-position) no-repeat;background-size:var(--pos-banner-fluid-5__bg-size);background-color:#fffaf6;position:relative}#js-show-iframe-wrapper .bf-5__content{display:flex;flex-direction:column;padding:var(--pos-banner-fluid-5__content-padding);grid-row:var(--pos-banner-fluid-5__content-grid-row);justify-content:center}#js-show-iframe-wrapper .bf-5__text{margin:var(--pos-banner-fluid-5__text-margin);font-size:var(--pos-banner-fluid-5__text-font-size);line-height:1.4;font-family:LatoWeb,sans-serif;font-weight:700;color:#0b1f33}#js-show-iframe-wrapper .bf-5__bottom-wrap{display:flex;flex-direction:row;align-items:center}#js-show-iframe-wrapper .bf-5__logo-wrap{position:absolute;top:var(--pos-banner-fluid-5__logo-wrap-top);right:var(--pos-banner-fluid-5__logo-wrap-right)}#js-show-iframe-wrapper .bf-5__logo{width:var(--pos-banner-fluid-5__logo-width);margin-left:1px}#js-show-iframe-wrapper .bf-5__slogan{font-family:LatoWeb,sans-serif;font-weight:700;font-size:var(--pos-banner-fluid-5__slogan-font-size);line-height:1.2;color:#005ca9}#js-show-iframe-wrapper .bf-5__btn-wrap{width:100%;max-width:var(--pos-banner-fluid-5__button-wrap-max-width)}
-</style >
-<div id='js-show-iframe-wrapper'> 
-  <div class='pos-banner-fluid bf-5'>
-
-    <div class='bf-5__decor'>
-      <div class='bf-5__logo-wrap'>
-        <img
-          class='bf-5__logo'
-          src='https://pos.gosuslugi.ru/bin/banner-fluid/gosuslugi-logo-blue.svg'
-          alt='Госуслуги'
-        />
-        <div class='bf-5__slogan'>Решаем вместе</div >
-      </div >
-    </div >
-    <div class='bf-5__content'>
-      <div class='bf-5__text'>
-        Есть предложения по улучшению социальной сферы, повышению эффективности служб занятости или другие вопросы?
-      </div >
-
-      <div class='bf-5__bottom-wrap'>
-        <div class='bf-5__btn-wrap'>
-          <!-- pos-banner-btn_2 не удалять; другие классы не добавлять -->
-          <button
-            class='pos-banner-btn_2'
-            type='button'
-          >Написать о проблеме
-          </button >
-        </div >
-      </div>
-    </div >
-
-  </div >
-</div >
-<script charset="UTF-8">
-
-(function(){
-  "use strict";function ownKeys(e,t){var n=Object.keys(e);if(Object.getOwnPropertySymbols){var r=Object.getOwnPropertySymbols(e);if(t)r=r.filter(function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable});n.push.apply(n,r)}return n}function _objectSpread(e){for(var t=1;t<arguments.length;t++){var n=null!=arguments[t]?arguments[t]:{};if(t%2)ownKeys(Object(n),true).forEach(function(t){_defineProperty(e,t,n[t])});else if(Object.getOwnPropertyDescriptors)Object.defineProperties(e,Object.getOwnPropertyDescriptors(n));else ownKeys(Object(n)).forEach(function(t){Object.defineProperty(e,t,Object.getOwnPropertyDescriptor(n,t))})}return e}function _defineProperty(e,t,n){if(t in e)Object.defineProperty(e,t,{value:n,enumerable:true,configurable:true,writable:true});else e[t]=n;return e}var POS_PREFIX_5="--pos-banner-fluid-5__",posOptionsInitialBanner5={background:"#50b3ff","grid-template-columns":"100%","grid-template-rows":"292px auto","max-width":"100%","text-font-size":"20px","text-margin":"0 3px 24px 0","button-wrap-max-width":"100%","bg-url":"url('https://pos.gosuslugi.ru/bin/banner-fluid/5/banner-fluid-bg-5.svg')","bg-url-position":"center bottom","bg-size":"contain","content-padding":"24px","content-grid-row":"0","logo-width":"65px","logo-wrap-top":"16px","logo-wrap-right":"13px","slogan-font-size":"12px"},setStyles=function(e,t){var n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:POS_PREFIX_5;Object.keys(e).forEach(function(r){t.style.setProperty(n+r,e[r])})},removeStyles=function(e,t){var n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:POS_PREFIX_5;Object.keys(e).forEach(function(e){t.style.removeProperty(n+e)})};function changePosBannerOnResize(){var e=document.documentElement,t=_objectSpread({},posOptionsInitialBanner5),n=document.getElementById("js-show-iframe-wrapper"),r=n?n.offsetWidth:document.body.offsetWidth;if(r>340)t["grid-template-rows"]="236px auto",t["bg-url"]="url('https://pos.gosuslugi.ru/bin/banner-fluid/5/banner-fluid-bg-5-2.svg')",t["bg-url-position"]="center bottom calc(100% - 30px)",t["button-wrap-max-width"]="209px",t["content-padding"]="24px 32px",t["text-margin"]="0 0 24px 0";if(r>568)t["grid-template-columns"]="1fr 308px",t["grid-template-rows"]="100%",t["content-grid-row"]="1",t["content-padding"]="32px 24px",t["bg-url"]="url('https://pos.gosuslugi.ru/bin/banner-fluid/5/banner-fluid-bg-5.svg')",t["bg-url-position"]="6px bottom",t["logo-width"]="78px",t["logo-wrap-top"]="20px",t["logo-wrap-right"]="17px",t["slogan-font-size"]="15px";if(r>694)t["bg-url-position"]="12px 40px";if(r>783)t["grid-template-columns"]="1fr 400px",t["text-font-size"]="24px";if(r>855)t["bg-url-position"]="center bottom calc(100% - 30px)";if(r>1098)t["bg-url"]="url('https://pos.gosuslugi.ru/bin/banner-fluid/5/banner-fluid-bg-5-2.svg')",t["grid-template-columns"]="1fr 557px",t["text-font-size"]="26px",t["content-padding"]="32px 32px 32px 50px";if(r>1422)t["max-width"]="1422px",t["grid-template-columns"]="1fr 720px",t["content-padding"]="32px 40px 32px 160px",t.background="linear-gradient(90deg, #50b3ff 50%, #fffaf6 50%)";setStyles(t,e)}changePosBannerOnResize(),window.addEventListener("resize",changePosBannerOnResize),window.onunload=function(){var e=document.documentElement,t=_objectSpread({},posOptionsInitialBanner5);window.removeEventListener("resize",changePosBannerOnResize),removeStyles(t,e)};
-})()
-
-</script>
- <script charset="UTF-8">Widget("https://pos.gosuslugi.ru/form", 337806)</script>
-
-
-
-
 <!doctype html>
-<html lang="ru">
+<html class="no-js" lang="ru">
 <head>
-            <title>Советы психолога родителям, решившимся на усыновление ребенка - Парус надежды</title>
-        <base href="https://www.parusnad-vl.ru/" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="1200" />
-    <meta name="keywords" content="" />
-    <meta name="description" content=""/>
-    <link href="/inc/css/style.css?v=1" rel="stylesheet">
-    <link href="/inc/css/jquery.fancybox.css" rel="stylesheet">
-    <link href="/inc/css/owl.carousel.css" rel="stylesheet">
-    <link href="inc/css/jquery.datetimepicker.min.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="O4S6GL42tdW_Or6tyShncWaVtp5nzxU4iHcVOfbvlb5O48It1lnXlNwNisv6YFQFU9T57jSMelvaJ09QgoCt0Q==">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Усыновление сразу нескольких детей предлагают запретить - новости Право.ру</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml">
+    <meta name="facebook-domain-verification" content="caa9gpem3uvsvvlv5pwotba6xxo2d7" />
+    <meta name="title" content="Усыновление сразу нескольких детей предлагают запретить - новости Право.ру">
+<meta name="twitter:title" content="Усыновление сразу нескольких детей предлагают запретить">
+<meta property="og:title" content="Усыновление сразу нескольких детей предлагают запретить">
+<meta name="description" content="Усыновление сразу нескольких детей предлагают запретить - новости Право.ру. Все о юридическом праве.">
+<meta name="twitter:description" content="Проверять и готовить к появлению сироты в семье будут не только самого усыновителя, но и живущих с ним людей.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@pravo_ru">
+<meta name="twitter:domain" content="pravo.ru">
+<meta property="og:description" content="Проверять и готовить к появлению сироты в семье будут не только самого усыновителя, но и живущих с ним людей.">
+<meta property="og:site_name" content="ПРАВО.Ru">
+<meta property="og:type" content="article">
+<meta name="twitter:image" content="https://storage.pravo.ru/image/10.png?v=1648560314">
+<meta property="og:image" content="https://storage.pravo.ru/image/10.png?v=1648560314">
+<meta property="og:url" content="https://pravo.ru/news/243852/">
+<meta name="google-site-verification" content="XF9uQX-UO6IphGNcZq-G0wBNSwTFozxdUyAZUurP0xM">
+<meta name="yandex-verification" content="bf201e5604d93019">
+<link href="https://storage.pravo.ru/image/10.png?v=1648560314" rel="image_src">
+<link href="https://pravo.ru/news/243852/" rel="canonical">
+<link href="https://pravo.ru/news/243852/amp/" rel="amphtml">
+<link href="/assets/1ea858c5/css/slick.css?v=1671204360" rel="stylesheet" media="none" onload="if(media!=&#039;all&#039;)media=&#039;all&#039;">
+<link href="/assets/911fd5c3/css/slider.css?v=1671204360" rel="stylesheet" media="none" onload="if(media!=&#039;all&#039;)media=&#039;all&#039;">
+<link href="/assets/1ea858c5/css/social-likes_flat.css?v=1671204360" rel="stylesheet">
+<link href="/assets/2946f383/css/chronicle.css?v=1671204360" rel="stylesheet">
+<link href="/assets/b37f284c/css/foundation.css?v=1671204360" rel="stylesheet">
+<link href="/assets/5f977776/css/screen.min.css?v=1671204359" rel="stylesheet">
+<link href="/assets/7ef0d6a5/css/banner.css?v=1671204360" rel="stylesheet">
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-<link rel="stylesheet" href="/assets/components/ajaxform/css/default.css" type="text/css" />
-</head>
+ga('create', 'UA-10892669-1', 'auto');
+ga('send', 'pageview');
+
+
+			var metricEventUrl = "https://c.pravo.ru";
+			var metricClickEvent = "1";
+			var metricLoadEvent = "2";
+		</script></head>
 <body>
+	<div class="off-canvas-wrapper" name="top">
+		<div class="title-bar hide-for-large" data-sticky data-margin-top="0" data-sticky-on="small">
+			<a href="https://pravo.ru" class="title-bar-title">ПРАВО.ru</a>
+			<div class="title-bar-center">
+									<button type="button" data-close="offCanvasRight" onclick="window.location = '/'">Главное</button>
+								<button type="button" data-close="offCanvasLeft" data-open="offCanvasRight">Новости</button>
+			</div>
+			<div class="title-bar-right text-right">
+				<button class="menu-icon search" type="button" onclick="$('[data-mobile-searchform] .top_searchform').toggleClass('open').find('input').focus()"></button>
+				<button class="menu-icon" type="button" data-close="offCanvasRight" data-toggle="offCanvasLeft"></button>
+			</div>
+			<div data-mobile-searchform>
+				<form id="w0" class="input-group top_searchform" action="https://pravo.ru/search/" method="get"><input type="text" class="input-group-field" name="query" placeholder="Введите запрос для поиска">	<button type="button" data-searchform-clear onclick="$('[data-mobile-searchform] .top_searchform').toggleClass('open').find('input').blur()">Очистить</button>
+</form>			</div>
+		</div>
+		<div class="off-canvas-content" data-off-canvas-content>
+			<div class="row collapse" data-content-wrapper>
+				<div class="column show-for-large">
+					<div class="banner top_page_banner show-for-large">
+                                                                                                            <div class="advert">
+			<a href="https://event.pravo.ru/view/243233/" data-metric-click="3,1621"><img src="https://storage.pravo.ru/image/197/98712.png?v=1671038570" alt="" data-metric-load="3,1621"></a></div>
+                                                    					</div>
+				</div>
+				<div class="column small-12 large-9">
+					<header id="page_header" class="show-for-large" data-sidebar-container-left data-sticky data-top-anchor="main_content:top" data-options="marginTop:0;marginBottom:0;" data-sticky-on="large">
+						<div class="off-canvas position-left desktop is-open" id="offCanvasLeft" data-off-canvas data-transition="push">
+							<ul id="projects_list">
+								<li class="pravo_logo"><a href="https://pravo.ru">ПРАВО.ru</a></li>
+									<li style="background:url(https://storage.pravo.ru/image/23/11868.png?v=1645003255)">
+		<a href="https://300.pravo.ru/">
+			<span class="title">Право-300 </span>
+		</a>
+		<span class="bg" style="background:#4399b8"></span>
+	</li>
+	<li style="background:url(https://storage.pravo.ru/image/154/77081.png?v=1645003684)">
+		<a href="https://blfm.pravo.ru/?nm">
+			<span class="title">Best Law Firm Marketing</span>
+		</a>
+		<span class="bg" style="background:#505660"></span>
+	</li>
+	<li style="background:url(https://storage.pravo.ru/image/184/92445.jpg?v=1656923520)">
+		<a href="https://restructuring.pravo.ru/">
+			<span class="title">Реструктуризация: быть или не быть</span>
+		</a>
+		<span class="bg" style="background:#ca9359"></span>
+	</li>
+	<li style="background:url(https://storage.pravo.ru/image/181/90913.png?v=1654080103)">
+		<a href="https://collusion.pravo.ru/">
+			<span class="title">Сговор на торгах</span>
+		</a>
+		<span class="bg" style="background:#14685f"></span>
+	</li>
+							</ul>
+							
+<ul id="main_menu">
+	<li class="small_logo">
+		<a href="https://pravo.ru">Право.ru</a>
+	</li>
+			<li><a class="" href="https://300.pravo.ru/">Право-300</a></li>
+			<li><a class="" href="https://event.pravo.ru/">Конференции</a></li>
+			<li><a class="" href="https://pravo.ru/judges_search/">Досье судей</a></li>
+			<li><a class="" href="/courts_search/">База судов</a></li>
+			<li><a class="" href="https://faq.pravo.ru/">Юрконсультация</a></li>
+			<li><a class="" href="http://docs.pravo.ru/">Документы</a></li>
+			<li><a class="" href="http://blog.pravo.ru/">Блоги</a></li>
+		<li class="buttons">
+		<button class="search" onclick="$('[data-desktop-searchform] .top_searchform').toggleClass('open').find('input').focus(); return false">Поиск</button>
+	</li>
+</ul>							<div data-desktop-searchform>
+								<form id="w1" class="input-group top_searchform" action="https://pravo.ru/search/" method="get"><input type="text" class="input-group-field" name="query" placeholder="Введите запрос для поиска">	<button type="button" data-searchform-clear onclick="$('[data-mobile-searchform] .top_searchform').toggleClass('open').find('input').blur()">Очистить</button>
+</form>							</div>
+						</div>
+					</header>
+					<section id="main_content" class="clearfix">
+						<div class="column top_page_banner_mobile show-for-small-only">
+                            						</div>
+						<article class="inner_page clearfix" itemscope itemtype="https://schema.org/Article">
+	<meta itemprop="datePublished" content="2022-11-11">
+	    <div class="column" data-io-article-url="https://pravo.ru/news/243852/">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" data-metric-load="1,243852" style="opacity:0; height:0; position:absolute; z-index:-9999;">        <div class="card">
+            <div class="column">
+                <div class="tile ">
+                                        <div class="header_wrapper">
+                        <div class="tile_info clearfix">
+    <a class="label muted" href="https://pravo.ru/tag/65/" style="color: #2175f2;">Законодательство</a>                        <div class="date muted">11 ноября 2022, 19:57</div>
+                            </div>
+                        <h1 class="block_header" itemprop="name">Усыновление сразу нескольких детей предлагают запретить</h1>
+                                            </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column news_wrapper">
+                    
+                    
+                                            <section class="lead">Проверять и готовить к появлению сироты в семье будут не только самого усыновителя, но и живущих с ним людей.</section>
+                    
+                    <section class="full_text clearfix" itemprop="articleBody">
 
-    <div class="box container" id="container">
+                        <p>Кабмин внес на рассмотрение Госдумы законопроект, который призван сократить количество сирот, от которых опекуны отказываются уже после усыновления. Сейчас в РФ отменяют около 5000 решений об усыновлении в год, <a href="https://www.pnp.ru/social/v-rossii-predlozhili-vvesti-zapret-na-usynovlenie-srazu-neskolkikh-detey.html" rel="nofollow" target="_blank"target="_blank" rel="nofollow">передает &laquo;Парламентская газета&raquo;</a>. Преимущественно это происходит из-за недостаточной подготовленности усыновителей.</p><span class="left embed">
+	<section class="embed_wrapper">
+		<label style="color:#ffb700">Мнения</label>		<a href="https://pravo.ru/opinion/241945/" class="header">Родители «с согласия» и дети без суда: что стоит за поправками в Семейный кодекс</a>
+	</section>
+</span>
 
-        <div class="parent-col">
-        <div class="sidebar" id="sidebar">
-    <div class="in_sidebar">
-        <a href="/" id="logo"><img src="/inc/images/logo.png" alt=""></a>
-        <nav class="sidebar-nav">
-            <ul class=""><li class="first">
-    <a href="/"  id="resources-1">Главная</a>
-    </li><li class="nav_parents">
-    <a href="information-about-the-institution/"  id="resources-2">Информация об учреждении</a>
-    <ul class=""><li class="first">
-    <a href="information-about-the-institution/our-offices/"  id="resources-14">Наши отделения</a>
-    </li><li class="last">
-    <a href="information-about-the-institution/the-management-team"  id="resources-11">Руководящий состав центра</a>
-    </li></ul></li><li class="nav_parents">
-    <a href="information-about-the-supplier-of-social-services/"  id="resources-129">Информация о поставщике социальных услуг</a>
-    <ul class=""><li class="first">
-    <a href="information-about-the-supplier-of-social-services/the-parent-organization/"  id="resources-12">Вышестоящие организации</a>
-    </li><li>
-    <a href="information-about-the-supplier-of-social-services/the-department-of-labor-and-social-development-of-the-primorsky-territory"  id="resources-8669">Министерство труда и социальной политики Приморского края</a>
-    </li><li class="last">
-    <a href="information-about-the-supplier-of-social-services/documents/"  id="resources-4">Документы учреждения</a>
-    </li></ul></li><li class="nav_parents">
-    <a href="customers/"  id="resources-3">Для граждан</a>
-    <ul class=""><li class="first">
-    <a href="customers/1/"  id="resources-8597">ГосУслуги не выходя из дома</a>
-    </li><li class="last">
-    <a href="customers/the-list-of-documents-for-registration-at-the-rehabilitation"  id="resources-8983">Перечень документов для оформления на реабилитацию</a>
-    </li></ul></li><li>
-    <a href="social-services/"  id="resources-26">Социальные услуги</a>
-    </li><li>
-    <a href="reporting"  id="resources-37">Наличие свободных мест</a>
-    </li><li class="nav_parents">
-    <a href="headings/"  id="resources-5">Рубрики</a>
-    <ul class=""><li class="first">
-    <a href="headings/methodological-support/"  id="resources-42">Методическая работа</a>
-    </li><li>
-    <a href="headings/multitude-sail-of-hope"  id="resources-8478">МультСтудия «Парус надежды»</a>
-    </li><li>
-    <a href="headings/helpline"  id="resources-50">Телефон доверия</a>
-    </li><li>
-    <a href="headings/atricle-3956/"  id="resources-3956">Ресурсный центр по социальному сопровождению семьи с детьми</a>
-    </li><li>
-    <a href="headings/the-advisory-point-for-families-with-children-in-conflict-with-the-law"  id="resources-8574">Консультативный пункт для семей с детьми, находящимися в конфликте с законом</a>
-    </li><li>
-    <a href="headings/буклеты-и-рекомендации"  id="resources-9630">Буклеты и рекомендации</a>
-    </li><li class="last">
-    <a href="headings/издательский-центр-время-перемен"  id="resources-9663">Издательский центр "Время перемен"</a>
-    </li></ul></li><li class="nav_parents">
-    <a href="press-center/"  id="resources-7">Пресс-центр</a>
-    <ul class=""><li class="first">
-    <a href="press-center/news/"  id="resources-58">Новости</a>
-    </li><li>
-    <a href="press-center/videos/"  id="resources-61">Видеоматериалы</a>
-    </li><li class="last">
-    <a href="press-center/media-about-us/"  id="resources-59">Сми о нас</a>
-    </li></ul></li><li>
-    <a href="contacts/"  id="resources-8">Контакты</a>
-    </li><li>
-    <a href="jobs"  id="resources-84">Для соискателей работы</a>
-    </li><li>
-    <a href="dostupnay-sreda"  id="resources-8598">Доступная среда</a>
-    </li><li>
-    <a href="anti-corruption-policy"  id="resources-40">Противодействие коррупции</a>
-    </li><li>
-    <a href="prevention-of-suicide/"  id="resources-71">Уполномоченный по правам ребенка в Приморском крае</a>
-    </li><li>
-    <a href="volunteerism"  id="resources-9197">Добровольчество</a>
-    </li><li>
-    <a href="feedback"  id="resources-53">Оставьте свой отзыв</a>
-    </li><li class="last">
-    <a href="ads"  id="resources-57">Вопрос специалисту</a>
-    </li></ul>        </nav>
-        <h2 class="title"><span>Рубрики</span></h2>
-        <nav class="sidebar-info-nav">
-                    </nav>
-        <div class="search-date">
-            <form action="conclusion-the-articles-by-date" method="get">
-                <h3>Поиск статей по дате:</h3>
-                <input type="text" placeholder="Укажите дату" name="date" id="datetimepicker" class="btn" autocomplete="off" value="">
-                <button type="submit" class="btn btn-orange">Найти</button>
-            </form>
-        </div>
-        <div class="sidebar_banner">
-            <div class="sidebar_baner_rows">
-    <a href="https://bus.gov.ru/agency/125784" target="_blank">
-        <img src="/images/banners/1538613969.jpg" alt="">
-    </a>    
-</div>
-<div class="sidebar_baner_rows">
-    <a href="https://www.parusnad-vl.ru/additional-information/independent-evaluation-of-the-quality-of-services" target="_blank">
-        <img src="/ocenka.jpg" alt="">
-    </a>    
-</div>
-<div class="sidebar_baner_rows">
-    <a href="https://telefon-doveria.ru/?ysclid=l82q6vvjtx699745291" target="_blank">
-        <img src="/assets/images/resources/IMG-20220915-WA0003.jpg" alt="">
-    </a>    
-</div>        </div>
-    </div>
-</div>
-        <div class="content">
-            <header>
-                <div class="header box">
-                    <a href="http://new.parusnad-vl.ru/" id="see" title="Версия для слабовидящих">Версия для слабовидящих</a>
-                    <div class="contact-header clear">
-                        <div class="emails">
-                            <p>Электронная почта:&nbsp;<a href="http://www.parusnad-vl.ru/">parusvl@bk.ru</a></p>
-<p>&nbsp;</p>
-<p>&nbsp;<a title="Перейти в вконтакт" href="https://vk.com/srcn_parusnad_vl" target="_blank" rel="noopener noreferrer"><img style="float: left;" src="vk-news.jpg" alt="" width="159" height="37" /></a><a title="Перейти в телеграм" href="https://t.me/srcn_parusnad_vl" target="_blank" rel="noopener noreferrer"><img style="float: left;" src="мы в телеграме.png" alt="" width="155" height="35" /></a></p>
-<p>&nbsp;</p>                        </div>
-                        <div class="adress-phone">
-                            <p style="font-size: 24px;"><span style="color: #2382c2;"><img src="inc/images/smartphone-call-blue.svg" width="20" height="20" />8 (423)</span> <span style="color: #cc0000;">238-79-91</span></p>
-<p><strong><img src="inc/images/maps-and-flags.svg" alt="" width="15" height="15" />Владивосток, ул. Маковского, 123</strong></p>                            <!--span id="phone"></span>
-                            <span id="adress">Владивосток, ул. Маковского, д. 123</span-->
+<p>В случае принятия законопроекта усыновить или взять под опеку можно будет только одного ребенка за один раз. Это условие не будет действовать в отношении сестер, братьев или воспитывавшихся в одной семье детей, а также сирот, которые провели не менее года в одной группе в детском доме.</p><p>Применение психолого-педагогической подготовки предлагают расширить: ее будут проходить люди, живущие с усыновителем, а также сами сироты. &laquo;Главное &mdash; не перегибать и не отпугивать людей, но в целом работать так, чтобы максимально защитить ребенка от опасных ситуаций&raquo;, &mdash; отметил депутат от Республики Дагестан Бийсултан Хамзаев.</p><p>Усыновлять детей будет нельзя, если с потенциальным усыновителем живет человек с судимостью.</p><p>&laquo;Если ребенка возвращают в детский дом, он чувствует свое одиночество вдвойне&raquo;, &mdash; подчеркнула депутат Светлана Бессараб. А иногда такое происходит неоднократно.</p><p><a href="https://sozd.duma.gov.ru/bill/232772-8#bh_note" rel="nofollow" target="_blank"target="_blank" rel="nofollow">Законопроект № 232772-8 &laquo;О внесении изменений в отдельные законодательные акты Российской Федерации по вопросам защиты прав детей&raquo;</a></p>
+                        
+                        
+                        
+                        
+                        
+                                                    <div class="row">
+                                <div class="column small-12 medium-8 large-6">
+                                    <ul class="article_authors no-bullets">
+	        <li itemprop="author">Право.ru</li>
+	</ul>                                </div>
+                            </div>
+                        
+                                                    <ul class="article_tags no-bullets">
+                                <li><a class="underlined" href="https://pravo.ru/tag/91/">Законопроект</a></li>
+                            </ul>
+                        
+                        <div class="row">
+                            <div class="column article_share_btns">
+                                <div class="social-likes social-likes_notext" data-counters="no" data-url="https://pravo.ru/news/243852/">
+                                    <div class="twitter" data-via="pravo_ru" title="Поделиться ссылкой в Твиттере">&nbsp;</div>
+<!--                                    <div class="facebook" title="Поделиться ссылкой на Фейсбуке">&nbsp;</div>-->
+                                    <div class="vkontakte" title="Поделиться ссылкой во Вконтакте">&nbsp;</div>
+                                    <div class="odnoklassniki" title="Поделиться ссылкой в Одноклассниках">&nbsp;</div>
+                                </div>
+                            </div>
                         </div>
-                        <!--div class="contacts clear">
-                            <a data-fancybox data-src="#hidden-form" href="javascript:;" id="call-me">Задать вопрос</a>
-                            <div style="display: none;" id="hidden-form">
-                                <div class="form">
-    <form class="ajax_form" action="" method="post" id="recordform">
-        <div class="top-form">
-            <h2>Заполните поля формы</h2>
-        </div>
-        <div class="center-form">
-            <div class="rows-form">
-                <input type="text" name="user_name" value="" class="btn" placeholder="Ваше имя">
-            </div>
-            <div class="rows-form">
-                <input type="text" name="user_email" value="" class="btn" placeholder="Ваш E-mail">
-            </div>
-            <div class="rows-form">
-                <input type="text" name="user_contacts" value="" class="btn" placeholder="Ваш номер телефона">
-            </div>
-            <div class="rows-form">
-                <textarea name="message" class="btn" placeholder="Введите текст сообщения"></textarea>
-            </div>
-            <div class="rows-form">
-                <label>
-                    <input type="checkbox" name="yes">
-                    Я согласен(а) на <a href="consent-to-the-processing-of-personal-data" target="_blank">обработку моих персональных данных</a>
-                </label>
-            </div>
-        </div>
-        <button type="submit" class="btn btn-blue btn-primary">Отправить сообщение</button>
-    
-	<input type="hidden" name="af_action" value="2edd52b341e84ce3834e6a476919410a" />
-</form>
-</div>                            </div>
-                        </div-->
-                    </div>
+                    </section>
                 </div>
-
-                <div class="header-bottom clear">
-                    <div class="search-box">
-                        <form class="search-form clear" action="result-of-search" method="get">
-                            <input type="text" name="query" placeholder="Поиск по сайту" value="">
-                            <button type="submit" class="btn-orange"><i></i>Найти</button>
-                        </form>
-                    </div>
-                    <div class="header-form">
-                        <a data-fancybox data-src="#hidden-form" href="javascript:;" id="call-me">Задать вопрос</a>
-                        <div style="display: none;" id="hidden-form">
-                            <div class="form">
-    <form class="ajax_form" action="" method="post" id="recordform">
-        <div class="top-form">
-            <h2>Заполните поля формы</h2>
-        </div>
-        <div class="center-form">
-            <div class="rows-form">
-                <input type="text" name="user_name" value="" class="btn" placeholder="Ваше имя">
             </div>
-            <div class="rows-form">
-                <input type="text" name="user_email" value="" class="btn" placeholder="Ваш E-mail">
-            </div>
-            <div class="rows-form">
-                <input type="text" name="user_contacts" value="" class="btn" placeholder="Ваш номер телефона">
-            </div>
-            <div class="rows-form">
-                <textarea name="message" class="btn" placeholder="Введите текст сообщения"></textarea>
-            </div>
-            <div class="rows-form">
-                <label>
-                    <input type="checkbox" name="yes">
-                    Я согласен(а) на <a href="consent-to-the-processing-of-personal-data" target="_blank">обработку моих персональных данных</a>
-                </label>
-            </div>
-        </div>
-        <button type="submit" class="btn btn-blue btn-primary">Отправить сообщение</button>
-    
-	<input type="hidden" name="af_action" value="f808bdc9e0369a422efaf7a8f5998cb1" />
-</form>
-</div>                        </div>
-                    </div>
-                </div> 
-
-            </header>
-
-            
-    <div class="box page-box">
-        <div class="bread">
-            <ol class="breadcrumb"><li class="breadcrumb-item"><a href="/">Главная</a></li>
-<li class="breadcrumb-item"><a href="whole-article">Все статьи</a></li>
-<li class="breadcrumb-item"><a href="whole-article/archive/">Архив</a></li>
-<li class="breadcrumb-item active">Советы психолога родителям, решившимся на усыновление ребенка</li></ol>        </div>
-        <h1 class="title-page"><span>Советы психолога родителям, решившимся на усыновление ребенка</span></h1>
-        
-                
-                            <div class="page-in">
-                <div class="page_date">
-                    Опубликовано: 01.01.1970 год.
-                </div>
-                <p style="text-align: justify;" align="center"><b><a href="http://www.parusnad-vl.ru/?attachment_id=15031" rel="attachment wp-att-15031"><img class=" wp-image-15031 alignleft" alt="" src="http://www.parusnad-vl.ru/wp-content/28160391-usynovlenie-rebenka-trudnosti-500x478.jpg" width="300" height="287" /></a>1)      </b><b>Какие вопросы стоит задать себе родителям перед тем, как усыновить ребенка?</b></p>
-<p style="text-align: justify;">«Зачем это вам?» Ответ на этот  вопрос адресует нас к более глубокому осознанию собственных мотивов, которые побуждают действовать. Есть хороший анекдот, когда сын сообщает отцу- еврею, что он решил жениться. На что отец задает сыну  очень правильный вопрос «А что ты с этого будешь иметь?» Каким бы  циничным на первый взгляд не  казался этот вопрос, но именно он отправляет нас к осознанию того, какие потребности мы хотим удовлетворить, собираясь делать, то или другое. Конечно, каждый человек, который задумывается принять  ребенка в семью, оставшегося без попечения родителей, это добрый, милосердный и нравственный человек. Ведущим мотивом почти всегда является мотив «помочь», ведь дети не должны жить в казенных учреждениях. И все- таки, это всегда комплекс мотивов. И скрытые, плохо осознаваемые, неотрефлексированные мотивы могут стать большим риском и трудностью в дальнейшем.</p>
-<p style="text-align: justify;"><b>2) Что нужно узнать о ребенке перед тем, как решиться на оформление бумаг?</b></p>
-<p style="text-align: justify;">Как можно больше надо узнать о ребенке, перед тем как решиться на оформление бумаг. Некоторые родители питают иллюзию, что «настоящая жизнь» у приемного ребенка начнется только после того, когда он начнет жить в приемной, «благополучной» семье. А все плохое, травмирующее надо постараться оставить в прошлом, и может даже стараться не вспоминать. Но это заблуждение, так как ребенок в себе принесет то, что он впитал из своего рода, из своей семьи, в том числе травмирующего личность ребенка.  Информация о ребенке, о его здоровье, о его особенностях психики, о его жизненной истории, поможет адекватно оценить предстоящие трудности и сформировать готовность взрослого их решать вместе с ребенком. Сегодня созданы «Службы подготовки и сопровождения замещающих семей» во всех субъектах РФ, создаются «Ресурсные центры», которые призваны сопровождать замещающую семью на основе межведомственного взаимодействия. Все это является большим ресурсом для поддержки и помощи родителям.</p>
-<p style="text-align: justify;"><b>3) Действительно ли взять ребенка в семью - долгая и сложная процедура, как думают многие (что касается оформления документов и пр.)?<!--more--></b></p>
-<p style="text-align: justify;">Процедура принятия ребенка в семью имеет два основных этапа. Первый этап – этап сбора документов в результате человек становиться «кандидатом в замещающие родители». Второй этап – этап поиска ребенка и перемещение его из учреждения в семью, в результате человек становится «замещающим родителем». Первый этап, этап подготовки проходит в  2- 3 месяца, большая часть времени занимает прохождение психолого-педагогической подготовки в «Школе подготовке кандидатов в замещающие родители». И некоторых будущих кандидатов это возмущает. Но когда они оканчивают этот курс остаются благодарны за то, что система не позволила им принять поспешного решения. Не забывайте, что для адаптации семьи к рождению ребенка природа предоставляет 9 месяцев.  Второй этап очень часто затягивается на месяцы, т. к. «подходящего» ребенка бывает трудно найти.</p>
-<p style="text-align: justify;"><b>4) Какие сложности (психологические) чаще всего возникают при усыновлении?</b></p>
-<p style="text-align: justify;">Если говорить о психологических трудностях при усыновлении они такие же, как и при любом изменении в жизни семьи и человека. Нужно время, чтобы перестроиться: организовать быт, согласовать обязанности, распределить время, пересмотреть приоритеты. Необходимо привыкнуть к новым социальным ролям: мамы, папы, бабушки, дедушки и т.п. Потому что ребенка принимает в семью не только один или два человека, ребенка принимает род.</p>
-<p style="text-align: justify;">Для взрослого человека, который взрослый не только по возрасту, а взрослый, по сути, по своим поступкам, те трудности, с которыми он сталкивается, преобразуются в задачи, которые он может решить самостоятельно или с помощью привлечения дополнительных ресурсов.
-</p>
-<p style="text-align: justify;"><b>5) Какие трудности возникают реже, но к ним тоже нужно быть готовым?</b></p>
-<p style="text-align: justify;">
-Как выстроить приемным родителям отношения с кровными родственниками ребенка, у которых «внезапно» возникло желание принимать участие в  его  жизни?</p>
-<p style="text-align: justify;">Эта ситуация очень непростая, возникает очень редко, но к ней тоже нужно быть готовым. Почему редко? Да потому, что прежде, чем ребенок получит статус «оставшийся без попечения» специалисты органов опеки и попечительства сделают все возможное, чтобы наладить отношения с кровными родственниками ребенка и восстановить утраченные семейные связи. И только после этого ребенок получает «статус» и оказывается в государственном учреждении. И все-таки задача – выстроить отношения ребенка и замещающих родителей с кровными родственниками реальными или «виртуальными» (когда ребенок отказник от рождения и в графе мама и папа всегда был прочерк), - это важная и порой трудная задача.</p>
-<p style="text-align: justify;">
-<b>6) Необходимо ли какое-то особое отношение к приемному ребенку: скажем, нужно ли быть к нему добрее, чем к своему ребенку? Родители думают, что на своего ребенка они где-то могут прикрикнуть. А с приемным так нельзя?</b></p>
-<p style="text-align: justify;">Отношение взрослых к ребенку всегда должно быть очень уважительное, какая разница, каким путем ребенок пришел в семью? Насилию в том или ином виде можно и нужно сказать нет! Дисциплина может быть основана и должна  поддерживаться  на уважении личности, без насилия (физического, психологического и т.п.). Дети – это тоже люди, только маленькие. Конечно, приемные дети очень часто демонстрируют родителям «трудное поведение», с которым нам взрослым очень трудно. Еще, «трудное поведение» – это всегда сообщение нам взрослым, что ребенку в чем-то очень «трудно».  Мы, же взрослые! Мы всегда можем, что-то с этим сделать. Кто хочет разобраться, ищет возможность, а кто не хочет, тот ищет оправдание в плохих генах и т.п. Трудное поведение – это прежде всего, примитивные технологии достижения желаемого. Понять причину поведения, понять «сообщение» ребенка и научить ребенка новым технологиям (социально-одобряемым) достижения желаемого, это и есть воспитательная задача приемных родителей.
-
-<b>7) С каким настроем приходят родители на усыновление? Часто ли они разочаровываются в своем выборе?</b></p>
-<p style="text-align: justify;">Родители, решившиеся на усыновление полны надежд и ожиданий новой для них, пока еще невиданной жизни. Они желают развиваться, желают дарить любовь, желают испытать любовь ребенка на себе. Часто ли разочаровываются? Ответ кроется в самом слове, однокоренное слово которого «очарование». Простите, но это детская позиция, когда человек в своих фантазиях «нарисовал очаровательную картинку», а потом приходит время разочаровываться. Но это тоже неплохо, это все, есть не что иное, как личностный рост. Все зависит от того, какие выводы человек сделает и какими станут его дальнейшие действия, конструктивными или нет.
-
-<b>8) Правда ли, что приемный ребенок не станет родным до конца (проблема наследственности)?</b></p>
-<p style="text-align: justify;">Родным для человека, становится все и вся во что мы вкладываем свои силы, душу, любовь, труд, творчество. Например, любимое дело, семья, близкий человек и т.д. И дело вообще не в наследственности, а в отношении к жизни, к людям, к детям. Если формально относиться к своим родительским обязанностям, то и родной ребенок  не станет родным до конца. А про проблемы наследственности? Кто из нас может похвастаться «супер-генами», почти в каждом роду есть свои «алкоголики». Любовь – это сила, способная к преображению.  Больше надо заботиться о том, чтобы научиться любить, научиться проявлять любовь таким образом, чтобы дети чувствовали эту любовь и смогли с ее помощью преодолеть те ограничения, которые им достались в наследство.
-</p>
-<p style="text-align: justify;"><b> </b></p>
-<p style="text-align: justify;"><b>9) Вообще, чем приемный ребенок отличается от родного? Есть ли кардинальные различия?</b></p>
-<p style="text-align: justify;">Отличия приемного ребенка от родного конечно есть. И своими корнями они лежат в его жизненной истории. Я бы выделила три ведущих фактора, которые необходимо анализировать, выявляя ресурсы и риски.</p>
-<p style="text-align: justify;">Первое, это факторы, связанные с его кровной семьей, с тем, сколько времени от момента рождения он провел со своими родителями или теми, кто их заменял. Очень важен первый опыт взаимодействия ребенка со взрослым, который обеспечивает безопасность ребенка, проявляет по отношению к нему заботу, проявляет чуткость к его потребностям. Этот опыт активизирует врожденную и очень важную для жизни и развития потребность в привязанности. Развитие надежной привязанности – это реалии кровных детей в благополучных семьях. В неблагополучных семьях  новорожденный ребенок часто сталкивается с психотравмирующими событиями (жестокое обращение, употребление родителями ПАВ, потеря фигуры «ухаживающего») и тогда это уже нарушение привязанности в разной степени. В последствие, часто нарушено базовое  уважение к себе,  базовое доверие к людям.</p>
-<p style="text-align: justify;">Второй фактор, который стоит проанализировать родителям и специалистам по сопровождению замещающей семьи, это как проходила утрата семьи, разрыв семейных связей. Это очень болезненный процесс, который оставляет посттравматические последствия. Как вы думаете, чувствует себя ребенок, которого «бросили» родные. Какие чувства он может испытывать? Двойственные или амбивалентные, когда одновременно злишься, ненавидишь и любишь, испытываешь нежность, вспоминая маму. И это очень изматывающие чувства забирают много энергии и жизненных сил у ребенка. Вспомните ваши чувства, когда «разрывались» близкие отношения. И даже, если этот неблагополучный родитель бил или издевался над ребенком, то ребенок чувствует облегчение и радость от того, что это прекращено, и одновременно чувствует привязанность к своему агрессору. Амбивалентные чувства – это реальность, в которой живут отверженные дети. И этот опыт взаимодействия со взрослым, порой единственный, и он автоматически перекладывает на взаимоотношения с приемными родителями. Вот это и есть одна из причин трудного поведения.</p>
-<p style="text-align: justify;">Третий фактор, который необходимо  проанализировать, это длительность проживания ребенка в системе детских государственных учреждений. Сменный режим работы сотрудников государственных учреждений не позволяет ребенку сформировать стойкую привязанность с кем-нибудь из взрослых. Разрыв с родными братьями и сестрами, потеря родовых связей, социальных связей (соседей, одноклассников и т.п.) отрицательно сказывается на развитии личности  ребенка. Отсутствие личных вещей, фотографий, отсутствие возможности уединения (даже в туалете порой нет дверей) все это, приводит к нарушению личных границ, как своих, так и других. Отсутствие возможности выбирать пищу, время ее приема, вида досуга и т.п., все это отрицательно сказывается на социальных навыках и на психологии ребенка. Жизнь, в которой за тебя все продумали и отправили по «дорожной карте» формирует «воспитанную беспомощность» детей из учреждений, снижает их инициативность, снижает «поисковую активность». Именно поэтому выпускники детских госучреждений с трудом социализируются.</p>
-<p style="text-align: justify;">Насколько все эти факторы повлияли на ребенка, это то, что необходимо учитывать,  выбирая стратегию воспитания приемного ребенка. Главное, что он теперь не один, вы рядом, дорогие добрые и благородные люди, у которых хватает мужества замещать родителей, которые чаще всего, где-то рядом «наслаждаются» своей жизнью. Но это уже другой вопрос, который тоже требует вдумчивого и детального разговора.</p>                            </div>
-        
-        
-        
-        
-
-
-    </div>
-
-
-        </div>
-
-        <div class="clearfloat"></div>
         </div>
     </div>
+    <div class="column">    </div>
+	<div data-load-article class="column"></div></article>					</section>
+					<footer id="page_footer">
+						<div class="row upper_level collapse">
+							<div class="column small-12 medium-2">
+								<a href="https://pravo.ru" class="logo">Право.ru</a>
+								<button class="menu_toggler show-for-small-only" onclick="$('#bottom_upper_menu').toggleClass('hide-for-small-only'); $(this).toggleClass('open')">Меню</button>
+							</div>
+							<div class="column hide-for-small-only small-12 medium-10" id="bottom_upper_menu">
+								<ul id="main_menu" class="bottom">
+			<li><a href="/info/edition/">Редакция</a></li>
+			<li><a href="https://event.pravo.ru/">Конференции</a></li>
+			<li><a href="/info/adv/">Реклама</a></li>
+			<li><a href="/info/rules/">Правила перепечатки</a></li>
+				<li class="social_btn hide-for-small-only"><a href="https://twitter.com/pravo_ru" target="_blank" class="twitter"></a></li>
+			<li class="social_btn hide-for-small-only"><a href="https://vk.com/pravo.ru_lawnews" target="_blank" class="vk"></a></li>
+			<li class="social_btn hide-for-small-only"><a href="https://t.me/pravo_pravo" target="_blank" class="tg"></a></li>
+	</ul>
+							</div>
+						</div>
+						<div class="row show-for-medium lower_level">
+							<div class="column">
+									<section class="column medium-3">
+		<header>Темы</header>
+		<ul id="main_menu" class="bottom">
+											<li>
+									<a class="" href="https://pravo.ru/tag/63/">Практика</a>								</li>
+															<li>
+									<a class="" href="https://pravo.ru/tag/65/">Законодательство</a>								</li>
+															<li>
+									<a class="" href="https://pravo.ru/tag/106/">Процесс</a>								</li>
+															<li>
+									<a class="" href="https://pravo.ru/tag/71/">Исследования</a>								</li>
+															<li>
+									<a class="" href="https://pravo.ru/tag/68/">Рынок юридических услуг</a>								</li>
+															<li>
+									<a class="" href="https://pravo.ru/tag/108/">Юридическое сообщество</a>								</li>
+															<li>
+									<a class="" href="https://pravo.ru/tag/62/">Важнейшие правовые темы в прессе</a>								</li>
+									</ul>
+	</section>
+	<section class="column medium-3">
+		<header>Спецпроекты</header>
+		<ul id="main_menu" class="bottom">
+											<li>
+									<a class="" href="https://corporate2018.pravo.ru/">Корпоративные споры</a>								</li>
+															<li>
+									<a class="" href="https://panorama.pravo.ru/">Банкротство</a>								</li>
+															<li>
+									<a class="" href="https://legaldesign.pravo.ru/">Legal design</a>								</li>
+															<li>
+									<a class="" href="https://corporate2021.pravo.ru/">Корпоративные споры 2021</a>								</li>
+															<li>
+									<a class="" href="https://criminalcases2020.pravo.ru/#/">Уголовное право</a>								</li>
+															<li>
+									<a class="" href="https://pravo.ru/auto/">Авто</a>								</li>
+									</ul>
+	</section>
+	<section class="column medium-3">
+		<header>Судебная база</header>
+		<ul id="main_menu" class="bottom">
+											<li>
+									<a class="" href="http://kad.arbitr.ru/">Картотека арбитражных дел</a>								</li>
+															<li>
+									<a class="" href="http://ras.arbitr.ru/">Решения арбитражных судов</a>								</li>
+															<li>
+									<a class="" href="http://rad.arbitr.ru/">Календарь рассмотрения арбитражных дел</a>								</li>
+															<li>
+									<a class="" href="https://pravo.ru/judges_search/">Досье судей</a>								</li>
+															<li>
+									<a class="" href="https://pravo.ru/courts_search/">Информация о судах</a>								</li>
+															<li>
+									<a class="" href="https://pravo.ru/rss/">RSS лента новостей</a>								</li>
+															<li>
+									<a class="" href="https://connections.pravo.ru/">Вакансии для юристов</a>								</li>
+									</ul>
+	</section>
+	<section class="column medium-3">
+		<header>Сервисы</header>
+		<ul id="main_menu" class="bottom">
+											<li>
+									<a class="" href="http://docs.pravo.ru">Cправочно-правовая система</a>								</li>
+															<li>
+									<a class="text-left label" href="https://casebook.ru/?utm_campaign=cb_solution&amp;utm_medium=link&amp;utm_source=portal">Casebook: мониторинг дел и компаний</a>																<a class="text-left label" href="https://caselook.ru/?utm_campaign=cl_solution&amp;utm_medium=link&amp;utm_source=portal">Caselook: поиск и анализ практики</a>								</li>
+															<li>
+									<a class="" href="http://casepro.pro/?utm_campaign=cpro_solution&amp;utm_medium=link&amp;utm_source=portal">Case.one : управление юридической службой</a>								</li>
+									</ul>
+	</section>
+							</div>
+						</div>
+						<div class="column legal">
+                            <p>©&nbsp;ООО&nbsp;«Правовые новости». 2008-2023. Номер свидетельства <a href="https://rkn.gov.ru/mass-communications/reestr/media/?id=837971&page">ЭЛ № ФС 77 - 79910</a>. Телефон&nbsp;редакции:&nbsp;<a href="tel:84956453760">(495)&nbsp;645&nbsp;37&nbsp;60</a></p>
 
-    
-
-    
-
-
-
-
-    
-    <div class="section box">
-        <fieldset class="title-fieldset">
-            <legend><h2>Полезные ресурсы</h2></legend>
-        </fieldset>
-        <div class="news-box-outer partners_outer owl-carousel">
-            <div class="partners_rows">
-    <a href="https://rosmintrud.ru/" target="_blank">
-        <img src="/assets/components/phpthumbof/cache/1536511300.4d551ba1df204ec520ec8299fc487179.jpg" alt="Министерство труда и социальной защиты РФ">
-    </a>
-</div>
-<div class="partners_rows">
-    <a href="https://soctrud.primorsky.ru/" target="_blank">
-        <img src="/assets/components/phpthumbof/cache/1522644357.4d551ba1df204ec520ec8299fc487179.jpg" alt="Интерактивный портал Департамента труда и социального развития">
-    </a>
-</div>
-<div class="partners_rows">
-    <a href="http://soctrud.primorsky.ru/page/%D0%B1%D0%B0%D0%BD%D0%BA_%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9_%D1%81%D1%82%D0%B0%D0%B6%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0/?WithoutAdditionalLimits=False&ActivityScopeNoStandart=True&SearchType=1&Region=25&HideWithEmptySalary=False&ShowOnlyWithEmployerInfo=False&ShowOnlyWithHousing=False&Sort=1&PageSize=0&SpecialCategories=False" target="_blank">
-        <img src="/assets/components/phpthumbof/cache/1536510633.4d551ba1df204ec520ec8299fc487179.jpg" alt="Банк вакансий  для стажировки">
-    </a>
-</div>
-<div class="partners_rows">
-    <a href="https://trudvsem.ru/" target="_blank">
-        <img src="/assets/components/phpthumbof/cache/1536511907.4d551ba1df204ec520ec8299fc487179.jpg" alt="Портал Работа в России - Общероссийская база вакансий">
-    </a>
-</div>
-<div class="partners_rows">
-    <a href="http://bus.gov.ru/pub/independentRating/main" target="_blank">
-        <img src="/assets/components/phpthumbof/cache/1538613969.b1c800623b139fff0a9ad3877c90b1bc.jpg" alt="Результаты независимой оценки качества оказания услуг">
-    </a>
-</div>
-<div class="partners_rows">
-    <a href="https://www.gosuslugi.ru/" target="_blank">
-        <img src="/assets/components/phpthumbof/cache/1522627047.4d551ba1df204ec520ec8299fc487179.jpg" alt="Портал государственных услуг Российской Федерации">
-    </a>
-</div>
-<div class="partners_rows">
-    <a href="http://zhit-vmeste.ru/" target="_blank">
-        <img src="/assets/components/phpthumbof/cache/1522627227.e2661e526e4636e2447e1127bb8bba50.png" alt="«ДОСТУПНАЯ СРЕДА» ДЛЯ ЛЮДЕЙ С ОГРАНИЧЕННЫМИ ВОЗМОЖНОСТЯМИ">
-    </a>
-</div>
-<div class="partners_rows">
-    <a href="http://fond-detyam.ru/" target="_blank">
-        <img src="/assets/components/phpthumbof/cache/1522628873.4d551ba1df204ec520ec8299fc487179.jpg" alt="Фонд Детям">
-    </a>
-</div>
-<div class="partners_rows">
-    <a href="http://www.ya-roditel.ru/" target="_blank">
-        <img src="/assets/components/phpthumbof/cache/1522628935.e2661e526e4636e2447e1127bb8bba50.png" alt="Сайт для родителей">
-    </a>
-</div>
-<div class="partners_rows">
-    <a href="http://telefon-doveria.ru/" target="_blank">
-        <img src="/assets/components/phpthumbof/cache/1522629009.e2661e526e4636e2447e1127bb8bba50.png" alt="Телефон доверия">
-    </a>
-</div>
-<div class="partners_rows">
-    <a href="http://www.xn--b1adcc2a1abhbdq5a0k.xn--p1ai/index.php" target="_blank">
-        <img src="/assets/components/phpthumbof/cache/1536910592.4d551ba1df204ec520ec8299fc487179.jpg" alt="Ресурсный центр по активной поддержке родителей детей-инвалидов">
-    </a>
-</div>        </div>
-    </div>
-
-    <footer>
-        <div class="footer box">
-            <div class="footer-bottom clear">
-                <div class="footer_outer_col clear">
-                    <ul>
-<li class="footer_col"><strong><a href="sitemap">КАРТА САЙТА</a></strong></li>
-<li><a href="privacy-policy" target="_blank" rel="noopener noreferrer"><strong>Политика конфиденциальности</strong></a></li>
-</ul>                    <!--div class="footer_col">
-                        <a href="sitemap">Карта сайта</a>
-                        <a href="whole-article/archive/atricle-8322">Независимая оценка качества услуг</a>
-                        <span>Противодействие коррупции</span>
-                        <span>Ресурсный центр социального сопровождения</span>
-                    </div>
-                    <div class="footer_col">
-                        <a href="whole-article/archive/service-of-urgent-social-and-psychological-aid-social-patrol-tel-2-902-011">Служба экстренной социально-психологической помощи "Социальный патруль"</a>
-                        <a href="headings/service-social-support-for-families-with-children">Служба социального сопровождения семьи с детьми</a>
-                        <a href="headings/service-early-intervention">Служба ранней помощи</a>
-                    </div-->
-                </div>
-                <div class="f-right">
-                    <!-- Yandex.Metrika informer --> <a href="https://metrika.yandex.ru/stat/?id=48303602&amp;from=informer" target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/48303602/3_1_FFFFFFFF_EFEFEFFF_0_pageviews" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="48303602" data-lang="ru" /></a> <!-- /Yandex.Metrika informer --> <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter48303602 = new Ya.Metrika({ id:48303602, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/48303602" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
-                    <script type="text/javascript">
-                    (function(d, t, p) {
-                    var j = d.createElement(t); j.async = true; j.type = "text/javascript";
-                    j.src = ("https:" == p ? "https:" : "http:") + "//stat.sputnik.ru/cnt.js";
-                    var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
-                    })(document, "script", document.location.protocol);
-                    </script>
-                </div>
-                <span>Краевое государственное бюджетное учреждение социального обслуживания «Социально — реабилитационный центр для несовершеннолетних "Парус надежды"<br />Copyright © 2009 - 2023 год. </span>
-
-            </div>
+							<span class="age">18+</span>
+						</div>
+					</footer>
+				</div>
+				<div class="column large-3 show-for-large page_sidebar_wrapper" data-sticky-container>
+					<aside id="page_sidebar" data-sidebar-container-right data-sticky data-top-anchor="main_content:top" data-options="marginTop:0;marginBottom:0;" data-sticky-on="large">
+						<div class="off-canvas position-right desktop is-open" id="offCanvasRight" data-off-canvas data-transition="push">
+							<div class="suggested">
+	<header class="block_header">Рекомендуемое вам</header>
+					<a href="https://pravo.ru/story/243658/" class="header" data-metric-click=13,42959,1>
+			Веселье в Whatsapp и жалобы на секретаря: истории из вестника ВККС		</a>
+					<a href="https://pravo.ru/story/244062/" class="header" data-metric-click=13,42959,2>
+			ВС запретил судам самим менять исковые требования		</a>
+					<a href="https://pravo.ru/news/243806/" class="header" data-metric-click=13,42959,3>
+			ВККС ищет председателей двух региональных Верховных судов		</a>
+					<a href="https://pravo.ru/news/244451/" class="header" data-metric-click=13,42959,4>
+			Совфед назначил нового председателя апелляционной коллегии ВС		</a>
+					<a href="https://pravo.ru/news/243993/" class="header" data-metric-click=13,42959,5>
+			ВС объяснил, когда нельзя снижать расходы на юриста		</a>
+		<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" data-metric-load="13,42959" style="opacity:0; height:0; position:absolute; z-index:-9999;"></div>
+							
+<div class="feed" data-vr-zone="Newsfeed block">
+	<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" data-metric-load="13,87871" style="opacity:0; height:0; position:absolute; z-index:-9999;">	<button class="close-button" aria-label="Close menu" type="button" data-close="" style="z-index: 100"><span aria-hidden="true">×</span></button>
+					<header>Последние новости</header>	<div class="hide" data-embed-error="Ошибка материала"></div>			<a class="item-vacancy" href="https://connections.pravo.ru/#/" data-pos-name="news" data-vr-contentbox="Position 1 | Право.ru Connections: вакансии, партнерства, проекты для юрфирм" data-metric-click="13,87871,1"><div>Право.ru Connections: вакансии, партнерства, проекты для юрфирм</div></a>			<a href="https://pravo.ru/news/244720/"  data-pos-name="news" data-vr-contentbox="Position 2 | Кабмин предложил Путину прекратить действие договоров с Советом Европы" data-metric-click="13,100769,2">
+	<div class="row small-collapse medium-uncollapse">
+		<div class="column small-12 medium-2 large-12 no_padding">
+			<img src="https://storage.pravo.ru/image/104/52246.jpg?v=1672644812" alt="Кабмин предложил Путину прекратить действие договоров с Советом Европы / Михаил Мишустин. Фото: kremlin.ru">
+		</div>
+		<div class="column small-12 medium-10 large-12">
+			<span>17:53</span>
+			Кабмин предложил Путину прекратить действие договоров с Советом Европы		</div>
+	</div>
+</a>
+			<a href="https://pravo.ru/news/244667/" data-pos-name="news" data-vr-contentbox="Position 3 | ВС не дал «повесить» на гендиректора долги, к которым он не был причастен" data-metric-click="13,100767,3"><span>17:20</span>ВС не дал «повесить» на гендиректора долги, к которым он не был причастен</a>			<a class="item-vacancy" href="https://connections.pravo.ru/#/company/1070/offer/m4lw9" data-pos-name="news" data-vr-contentbox="Position 4 | «S&amp;K Вертикаль» ищет юриста в практику корпоративных клиентов" data-metric-click="13,88507,4"><div>«S&K Вертикаль» ищет юриста в практику корпоративных клиентов</div></a>			<div class="advert">
+			<a href="https://event.pravo.ru/view/243233/" data-metric-click="3,1643"><img src="https://storage.pravo.ru/image/197/98714.png?v=1671038733" alt="" data-metric-load="3,1643"></a></div>
+			<a href="https://pravo.ru/news/244718/" data-pos-name="news" data-vr-contentbox="Position 6 | Мораторий на проверку продлили на 2023 год" data-metric-click="13,100766,6"><span>16:46</span>Мораторий на проверку продлили на 2023 год</a>			<a href="https://pravo.ru/news/244717/" data-pos-name="news" data-vr-contentbox="Position 7 | ВС решит, с кого можно взыскать убытки от нарушения прав на бренд" data-metric-click="13,100764,7"><span>16:06</span>ВС решит, с кого можно взыскать убытки от нарушения прав на бренд</a>			<a href="https://pravo.ru/news/244669/" data-pos-name="news" data-vr-contentbox="Position 8 | ВС отказался признать сальдирование зачетом в банкротстве" data-metric-click="13,100760,8"><span>15:25</span>ВС отказался признать сальдирование зачетом в банкротстве</a>			<a href="https://pravo.ru/news/244716/" data-pos-name="news" data-vr-contentbox="Position 9 | Кабмин продлил особый порядок использования иностранных самолетов" data-metric-click="13,100759,9"><span>14:36</span>Кабмин продлил особый порядок использования иностранных самолетов</a>			<a href="https://pravo.ru/news/244714/" data-pos-name="news" data-vr-contentbox="Position 10 | Законы под елку: что подписал Путин в предновогоднюю неделю" data-metric-click="13,100756,10"><span>13:45</span>Законы под елку: что подписал Путин в предновогоднюю неделю</a>						<a href="https://pravo.ru/news/244713/" data-pos-name="news" data-vr-contentbox="Position 12 | Роструд сообщил о выходных и праздниках в 2023 году" data-metric-click="13,100754,12"><span>12:44</span>Роструд сообщил о выходных и праздниках в 2023 году</a>			<a href="https://pravo.ru/news/244427/" data-pos-name="news" data-vr-contentbox="Position 13 | ВС признал ничтожным соглашение об отступном" data-metric-click="13,100752,13"><span>11:29</span>ВС признал ничтожным соглашение об отступном</a>			<a href="https://pravo.ru/news/244712/" data-pos-name="news" data-vr-contentbox="Position 14 | Минфин изменил структуру ФНБ" data-metric-click="13,100751,14"><span>10:42</span>Минфин изменил структуру ФНБ</a>			<a href="https://pravo.ru/news/244711/"  data-pos-name="news" data-vr-contentbox="Position 15 | Цифра дня" data-metric-click="13,100748,15">
+	<div class="row small-collapse medium-uncollapse">
+		<div class="column small-12 medium-2 large-12 no_padding">
+			<img src="https://storage.pravo.ru/image/198/99407.png?v=1672644813" alt="Цифра дня">
+		</div>
+		<div class="column small-12 medium-10 large-12">
+			<span>10:25</span>
+			Цифра дня		</div>
+	</div>
+</a>
+			<a href="https://pravo.ru/news/244710/" data-pos-name="news" data-vr-contentbox="Position 16 | В нормы о праве осужденного на отсрочку внесут уточнения" data-metric-click="13,100746,16"><span>9:57</span>В нормы о праве осужденного на отсрочку внесут уточнения</a>			<a href="https://pravo.ru/news/244690/" data-pos-name="news" data-vr-contentbox="Position 17 | ВС защитил право арендатора на выкуп земли" data-metric-click="13,100744,17"><span>8:54</span>ВС защитил право арендатора на выкуп земли</a>			<a href="https://pravo.ru/story/244709/" data-pos-name="news" data-vr-contentbox="Position 18 | Обзор СМИ за 30 декабря" data-metric-click="13,100743,18"><span>8:22</span>Обзор СМИ за 30 декабря</a>			<a href="https://pravo.ru/news/244689/" data-pos-name="news" data-vr-contentbox="Position 19 | ВС заставил определить рыночную стоимость предмета залога" data-metric-click="13,100742,19"><span>19:15</span>ВС заставил определить рыночную стоимость предмета залога</a>			<a href="https://pravo.ru/news/244708/" data-pos-name="news" data-vr-contentbox="Position 20 | В Госдуму внесли законопроект о цифровом рубле" data-metric-click="13,100741,20"><span>19:10</span>В Госдуму внесли законопроект о цифровом рубле</a>			<a href="https://pravo.ru/news/244707/" data-pos-name="news" data-vr-contentbox="Position 21 | Путин подписал законы о прокуратуре, нотариате и упразднении судов" data-metric-click="13,100739,21"><span>18:45</span>Путин подписал законы о прокуратуре, нотариате и упразднении судов</a>			<a href="https://pravo.ru/news/244688/" data-pos-name="news" data-vr-contentbox="Position 22 | ВС не позволил заплатить залоговому кредитору в 50 раз меньше" data-metric-click="13,100737,22"><span>17:40</span>ВС не позволил заплатить залоговому кредитору в 50 раз меньше</a>			<a href="https://pravo.ru/news/244706/" data-pos-name="news" data-vr-contentbox="Position 23 | Семьям погибших в ДНР и ЛНР чиновников выплатят 5 млн руб." data-metric-click="13,100736,23"><span>17:01</span>Семьям погибших в ДНР и ЛНР чиновников выплатят 5 млн руб.</a>			<a href="https://pravo.ru/news/244704/" data-pos-name="news" data-vr-contentbox="Position 24 | Президент назначил прокуроров в новые регионы" data-metric-click="13,100734,24"><span>16:48</span>Президент назначил прокуроров в новые регионы</a>			<a href="https://pravo.ru/news/244703/" data-pos-name="news" data-vr-contentbox="Position 25 | Путин подписал законы о вредных НКО и георгиевских ленточках" data-metric-click="13,100730,25"><span>16:09</span>Путин подписал законы о вредных НКО и георгиевских ленточках</a>			<a href="https://pravo.ru/news/244702/" data-pos-name="news" data-vr-contentbox="Position 26 | В Госдуму внесли новеллу о дополнительных льготах для вдов ветеранов" data-metric-click="13,100728,26"><span>16:03</span>В Госдуму внесли новеллу о дополнительных льготах для вдов ветеранов</a>			<a href="https://pravo.ru/auto/news/244701/"  data-pos-name="news" data-vr-contentbox="Position 27 | Цифра дня" data-metric-click="13,100725,27">
+	<div class="row small-collapse medium-uncollapse">
+		<div class="column small-12 medium-2 large-12 no_padding">
+			<img src="https://storage.pravo.ru/image/198/99372.png?v=1672644813" alt="Цифра дня">
+		</div>
+		<div class="column small-12 medium-10 large-12">
+			<span>15:01</span>
+			Цифра дня		</div>
+	</div>
+</a>
+			<a href="https://pravo.ru/news/244700/" data-pos-name="news" data-vr-contentbox="Position 28 | В ГК предложили поправки о возражениях при уступке долга" data-metric-click="13,100722,28"><span>14:27</span>В ГК предложили поправки о возражениях при уступке долга</a>			<a href="https://pravo.ru/news/244698/" data-pos-name="news" data-vr-contentbox="Position 29 | Кабмин упрощает естественным монополиям доступ к земельным участкам" data-metric-click="13,100720,29"><span>13:27</span>Кабмин упрощает естественным монополиям доступ к земельным участкам</a>			<a href="https://pravo.ru/news/244697/"  data-pos-name="news" data-vr-contentbox="Position 30 | Клишас: конфискация имущества уехавших неконституционна" data-metric-click="13,100715,30">
+	<div class="row small-collapse medium-uncollapse">
+		<div class="column small-12 medium-2 large-12 no_padding">
+			<img src="https://storage.pravo.ru/image/101/50511.jpg?v=1672644813" alt="Клишас: конфискация имущества уехавших неконституционна">
+		</div>
+		<div class="column small-12 medium-10 large-12">
+			<span>12:24</span>
+			Клишас: конфискация имущества уехавших неконституционна		</div>
+	</div>
+</a>
+			<a href="https://pravo.ru/news/244696/" data-pos-name="news" data-vr-contentbox="Position 31 | ВС решит, какие выплаты работник банкрота должен получить приоритетно" data-metric-click="13,100713,31"><span>12:11</span>ВС решит, какие выплаты работник банкрота должен получить приоритетно</a>			<a href="https://pravo.ru/news/244695/" data-pos-name="news" data-vr-contentbox="Position 32 | Кабмин расширил программу семейной ипотеки" data-metric-click="13,100709,32"><span>11:01</span>Кабмин расширил программу семейной ипотеки</a>			<a href="https://pravo.ru/news/244687/" data-pos-name="news" data-vr-contentbox="Position 33 | ВС решил спор об увеличении арендной ставки в Москве" data-metric-click="13,100707,33"><span>10:45</span>ВС решил спор об увеличении арендной ставки в Москве</a>			<a href="https://pravo.ru/news/244694/" data-pos-name="news" data-vr-contentbox="Position 34 | Обыски по делу экс-депутата Пономарева* прошли в семи городах" data-metric-click="13,100706,34"><span>10:21</span>Обыски по делу экс-депутата Пономарева* прошли в семи городах</a>			<a href="https://pravo.ru/news/244693/" data-pos-name="news" data-vr-contentbox="Position 35 | Охрану труда предложили проводить удаленно" data-metric-click="13,100704,35"><span>9:40</span>Охрану труда предложили проводить удаленно</a>			<a href="https://pravo.ru/story/244691/" data-pos-name="news" data-vr-contentbox="Position 36 | Обзор СМИ за 29 декабря" data-metric-click="13,100702,36"><span>8:49</span>Обзор СМИ за 29 декабря</a>			<a href="https://pravo.ru/news/244686/" data-pos-name="news" data-vr-contentbox="Position 37 | ВС научил определять, когда должник узнал об исполнительном производстве" data-metric-click="13,100701,37"><span>8:35</span>ВС научил определять, когда должник узнал об исполнительном производстве</a>			<a href="https://pravo.ru/news/244685/" data-pos-name="news" data-vr-contentbox="Position 38 | Путин повысил пенсии для неработающих пенсионеров" data-metric-click="13,100694,38"><span>20:19</span>Путин повысил пенсии для неработающих пенсионеров</a>			<a href="https://pravo.ru/news/244684/"  data-pos-name="news" data-vr-contentbox="Position 39 | Шадаев анонсировал новые отсрочки и раскритиковал запрет удаленки в IT" data-metric-click="13,100692,39">
+	<div class="row small-collapse medium-uncollapse">
+		<div class="column small-12 medium-2 large-12 no_padding">
+			<img src="https://storage.pravo.ru/image/196/98462.jpg?v=1672644813" alt="Шадаев анонсировал новые отсрочки и раскритиковал запрет удаленки в IT / Фото: Сергей Фадеичев/ТАСС">
+		</div>
+		<div class="column small-12 medium-10 large-12">
+			<span>19:51</span>
+			Шадаев анонсировал новые отсрочки и раскритиковал запрет удаленки в IT		</div>
+	</div>
+</a>
+			<a href="https://pravo.ru/news/244683/" data-pos-name="news" data-vr-contentbox="Position 40 | Президент усовершенствовал применение единого налогового счета" data-metric-click="13,100690,40"><span>19:05</span>Президент усовершенствовал применение единого налогового счета</a>			<a href="https://pravo.ru/news/244682/" data-pos-name="news" data-vr-contentbox="Position 41 | СКЭС проверит предбанкротную продажу помещений по кругу" data-metric-click="13,100688,41"><span>18:44</span>СКЭС проверит предбанкротную продажу помещений по кругу</a>			<a href="https://pravo.ru/news/244417/" data-pos-name="news" data-vr-contentbox="Position 42 | ВС решал, когда выдел участка без согласия арендатора невозможен" data-metric-click="13,100684,42"><span>17:29</span>ВС решал, когда выдел участка без согласия арендатора невозможен</a>			<a href="https://pravo.ru/news/244681/"  data-pos-name="news" data-vr-contentbox="Position 43 | «Пермскому стрелку» вынесли приговор" data-metric-click="13,100683,43">
+	<div class="row small-collapse medium-uncollapse">
+		<div class="column small-12 medium-2 large-12 no_padding">
+			<img src="https://storage.pravo.ru/image/198/99356.jpg?v=1672644813" alt="«Пермскому стрелку» вынесли приговор /  Фото: Донат Сорокин/ТАСС">
+		</div>
+		<div class="column small-12 medium-10 large-12">
+			<span>16:25</span>
+			«Пермскому стрелку» вынесли приговор		</div>
+	</div>
+</a>
+			<a href="https://pravo.ru/news/244680/" data-pos-name="news" data-vr-contentbox="Position 44 | КС защитил права клиентов Почты России" data-metric-click="13,100681,44"><span>15:58</span>КС защитил права клиентов Почты России</a>			<a href="https://pravo.ru/news/244679/" data-pos-name="news" data-vr-contentbox="Position 45 | Путин подписал законы об НПФ и социальных услугах для ветеранов" data-metric-click="13,100679,45"><span>15:02</span>Путин подписал законы об НПФ и социальных услугах для ветеранов</a>			<a href="https://pravo.ru/news/244678/" data-pos-name="news" data-vr-contentbox="Position 46 | Клиринговым компаниям позволят оставлять обеспечение себе" data-metric-click="13,100674,46"><span>13:47</span>Клиринговым компаниям позволят оставлять обеспечение себе</a>			<a href="https://pravo.ru/news/244668/" data-pos-name="news" data-vr-contentbox="Position 47 | ВС оценил компенсационное финансирование без необходимости" data-metric-click="13,100670,47"><span>12:50</span>ВС оценил компенсационное финансирование без необходимости</a>			<a href="https://pravo.ru/news/244676/" data-pos-name="news" data-vr-contentbox="Position 48 | Минфин и ЦБ будут оценивать финансовую культуру россиян" data-metric-click="13,100668,48"><span>12:21</span>Минфин и ЦБ будут оценивать финансовую культуру россиян</a>			<a href="https://pravo.ru/auto/news/244675/" data-pos-name="news" data-vr-contentbox="Position 49 | Договор ОСАГО предложили заключать на все машины страхователя сразу" data-metric-click="13,100666,49"><span>11:53</span>Договор ОСАГО предложили заключать на все машины страхователя сразу</a>			<a href="https://pravo.ru/news/244673/" data-pos-name="news" data-vr-contentbox="Position 50 | Эксперты ЦБ: Импортозамещение снижает уровень жизни" data-metric-click="13,100663,50"><span>11:05</span>Эксперты ЦБ: Импортозамещение снижает уровень жизни</a>			<a href="https://pravo.ru/news/244425/" data-pos-name="news" data-vr-contentbox="Position 51 | ВС решил судьбу обеспечительного платежа при страховании" data-metric-click="13,100659,51"><span>10:20</span>ВС решил судьбу обеспечительного платежа при страховании</a>			<a href="https://pravo.ru/news/244672/" data-pos-name="news" data-vr-contentbox="Position 52 | Участникам СВО дадут преимущества при трудоустройстве" data-metric-click="13,100657,52"><span>9:49</span>Участникам СВО дадут преимущества при трудоустройстве</a>			<a href="https://pravo.ru/story/244670/" data-pos-name="news" data-vr-contentbox="Position 53 | Обзор СМИ за 28 декабря" data-metric-click="13,100655,53"><span>8:49</span>Обзор СМИ за 28 декабря</a>			<a href="https://pravo.ru/news/244666/" data-pos-name="news" data-vr-contentbox="Position 54 | ВС не дал признать сделку недействительной без последствий" data-metric-click="13,100653,54"><span>7:38</span>ВС не дал признать сделку недействительной без последствий</a>			<a href="https://pravo.ru/news/244664/" data-pos-name="news" data-vr-contentbox="Position 55 | Путин одобрил меры против потолка цен на нефть" data-metric-click="13,100625,55"><span>19:47</span>Путин одобрил меры против потолка цен на нефть</a>			<a href="https://pravo.ru/news/244662/" data-pos-name="news" data-vr-contentbox="Position 56 | ВС разъяснил правила определения рецидива и сложения наказаний" data-metric-click="13,100622,56"><span>19:15</span>ВС разъяснил правила определения рецидива и сложения наказаний</a>			<a href="https://pravo.ru/news/244661/" data-pos-name="news" data-vr-contentbox="Position 57 | ВС разъяснил вопрос о компенсации за незначительную долю " data-metric-click="13,100619,57"><span>18:53</span>ВС разъяснил вопрос о компенсации за незначительную долю </a>			<a href="https://pravo.ru/news/244660/" data-pos-name="news" data-vr-contentbox="Position 58 | ВС объяснил, когда отзыв согласия на сделку не имеет значения" data-metric-click="13,100617,58"><span>17:49</span>ВС объяснил, когда отзыв согласия на сделку не имеет значения</a>			<a href="https://pravo.ru/news/244659/" data-pos-name="news" data-vr-contentbox="Position 59 | Дело о растрате 10 млрд руб. банков «Город» и «Таурус» направили в суд" data-metric-click="13,100615,59"><span>17:48</span>Дело о растрате 10 млрд руб. банков «Город» и «Таурус» направили в суд</a>			<a href="https://pravo.ru/news/229826/" data-pos-name="news" data-vr-contentbox="Position 60 | Возбуждено дело из-за утечки данных о рейсе Навального" data-metric-click="13,65536,60"><span>13:55</span>Возбуждено дело из-за утечки данных о рейсе Навального</a>	</div>
+						</div>
+					</aside>
+				</div>
+			</div>
+		</div>
+		<section class="bottom_banner" data-bottom-popup='{"page":"articles"}'>
+    <section class="bottom-banner-wrapper advert">
+        <button data-bottom-banner-close></button>
+                    <div data-pravoad-position="16"></div>                
+        <div class="banner-label">
+            Реклама
+            <button type="button" data-banner-label-toggle></button>
         </div>
-    </footer>
+        <div class="banner-label-text hide" data-banner-label>
+            <div class="banner-label-text--wrapper" data-banner-label-text></div>
+            <button type="button" class="banner-label-text--close" data-banner-label-toggle>×</button>
+        </div>
+    </section>
+</section>
+	</div>
+<!--LiveInternet counter-->
+<script><!--
+	new Image().src = "//counter.yadro.ru/hit;pravo_group?r" +
+		escape(document.referrer) + ((typeof(screen) == "undefined") ? "" :
+		";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+			screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+		";h" + escape(document.title.substring(0, 80)) +
+		";" + Math.random();//--></script>
+<!--/LiveInternet-->
 
-    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="/inc/js/jquery.fancybox.js"></script>
-    <script src="/inc/js/owl.carousel.js"></script>
-    <script src="inc/js/jquery.datetimepicker.full.min.js"></script>
-    <script src="/inc/js/scripts.js"></script>
+<!-- Google Tag Manager -->
+<noscript>
+	<iframe src="//www.googletagmanager.com/ns.html?id=GTM-K72C2H"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>(function (w, d, s, l, i) {
+		w[l] = w[l] || [];
+		w[l].push({
+			'gtm.start': new Date().getTime(), event: 'gtm.js'
+		});
+		var f = d.getElementsByTagName(s)[0],
+			j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+		j.async = true;
+		j.src =
+			'//www.googletagmanager.com/gtm.js?id=' + i + dl;
+		f.parentNode.insertBefore(j, f);
+	})(window, document, 'script', 'dataLayer', 'GTM-K72C2H');</script>
+<!-- End Google Tag Manager -->
 
-    
-    <!-- BEGIN JIVOSITE CODE  -->
-    <script type='text/javascript'>
-        (function(){ var widget_id = 'v1xFZbBKei';var d=document;var w=window;function l(){
-            var s = document.createElement('script');
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = '//code.jivosite.com/script/widget/'+widget_id;
-            var ss = document.getElementsByTagName('script')[0];
-            ss.parentNode.insertBefore(s, ss);}
-            if(d.readyState=='complete'){
-                l();
-            }else{
-                if(w.attachEvent){
-                    w.attachEvent('onload',l);
-                }else{
-                    w.addEventListener('load',l,false);}
-            }})();</script>
-    <!--  END JIVOSITE CODE -->
-    
-
-<script src="/assets/components/ajaxform/js/default.js"></script>
-<script>AjaxForm.initialize({"assetsUrl":"\/assets\/components\/ajaxform\/","actionUrl":"\/assets\/components\/ajaxform\/action.php","closeMessage":"\u0437\u0430\u043a\u0440\u044b\u0442\u044c \u0432\u0441\u0435","formSelector":"form.ajax_form","clearFieldsOnSuccess":true,"pageId":177});</script>
-</body>
+<!-- Rating@Mail.ru counter -->
+<script type="text/javascript">//<![CDATA[
+	var _tmr = _tmr || [];
+	_tmr.push({id: "2204960", type: "pageView", start: (new Date()).getTime()});
+	(function (d, w) {
+		var ts = d.createElement("script");
+		ts.type = "text/javascript";
+		ts.async = true;
+		ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+		var f = function () {
+			var s = d.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(ts, s);
+		};
+		if (w.opera == "[object Opera]") {
+			d.addEventListener("DOMContentLoaded", f, false);
+		} else {
+			f();
+		}
+	})(document, window);
+	//]]></script>
+<noscript>
+	<div style="position:absolute;left:-10000px;">
+		<img src="//top-fwz1.mail.ru/counter?id=2204960;js=na" style="border:0;" height="1" width="1"
+			 alt="Рейтинг@Mail.ru"/>
+	</div>
+</noscript>
+<!-- //Rating@Mail.ru counter -->
+<!-- Yandex.Metrika counter -->
+<div style="display:none;">
+	<script>(function (w, c) {
+			(w[c] = w[c] || []).push(function () {
+				try {
+					w.yaCounter2209228 = new Ya.Metrika({
+						id: 2209228,
+						clickmap: true,
+						trackLinks: true,
+						webvisor: true
+					});
+				} catch (e) {
+				}
+			});
+		})(window, "yandex_metrika_callbacks");</script>
+</div>
+<script src="//mc.yandex.ru/metrika/watch.js" defer="defer"></script>
+<noscript>
+	<div><img src="//mc.yandex.ru/watch/2209228" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+<script src="/assets/6ae7bd47/jquery.min.js?v=1671204360"></script>
+<script src="/assets/cac16397/js/event.js?v=1671204360"></script>
+<script src="/assets/1ea858c5/js/slick.js?v=1671204360"></script>
+<script src="/assets/911fd5c3/js/slider.js?v=1671204360"></script>
+<script src="/assets/1ea858c5/js/social-likes.min.js?v=1671204360"></script>
+<script src="/assets/2946f383/js/handlebars.min.js?v=1671204360"></script>
+<script src="/assets/2946f383/js/chronicle.js?v=1671204360"></script>
+<script src="/assets/b37f284c/js/what-input.js?v=1671204360"></script>
+<script src="/assets/b37f284c/js/foundation.min.js?v=1671204360"></script>
+<script src="/assets/5f977776/js/app.js?v=1671204360"></script>
+<script src="/assets/464e240/js/related_articles.js?v=1671204360"></script>
+<script src="/assets/65d8a950/yii.js?v=1671204360"></script>
+<script src="/assets/65d8a950/yii.activeForm.js?v=1671204360"></script>
+<script src="/assets/7ef0d6a5/js/banner.js?v=1671204360"></script>
+<script src="/assets/fa8a37f7/js/feed.js?v=1671204360"></script>
+<script src="/assets/d17fd2bc/js/bottom-popup.js?v=1671204360"></script>
+<script src="/pravoad/main.js?v=1668681946"></script>
+<script>var relatedArticleUrls = ["https://pravo.ru/news/241068/","https://pravo.ru/news/237727/","https://pravo.ru/news/232891/","https://pravo.ru/story/224088/"]
+var pravoadApiUrl = 'https://service.pravo.ru/pravo/banner/?place=2&positions=';</script>
+<script>jQuery(function ($) {
+jQuery('#w0').yiiActiveForm([], []);
+jQuery('#w1').yiiActiveForm([], []);
+});</script>
+<script>jQuery(window).on('load', function () {
+metric.init();
+});</script></body>
 </html>

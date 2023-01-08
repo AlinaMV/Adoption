@@ -1,908 +1,1307 @@
-    ﻿<pre style="display:none">665</pre><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru"><head xmlns="">
-<base href="https://tgl.ru/">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="twitter:card" content="summary">
-<link rel="icon" type="image/png" href="favicon.png">
-<title>Усыновление / Департамент социального обеспечения / Структура администрации / Власть / Администрация городского округа Тольятти</title>
-<meta name="keywords" content="">
-<meta name="description" content="">
-<link href="/css/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet">
-<link rel="stylesheet" href="/css/style.css" type="text/css">
-<link rel="stylesheet" href="/css/css.css" type="text/css">
-<link rel="alternate" type="application/rss+xml" title="Мероприятия" href="https://tgl.ru/events/rss/">
-<link rel="alternate" type="application/rss+xml" title="Новости города" href="https://tgl.ru/press-releases/rss/">
-<link rel="alternate" type="application/rss+xml" title="Новости департаментов" href="https://tgl.ru/press-releases/rss/dep/">
-<link rel="alternate" type="application/rss+xml" title="Пресс-релизы" href="https://tgl.ru/press-releases/rss/">
-<script type="text/javascript" src="/js/ajax/libs/jquery/1.10.2/jquery.min.js"></script><script type="text/javascript" src="/js/jquery-latest.min.js"></script><script type="text/javascript" src="/js/ajax/libs/jquery/1.10.3/jquery-ui.min.js"></script><script type="text/javascript">
-			$(function() {				
-				$('#phoneHelperPopup .popup').draggable({ cancel: ".helper" });	
-				$('#popup_phoneHelperPopup').draggable({ cancel: "#podr_list" });				
-			});
-		</script><script type="text/javascript" src="/js/snowfall.js"></script><script type="text/javascript">
-    $(document).ready(function(){
-        $('body').snowfall({image :"/i/snow3.png", minSize: 10, maxSize:50, collection : '.footer'});
-    });
-		</script><script type="text/javascript" src="/css/bootstrap/js/bootstrap.min.js"></script><script type="text/javascript" src="/js/NEWinit2022.js"></script><script type="text/javascript" src="/js/js.js"></script><script type="text/javascript" src="/js/jquery.equalHeight.js"></script><script type="text/javascript" src="/js/themes.js"></script><script type="text/javascript" src="/js/sendError.js"></script><!--[if lte IE 9]>
-		<script type="text/javascript" src="/js/PIE.js"></script>
-		<link type="text/css" rel="stylesheet" href="/css/ie.css"/>
-	<![endif]--><script type="text/javascript" src="js/slimbox2.js"></script><link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen">
-<script type="text/javascript" src="js/fluidequalheight.js"></script><script type="text/javascript" src="/js/jqtransform/jquery.jqtransform.js"></script><link rel="stylesheet" href="/js/jqtransform/jqtransform.css" type="text/css" media="all">
-<script type="text/javascript" src="/js/jquery.jcarousel.min.js"></script><link rel="Stylesheet" href="/css/carousel.css" type="text/css">
-<script type="text/javascript">
-	
-		jQuery(document).ready(function() {
-			
-			$('input').focusout(function(){
-				$(this).css({
-					'border': '1px solid #cccccc',
-					'box-shadow': '0 1px 1px rgba(0, 0, 0, 0.075) inset'
-				})
-				$('.required').css ('color', '#666')					
-			});
-		
-			jQuery("#questionary :button.form_submit").click(function(){	
-				name = $('#name').attr('value')
-				if (name == ""){
-					$('#name').css({
-						'border-color': '#e9322d',
-						'box-shadow' : '0 0 6px #f8b9b7'
-					})
-					$('.required').css('color', '#e9322d')
-					return false;
-				}				
-				surname = $('#surname').attr('value')
-				if (surname == ""){
-					$('#surname').css({
-						'border-color': '#e9322d',
-						'box-shadow' : '0 0 6px #f8b9b7'
-					})
-					$('.required').css('color', '#e9322d')
-					return false;
-				}
-				phone = $('#phone').attr('value')
-				if (phone == ""){
-					$('#phone').css({
-						'border-color': '#e9322d',
-						'box-shadow' : '0 0 6px #f8b9b7'
-					})
-					$('.required').css('color', '#e9322d')
-					return false;
-				}
-				email = $('#email').attr('value')
-				if (email == ""){
-					$('#email').css({
-						'border-color': '#e9322d',
-						'box-shadow' : '0 0 6px #f8b9b7'
-					})
-					$('.required').css('color', '#e9322d')
-					return false;
-				}
-				activity = $('#activity').attr('value')
-				if (activity == ""){
-					$('#activity').css({
-						'border-color': '#e9322d',
-						'box-shadow' : '0 0 6px #f8b9b7'
-					})
-					$('.required').css('color', '#e9322d')
-					return false;
-				}
-				work = $('#work').attr('value')
-				if (work == ""){
-					$('#work').css({
-						'border-color': '#e9322d',
-						'box-shadow' : '0 0 6px #f8b9b7'
-					})
-					$('.required').css('color', '#e9322d')
-					return false;
-				}
-				competence = $('#competence').attr('value')
-				direction = $('#direction').attr('value')
-				note = $('#note').attr('value')
-				agree = $('#agree').prop('checked')
-				if (agree == false) {
-					$('#questionary input[type="checkbox"] + label').css('color', '#e9322d')
-					$('.required').css('color', '#e9322d')
-					return false;					
-				}
-				$.ajax({
-					type: "POST",
-					url: "questionarys/send",
-					data: {
-						name: name,
-						surname: surname,
-						phone: phone,
-						email: email,
-						activity: activity,
-						work: work,
-						competence: competence,
-						direction: direction,
-						note: note,
-					},
-					success: function(json){
-					  	if (json.status == 'error') {
-							$('#successMsg').html('<span style="padding:10px; border:1px solid #b2ccd3; display:block">' +json.text +'</span>');
-							$('#questionary').css("display", "none");
-					  	} else {
-							$('#successMsg').html('<span style="padding:10px; border:1px solid #b2ccd3; display:block">' +json.text +'</span>');
-							$('#questionary').trigger("reset");
-							$('#questionary').css("display", "none");
-					  	}
-					}
-				});
-					return false;
-			});
-			jQuery('#add_candidate').click(function(){
-				data = $(this).prev().attr('data')
-				if (data < 5){
-					new_data = Number(data)+1
-					prev_candidate = $(this).prev().get(0).outerHTML;
-					$(this).before(prev_candidate)
-					$(this).prev().attr('data', new_data)
-					$(this).prev().find('.fio').attr('id', 'fio'+new_data)
-					$(this).prev().find('.fio').attr('name', 'fio'+new_data)
-					$(this).prev().find('.contacts').attr('id', 'contacts'+new_data)
-					$(this).prev().find('.contacts').attr('name', 'contacts'+new_data)
-					//$(this).prev().append('<span>X</span>')
-					/*new_candidate = $(this).prev().clone();
-					console.log(new_candidate)*/
-				}
-			})
-			jQuery('#botslider').jcarousel({
-				visible: 3,
-				//visible: 5,
-				animation: 800
-			});
-			jQuery('#botslider2').jcarousel({
-				visible: 3,
-				//visible: 5,
-				animation: 800
-			});
-		});
-		</script><script>
-			var main = {
-					base:'https://tgl.ru/',
-					current: 'structure/department/usynovlenie'
-				};
-		</script>
-</head>
-<body xmlns="">
-<div class="popupWrapper" id="phoneHelperPopup"><div class="popup">
-<p class="title">Телефонный справочник</p>
-<a class="closePopup"></a><div class="helper">
-<div class="item opened">
-<div class="helperhead"><div class="helperheadIn"><p><span>Сотрудники администрации</span></p></div></div>
-<div class="helperbody"><form method="get" action="/phonebook-employees/search/" class="jq" name="phoneBookForm"><fieldset>
-<input type="text" name="fio" class="inputbox" placeholder="Имя, Фамилия, Отчество"><input type="text" name="phonenum" class="inputbox" placeholder="Номер телефона"><div class="podrazdeleniyaIn" style="padding-top:0px;">
-<p class="select_podr" style="cursor:pointer;"><a id="open_select_podr">Выбрать подразделение</a></p>
-<p class="selected_podrs" id="selected_podrs"></p>
-</div>
-<input type="submit" class="but_blue button" value="Найти">
-</fieldset></form></div>
-<div class="popupWrapper" id="podrPopup"><div class="popup" id="popup_phoneHelperPopup">
-<p class="title">Подразделения</p>
-<a class="closePopup"></a><div class="podr_list" id="podr_list">
-<a id="select_all_podrs">Все</a><form method="post" action="" id="divisionsForm"><fieldset><div class="thepodr"><a class="opener"></a><input type="checkbox" value="1" rel="Руководство" rev="1"/> Руководство<div class="thepodr"><input type="checkbox" value="303" rel="..." rev="0"/> ...</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="2" rel="Службы главы городского округа" rev="1"/> Службы главы городского округа<div class="thepodr"><a class="opener"></a><input type="checkbox" value="3" rel="Управление муниципальной службы и кадровой политики" rev="2"/> Управление муниципальной службы и кадровой политики<div class="thepodr"><input type="checkbox" value="4" rel="Отдел кадров" rev="3"/> Отдел кадров</div><div class="thepodr"><input type="checkbox" value="6" rel="Отдел организационно-нормативного обеспечения работы с персоналом" rev="3"/> Отдел организационно-нормативного обеспечения работы с персоналом</div><div class="thepodr"><input type="checkbox" value="7" rel="Сектор развития персонала" rev="3"/> Сектор развития персонала</div><div class="thepodr"><input type="checkbox" value="8" rel="Отдел профилактики коррупционных и иных правонарушений" rev="3"/> Отдел профилактики коррупционных и иных правонарушений</div><div class="thepodr"><input type="checkbox" value="305" rel="Сектор работы с руководителями МП и МУ" rev="3"/> Сектор работы с руководителями МП и МУ</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="11" rel="Департамент информационных технологий и связи" rev="2"/> Департамент информационных технологий и связи<div class="thepodr"><input type="checkbox" value="12" rel="Отдел планирования и контроля" rev="3"/> Отдел планирования и контроля</div><div class="thepodr"><input type="checkbox" value="13" rel="Отдел телекоммуникаций и связи" rev="3"/> Отдел телекоммуникаций и связи</div><div class="thepodr"><input type="checkbox" value="14" rel="Сектор информационной безопасности" rev="3"/> Сектор информационной безопасности</div><div class="thepodr"><input type="checkbox" value="15" rel="Отдел формирования электронного муниципалитета" rev="3"/> Отдел формирования электронного муниципалитета</div><div class="thepodr"><input type="checkbox" value="16" rel="Отдел информационных технологий" rev="3"/> Отдел информационных технологий</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="17" rel="Управление мобилизационной подготовки" rev="2"/> Управление мобилизационной подготовки<div class="thepodr"><input type="checkbox" value="18" rel="Бюро секретного и мобилизационного делопроизводства" rev="3"/> Бюро секретного и мобилизационного делопроизводства</div><div class="thepodr"><input type="checkbox" value="19" rel="Отдел планирования мобилизационной подготовки" rev="3"/> Отдел планирования мобилизационной подготовки</div><div class="thepodr"><input type="checkbox" value="20" rel="Сектор мобилизационной подготовки  по Автозаводскому району" rev="3"/> Сектор мобилизационной подготовки  по Автозаводскому району</div><div class="thepodr"><input type="checkbox" value="21" rel="Сектор мобилизационной подготовки  по Комсомольскому району" rev="3"/> Сектор мобилизационной подготовки  по Комсомольскому району</div><div class="thepodr"><input type="checkbox" value="22" rel="Сектор мобилизационной подготовки по Центральному району" rev="3"/> Сектор мобилизационной подготовки по Центральному району</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="24" rel="Департамент общественной безопасности" rev="2"/> Департамент общественной безопасности<div class="thepodr"><input type="checkbox" value="25" rel="Отдел обеспечения общественной безопасности" rev="4"/> Отдел обеспечения общественной безопасности</div><div class="thepodr"><input type="checkbox" value="28" rel="Отдел ГО и ЧС" rev="4"/> Отдел ГО и ЧС</div><div class="thepodr"><input type="checkbox" value="29" rel="Отдел обеспечения первичных мер пожарной безопасности" rev="4"/> Отдел обеспечения первичных мер пожарной безопасности</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="56" rel="Управление административной практики и контроля" rev="2"/> Управление административной практики и контроля<div class="thepodr"><input type="checkbox" value="233" rel="Отдел контрольных мероприятий" rev="3"/> Отдел контрольных мероприятий</div><div class="thepodr"><input type="checkbox" value="242" rel="Отдел административной практики" rev="3"/> Отдел административной практики</div><div class="thepodr"><input type="checkbox" value="265" rel="Сектор администрирования доходов " rev="3"/> Сектор администрирования доходов </div><div class="thepodr"><input type="checkbox" value="266" rel="Сектор правового обеспечения" rev="3"/> Сектор правового обеспечения</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="57" rel="Управление потребительского рынка" rev="2"/> Управление потребительского рынка<div class="thepodr"><input type="checkbox" value="59" rel="Финансово-экономический отдел (УПР)" rev="3"/> Финансово-экономический отдел (УПР)</div><div class="thepodr"><input type="checkbox" value="327" rel="Отдел оформления прав " rev="3"/> Отдел оформления прав </div><div class="thepodr"><input type="checkbox" value="328" rel="Отдел мониторинга объектов потребительского рынка" rev="3"/> Отдел мониторинга объектов потребительского рынка</div><div class="thepodr"><input type="checkbox" value="335" rel="Отдел аналитики и развития потребительского рынка" rev="3"/> Отдел аналитики и развития потребительского рынка</div></div><div class="thepodr"><input type="checkbox" value="61" rel="Контрольно-ревизионный отдел" rev="2"/> Контрольно-ревизионный отдел</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="202" rel="Правовой департамент" rev="2"/> Правовой департамент<div class="thepodr"><input type="checkbox" value="203" rel="Бюро документооборота" rev="3"/> Бюро документооборота</div><div class="thepodr"><input type="checkbox" value="204" rel="Сектор правового сопровождения по Автозаводскому району" rev="3"/> Сектор правового сопровождения по Автозаводскому району</div><div class="thepodr"><input type="checkbox" value="205" rel="Сектор правового сопровождения по Комсомольскому району" rev="3"/> Сектор правового сопровождения по Комсомольскому району</div><div class="thepodr"><input type="checkbox" value="206" rel="Сектор правового сопровождения по Центральному району" rev="3"/> Сектор правового сопровождения по Центральному району</div><div class="thepodr"><input type="checkbox" value="207" rel="Отдел правового обеспечения" rev="3"/> Отдел правового обеспечения</div><div class="thepodr"><input type="checkbox" value="209" rel="Нормативно-аналитическое управление" rev="3"/> Нормативно-аналитическое управление</div><div class="thepodr"><input type="checkbox" value="210" rel="Управление правового взаимодействия" rev="3"/> Управление правового взаимодействия</div></div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="23" rel="Службы первого заместителя главы городского округа" rev="1"/> Службы первого заместителя главы городского округа<div class="thepodr"><a class="opener"></a><input type="checkbox" value="63" rel="Департамент городского хозяйства" rev="2"/> Департамент городского хозяйства<div class="thepodr"><input type="checkbox" value="64" rel="Бюро документооборота" rev="3"/> Бюро документооборота</div><div class="thepodr"><input type="checkbox" value="67" rel="Отдел инженерной инфраструктуры" rev="3"/> Отдел инженерной инфраструктуры</div><div class="thepodr"><input type="checkbox" value="68" rel="Сметно-договорной отдел" rev="3"/> Сметно-договорной отдел</div><div class="thepodr"><input type="checkbox" value="71" rel="Отдел жилищно-коммунального хозяйства" rev="3"/> Отдел жилищно-коммунального хозяйства</div><div class="thepodr"><input type="checkbox" value="72" rel="Отдел программ развития ЖКХ" rev="3"/> Отдел программ развития ЖКХ</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="75" rel="Управление природопользования и охраны окружающей среды" rev="3"/> Управление природопользования и охраны окружающей среды<div class="thepodr"><input type="checkbox" value="76" rel="Отдел мероприятий природопользования " rev="4"/> Отдел мероприятий природопользования </div><div class="thepodr"><input type="checkbox" value="77" rel="Отдел государственного экологического надзора (контроля)" rev="4"/> Отдел государственного экологического надзора (контроля)</div><div class="thepodr"><input type="checkbox" value="78" rel="Сектор  обращения с отходами " rev="4"/> Сектор  обращения с отходами </div></div><div class="thepodr"><input type="checkbox" value="79" rel="Финансово-экономический отдел (ДГХ)" rev="3"/> Финансово-экономический отдел (ДГХ)</div><div class="thepodr"><input type="checkbox" value="81" rel="Отдел благоустройства и озеленения" rev="3"/> Отдел благоустройства и озеленения</div><div class="thepodr"><input type="checkbox" value="82" rel="Отдел лесного хозяйства" rev="3"/> Отдел лесного хозяйства</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="263" rel="Управление муниципального  контроля" rev="3"/> Управление муниципального  контроля<div class="thepodr"><input type="checkbox" value="264" rel="Отдел аналитики и правового обеспечения" rev="15"/> Отдел аналитики и правового обеспечения</div><div class="thepodr"><input type="checkbox" value="332" rel="Отдел муниципального жилищного контроля" rev="4"/> Отдел муниципального жилищного контроля</div><div class="thepodr"><input type="checkbox" value="333" rel="Отдел муниципального контроля в сфере благоустройства" rev="4"/> Отдел муниципального контроля в сфере благоустройства</div></div><div class="thepodr"><input type="checkbox" value="334" rel="Отдел организации похоронного дела" rev="3"/> Отдел организации похоронного дела</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="84" rel="Департамент дорожного хозяйства и транспорта" rev="2"/> Департамент дорожного хозяйства и транспорта<div class="thepodr"><input type="checkbox" value="85" rel="Финансово-экономический отдел (ДДХиТ)" rev="3"/> Финансово-экономический отдел (ДДХиТ)</div><div class="thepodr"><input type="checkbox" value="86" rel="Отдел смет и договоров" rev="3"/> Отдел смет и договоров</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="87" rel="Управление дорожного хозяйства" rev="3"/> Управление дорожного хозяйства<div class="thepodr"><input type="checkbox" value="88" rel="Отдел развития дорожного хозяйства" rev="4"/> Отдел развития дорожного хозяйства</div><div class="thepodr"><input type="checkbox" value="89" rel="Отдел контроля за автомобильными дорогами" rev="4"/> Отдел контроля за автомобильными дорогами</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="90" rel="Управление транспорта" rev="3"/> Управление транспорта<div class="thepodr"><input type="checkbox" value="91" rel="Отдел развития транспорта" rev="4"/> Отдел развития транспорта</div><div class="thepodr"><input type="checkbox" value="92" rel="Контрольно-ревизорский отдел" rev="4"/> Контрольно-ревизорский отдел</div></div></div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="62" rel="Службы заместителя главы городского округа по финансам, экономике и развитию" rev="1"/> Службы заместителя главы городского округа по финансам, экономике и развитию<div class="thepodr"><a class="opener"></a><input type="checkbox" value="9" rel="Управление международных и межрегиональных связей" rev="2"/> Управление международных и межрегиональных связей<div class="thepodr"><input type="checkbox" value="10" rel="Сектор развития туризма" rev="3"/> Сектор развития туризма</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="30" rel="Департамент финансов" rev="2"/> Департамент финансов<div class="thepodr"><a class="opener"></a><input type="checkbox" value="33" rel="Управление доходов и муниципального долга" rev="3"/> Управление доходов и муниципального долга<div class="thepodr"><input type="checkbox" value="34" rel="Сектор мониторинга и урегулирования задолженности по доходам бюджета" rev="4"/> Сектор мониторинга и урегулирования задолженности по доходам бюджета</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="35" rel="Казначейское управление" rev="3"/> Казначейское управление<div class="thepodr"><input type="checkbox" value="36" rel="Отдел по ведению лицевых счетов бюджетных и автономных учреждений" rev="4"/> Отдел по ведению лицевых счетов бюджетных и автономных учреждений</div><div class="thepodr"><input type="checkbox" value="37" rel="Отдел по ведению лицевых счетов органов местного самоуправления и казенных учреждений" rev="4"/> Отдел по ведению лицевых счетов органов местного самоуправления и казенных учреждений</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="38" rel="Управление расходов жилищно-коммунальной сферы, транспорта и бюджетных инвестиций" rev="3"/> Управление расходов жилищно-коммунальной сферы, транспорта и бюджетных инвестиций<div class="thepodr"><input type="checkbox" value="39" rel="Отдел расходов жилищно-коммунального хозяйства" rev="4"/> Отдел расходов жилищно-коммунального хозяйства</div><div class="thepodr"><input type="checkbox" value="40" rel="Отдел расходов транспорта и бюджетных инвестиций" rev="4"/> Отдел расходов транспорта и бюджетных инвестиций</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="41" rel="Управление расходов социальной сферы и сводного планирования бюджета" rev="3"/> Управление расходов социальной сферы и сводного планирования бюджета<div class="thepodr"><input type="checkbox" value="42" rel="Отдел расходов социальной сферы" rev="4"/> Отдел расходов социальной сферы</div><div class="thepodr"><input type="checkbox" value="43" rel="Отдел сводного  планирования бюджета" rev="4"/> Отдел сводного  планирования бюджета</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="44" rel="Управление по учету и отчетности исполнения бюджета" rev="3"/> Управление по учету и отчетности исполнения бюджета<div class="thepodr"><input type="checkbox" value="45" rel="Отдел учета доходов и расходов бюджета" rev="4"/> Отдел учета доходов и расходов бюджета</div><div class="thepodr"><input type="checkbox" value="46" rel="Отдел бюджетного учета и отчетности" rev="4"/> Отдел бюджетного учета и отчетности</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="277" rel="Административный отдел" rev="3"/> Административный отдел<div class="thepodr"><input type="checkbox" value="31" rel="Бюро документооборота (Деп. финансов)" rev="4"/> Бюро документооборота (Деп. финансов)</div></div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="47" rel="Департамент экономического развития" rev="2"/> Департамент экономического развития<div class="thepodr"><a class="opener"></a><input type="checkbox" value="50" rel="Управление регулирования контрактной системы" rev="3"/> Управление регулирования контрактной системы<div class="thepodr"><input type="checkbox" value="51" rel="Отдел контроля и координации в сфере закупок" rev="4"/> Отдел контроля и координации в сфере закупок</div><div class="thepodr"><input type="checkbox" value="52" rel="Отдел планирования и мониторинга муниципальных закупок" rev="4"/> Отдел планирования и мониторинга муниципальных закупок</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="260" rel="Управление коммунального комплекса и муниципального сектора экономики" rev="3"/> Управление коммунального комплекса и муниципального сектора экономики<div class="thepodr"><input type="checkbox" value="54" rel="Отдел прогнозирования, мониторинга и анализа социально-экономического развития" rev="4"/> Отдел прогнозирования, мониторинга и анализа социально-экономического развития</div><div class="thepodr"><input type="checkbox" value="55" rel="Отдел тарифов, энергосбережения и мониторинга программ развития инфраструктуры" rev="4"/> Отдел тарифов, энергосбережения и мониторинга программ развития инфраструктуры</div><div class="thepodr"><input type="checkbox" value="291" rel="Отдел муниципальных программ" rev="4"/> Отдел муниципальных программ</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="309" rel="Управление инвестиций и предпринимательской деятельности" rev="3"/> Управление инвестиций и предпринимательской деятельности<div class="thepodr"><input type="checkbox" value="48" rel="Отдел инвестиций и стратегического планирования" rev="4"/> Отдел инвестиций и стратегического планирования</div><div class="thepodr"><input type="checkbox" value="53" rel="Отдел поддержки предпринимательства" rev="4"/> Отдел поддержки предпринимательства</div></div></div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="93" rel="Службы заместителя главы городского округа по имуществу и градостроительству" rev="1"/> Службы заместителя главы городского округа по имуществу и градостроительству<div class="thepodr"><a class="opener"></a><input type="checkbox" value="94" rel="Департамент градостроительной деятельности" rev="2"/> Департамент градостроительной деятельности<div class="thepodr"><input type="checkbox" value="99" rel="Бюро документооборота (ДГД)" rev="3"/> Бюро документооборота (ДГД)</div><div class="thepodr"><input type="checkbox" value="100" rel="Финансово-экономический отдел" rev="3"/> Финансово-экономический отдел</div><div class="thepodr"><input type="checkbox" value="101" rel="Бюро бухгалтерского учета и отчетности" rev="3"/> Бюро бухгалтерского учета и отчетности</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="102" rel="Управление архитектуры и градостроительства" rev="3"/> Управление архитектуры и градостроительства<div class="thepodr"><input type="checkbox" value="108" rel="Сектор опорного плана" rev="4"/> Сектор опорного плана</div><div class="thepodr"><input type="checkbox" value="109" rel="Бюро информационного обеспечения градостроительной деятельности" rev="4"/> Бюро информационного обеспечения градостроительной деятельности</div><div class="thepodr"><input type="checkbox" value="111" rel="Отдел комплексного развития территорий" rev="4"/> Отдел комплексного развития территорий</div></div><div class="thepodr"><input type="checkbox" value="262" rel="Отдел правового обеспечения" rev="15"/> Отдел правового обеспечения</div><div class="thepodr"><input type="checkbox" value="283" rel="Сметно-договорной отдел" rev="3"/> Сметно-договорной отдел</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="316" rel="Управление капитального строительства" rev="3"/> Управление капитального строительства<div class="thepodr"><input type="checkbox" value="317" rel="Отдел капитального строительства" rev="4"/> Отдел капитального строительства</div><div class="thepodr"><input type="checkbox" value="318" rel="Проектно-технический сектор" rev="4"/> Проектно-технический сектор</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="319" rel="Управление муниципальных услуг и мониторинга градостроительной деятельности " rev="3"/> Управление муниципальных услуг и мониторинга градостроительной деятельности <div class="thepodr"><input type="checkbox" value="98" rel="Отдел мониторинга объектов градостроительной деятельности" rev="5"/> Отдел мониторинга объектов градостроительной деятельности</div><div class="thepodr"><input type="checkbox" value="107" rel="Сектор инженерно - транспортной инфраструктуры" rev="4"/> Сектор инженерно - транспортной инфраструктуры</div><div class="thepodr"><input type="checkbox" value="321" rel="Архитектурно-планировочный отдел " rev="4"/> Архитектурно-планировочный отдел </div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="325" rel="Управление земельных ресурсов" rev="3"/> Управление земельных ресурсов<div class="thepodr"><input type="checkbox" value="124" rel="Отдел учета и администрирования доходов" rev="4"/> Отдел учета и администрирования доходов</div><div class="thepodr"><input type="checkbox" value="255" rel="Отдел пользования земельными ресурсами" rev="4"/> Отдел пользования земельными ресурсами</div><div class="thepodr"><input type="checkbox" value="312" rel="Отдел  предоставления земельных участков" rev="4"/> Отдел  предоставления земельных участков</div></div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="112" rel="Департамент по управлению муниципальным имуществом" rev="2"/> Департамент по управлению муниципальным имуществом<div class="thepodr"><input type="checkbox" value="113" rel="Бюро документооборота (ДУМИ)" rev="3"/> Бюро документооборота (ДУМИ)</div><div class="thepodr"><input type="checkbox" value="114" rel="Отдел имущества в хозяйственном ведении и оперативном управлении" rev="3"/> Отдел имущества в хозяйственном ведении и оперативном управлении</div><div class="thepodr"><input type="checkbox" value="121" rel="Отдел муниципальной казны и пользования муниципальным имуществом" rev="3"/> Отдел муниципальной казны и пользования муниципальным имуществом</div><div class="thepodr"><input type="checkbox" value="123" rel="Отдел оформления и учета муниципальной собственности" rev="3"/> Отдел оформления и учета муниципальной собственности</div><div class="thepodr"><input type="checkbox" value="126" rel="Отдел найма жилых помещений" rev="3"/> Отдел найма жилых помещений</div><div class="thepodr"><input type="checkbox" value="127" rel="Отдел предоставления жилых помещений и социальных выплат" rev="3"/> Отдел предоставления жилых помещений и социальных выплат</div><div class="thepodr"><input type="checkbox" value="128" rel="Отдел жилищного фонда" rev="3"/> Отдел жилищного фонда</div><div class="thepodr"><input type="checkbox" value="130" rel="Информационно-аналитический сектор" rev="3"/> Информационно-аналитический сектор</div><div class="thepodr"><input type="checkbox" value="257" rel="Отдел расходов " rev="3"/> Отдел расходов </div><div class="thepodr"><input type="checkbox" value="326" rel="Сектор администрирования доходов" rev="3"/> Сектор администрирования доходов</div></div><div class="thepodr"><input type="checkbox" value="215" rel="Отдел организации муниципальных торгов" rev="2"/> Отдел организации муниципальных торгов</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="132" rel="Службы заместителя главы городского округа по социальным вопросам" rev="1"/> Службы заместителя главы городского округа по социальным вопросам<div class="thepodr"><a class="opener"></a><input type="checkbox" value="157" rel="Департамент образования" rev="2"/> Департамент образования<div class="thepodr"><input type="checkbox" value="159" rel="Финансово-экономический отдел" rev="3"/> Финансово-экономический отдел</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="160" rel="Управление  образования и занятости" rev="3"/> Управление  образования и занятости<div class="thepodr"><input type="checkbox" value="161" rel="Отдел общего и дополнительного образования" rev="4"/> Отдел общего и дополнительного образования</div><div class="thepodr"><input type="checkbox" value="162" rel="Отдел дошкольного образования" rev="4"/> Отдел дошкольного образования</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="163" rel="Управление  ресурсного обеспечения и развития образования" rev="3"/> Управление  ресурсного обеспечения и развития образования<div class="thepodr"><a class="opener"></a><input type="checkbox" value="164" rel="Организационный отдел" rev="4"/> Организационный отдел<div class="thepodr"><input type="checkbox" value="158" rel="Бюро документооборота" rev="5"/> Бюро документооборота</div></div><div class="thepodr"><input type="checkbox" value="166" rel="Отдел обеспечения технического содержания и благоустройства" rev="4"/> Отдел обеспечения технического содержания и благоустройства</div></div><div class="thepodr"><input type="checkbox" value="165" rel="Отдел сопровождения деятельности учреждений отрасли образования" rev="3"/> Отдел сопровождения деятельности учреждений отрасли образования</div><div class="thepodr"><input type="checkbox" value="169" rel="Управление по делам молодежи " rev="3"/> Управление по делам молодежи </div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="170" rel="Департамент социального обеспечения " rev="2"/> Департамент социального обеспечения <div class="thepodr"><input type="checkbox" value="176" rel="Финансово-экономический отдел" rev="3"/> Финансово-экономический отдел</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="177" rel="Управление опеки и попечительства" rev="3"/> Управление опеки и попечительства<div class="thepodr"><input type="checkbox" value="178" rel="Отдел реализации имущественных и личных неимущественных прав несовершеннолетних" rev="4"/> Отдел реализации имущественных и личных неимущественных прав несовершеннолетних</div><div class="thepodr"><input type="checkbox" value="179" rel="Отдел организации деятельности по опеке, попечительству и усыновлению" rev="4"/> Отдел организации деятельности по опеке, попечительству и усыновлению</div><div class="thepodr"><input type="checkbox" value="181" rel="Отдел реализации опеки и попечительства на территории Автозаводского района" rev="4"/> Отдел реализации опеки и попечительства на территории Автозаводского района</div><div class="thepodr"><input type="checkbox" value="182" rel="Отдел реализации опеки и попечительства на территории Центрального и Комсомольского районов" rev="4"/> Отдел реализации опеки и попечительства на территории Центрального и Комсомольского районов</div><div class="thepodr"><input type="checkbox" value="183" rel="Отдел реализации опеки и попечительства над совершеннолетними лицами" rev="4"/> Отдел реализации опеки и попечительства над совершеннолетними лицами</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="294" rel="Управление муниципальных программ и реализации национальных проектов" rev="3"/> Управление муниципальных программ и реализации национальных проектов<div class="thepodr"><input type="checkbox" value="315" rel="Сектор реализации национальных проектов" rev="4"/> Сектор реализации национальных проектов</div><div class="thepodr"><input type="checkbox" value="336" rel="Отдел муниципальных программ" rev="4"/> Отдел муниципальных программ</div></div></div><div class="thepodr"><input type="checkbox" value="173" rel="Отдел организации деятельности КДНиЗП" rev="2"/> Отдел организации деятельности КДНиЗП</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="184" rel="Управление физической культуры и спорта" rev="2"/> Управление физической культуры и спорта<div class="thepodr"><input type="checkbox" value="186" rel="Отдел планирования и развития" rev="3"/> Отдел планирования и развития</div><div class="thepodr"><input type="checkbox" value="189" rel="Финансово-экономический отдел" rev="3"/> Финансово-экономический отдел</div><div class="thepodr"><input type="checkbox" value="280" rel="Отдел сопровождения деятельности муниципальных учреждений" rev="3"/> Отдел сопровождения деятельности муниципальных учреждений</div><div class="thepodr"><input type="checkbox" value="299" rel="Отдел организации физкультурно-спортивных мероприятий" rev="3"/> Отдел организации физкультурно-спортивных мероприятий</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="190" rel="Департамент культуры" rev="2"/> Департамент культуры<div class="thepodr"><input type="checkbox" value="192" rel="Отдел развития отрасли культуры" rev="3"/> Отдел развития отрасли культуры</div><div class="thepodr"><input type="checkbox" value="194" rel="Финансово-экономический отдел" rev="3"/> Финансово-экономический отдел</div><div class="thepodr"><input type="checkbox" value="195" rel="Управление образования, культуры и искусства" rev="3"/> Управление образования, культуры и искусства</div></div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="196" rel="Службы заместителя главы- руководителя аппарата администрации" rev="1"/> Службы заместителя главы- руководителя аппарата администрации<div class="thepodr"><a class="opener"></a><input type="checkbox" value="197" rel="Бухгалтерия (управление) администрации г.о. Тольятти" rev="2"/> Бухгалтерия (управление) администрации г.о. Тольятти<div class="thepodr"><input type="checkbox" value="199" rel="Отдел планирования и анализа финансовой деятельности" rev="3"/> Отдел планирования и анализа финансовой деятельности</div><div class="thepodr"><input type="checkbox" value="200" rel="Отдел расчетов по заработной плате с работниками" rev="3"/> Отдел расчетов по заработной плате с работниками</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="211" rel="Управление по делам архивов" rev="2"/> Управление по делам архивов<div class="thepodr"><input type="checkbox" value="213" rel="Отдел развития архивного дела" rev="3"/> Отдел развития архивного дела</div><div class="thepodr"><input type="checkbox" value="329" rel="Сектор сопровождения и организационной работы с ведомственными архивами" rev="3"/> Сектор сопровождения и организационной работы с ведомственными архивами</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="217" rel="Управление взаимодействия с общественностью " rev="2"/> Управление взаимодействия с общественностью <div class="thepodr"><input type="checkbox" value="220" rel="Общественная приемная" rev="3"/> Общественная приемная</div><div class="thepodr"><input type="checkbox" value="301" rel="Отдел по работе с общественностью" rev="3"/> Отдел по работе с общественностью</div><div class="thepodr"><input type="checkbox" value="311" rel="Отдел этноконфессиональных отношений" rev="3"/> Отдел этноконфессиональных отношений</div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="218" rel="Организационное управление " rev="2"/> Организационное управление <div class="thepodr"><input type="checkbox" value="219" rel="Канцелярия (отдел)" rev="3"/> Канцелярия (отдел)</div><div class="thepodr"><input type="checkbox" value="221" rel="Организационный отдел" rev="3"/> Организационный отдел</div><div class="thepodr"><input type="checkbox" value="261" rel="Отдел планирования и контроля" rev="3"/> Отдел планирования и контроля</div><div class="thepodr"><input type="checkbox" value="323" rel="Отдел информационной политики" rev="3"/> Отдел информационной политики</div></div><div class="thepodr"><input type="checkbox" value="225" rel="Отдел охраны труда" rev="2"/> Отдел охраны труда</div><div class="thepodr"><input type="checkbox" value="330" rel="Муниципальный центр управления (отдел) " rev="2"/> Муниципальный центр управления (отдел) </div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="229" rel="Администрация Автозаводского района " rev="2"/> Администрация Автозаводского района <div class="thepodr"><a class="opener"></a><input type="checkbox" value="230" rel="Управление по работе с населением" rev="3"/> Управление по работе с населением<div class="thepodr"><input type="checkbox" value="231" rel="Отдел организации работы по месту жительства" rev="4"/> Отдел организации работы по месту жительства</div><div class="thepodr"><input type="checkbox" value="232" rel="Отдел по связям с общественностью и организационной работе" rev="4"/> Отдел по связям с общественностью и организационной работе</div></div><div class="thepodr"><input type="checkbox" value="234" rel="Бюро документооборота (Админ. Автоз. р-на)" rev="3"/> Бюро документооборота (Админ. Автоз. р-на)</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="235" rel="Управление ЖКХ (Администрация Автозаводского района)" rev="3"/> Управление ЖКХ (Администрация Автозаводского района)<div class="thepodr"><input type="checkbox" value="236" rel="Отдел территориального мониторинга" rev="4"/> Отдел территориального мониторинга</div><div class="thepodr"><input type="checkbox" value="237" rel="Сектор по вопросам ЖКХ и перепланировок (Администрация Автозаводского района)" rev="4"/> Сектор по вопросам ЖКХ и перепланировок (Администрация Автозаводского района)</div></div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="238" rel="Администрация Центрального района " rev="2"/> Администрация Центрального района <div class="thepodr"><input type="checkbox" value="240" rel="Отдел по работе с населением" rev="3"/> Отдел по работе с населением</div><div class="thepodr"><input type="checkbox" value="241" rel="Бюро документооборота" rev="3"/> Бюро документооборота</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="243" rel="Управление ЖКХ (Администрация Центрального района)" rev="3"/> Управление ЖКХ (Администрация Центрального района)<div class="thepodr"><input type="checkbox" value="244" rel="Отдел территориального мониторинга (Администрация Центрального района)" rev="4"/> Отдел территориального мониторинга (Администрация Центрального района)</div><div class="thepodr"><input type="checkbox" value="245" rel="Сектор по вопросам ЖКХ и перепланировок (Администрация Центрального района)" rev="4"/> Сектор по вопросам ЖКХ и перепланировок (Администрация Центрального района)</div></div></div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="246" rel="Администрация Комсомольского района " rev="2"/> Администрация Комсомольского района <div class="thepodr"><input type="checkbox" value="248" rel="Отдел по работе с населением" rev="3"/> Отдел по работе с населением</div><div class="thepodr"><input type="checkbox" value="249" rel="Бюро документооборота" rev="3"/> Бюро документооборота</div><div class="thepodr"><input type="checkbox" value="250" rel="Сектор по работе на территории микрорайона Поволжский" rev="3"/> Сектор по работе на территории микрорайона Поволжский</div><div class="thepodr"><input type="checkbox" value="251" rel="Сектор по работе на территории микрорайона Федоровка" rev="3"/> Сектор по работе на территории микрорайона Федоровка</div><div class="thepodr"><a class="opener"></a><input type="checkbox" value="252" rel="Управление ЖКХ (Администрация Комсомольского района)" rev="3"/> Управление ЖКХ (Администрация Комсомольского района)<div class="thepodr"><input type="checkbox" value="253" rel="Отдел территориального мониторинга (Администрация Комсомольского района)" rev="4"/> Отдел территориального мониторинга (Администрация Комсомольского района)</div><div class="thepodr"><input type="checkbox" value="254" rel="Сектор по вопросам ЖКХ и перепланировок(Администрация Комсомольского района)" rev="4"/> Сектор по вопросам ЖКХ и перепланировок(Администрация Комсомольского района)</div></div></div><input type="submit" class="button but_blue" value="Выбрать">
-</fieldset></form>
-</div>
-</div></div>
-</div>
-<div class="item">
-<div class="helperhead"><div class="helperheadIn"><p><span>Муниципальные и подведомственные организации</span></p></div></div>
-<div class="helperbody"><form method="post" action="/phonebook/organizations/" class="jq"><fieldset>
-<input type="text" value="Название организации" name="title" class="inputbox" onclick="if(this.value=='Название организации')this.value=''" onblur="if(this.value=='')this.value='Название организации'"><select name="type"><option value="0">Выберите тип организации</option><option value="8">Библиотека</option><option value="14">Гимназия</option><option value="12">Детский сад</option><option value="4">Институт</option><option value="11">Культурно-досуговые учреждения</option><option value="17">Лицей</option><option value="25">Межшкольный учебный комбинат</option><option value="10">Музей</option><option value="5">Музыкальная школа</option><option value="26">Муниципальное автономное учреждение культуры городского округа Тольятти "Парковый комплекс истории техники имени К.Г. Сахарова"</option><option value="27">МФЦ</option><option value="16">Образовательно-оздоровительное учреждение</option><option value="23">Предприятие</option><option value="20">Прогимназия</option><option value="15">Спортивная школа</option><option value="9">Театр</option><option value="19">Учреждение дополнительного образования детей</option><option value="24">Учреждение дополнительного профессионального образования</option><option value="21">Учреждение социально-бытового обслуживания</option><option value="7">Художественная школа</option><option value="22">Центр социальной помощи семье и детям</option><option value="13">Школа</option><option value="6">Школа искусств</option></select><select name="region"><option value="0">Выберите район</option><option value="1">Автозаводской</option><option value="2">Центральный</option><option value="3">Комсомольский</option></select><input type="submit" class="but_blue button" value="Найти">
-</fieldset></form></div>
-</div>
-<div class="item">
-<div class="helperhead"><div class="helperheadIn"><p><span>Управляющие компании</span></p></div></div>
-<div class="helperbody"><form method="post" action="/phonebook/control/" class="jq"><fieldset>
-<input type="text" value="Название компании" name="title" class="inputbox" onclick="if(this.value=='Название компании')this.value=''" onblur="if(this.value=='')this.value='Название компании'"><input type="text" value="Адрес места жительства" name="address" class="inputbox" onclick="if(this.value=='Адрес места жительства')this.value=''" onblur="if(this.value=='')this.value='Адрес места жительства'"><input type="submit" class="but_blue button" value="Найти">
-</fieldset></form></div>
-</div>
-</div>
-</div></div>
-<script type="text/javascript">
-				
-					function submit_blocker(){
-						
-						var tmp = getSerializedArray($(":checkbox:checked"), '-');
-						
-						$('#selected_podrs').html('Выбранные подразделения <input type="hidden" name="id_divisions" value="' + tmp +'">');				
-			
+<!DOCTYPE html>
+<html xml:lang="ru" lang="ru" class=" ">
+	<head>
+						<title>Как усыновить ребенка мужа?</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700italic,700,500italic,500,400italic,300,300italic&subset=latin,cyrillic-ext' rel='stylesheet'>
+																		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="Как усыновить ребенка мужа?" />
+<meta name="description" content="Как женщине усыновить ребенка мужа? Можно ли мачехе усыновить ребенка мужа от первого брака?" />
+<link rel="canonical" href="https://semeynye-yuristy.ru/vopros-otvet/kak-usynovit-rebenka-muzha/" />
+<script data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";var ieVersion = -1;if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if ((ieVersion = getIeVersion()) > 0){cl += " bx-ie bx-ie" + ieVersion;if (ieVersion > 7 && ieVersion < 10 && !isDoctype()){cl += " bx-quirks";}}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Gecko/.test(ua)){cl += " bx-firefox";}if (/Macintosh/i.test(ua)){cl += " bx-mac";}ht.className = htc ? htc + " " + cl : cl;function isDoctype(){if (d.compatMode){return d.compatMode == "CSS1Compat";}return d.documentElement && d.documentElement.clientHeight;}function getIeVersion(){if (/Opera/i.test(ua) || /Webkit/i.test(ua) || /Firefox/i.test(ua) || /Chrome/i.test(ua)){return -1;}var rv = -1;if (!!(w.MSStream) && !(w.ActiveXObject) && ("ActiveXObject" in w)){rv = 11;}else if (!!d.documentMode && d.documentMode >= 10){rv = 10;}else if (!!d.documentMode && d.documentMode >= 9){rv = 9;}else if (d.attachEvent && !/Opera/.test(ua)){rv = 8;}if (rv == -1 || rv == 8){var re;if (n.appName == "Microsoft Internet Explorer"){re = new RegExp("MSIE ([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}else if (n.appName == "Netscape"){rv = 11;re = new RegExp("Trident/.*rv:([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}}return rv;}})(window, document, navigator);</script>
 
-					}
-					/**
-					 * Возващает массив в виде строки с разделителем
-					 * @param array myArr Входной массив
-					 * @param string separator Разделитель элементов
-					 * @return string
-					 */
-					function getSerializedArray( myArr, mySep ) {
-						if (mySep == '') mySep = '-';
-						var ret = '';
-						myArr.each(function(index){
-							ret = ret + $(this).val() + mySep;
-						});
-						ret = ret.substring(0, ret.length - mySep.length);
-						return ret;
-					}
-		</script><div class="banner_new_year_2022" style="min-width:996px;max-width:1220px; margin: 0 auto;"><img src="/i/banner_new_year_2023.jpg" style="display:table;width:100%;"></div>
-<div class="page">
-<div class="padding">
-<div class="centering"><div class="header">
-<div class="headerLeft">
-<div class="specialmenu"><ul>
-<li><a href="/en/">In English</a></li>
-<li><a href="" id="changeTheme" theme="eyesight">Версия для слабовидящих</a></li>
-</ul></div>
-<div class="sitename">
-<b><a href="/">Администрация городского округа Тольятти</a></b><p>официальный портал</p>
-</div>
-</div>
-<div class="logo"><a href="/"><div class="logo1" style="position: absolute;"><img src="/i/new_year2.png" style="width: 310px; left: -92px; bottom: -37px;" height="100"></div>
-<img src="/i/logo.png" height="100"><div class="logo2" style="position: absolute; right: -35px; top: -3px;"><img src="/i/tree_logo2.png" style="width: 120px;" height="100"></div></a></div>
-<div class="topSearch">
-<form method="get" action="/search/" accept-charset="utf-8">
-<input type="hidden" name="searchid" value="2698178"><input type="hidden" name="reqenc" value=""><input type="hidden" name="l10n" value="ru"><fieldset><div class="topSearchIn">
-<div class="searchInput"><input type="text" name="text" value="поиск" onclick="if(this.value=='поиск')this.value=''" onblur="if(this.value=='')this.value='поиск'" id="searchinput" size="20"></div>
-<div class="searchButton"><input type="submit" class="button" value=""></div>
-</div></fieldset>
-</form>
-<p class="tip">например: <a onclick="getElementById('searchinput').value='строительство дорог'">строительство дорог</a></p>
-<p style="margin-left: 145px; margin-top: 30px;">При некорректном отображении  информации на сайте необходимо руководствоваться следующими <a href="/structure/department/pravila-polzovaniya">Правилами</a>.</p>
-</div>
-</div></div>
-<div class="topmenu">
-<ul>
-<li class="tm1"><div>
-<a href="/togliatty/">О Тольятти</a><span class="specialpopupmenu"><span class="title"><a href="/togliatty/">О Тольятти</a></span><span class="container clear"><span class="white"></span><span class="spm_l"><a href="/tgl-in-figures/">Тольятти в цифрах</a><a href="//"></a><a href="/about/">О городе</a><a href="/structure/department/ustav-gorodskogo-okruga-tolyatti//">Устав</a><a href="/structure/department/gradostroitelstvo/">Градостроительство</a><a href="/structure/department/departament-ekonomicheskogo-razvitiya-socialno-ekonomicheskoe-razvitie//">Социально-экономическое развитие</a><a href="/history/">История</a><a href="/symbolism/">Символы</a><a href="/anniversaries/">Памятные даты</a><a href="/sworn-brothers/">Города побратимы</a><a href="/honorary/">Почетные граждане</a><a href="/statistics/">Статистика</a><a href="http://emgis.ru/" target="_blank">Карта Тольятти</a><a href="/tourism/">Туризм в Тольятти</a><a href="/photogallery/">Фото города</a></span><span class="spm_r"><span class="name">Тольятти<br>в цифрах</span><div class="spm_infgr clear">
-<div class="infgr_population">
-														685 619
+
+<link href="/bitrix/cache/css/s1/aspro-scorp/template_afae281b30b458d8f119c77aec48b901/template_afae281b30b458d8f119c77aec48b901_v1.css?1669407409335887"  data-template-style="true" rel="stylesheet" />
+
+
+
+
+
+
+
+<script data-skip-moving='true'>window['asproRecaptcha'] = {params: {'recaptchaColor':'light','recaptchaLogoShow':'y','recaptchaSize':'normal','recaptchaBadge':'bottomright','recaptchaLang':'ru'},key: '6LcTvLQZAAAAANze9Z_zFTruyp-aYo0CIndQRs28',ver: '2'};</script>
+<script data-skip-moving='true'>!function(c,t,n,p){function s(e){var a=t.getElementById(e);if(a&&!(a.className.indexOf("g-recaptcha")<0)&&c.grecaptcha)if("3"==c[p].ver)a.innerHTML='<textarea class="g-recaptcha-response" style="display:none;resize:0;" name="g-recaptcha-response"></textarea>',grecaptcha.ready(function(){grecaptcha.execute(c[p].key,{action:"maxscore"}).then(function(e){a.innerHTML='<textarea class="g-recaptcha-response" style="display:none;resize:0;" name="g-recaptcha-response">'+e+"</textarea>"})});else{if(a.children.length)return;var r=grecaptcha.render(e,{sitekey:c[p].key+"",theme:c[p].params.recaptchaColor+"",size:c[p].params.recaptchaSize+"",callback:"onCaptchaVerify"+c[p].params.recaptchaSize,badge:c[p].params.recaptchaBadge});$(a).attr("data-widgetid",r)}}c.onLoadRenderRecaptcha=function(){var e=[];for(var a in c[n].args)if(c[n].args.hasOwnProperty(a)){var r=c[n].args[a][0];-1==e.indexOf(r)&&(e.push(r),s(r))}c[n]=function(e){s(e)}},c[n]=c[n]||function(){var e,a,r;c[n].args=c[n].args||[],c[n].args.push(arguments),a="recaptchaApiLoader",(e=t).getElementById(a)||((r=e.createElement("script")).id=a,r.src="//www.google.com/recaptcha/api.js?hl="+c[p].params.recaptchaLang+"&onload=onLoadRenderRecaptcha&render="+("3"==c[p].ver?c[p].key:"explicit"),e.head.appendChild(r))}}(window,document,"renderRecaptchaById","asproRecaptcha");</script>
+<script data-skip-moving='true'>!function(){var getFormNode=function(childNode){for(var c=childNode;c;)if("form"===(c=c.parentNode).nodeName.toLowerCase())return c;return null},getCaptchaWords=function(parentNode){var captchaWords=[],inputs=null,hasParentNode=!1;void 0!==parentNode&&(hasParentNode=null!==parentNode),inputs=hasParentNode?parentNode.getElementsByTagName("input"):document.getElementsByName("captcha_word");for(var i=0;i<inputs.length;i++)"captcha_word"===inputs[i].name&&captchaWords.push(inputs[i]);return captchaWords},getCaptchaImages=function(parentNode){for(var captchaImages=[],images=parentNode.getElementsByTagName("img"),i=0;i<images.length;i++)(/\/bitrix\/tools\/captcha.php\?(captcha_code|captcha_sid)=[^>]*?/i.test(images[i].src)||"captcha"===images[i].id)&&captchaImages.push(images[i]);return captchaImages},getFormsWithCaptcha=function(){var fromDocument=null,captchaWordFields=getCaptchaWords(null);if(0===captchaWordFields.length)return[];for(var forms=[],i=0;i<captchaWordFields.length;i++){var f=getFormNode(captchaWordFields[i]);null!==f&&forms.push(f)}return forms},replaceCaptchaWordWithReCAPTCHAField=function(captchaWord){var recaptchaId="recaptcha-dynamic-"+(new Date).getTime();if(null!==document.getElementById(recaptchaId)){var elementExists=!1,additionalIdParameter=null,maxRandomValue=65535;do{additionalIdParameter=Math.floor(65535*Math.random()),elementExists=null!==document.getElementById(recaptchaId+additionalIdParameter)}while(elementExists);recaptchaId+=additionalIdParameter}var cwReplacement=document.createElement("div");cwReplacement.id=recaptchaId,cwReplacement.className="g-recaptcha",cwReplacement.attributes["data-sitekey"]=window.asproRecaptcha.key,captchaWord.parentNode&&(captchaWord.parentNode.className+=" recaptcha_text",captchaWord.parentNode.replaceChild(cwReplacement,captchaWord)),"3"==window.asproRecaptcha.ver&&(captchaWord.closest(".captcha-row").style.display="none"),renderRecaptchaById(recaptchaId)},hideCaptchaImage=function(captchaImage){var srcValue="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";captchaImage.attributes.src=srcValue,captchaImage.style.display="none","src"in captchaImage&&(captchaImage.parentNode&&-1===captchaImage.parentNode.className.indexOf("recaptcha_tmp_img")&&(captchaImage.parentNode.className+=" recaptcha_tmp_img"),captchaImage.src=srcValue)},replaceCaptchaHintMessagesWithReCAPTCHAHintMessages=function(form){"function"==typeof $&&$(form).find(".captcha-row label > span").length&&$(form).find(".captcha-row label > span").html(BX.message("RECAPTCHA_TEXT")+' <span class="required-star">*</span>')},findAndReplaceBitrixCaptchaWithReCAPTCHA=function(){for(var forms=getFormsWithCaptcha(),j,i=0;i<forms.length;i++){var form=forms[i],captchaWords=getCaptchaWords(form);if(0!==captchaWords.length){var captchaImages=getCaptchaImages(form);if(0!==captchaImages.length){for(j=0;j<captchaWords.length;j++)replaceCaptchaWordWithReCAPTCHAField(captchaWords[j]);for(j=0;j<captchaImages.length;j++)hideCaptchaImage(captchaImages[j]);replaceCaptchaHintMessagesWithReCAPTCHAHintMessages(form)}}}},fillEmptyReCAPTCHAFieldsIfLoaded=function(){if("undefined"!=typeof renderRecaptchaById)for(var elements=document.getElementsByClassName("g-recaptcha"),i=0;i<elements.length;i++){var element=elements[i];if(0===element.innerHTML.length){var id=element.id;if("string"==typeof id&&0!==id.length){if("3"==window.asproRecaptcha.ver)element.closest(".captcha-row").style.display="none";else if("function"==typeof $){var captcha_wrapper=$(element).closest(".captcha-row");captcha_wrapper.length&&(captcha_wrapper.addClass(window.asproRecaptcha.params.recaptchaSize+" logo_captcha_"+window.asproRecaptcha.params.recaptchaLogoShow+" "+window.asproRecaptcha.params.recaptchaBadge),captcha_wrapper.find(".captcha_image").addClass("recaptcha_tmp_img"),captcha_wrapper.find(".captcha_input").addClass("recaptcha_text"),"invisible"!==window.asproRecaptcha.params.recaptchaSize&&(captcha_wrapper.find("input.recaptcha").length||$('<input type="text" class="recaptcha" value="" />').appendTo(captcha_wrapper)))}renderRecaptchaById(id)}}}},captchaHandler=function(){try{return fillEmptyReCAPTCHAFieldsIfLoaded(),window.renderRecaptchaById&&window.asproRecaptcha&&window.asproRecaptcha.key?(findAndReplaceBitrixCaptchaWithReCAPTCHA(),!0):(console.error("Bad captcha keys or module error"),!0)}catch(e){return console.error(e),!0}};document.addEventListener?document.addEventListener("DOMNodeInserted",captchaHandler,!1):console.warn("Your browser does not support dynamic ReCaptcha replacement")}();</script>
+<link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" sizes="57x57" href="/bitrix/templates/aspro-scorp/themes/1/images/favicon_57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/bitrix/templates/aspro-scorp/themes/1/images/favicon_72.png" />
+<style>.maxwidth-banner{max-width: none;}</style>
+<meta property="og:description" content="Как женщине усыновить ребенка мужа? Можно ли мачехе усыновить ребенка мужа от первого брака?" />
+<meta property="og:image" content="/upload/iblock/6e1/1o5b5wap2ebovjwj4u8zswmzmlg3438m/kak_usynovit_rebenka_muzha.jpg" />
+<link rel="image_src" href="/upload/iblock/6e1/1o5b5wap2ebovjwj4u8zswmzmlg3438m/kak_usynovit_rebenka_muzha.jpg"  />
+<meta property="og:title" content="Как усыновить ребенка мужа?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/vopros-otvet/kak-usynovit-rebenka-muzha/" />
+<!-- dev2fun module opengraph -->
+<meta property="og:title" content="Как усыновить ребенка мужа?"/>
+<meta property="og:description" content="Как женщине усыновить ребенка мужа? Можно ли мачехе усыновить ребенка мужа от первого б..."/>
+<meta property="og:url" content="https://semeynye-yuristy.ru/vopros-otvet/kak-usynovit-rebenka-muzha/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Семейные юристы"/>
+<meta property="og:image" content="https://semeynye-yuristy.ru/upload/dev2fun_opengraph/24b/jjfhszzx205uhrrbbbkndjd7i8975kar.png"/>
+<!-- /dev2fun module opengraph -->
+
+
+
+																																			</head>
+	<body>
+														<!--'start_frame_cache_options-block'--><!--'end_frame_cache_options-block'-->																		<div class="body">
+			<div class="body_media"></div>
+			<header class="topmenu-LIGHT canfixed">
+				<div class="logo_and_menu-row">
+					<div class="logo-row row">
+						<div class="maxwidth-theme">
+							<div class="col-md-3 col-sm-4">
+								<div class="logo colored">
+									<a href="/"><img src="/logo.png" alt="Семейные юристы" title="Семейные юристы" /></a>
+								</div>
+							</div>
+							<div class="col-md-9 col-sm-8 col-xs-12">
+								<div class="top-description col-md-4 hidden-sm hidden-xs">
+									<span style="color: #f16522;"><b>Консультации в WhatsApp 08:00-20:00</b> </span> <br>
+ Расторжение брака;<br>
+ Раздел имущества, денег, машины;<br>
+ Взыскание алиментов, споры о детях;<br>
+ Выселение бывших членов семьи.<br>
+<br>								</div>
+								<div class="top-callback col-md-8">
+																		<div class="callback pull-right hidden-xs" data-event="jqm" data-param-id="24" data-name="callback">
+										<a href="javascript:;" rel="nofollow" class="btn btn-default white btn-xs">Заказать звонок</a>
+									</div>
+									<div class="phone pull-right hidden-xs">
+										<div class="phone-number">
+											<i class="fa fa-phone"></i>
+											<div><a href="https://wa.me/79191328708" target="_blank" rel="nofollow" title="+7 (919) 132-87-08">Консультация в WhatsApp<i style="font-size:10px" class="fa fa-whatsapp"></i> <i class="fa fa-whatsapp hide"></i> </a> <br></div>
+										</div>
+										<div class="phone-desc pull-right">
+											<br>
+ <b><span style="font-size: 10pt;">Центральный офис</span><br>
+ г. Москва, 3-й Автозаводский проезд, д. 4</b><br>
+ (Вход со двора)<br>
+ <span style="color: #f16522;"> <span style="font-size: 10pt; color: #00a650;"><b>м. Автозаводская</b></span> </span>										</div>
+									</div>
+									<div class="email pull-right">
+										<i class="fa fa-envelope"></i>
+										<div><a href="mailto:info@semeynye-yuristy.ru">
+info@semeynye-yuristy.ru</a><br>
+ 115280, г. Москва, 3-й Автозаводский проезд, д. 4, оф 10<br></div>
+									</div>
+									<button class="btn btn-responsive-nav visible-xs" data-toggle="collapse" data-target=".nav-main-collapse">
+										<i class="fa fa-bars"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>					<div class="menu-row row">
+						<div class="maxwidth-theme">
+							<div class="col-md-12">
+								<div class="nav-main-collapse collapse">
+									<div class="menu-only">
+										<nav class="mega-menu">
+												<div class="table-menu hidden-xs">
+		<table>
+			<tr>
+														<td class="dropdown ">
+						<div class="wrap">
+							<a class="dropdown-toggle" href="/company/" title="Компания">
+								Компания																	&nbsp;<i class="fa fa-angle-down"></i>
+															</a>
+															<span class="tail"></span>
+								<ul class="dropdown-menu">
+																													<li class=" ">
+											<a href="/company/" title="О компании">О компании</a>
+																					</li>
+																													<li class=" ">
+											<a href="/company/history/" title="История">История</a>
+																					</li>
+																													<li class=" ">
+											<a href="/company/partners/" title="Партнеры">Партнеры</a>
+																					</li>
+																													<li class=" ">
+											<a href="/company/reviews/" title="Отзывы клиентов">Отзывы клиентов</a>
+																					</li>
+																													<li class=" ">
+											<a href="/company/requisites/" title="Реквизиты">Реквизиты</a>
+																					</li>
+																													<li class=" ">
+											<a href="/company/dogovor-oferta/" title="Договор оферта ЮЛ">Договор оферта ЮЛ</a>
+																					</li>
+																													<li class=" ">
+											<a href="/company/dogovor-oferta-samozanyatogo/" title="Договор оферта самозанятого">Договор оферта самозанятого</a>
+																					</li>
+																	</ul>
 													</div>
-<div class="infgr_sexes clear">
-<p class="man"><big>45,6%</big></p>
-<p class="woman"><big>54,4%</big></p>
+					</td>
+														<td class="dropdown ">
+						<div class="wrap">
+							<a class="dropdown-toggle" href="/yuridicheskie-uslugi/" title="Юридические услуги">
+								Юридические услуги																	&nbsp;<i class="fa fa-angle-down"></i>
+															</a>
+															<span class="tail"></span>
+								<ul class="dropdown-menu">
+																													<li class=" ">
+											<a href="/yuridicheskie-uslugi/konsultatsii/" title="Юридические консультации по семейному праву">Юридические консультации по семейному праву</a>
+																					</li>
+																													<li class=" ">
+											<a href="/yuridicheskie-uslugi/razvod/" title="Юридические услуги при расторжении брака">Юридические услуги при расторжении брака</a>
+																					</li>
+																													<li class=" ">
+											<a href="/yuridicheskie-uslugi/razdel-imushchestva/" title="Юридические услуги по разделу имущества">Юридические услуги по разделу имущества</a>
+																					</li>
+																													<li class=" ">
+											<a href="/yuridicheskie-uslugi/razdel-nedvizhimosti-suprugov/" title="Раздел недвижимости между супругами">Раздел недвижимости между супругами</a>
+																					</li>
+																													<li class=" ">
+											<a href="/yuridicheskie-uslugi/razdel-avtomobilya-suprugami/" title="Раздел автомобиля и имущества супругов">Раздел автомобиля и имущества супругов</a>
+																					</li>
+																													<li class=" ">
+											<a href="/yuridicheskie-uslugi/razdel-deneg-suprugov/" title=" Раздел денежных средств между супругами"> Раздел денежных средств между супругами</a>
+																					</li>
+																													<li class=" ">
+											<a href="/yuridicheskie-uslugi/razdel-imushchestva-brachnyy-dogovor/" title="Раздел имущества при брачном договоре">Раздел имущества при брачном договоре</a>
+																					</li>
+																													<li class=" ">
+											<a href="/yuridicheskie-uslugi/vzyskanie-alimentov/" title="Услуги юриста по взысканию алиментов">Услуги юриста по взысканию алиментов</a>
+																					</li>
+																													<li class=" ">
+											<a href="/yuridicheskie-uslugi/vzyskanie-alimentov-soderzhanie-detey/" title=" Взыскание алиментов на содержание детей"> Взыскание алиментов на содержание детей</a>
+																					</li>
+																													<li class=" ">
+											<a href="/yuridicheskie-uslugi/vzyskanie-alimentov-suprugov/" title="Взыскание алиментов на содержание супругов">Взыскание алиментов на содержание супругов</a>
+																					</li>
+																													<li class=" ">
+											<a href="/yuridicheskie-uslugi/vzyskanie-alimentov-soderzhanie-roditeley/" title="Взыскание алиментов на содержание родителей">Взыскание алиментов на содержание родителей</a>
+																					</li>
+																													<li class=" ">
+											<a href="/yuridicheskie-uslugi/spory-vospitanii-detey/" title="Судебные споры родителей о воспитании детей">Судебные споры родителей о воспитании детей</a>
+																					</li>
+																													<li class=" ">
+											<a href="/yuridicheskie-uslugi/usynovlenie-udocherenie-detey/" title="Усыновление  и  удочерение  ребенка">Усыновление  и  удочерение  ребенка</a>
+																					</li>
+																													<li class=" ">
+											<a href="/yuridicheskie-uslugi/ustanovlenie-proiskhozhdeniya-detey/" title="Установление происхождения детей">Установление происхождения детей</a>
+																					</li>
+																													<li class=" ">
+											<a href="/yuridicheskie-uslugi/vyselenie-snyatie-registratsionnogo-ucheta/" title="Выселение и снятие с регистрационного учета">Выселение и снятие с регистрационного учета</a>
+																					</li>
+																													<li class=" ">
+											<a href="/yuridicheskie-uslugi/priznanie-nedeystvitelnosti-braka/" title="Признание недействительности  брака">Признание недействительности  брака</a>
+																					</li>
+																	</ul>
+													</div>
+					</td>
+														<td class="dropdown ">
+						<div class="wrap">
+							<a class="dropdown-toggle" href="/obrazets/" title="Образцы">
+								Образцы																	&nbsp;<i class="fa fa-angle-down"></i>
+															</a>
+															<span class="tail"></span>
+								<ul class="dropdown-menu">
+																													<li class=" ">
+											<a href="/obrazets/sudebnye-iski/" title="Судебные иски по семейным делам">Судебные иски по семейным делам</a>
+																					</li>
+																													<li class=" ">
+											<a href="/obrazets/iski-rastorzhenii-braka/" title="Судебные  иски о расторжении  брака">Судебные  иски о расторжении  брака</a>
+																					</li>
+																													<li class=" ">
+											<a href="/obrazets/iski-razdel-imushchestva/" title="Судебные иски о разделе имущества супругов">Судебные иски о разделе имущества супругов</a>
+																					</li>
+																													<li class=" ">
+											<a href="/obrazets/isk-razdel-nedvizhimogo-imushchestva/" title="Иск о разделе недвижимого имущества">Иск о разделе недвижимого имущества</a>
+																					</li>
+																													<li class=" ">
+											<a href="/obrazets/razdel-avtomobilya/" title="Исковые заявления о разделе автомобиля образцы">Исковые заявления о разделе автомобиля образцы</a>
+																					</li>
+																													<li class=" ">
+											<a href="/obrazets/isk-razdel-dolgov/" title="Раздел долговых обязательств супругов">Раздел долговых обязательств супругов</a>
+																					</li>
+																													<li class=" ">
+											<a href="/obrazets/brachnye-dogovory/" title="Брачные договоры образцы">Брачные договоры образцы</a>
+																					</li>
+																													<li class=" ">
+											<a href="/obrazets/iski-vzyskanii-alimentov/" title="Иски о взыскании  алиментов образцы">Иски о взыскании  алиментов образцы</a>
+																					</li>
+																													<li class=" ">
+											<a href="/obrazets/vzyskanie-alimentov-rebenka/" title="Заявления на алименты на ребенка образцы">Заявления на алименты на ребенка образцы</a>
+																					</li>
+																													<li class=" ">
+											<a href="/obrazets/vzyskanie-alimentov-soderzhanie-suprugov/" title="Взыскание алиментов на содержание супругов образцы">Взыскание алиментов на содержание супругов образцы</a>
+																					</li>
+																													<li class=" ">
+											<a href="/obrazets/vzyskanie-alimentov-soderzhanie-roditeley/" title="Взыскание алиментов на содержание родителей образцы">Взыскание алиментов на содержание родителей образцы</a>
+																					</li>
+																													<li class=" ">
+											<a href="/obrazets/zayavleniya-vospitanii-detey/" title="Заявления о воспитании детей образцы">Заявления о воспитании детей образцы</a>
+																					</li>
+																													<li class=" ">
+											<a href="/obrazets/zayavleniya-usynovlenii-rebenka/" title="Заявления об усыновлении ребенка образцы">Заявления об усыновлении ребенка образцы</a>
+																					</li>
+																													<li class=" ">
+											<a href="/obrazets/iski-ustanovlenii-ottsovstva/" title="Заявления об установлении отцовства">Заявления об установлении отцовства</a>
+																					</li>
+																													<li class=" ">
+											<a href="/obrazets/iski-o-vyselenii/" title="Иски о выселении из жилого помещения образцы">Иски о выселении из жилого помещения образцы</a>
+																					</li>
+																													<li class=" ">
+											<a href="/obrazets/iski-priznanii-braka-nedeystvitelnym/" title="Иски о признании брака недействительным">Иски о признании брака недействительным</a>
+																					</li>
+																													<li class=" ">
+											<a href="/obrazets/soglasheniya/" title="Соглашения в семейном праве образцы">Соглашения в семейном праве образцы</a>
+																					</li>
+																	</ul>
+													</div>
+					</td>
+														<td class="dropdown ">
+						<div class="wrap">
+							<a class="dropdown-toggle" href="/sudebnye-dela/" title="Судебные дела">
+								Судебные дела																	&nbsp;<i class="fa fa-angle-down"></i>
+															</a>
+															<span class="tail"></span>
+								<ul class="dropdown-menu">
+																													<li class=" ">
+											<a href="/sudebnye-dela/rastorzhenii-braka/" title="Судебные дела о расторжении брака">Судебные дела о расторжении брака</a>
+																					</li>
+																													<li class=" ">
+											<a href="/sudebnye-dela/razdel-imushchestva-suprugov/" title="Дела о разделе имущества супругов">Дела о разделе имущества супругов</a>
+																					</li>
+																													<li class=" ">
+											<a href="/sudebnye-dela/brachnyy-dogovor/" title="Дела о недействительности брачного договора">Дела о недействительности брачного договора</a>
+																					</li>
+																													<li class=" ">
+											<a href="/sudebnye-dela/vzyskanii-alimentov/" title="Судебные дела о взыскании алиментов">Судебные дела о взыскании алиментов</a>
+																					</li>
+																													<li class=" ">
+											<a href="/sudebnye-dela/vzyskanii-alimentov-detey/" title="Дела о взыскании алиментов на детей">Дела о взыскании алиментов на детей</a>
+																					</li>
+																													<li class=" ">
+											<a href="/sudebnye-dela/praktika-alimenty-suprugov/" title="Судебная практика по алиментам на супругов">Судебная практика по алиментам на супругов</a>
+																					</li>
+																													<li class=" ">
+											<a href="/sudebnye-dela/vzyskanii-alimentov-roditeley/" title="Дела о взыскании алиментов на родителей">Дела о взыскании алиментов на родителей</a>
+																					</li>
+																													<li class=" ">
+											<a href="/sudebnye-dela/vospitanii-detey/" title="Дела о воспитании детей">Дела о воспитании детей</a>
+																					</li>
+																													<li class=" ">
+											<a href="/sudebnye-dela/usynovlenii-udocherenii-rebenka/" title="Дела об усыновлении и удочерении ребенка">Дела об усыновлении и удочерении ребенка</a>
+																					</li>
+																													<li class=" ">
+											<a href="/sudebnye-dela/ustanovlenii-ottsovstva/" title="Судебные дела об установлении отцовства">Судебные дела об установлении отцовства</a>
+																					</li>
+																													<li class=" ">
+											<a href="/sudebnye-dela/vyselenii/" title="Судебные дела по выселению из квартиры">Судебные дела по выселению из квартиры</a>
+																					</li>
+																													<li class=" ">
+											<a href="/sudebnye-dela/nedeystvitelnom-brake/" title="Дела о недействительном браке">Дела о недействительном браке</a>
+																					</li>
+																	</ul>
+													</div>
+					</td>
+														<td class="dropdown active">
+						<div class="wrap">
+							<a class="dropdown-toggle" href="/vopros-otvet/" title="Вопрос-ответ">
+								Вопрос-ответ																	&nbsp;<i class="fa fa-angle-down"></i>
+															</a>
+															<span class="tail"></span>
+								<ul class="dropdown-menu">
+																													<li class=" ">
+											<a href="/vopros-otvet/razvod/" title="Вопросы и ответы юриста по  разводу">Вопросы и ответы юриста по  разводу</a>
+																					</li>
+																													<li class=" ">
+											<a href="/vopros-otvet/razdel-imushchestva/" title="Вопросы раздела имущества  супругов">Вопросы раздела имущества  супругов</a>
+																					</li>
+																													<li class=" ">
+											<a href="/vopros-otvet/voprosy-o-razdele-kvartiry/" title="Вопросы о разделе квартиры">Вопросы о разделе квартиры</a>
+																					</li>
+																													<li class=" ">
+											<a href="/vopros-otvet/brakorazvodnom-protsesse/" title="Вопросы в бракоразводном процессе">Вопросы в бракоразводном процессе</a>
+																					</li>
+																													<li class=" ">
+											<a href="/vopros-otvet/brachnyy-dogovor/" title="Вопросы и ответы по брачному договору">Вопросы и ответы по брачному договору</a>
+																					</li>
+																													<li class=" ">
+											<a href="/vopros-otvet/vzyskanii-alimentov/" title="Вопросы и ответы по взысканию алиментов">Вопросы и ответы по взысканию алиментов</a>
+																					</li>
+																													<li class=" ">
+											<a href="/vopros-otvet/alimentakh-rebenka/" title="Вопрос по алиментам на ребенка">Вопрос по алиментам на ребенка</a>
+																					</li>
+																													<li class=" ">
+											<a href="/vopros-otvet/alimenty-suprugov/" title="Вопросы по алиментам на супругов">Вопросы по алиментам на супругов</a>
+																					</li>
+																													<li class=" ">
+											<a href="/vopros-otvet/vyplata-alimentov-roditelyam/" title="Вопросы уплаты алиментов родителям">Вопросы уплаты алиментов родителям</a>
+																					</li>
+																													<li class=" ">
+											<a href="/vopros-otvet/ottsovstva-materinstva/" title="Вопросы отцовства и материнства">Вопросы отцовства и материнства</a>
+																					</li>
+																													<li class=" ">
+											<a href="/vopros-otvet/usynovleniya-detey/" title="Вопросы юристу по усыновлению детей">Вопросы юристу по усыновлению детей</a>
+																					</li>
+																													<li class=" ">
+											<a href="/vopros-otvet/detyakh-razvod/" title="Вопрос о детях при расторжении брака">Вопрос о детях при расторжении брака</a>
+																					</li>
+																													<li class=" ">
+											<a href="/vopros-otvet/vyseleniyu/" title="Вопрос по выселению">Вопрос по выселению</a>
+																					</li>
+																													<li class=" ">
+											<a href="/vopros-otvet/priznaniya-braka-nedeystvitelnym/" title="Вопросы признания брака недействительным">Вопросы признания брака недействительным</a>
+																					</li>
+																	</ul>
+													</div>
+					</td>
+														<td class="dropdown ">
+						<div class="wrap">
+							<a class="dropdown-toggle" href="/info/" title="Информация">
+								Информация																	&nbsp;<i class="fa fa-angle-down"></i>
+															</a>
+															<span class="tail"></span>
+								<ul class="dropdown-menu">
+																													<li class=" ">
+											<a href="/info/stock/" title="Акции">Акции</a>
+																					</li>
+																													<li class=" ">
+											<a href="/info/news/" title="Новости">Новости</a>
+																					</li>
+																													<li class=" ">
+											<a href="/info/articles/" title="Статьи">Статьи</a>
+																					</li>
+																													<li class=" ">
+											<a href="/info/faq/" title="Вопрос ответ">Вопрос ответ</a>
+																					</li>
+																	</ul>
+													</div>
+					</td>
+														<td class=" ">
+						<div class="wrap">
+							<a class="" href="/price/" title="Цены">
+								Цены															</a>
+													</div>
+					</td>
+														<td class=" ">
+						<div class="wrap">
+							<a class="" href="/contacts/" title="Контакты">
+								Контакты															</a>
+													</div>
+					</td>
+								<td class="dropdown js-dropdown nosave" style="display:none;">
+					<div class="wrap">
+						<a class="dropdown-toggle more-items" href="#">
+							<span>...</span>
+						</a>
+						<span class="tail"></span>
+						<ul class="dropdown-menu"></ul>
+					</div>
+				</td>
+				<td class="search-item nosave">
+					<div class="wrap">
+						<a href="#" class="search-icon pull-left" title="Поиск по сайту">
+							<i class="fa fa-search"></i>
+						</a>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<ul class="nav nav-pills responsive-menu visible-xs" id="mainMenu">
+								<li class="dropdown ">
+				<a class="dropdown-toggle1" href="/company/" title="Компания">
+					Компания											<i class="fa fa-angle-down dropdown-toggle"></i>
+									</a>
+									<ul class="dropdown-menu">
+																				<li class=" ">
+								<a href="/company/" title="О компании">
+									О компании																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/company/history/" title="История">
+									История																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/company/partners/" title="Партнеры">
+									Партнеры																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/company/reviews/" title="Отзывы клиентов">
+									Отзывы клиентов																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/company/requisites/" title="Реквизиты">
+									Реквизиты																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/company/dogovor-oferta/" title="Договор оферта ЮЛ">
+									Договор оферта ЮЛ																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/company/dogovor-oferta-samozanyatogo/" title="Договор оферта самозанятого">
+									Договор оферта самозанятого																	</a>
+															</li>
+											</ul>
+							</li>
+								<li class="dropdown ">
+				<a class="dropdown-toggle1" href="/yuridicheskie-uslugi/" title="Юридические услуги">
+					Юридические услуги											<i class="fa fa-angle-down dropdown-toggle"></i>
+									</a>
+									<ul class="dropdown-menu">
+																				<li class=" ">
+								<a href="/yuridicheskie-uslugi/konsultatsii/" title="Юридические консультации по семейному праву">
+									Юридические консультации по семейному праву																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/yuridicheskie-uslugi/razvod/" title="Юридические услуги при расторжении брака">
+									Юридические услуги при расторжении брака																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/yuridicheskie-uslugi/razdel-imushchestva/" title="Юридические услуги по разделу имущества">
+									Юридические услуги по разделу имущества																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/yuridicheskie-uslugi/razdel-nedvizhimosti-suprugov/" title="Раздел недвижимости между супругами">
+									Раздел недвижимости между супругами																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/yuridicheskie-uslugi/razdel-avtomobilya-suprugami/" title="Раздел автомобиля и имущества супругов">
+									Раздел автомобиля и имущества супругов																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/yuridicheskie-uslugi/razdel-deneg-suprugov/" title=" Раздел денежных средств между супругами">
+									 Раздел денежных средств между супругами																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/yuridicheskie-uslugi/razdel-imushchestva-brachnyy-dogovor/" title="Раздел имущества при брачном договоре">
+									Раздел имущества при брачном договоре																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/yuridicheskie-uslugi/vzyskanie-alimentov/" title="Услуги юриста по взысканию алиментов">
+									Услуги юриста по взысканию алиментов																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/yuridicheskie-uslugi/vzyskanie-alimentov-soderzhanie-detey/" title=" Взыскание алиментов на содержание детей">
+									 Взыскание алиментов на содержание детей																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/yuridicheskie-uslugi/vzyskanie-alimentov-suprugov/" title="Взыскание алиментов на содержание супругов">
+									Взыскание алиментов на содержание супругов																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/yuridicheskie-uslugi/vzyskanie-alimentov-soderzhanie-roditeley/" title="Взыскание алиментов на содержание родителей">
+									Взыскание алиментов на содержание родителей																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/yuridicheskie-uslugi/spory-vospitanii-detey/" title="Судебные споры родителей о воспитании детей">
+									Судебные споры родителей о воспитании детей																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/yuridicheskie-uslugi/usynovlenie-udocherenie-detey/" title="Усыновление  и  удочерение  ребенка">
+									Усыновление  и  удочерение  ребенка																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/yuridicheskie-uslugi/ustanovlenie-proiskhozhdeniya-detey/" title="Установление происхождения детей">
+									Установление происхождения детей																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/yuridicheskie-uslugi/vyselenie-snyatie-registratsionnogo-ucheta/" title="Выселение и снятие с регистрационного учета">
+									Выселение и снятие с регистрационного учета																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/yuridicheskie-uslugi/priznanie-nedeystvitelnosti-braka/" title="Признание недействительности  брака">
+									Признание недействительности  брака																	</a>
+															</li>
+											</ul>
+							</li>
+								<li class="dropdown ">
+				<a class="dropdown-toggle1" href="/obrazets/" title="Образцы">
+					Образцы											<i class="fa fa-angle-down dropdown-toggle"></i>
+									</a>
+									<ul class="dropdown-menu">
+																				<li class=" ">
+								<a href="/obrazets/sudebnye-iski/" title="Судебные иски по семейным делам">
+									Судебные иски по семейным делам																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/obrazets/iski-rastorzhenii-braka/" title="Судебные  иски о расторжении  брака">
+									Судебные  иски о расторжении  брака																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/obrazets/iski-razdel-imushchestva/" title="Судебные иски о разделе имущества супругов">
+									Судебные иски о разделе имущества супругов																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/obrazets/isk-razdel-nedvizhimogo-imushchestva/" title="Иск о разделе недвижимого имущества">
+									Иск о разделе недвижимого имущества																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/obrazets/razdel-avtomobilya/" title="Исковые заявления о разделе автомобиля образцы">
+									Исковые заявления о разделе автомобиля образцы																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/obrazets/isk-razdel-dolgov/" title="Раздел долговых обязательств супругов">
+									Раздел долговых обязательств супругов																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/obrazets/brachnye-dogovory/" title="Брачные договоры образцы">
+									Брачные договоры образцы																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/obrazets/iski-vzyskanii-alimentov/" title="Иски о взыскании  алиментов образцы">
+									Иски о взыскании  алиментов образцы																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/obrazets/vzyskanie-alimentov-rebenka/" title="Заявления на алименты на ребенка образцы">
+									Заявления на алименты на ребенка образцы																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/obrazets/vzyskanie-alimentov-soderzhanie-suprugov/" title="Взыскание алиментов на содержание супругов образцы">
+									Взыскание алиментов на содержание супругов образцы																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/obrazets/vzyskanie-alimentov-soderzhanie-roditeley/" title="Взыскание алиментов на содержание родителей образцы">
+									Взыскание алиментов на содержание родителей образцы																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/obrazets/zayavleniya-vospitanii-detey/" title="Заявления о воспитании детей образцы">
+									Заявления о воспитании детей образцы																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/obrazets/zayavleniya-usynovlenii-rebenka/" title="Заявления об усыновлении ребенка образцы">
+									Заявления об усыновлении ребенка образцы																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/obrazets/iski-ustanovlenii-ottsovstva/" title="Заявления об установлении отцовства">
+									Заявления об установлении отцовства																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/obrazets/iski-o-vyselenii/" title="Иски о выселении из жилого помещения образцы">
+									Иски о выселении из жилого помещения образцы																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/obrazets/iski-priznanii-braka-nedeystvitelnym/" title="Иски о признании брака недействительным">
+									Иски о признании брака недействительным																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/obrazets/soglasheniya/" title="Соглашения в семейном праве образцы">
+									Соглашения в семейном праве образцы																	</a>
+															</li>
+											</ul>
+							</li>
+								<li class="dropdown ">
+				<a class="dropdown-toggle1" href="/sudebnye-dela/" title="Судебные дела">
+					Судебные дела											<i class="fa fa-angle-down dropdown-toggle"></i>
+									</a>
+									<ul class="dropdown-menu">
+																				<li class=" ">
+								<a href="/sudebnye-dela/rastorzhenii-braka/" title="Судебные дела о расторжении брака">
+									Судебные дела о расторжении брака																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/sudebnye-dela/razdel-imushchestva-suprugov/" title="Дела о разделе имущества супругов">
+									Дела о разделе имущества супругов																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/sudebnye-dela/brachnyy-dogovor/" title="Дела о недействительности брачного договора">
+									Дела о недействительности брачного договора																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/sudebnye-dela/vzyskanii-alimentov/" title="Судебные дела о взыскании алиментов">
+									Судебные дела о взыскании алиментов																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/sudebnye-dela/vzyskanii-alimentov-detey/" title="Дела о взыскании алиментов на детей">
+									Дела о взыскании алиментов на детей																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/sudebnye-dela/praktika-alimenty-suprugov/" title="Судебная практика по алиментам на супругов">
+									Судебная практика по алиментам на супругов																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/sudebnye-dela/vzyskanii-alimentov-roditeley/" title="Дела о взыскании алиментов на родителей">
+									Дела о взыскании алиментов на родителей																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/sudebnye-dela/vospitanii-detey/" title="Дела о воспитании детей">
+									Дела о воспитании детей																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/sudebnye-dela/usynovlenii-udocherenii-rebenka/" title="Дела об усыновлении и удочерении ребенка">
+									Дела об усыновлении и удочерении ребенка																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/sudebnye-dela/ustanovlenii-ottsovstva/" title="Судебные дела об установлении отцовства">
+									Судебные дела об установлении отцовства																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/sudebnye-dela/vyselenii/" title="Судебные дела по выселению из квартиры">
+									Судебные дела по выселению из квартиры																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/sudebnye-dela/nedeystvitelnom-brake/" title="Дела о недействительном браке">
+									Дела о недействительном браке																	</a>
+															</li>
+											</ul>
+							</li>
+								<li class="dropdown active">
+				<a class="dropdown-toggle1" href="/vopros-otvet/" title="Вопрос-ответ">
+					Вопрос-ответ											<i class="fa fa-angle-down dropdown-toggle"></i>
+									</a>
+									<ul class="dropdown-menu">
+																				<li class=" ">
+								<a href="/vopros-otvet/razvod/" title="Вопросы и ответы юриста по  разводу">
+									Вопросы и ответы юриста по  разводу																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/vopros-otvet/razdel-imushchestva/" title="Вопросы раздела имущества  супругов">
+									Вопросы раздела имущества  супругов																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/vopros-otvet/voprosy-o-razdele-kvartiry/" title="Вопросы о разделе квартиры">
+									Вопросы о разделе квартиры																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/vopros-otvet/brakorazvodnom-protsesse/" title="Вопросы в бракоразводном процессе">
+									Вопросы в бракоразводном процессе																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/vopros-otvet/brachnyy-dogovor/" title="Вопросы и ответы по брачному договору">
+									Вопросы и ответы по брачному договору																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/vopros-otvet/vzyskanii-alimentov/" title="Вопросы и ответы по взысканию алиментов">
+									Вопросы и ответы по взысканию алиментов																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/vopros-otvet/alimentakh-rebenka/" title="Вопрос по алиментам на ребенка">
+									Вопрос по алиментам на ребенка																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/vopros-otvet/alimenty-suprugov/" title="Вопросы по алиментам на супругов">
+									Вопросы по алиментам на супругов																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/vopros-otvet/vyplata-alimentov-roditelyam/" title="Вопросы уплаты алиментов родителям">
+									Вопросы уплаты алиментов родителям																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/vopros-otvet/ottsovstva-materinstva/" title="Вопросы отцовства и материнства">
+									Вопросы отцовства и материнства																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/vopros-otvet/usynovleniya-detey/" title="Вопросы юристу по усыновлению детей">
+									Вопросы юристу по усыновлению детей																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/vopros-otvet/detyakh-razvod/" title="Вопрос о детях при расторжении брака">
+									Вопрос о детях при расторжении брака																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/vopros-otvet/vyseleniyu/" title="Вопрос по выселению">
+									Вопрос по выселению																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/vopros-otvet/priznaniya-braka-nedeystvitelnym/" title="Вопросы признания брака недействительным">
+									Вопросы признания брака недействительным																	</a>
+															</li>
+											</ul>
+							</li>
+								<li class="dropdown ">
+				<a class="dropdown-toggle1" href="/info/" title="Информация">
+					Информация											<i class="fa fa-angle-down dropdown-toggle"></i>
+									</a>
+									<ul class="dropdown-menu">
+																				<li class=" ">
+								<a href="/info/stock/" title="Акции">
+									Акции																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/info/news/" title="Новости">
+									Новости																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/info/articles/" title="Статьи">
+									Статьи																	</a>
+															</li>
+																				<li class=" ">
+								<a href="/info/faq/" title="Вопрос ответ">
+									Вопрос ответ																	</a>
+															</li>
+											</ul>
+							</li>
+								<li class=" ">
+				<a class="" href="/price/" title="Цены">
+					Цены									</a>
+							</li>
+								<li class=" ">
+				<a class="" href="/contacts/" title="Контакты">
+					Контакты									</a>
+							</li>
+				<li class="search">
+			<div class="search-input-div">
+				<input class="search-input" type="text" autocomplete="off" maxlength="50" size="40" placeholder="Найти" value="" name="q">
+			</div>
+			<div class="search-button-div">
+				<button class="btn btn-search btn-default" value="Найти" name="s" type="submit">Найти</button>
+			</div>
+		</li>
+	</ul>
+										</nav>
+									</div>
+								</div>
+							</div>						</div>
+							<div class="search hide" id="title-search">
+		<div class="maxwidth-theme">
+			<div class="col-md-12">
+				<form action="/search/">
+					<div class="search-input-div">
+						<input class="search-input" id="title-search-input" type="text" name="q" value="" placeholder="Найти" size="40" maxlength="50" autocomplete="off" />
+					</div>
+					<div class="search-button-div">
+						<button class="btn btn-search btn-default" type="submit" name="s" value="Найти">Найти</button>
+						<span class="fa fa-close" title="Закрыть"></span>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+					</div>				</div>
+				<div class="line-row visible-xs"></div>
+			</header>
+			<div role="main" class="main">
+													<section class="page-top">
+						<div class="row">
+							<div class="maxwidth-theme">
+								<div class="col-md-12">
+									<div class="row">
+										<div class="col-md-12">
+											<h1 id="pagetitle">Как усыновить ребенка мужа?</h1>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-12">
+											<ul class="breadcrumb" id="navigation" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="/" title="Главная" itemprop="item"><span itemprop="name">Главная</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="/vopros-otvet/" title="Вопросы и ответы юриста по семейному праву" itemprop="item"><span itemprop="name">Вопросы и ответы юриста по семейному праву</span></a><meta itemprop="position" content="2" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="/vopros-otvet/usynovleniya-detey/" title="Ответы юриста на вопросы усыновления детей" itemprop="item"><span itemprop="name">Ответы юриста на вопросы усыновления детей</span></a><meta itemprop="position" content="3" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="active"><link href="/vopros-otvet/kak-usynovit-rebenka-muzha/" itemprop="item" /><span itemprop="name">Как усыновить ребенка мужа?</span><meta itemprop="position" content="4" /></li></ul>										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+								<div class="container">
+											<div class="row">
+							<div class="maxwidth-theme">
+																	<div class="col-md-9 col-sm-9 col-xs-8 content-md">
+																		<!-- Yandex.RTB R-A-712449-11 -->
+<div id="yandex_rtb_R-A-712449-11">
 </div>
-<div class="infgr_age">
-<p>40,7 <span>лет</span></p>
-<big>Средний<br>возраст</big>
+  <br>
+ <br>
+ 			<div class="detail voprosy">
+			<h2 class="underline">Как усыновить ребенка мужа?</h2>
+
+				<div class="detailimage image-left col-md-4 col-sm-4 col-xs-12"><a href="/upload/iblock/02a/wfckf9kquyb9yno3ohp4z5sxadw0s4rn/kak_usynovit_rebenka_muzha.jpg" class="fancybox" title="Как усыновить ребенка мужа?"><img src="/upload/iblock/02a/wfckf9kquyb9yno3ohp4z5sxadw0s4rn/kak_usynovit_rebenka_muzha.jpg" class="img-responsive" title="Как усыновить ребенка мужа?" alt="Как усыновить ребенка мужа?" /></a></div>
+	
+	<div class="ask_a_question">
+		<div class="inner">
+			<span class="btn btn-default wc vert" data-event="jqm" data-param-id="23" data-autoload-need_product="Как усыновить ребенка мужа?" data-name="question"><i class="fa fa-comment "></i><span>Задать вопрос</span></span>
+			<div class="margin-bottom-20">
+				<span style="font-size: 10pt;">Задайте вопрос юристу БЕСПЛАТНО!</span><br>			</div>
+		</div>
+	</div>
+
+
+	<div class="content">
+				
+											<div>
+	<p>
+ <span style="font-family: Verdana; font-size: 12pt;">
+		Вопрос о том, <strong> как усыновить ребенка мужа</strong> разрешается исходя из того может ли жена быть усыновителем в соответствие с законодательством, жива ли мать, является ли она безвестно отсутствующей или дееспособной, а также не лишена ли она родительских прав. Усыновить ребенка мужа невозможно, если жена не соответствует требованиям семейного законодательства, предъявляемым к усыновителям. В то же время к мачехе не применяются требования о прохождении подготовки в качестве усыновителя, разнице в возрасте с ребенком и уровне дохода. </span>
+	</p>
+	<p>
+ <span style="font-family: Verdana; font-size: 12pt;">Женщина может усыновить ребенка мужа путем подачи в районный (городской) суд заявления об усыновлении. Заявление об усыновлении рассматривается судом в порядке особого производства в закрытом судебном заседании. Органы опеки и попечительства обязаны предоставить заключение об обоснованности усыновления и соответствии интересам ребенка. При возникновении трудностей, усыновить ребенка мужа можно воспользовавшись услугами адвоката или юриста.</span>
+	</p>
 </div>
-</div></span><a href="/tgl-in-figures/" class="center">Посмотреть инфрормацию о городе</a></span></span>
-</div></li>
-<li class="active tm2"><div><a href="/rule/">Власть</a></div></li>
-<li class="tm3"><div>
-<a>Деятельность</a><div class="sssqqq" style="display:none">1</div>
-<span class="specialpopupmenu"><span class="title"><a>Деятельность</a></span><span class="container clear"><span class="white"></span><span class="spm_l"><a href="/structure/department/otdel-municipalnogo-zemelnogo-kontrolya-rassmotrenie-del-ob-administrativnyh-pravonarusheniyah/">Административная практика</a><a href="//"></a><a href="/structure/department/about-administraciya-avtozavodskogo-rayona/">Администрация Автозаводского района</a><a href="/structure/department/about-administraciya-centralnogo-rayona/">Администрация Центрального района</a><a href="/structure/department/about-administraciya-komsomolskogo-rayona/">Администрация Комсомольского района</a><a href="/structure/department/about-upravlenie-po-delam-arhivov/">Архивное дело</a><a href="/structure/department/about-departament-gradostroitelnoy-deyatelnosti/">Архитектура и градостроительство</a><a href="/../../structure/department/vzaimodeystvie-v-sfere-etnokonfessionalnyh-otnosheniy-novosti/">Вопросы этноконфессиональных отношений</a><a href="/../../structure/department/about-upravlenie-vzaimodeystviya-s-obschestvennostyu/">Взаимодействие с общественностью</a><a href="/structure/department/about-departament-gorodskogo-hozyaystva/">Городское хозяйство</a><a href="/../structure/department/gradostroitelstvo/">Градостроительство</a><a href="/structure/department/about-departament-dorozhnogo-hozyaystva-i-transporta/">Дорожное хозяйство и транспорт</a><a href="/structure/department/zhilischnye-voprosy/">Жилищные вопросы</a><a href="/structure/department/investoram//">Инвестиционная деятельность</a><a href="/structure/department/about-departament-informacionnyh-tehnologiy-i-svyazi/">Информатизация и связь</a><a href="/structure/department/about-departament-kultury/">Культура</a><a href="/structure/department/about-upravlenie-mezhdunarodnyh-i-mezhregionalnyh-svyazey/">Международные и межрегиональные связи</a><a href="/structure/department/interesnaya-informaciya-dlya-molodezhi//">Молодежная политика</a><a href="/structure/department/about-upravlenie-municipalnoy-sluzhby-i-kadrovoy-politiki/">Муниципальная служба и кадровая политика</a><a href="/structure/department/municipalniy-zemelniy-control/">Муниципальный земельный контроль</a><a href="/structure/department/about-departament-obrazovaniya/">Образование</a><a href="/structure/department/about-upravlenie-po-orgrabote-i-svyazyam-s-obschestvennostyu/">Организационная деятельность</a><a href="/structure/department/about-upravlenie-organizacii-municipalnyh-torgov/">Организация муниципальных торгов</a><a href="/structure/department/about-otdel-ohrany-truda/">Охрана труда</a><a href="/structure/department/about-departament-obschestvennoy-bezopasnosti/">Правопорядок и общественная безопасность</a><a href="/structure/department/upravlenie-po-orgrabote-i-svyazyam-s-obschestvennostyu-organizaciya-raboty-s-obrascheniyami-grazhdan/">Прием обращений граждан</a><a href="/structure/department/about-otdel-razvitiya-potrebitelskogo-rynka//">Развитие потребительского рынка</a><a href="/structure/department/predprinimatelyam/">Развитие предпринимательства</a><a href="/structure/department/razvitie-turizma//">Развитие туризма</a><a href="/structure/department/about-departament-po-voprosam-semi-opeki-i-popechitelstva/">Социальное обеспечение</a><a href="/structure/department/about-departament-po-upravleniyu-municipalnym-imuschestvom/">Управление муниципальным имуществом</a><a href="/structure/department/about-upravlenie-fizicheskoy-kultury-i-sporta/">Физическая культура и спорт</a><a href="/structure/department/about-departament-finansov/">Финансы</a><a href="/structure/department/ekologiya/">Экология</a><a href="/structure/department/about-departament-ekonomicheskogo-razvitiya/">Экономика</a></span></span></span>
-</div></li>
-<li class="tm4"><div><a href="/services/">Услуги</a></div></li>
-<li class="tm5"><div><a href="/events/">Мероприятия</a></div></li>
-<li class="tm6"><div>
-<a href="/press-center/">Пресс-центр</a><span class="specialpopupmenu pressmenu"><span class="title"><a href="/press-center/">Пресс-центр</a></span><span class="container clear"><span class="white"></span><span class="spm_l"><a href="/poll/">Опросы</a><a href="//"></a><a href="/prezentacii/">Презентации</a><a href="/news/">Новости</a><a href="/foto/">Фотогалерея</a><a href="/video/">Видео</a><a href="/tlt-285/">Тольятти - 285</a></span><span class="spm_r"><span class="spn_press"><a href="/news/item/20429-dorogie-tolyattincy/"><img src="/files/news/10_small_1672379609.jpg" alt="Дорогие тольяттинцы!" width="120" height="90"></a><a href="/news/item/20429-dorogie-tolyattincy/">Дорогие тольяттинцы!</a></span></span></span></span>
-</div></li>
-<li class="tm7"><div>
-<a href="/callback/">Обратная связь</a><span class="specialpopupmenu"><span class="title"><a href="/callback/">Обратная связь</a></span><span class="container clear"><span class="white"></span><span class="spm_l"><a href="/structure/department/o-gku-centr-zanyatosti-naseleniya-gorodskogo-okruga-tolyatti/">Центр занятости населения</a><a href="//"></a><a href="/dorozhnye-karty/">Дорожные карты</a><a href="/phonebook-employees/">Контактная информация</a><a href="/pravovoe-informirovanie-grazhdan/">Правовое информирование граждан</a><a href="/blagotvoritelnost/">Организации, оказывающие благотворительную помощь</a></span></span></span>
-</div></li>
-</ul>
-<div class="submenu"><ul>
-<li><a href="/structure/department/meriaglavn/">Администрация г.о. Тольятти</a></li>
-<li class="active"><a href="/structure/">Структура администрации</a></li>
-<li><a href="/mayor/">Глава г.о. Тольятти</a></li>
-<li><a href="/deputy-mayors/">Руководство администрации</a></li>
-<li><a href="/documentation/">Документы</a></li>
-<li><a href="/municipal-program/">Муниципальные и иные программы</a></li>
-<li><a href="/elections/">Выборы</a></li>
-<li><a href="/structure/department/prozrachnyy-byudzhet/">Бюджет для граждан</a></li>
-<li><a href="/ControlSection/control_types/">Контрольно-надзорная деятельность</a></li>
-<li><a href="/municipal-service/">Муниципальная служба</a></li>
-<li><a href="/public-discussions/">Публичные обсуждения</a></li>
-<li><a href="/AnticorruptionExpertise/">Независимая антикоррупционная экспертиза</a></li>
-<li><a href="/opendata/">Открытые данные</a></li>
-<li><a href="/structure/department/gorodproc-inform/">Прокуратура</a></li>
-<li><a href="/bdd/">ГИБДД УМВД России по г.Тольятти</a></li>
-<li><a href="/structure/department/antiterroristicheskaya-zaschischennost//">Противодействие терроризму</a></li>
-<li><a href="/structure/department/protivodeystvie-korrupcii/">Противодействие коррупции</a></li>
-</ul></div>
+ <br>
+ <!-- Yandex.RTB R-A-712449-9 -->
+<div id="yandex_rtb_R-A-712449-9">
 </div>
-<div class="centering">
-<div class="body clear"><div class="content"><div class="power_structure">
-<div class="head"></div>
-<div class="table">
-<div class="leftCol">
-<style>
-									.jobsTitle span:nth-of-type(1) {	
-										display: inline-block;	
-										color: #004570;
-										border-bottom: 1px dashed #004570;
-										font-size: 17px;
-										font-weight:bold;
-										margin-bottom: 10px;
-										cursor: pointer;
-									}
+  <br>
+ <br>
+<div>
+	<h3 class="underline">Можно ли мачехе усыновить ребенка мужа от первого брака?</h3>
+ <br>
+	<p>
+ <span style="font-family: Verdana; font-size: 12pt;">
+		Усыновить ребенка мужа от первого брака можно в судебном порядке с согласия матери, если она известна, не признана безвестно отсутствующей или недееспособной, а также если она более шести месяцев не проживает с ребенком и уклоняются от его воспитания и содержания по неуважительным причинам. Не требуется согласие матери на усыновление ребенка мужа от первого брака, если прошло шесть месяцев со дня вынесения решения суда о лишения ее родительских прав.</span>
+	</p>
+	<p>
+ <span style="font-family: Verdana; font-size: 12pt;">
+		Также при усыновлении ребенка мужа от первого брака может потребоваться согласие усыновляемого ребенка, достигшего возраста 10 лет, опекунов (попечителей), а при их отсутствии органа опеки и попечительства, если ребенок не достиг возраста 16 лет. Согласие усыновить ребенка мужа составляется в письменной форме и удостоверяется нотариально или руководством организации, в которой находится ребенок, либо органом опеки и попечительства по месту усыновления или по месту жительства родителей. Также согласие на усыновление ребенка может быть лично заявлено в суде.</span>
+	</p>
+	<p>
+ <span style="font-family: Verdana; font-size: 12pt;">
+		Мать ребенка имеет право отозвать согласие на усыновление ребенка до вынесения решения суда об усыновлении. Согласие усыновить ребенка дается с указанием или без указания конкретного лица только после рождения ребенка.</span>
+	</p>
+</div>
+ <br>
+ <!-- Yandex.RTB R-A-712449-10 -->
+<div id="yandex_rtb_R-A-712449-10">
+</div>
+  <br>
+ <br>
+<div>
+	<h3 class="underline">Как усыновить ребенка мужа от первого брака?</h3>
+	<p>
+ <span style="font-family: Verdana; font-size: 12pt;">
+		Для того чтобы мачехе усыновить ребенка мужа от первого брака нужно подать заявление об усыновлении в районный (городской) суд по месту жительства (нахождения) ребенка. В заявлении об усыновлении нужно указать наименование и адрес суда, Ф.И.О. и место жительства усыновителя, Ф.И.О., дату рождения, место жительства (место нахождения) усыновляемого ребенка, сведения о родителях, братьях и сестрах, обоснование просьбы об усыновлении, просьбу об изменении Ф.И.О., места и даты рождения ребенка. К заявлению об усыновлении необходимо приложить копии свидетельства о браке, медицинское заключение, справка с места работы, копии финансового лицевого счета и выписки из домовой книги.</span>
+	</p>
+	<p>
+ <span style="font-family: Verdana; font-size: 12pt;">
+		Дело об усыновлении рассматривается судом в закрытом судебном заседании с привлечением органов опеки и попечительства и прокурора. Также в судебное заседание в обязательном порядке привлекаются усыновители, ребенок, достигший возраста 14 лет (иногда - 10 лет) и прочие заинтересованные лица. Государственная пошлина при подаче заявления об усыновлении не уплачивается. При подготовке дела к разбирательству органы опеки и попечительства обязаны представить заключение об обоснованности просьбы усыновить ребенка и соответствии усыновления интересам ребенка.</span>
+	</p>
+	<p>
+ <span style="font-family: Verdana; font-size: 12pt;">
+		При вынесении судом решения об усыновлении суд укажет данные, необходимые для государственной регистрации усыновления в органах ЗАГС. Государственная регистрация усыновления осуществляется в течение месяца со дня вступления решения суда в законную силу. Заявление о государственной регистрации усыновления и решение суда об усыновлении должны быть поданы в орган ЗАГС по месту жительства усыновителя нужно подать.</span>
+	</p>
+</div>
+ <br>
+<div class="alert alert-warning">
+ <span style="font-family: Verdana; font-size: 11pt;"> <span class="label label-info" style="font-family: Verdana; font-size: 11pt;">Запомните!</span> Для полного уяснения вопроса <strong>как женщине усыновить ребенка мужа от первого брака</strong> нужны хорошие знания семейного, жилищного и гражданского права, а также опыт судебного процесса. Прежде чем подавать документы и усыновлять ребенка мужа рекомендуется обращаться к опытному адвокату или юристу. Предварительная юридическая консультация поможет разобраться, как усыновить ребенка мужа от первого брака. </span>
+</div>
+ <br>						</div>
 
-									.jobsTitle span:nth-of-type(1):hover {
-										color: #0066b3;
-										border-bottom: 1px dashed #0066b3;
-									}
 
-									.jobsBody span:nth-of-type(1) {
-										display: inline-block;
-										margin-bottom: 10px;
-										font-size: 16px;
-										font-weight:bold;
-										font-style: italic;
-									}
 
-									.jobsBody {
-										display: none;
-										margin-left: 10px;
-									
-									}
+	<div class="order-block">
+		<div class="row">
+			<div class="col-md-4 col-sm-4 col-xs-5 valign">
+				<span class="btn btn-default btn-lg" data-event="jqm" data-param-id="21" data-name="order_services" data-autoload-service="Как усыновить ребенка мужа?"><span>Заказать услугу</span></span>
+			</div>
+			<div class="col-md-8 col-sm-8 col-xs-7 valign">
+				<div class="text">
+					Оформите заявку на сайте, мы свяжемся с вами в ближайшее время и ответим на все интересующие вопросы.				</div>
+			</div>
+		</div>
+	</div>
 
-									.jobsBody ul {
-										list-style: square outside;
-										margin-left: 30px;
-										margin-bottom: 15px;
-									}
 
-									.jobsBody p {
-										margin-bottom: 10px;
-									}
-
-									.jobsSend {
-										margin-top: 20px;
-										width: 400px;
-									}
-
-								</style>
-<h1>Департамент социального обеспечения</h1>
-<div class="breadcrumbs"><a href="/structure/">Структура администрации</a><span>Департамент социального обеспечения</span></div>
-<h2>Усыновление</h2>&nbsp;<div id="static_text"><p>В соответствии&nbsp;со ст.124 Семейного кодекса Российской Федерации&nbsp;&nbsp;<strong>усыновление -</strong>&nbsp;одна из приоритетных форм устройства детей, оставшихся без попечения родителей, в семью.</p>
-<p align="center">&nbsp;</p>
-<p align="center">&nbsp;<strong>Процесс усыновления состоит из четырех этапов:</strong></p>
-<p align="center">(Глава 19 Семейного кодекса РФ)</p>
-<p align="left"><br />Этап 1. Подготовка документов для получения заключения о возможности быть усыновителем.</p>
-<p align="justify">Этап 2. Подбор ребенка.</p>
-<p align="justify">Этап 3. Судебное рассмотрение.</p>
-<p align="justify">Этап 4. Прием ребенка в семью.&nbsp;</p>
-<div align="center">&nbsp;</div>
-<p align="center">&nbsp;<strong>Этап 1. Подготовка документов для заключения о возможности быть усыновителем</strong></p>
-<div><strong>&nbsp;</strong></div>
-<p align="justify"><span style="font-size: small;" data-mce-mark="1"><strong>(информация подготовлена на основании Постановления Правительства РФ от 29.03.2000 N 275&nbsp;(ред. от 30.12.2017)&nbsp;"Об утверждении правил передачи детей на усыновление (удочерение) и осуществления контроля за условиями их жизни и воспитания в семьях усыновителей на территории Российской Федерации и Правил постановки на учет консульскими учреждениями Российской Федерации детей, являющихся гражданами Российской Федерации и усыновленных иностранными гражданами или лицами без гражданства"</strong><strong>)</strong>&nbsp;</span></p>
-<p align="justify"><span style="font-size: small;" data-mce-mark="1">Граждане Российской Федерации, желающие усыновить ребенка, подают в орган опеки и попечительства по месту своего жительства (для жителей г.о. Тольятти: </span><span style="font-size: small;" data-mce-mark="1">б-р Ленина, 15, каб. 17, тел. 54-37-69)</span><span style="font-size: small;" data-mce-mark="1">&nbsp;заявление с просьбой дать заключение о возможности быть усыновителями (далее - заявление), в котором указываются:</span></p>
-<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
-<p class="ConsPlusNormal"><span style="font-size: small;">- фамилия, имя, отчество (при наличии) граждан, желающих усыновить ребенка;</span></p>
-<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
-<p class="ConsPlusNormal"><span style="font-size: small;">- сведения о документах, удостоверяющих личность граждан, желающих усыновить ребенка;</span></p>
-<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
-<p class="ConsPlusNormal"><span style="font-size: small;">- сведения о гражданах, зарегистрированных по месту жительства гражданина, желающего усыновить ребенка;</span></p>
-<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
-<p class="ConsPlusNormal"><span style="font-size: small;">- сведения, подтверждающие отсутствие у гражданина обстоятельств, указанных в подпунктах 9 - 11 пункта 1 статьи 127 Семейного кодекса Российской Федерации (судимость);</span></p>
-<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
-<p class="ConsPlusNormal"><span style="font-size: small;">- сведения о получаемой пенсии, ее виде и размере (для лиц, основным источником доходов которых являются страховое обеспечение по обязательному пенсионному страхованию или иные пенсионные выплаты).</span></p>
-<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
-<p class="ConsPlusNormal"><span style="font-size: small;">Граждане, желающие усыновить ребенка, подтверждают своими подписями с проставлением даты подачи заявления указанные в нем сведения, а также осведомленность об ответственности за представление недостоверной либо искаженной информации в соответствии с законодательством Российской Федерации.</span></p>
-<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
-<p class="ConsPlusNormal"><span style="text-decoration: underline;"><span style="font-size: small;">К заявлению прилагаются следующие документы:</span></span></p>
-<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
-<p class="ConsPlusNormal"><span style="font-size: small;">1) краткая автобиография лица, желающего усыновить ребенка;</span></p>
-<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
-<p class="ConsPlusNormal"><span style="font-size: small;">2) справка с места работы лица, желающего усыновить ребенка, с указанием должности и размера средней заработной платы за последние 12 месяцев и (или) иной документ, подтверждающий доход указанного лица, или справка с места работы супруга (супруги) лица, желающего усыновить ребенка, с указанием должности и размера средней заработной платы за последние 12 месяцев и (или) иной документ, подтверждающий доход супруга (супруги) указанного лица;</span></p>
-<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
-<p class="ConsPlusNormal"><span style="font-size: small;">3) заключение о результатах медицинского освидетельствования граждан, намеревающихся усыновить (удочерить), взять под опеку (попечительство), в приемную или патронатную семью детей-сирот и детей, оставшихся без попечения родителей, оформленное в порядке, установленном Министерством здравоохранения Российской Федерации <span>(Приказ от 18.06.2014 г. № 290н)</span>;</span></p>
-<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
-<p class="ConsPlusNormal"><span style="font-size: small;">4) копия свидетельства о браке (если граждане, желающие усыновить ребенка, состоят в браке);</span></p>
-<p align="justify"><span style="font-size: small;" data-mce-mark="1"></span></p>
-<p class="ConsPlusNormal"><span style="font-size: small;">5) копия свидетельства о прохождении подготовки лиц, желающих принять на воспитание в свою семью ребенка, оставшегося без попечения родителей, на территории Российской Федерации в порядке, установленном пунктом 6 статьи 127 Семейного кодекса Российской Федерации (за исключением близких родственников ребенка, а также лиц, которые являются или являлись усыновителями и в отношении которых усыновление не было отменено, и лиц, которые являются или являлись опекунами (попечителями) детей и которые не были отстранены от исполнения возложенных на них обязанностей). Форма указанного свидетельства утверждается Министерством образования и науки Российской Федерации.</span></p>
-<p align="justify"><span style="font-size: small;" data-mce-mark="1"><strong><em>Для получения&nbsp;</em><strong><em>свидетельства о прохождении подготовки лица, желающего усыновить ребенка, в порядке, установленном п. 4 ст. 127 Семейного Кодекса РФ&nbsp;</em></strong></strong><strong><strong><em>необходимо пройти&nbsp;<strong><strong><em><strong>Школу кандидатов в усыновители и приемные родители</strong></em></strong></strong></em></strong></strong><strong><strong><em>&nbsp;в&nbsp;ГКУ СО&nbsp;&laquo;Комплексный центр социального обслуживания населения Центрального округа&raquo; по адресу: г. Тольятти, ул. К. Маркса, д. 40, тел. 79-94-90.</em></strong></strong></span></p>
-<p align="justify"><span style="font-size: small;" data-mce-mark="1">Документы, указанные в п. 2, действительны в течение года со дня выдачи, документы, указанные в п. 3, действительны в течение 6 месяцев со дня выдачи.</span></p>
-<p align="justify"><strong style="font-size: small;"><em>Орган опеки и попечительства в течение 2 рабочих дней со дня подачи заявления запрашивает у соответствующих уполномоченных органов подтверждение следующих сведений,&nbsp;указанных гражданами в заявлении:</em></strong></p>
-<p align="justify"><span style="font-size: small;">а) о гражданах, зарегистрированных по месту жительства гражданина, желающего усыновить ребенка;</span></p>
-<p align="justify"><span style="font-size: small;">б) об&nbsp;отсутствии у гражданина обстоятельств, указанных в подпунктах 9 - 11 пункта 1 статьи 127 Семейного кодекса Российской Федерации.</span></p>
-<p align="justify">&nbsp;</p>
-<p align="center"><strong>ПРЕДСТАВЛЕННЫЕ ДОКУМЕНТЫ НЕ ДОЛЖНЫ СОДЕРЖАТЬ ПОДЧИСТОК, ПРИПИСОК, ЗАЧЕРКНУТЫХ СЛОВ И ИНЫХ НЕ ОГОВОРЕННЫХ ИСПРАВЛЕНИЙ,</strong></p>
-<p align="center"><strong>А ТАКЖЕ СЕРЪЕЗНЫХ ПОВЕРЕЖДЕНИЙ, НАЛИЧИЕ КОТОРЫХ НЕ ПОЗВОЛЯЕТ ОДНОЗНАЧНО ИСТОЛКОВАТЬ ИХ СОДЕРЖАНИЕ.</strong></p>
-<div align="center"><strong>&nbsp;</strong></div>
-<p align="center"><strong>&nbsp;Этап 2. Подбор ребенка</strong></p>
-<p align="justify"><strong>(информация подготовлена на основании приказа министерства социально-демографического развития Самарской области от 12.07.2012 г. № 189 &laquo;Об утверждении&nbsp;</strong><strong>Административного регламента министерства социально-демографического развития Самарской области &laquo;Передача детей-сирот и детей, оставшихся без попечения родителей, на воспитание в замещающие семьи граждан&raquo;</strong><strong>)</strong></p>
-<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp; После постановки на учет граждан в качестве кандидатов в усыновители специалисты органа опеки и попечительства предоставляют им информацию о ребенке, который может быть усыновлен, и выдает им направление для посещения ребенка по месту его нахождения (в детский дом, социальный приют, реабилитационный центр, дом ребенка).</p>
-<p align="justify">Направление на подбор ребенка выдается на посещение одного ребенка и действительно в течение 10 дней, с даты его выдачи.&nbsp;</p>
-<p align="justify"><strong>Кандидаты в усыновители имеют право:</strong></p>
-<p align="justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Получить подробную информацию о ребенке, по какой причине он остался без попечения родителей, сведения о наличии у него родственников, сведения о состоянии его здоровья;</p>
-<p align="justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Обратиться в медицинское учреждение для проведения независимого медицинского освидетельствования усыновляемого ребенка с участием представителя учреждения, в котором находится ребенок.</p>
-<p align="justify"><strong>Кандидаты в усыновители обязаны лично:</strong></p>
-<p align="justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Познакомиться с ребенком и установить с ним контакт;</p>
-<p align="justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Познакомиться с документами усыновляемого ребенка;</p>
-<p align="justify">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Подтвердить в письменной форме факт ознакомления с медицинским заключением о состоянии здоровья ребенка.</p>
-<p align="justify">Если кандидаты в усыновители не смогли подобрать для усыновления ребенка по месту жительства, они могут обратиться за получением сведений о детях, оставшихся без попечения родителей, подлежащих усыновлению, в любой орган опеки и попечительства,&nbsp;региональный&nbsp;либо федеральный банк данных о детях, оставшихся без попечения родителей.</p>
-<p align="justify">Обязательным условием получения информации о детях, оставшихся без попечения родителей из регионального или федерального банка данных, является личная подача в письменной форме заявления кандидатом в усыновители и заключение органа опеки и попечительства о возможности быть усыновителем.</p>
-<p align="justify">В случае если сведения о ребенке, которого кандидаты в усыновители хотели бы принять в свою семью, отсутствуют, специалисты органов опеки не реже одного раза в месяц уведомляют кандидатов в усыновители о поступлении (не поступлении) новых анкет детей, содержащих сведения, которые соответствуют пожеланиям кандидатов в усыновители.</p>
-<p align="justify">Граждане в 15-дневный срок со дня получения такого уведомления могут ознакомиться с новыми анкетами детей.</p>
-<p align="justify">Указанный срок может быть продлен, если заявитель в 15-дневный срок со дня получения уведомления проинформирует специалистов органов опеки, об основаниях, препятствующих ему ознакомиться с новыми анкетами детей (болезнь, служебная командировка и др.).&nbsp;</p>
-<p align="justify">Гражданин, обращающийся с просьбой о подборе ребенка, должен предъявить паспорт, а в случаях, предусмотренных законодательством Российской Федерации, иной документ, удостоверяющий личность.</p>
-<p align="justify">Присутствие обоих супругов при подборе ребенка обязательно.</p>
-<p align="justify">По вопросу подбору ребенка для усыновления&nbsp;гражданам необходимо обращаться в отдел организации деятельности по опеке, попечительству и усыновлению управления опеки и попечительства, департамента социального обеспечения администрации городского округа Тольятти &nbsp;по адресу:</p>
-<p align="center"><a href="http://go.2gis.ru/yuyb" target="_blank">г. Тольятти,</a><a href="http://portal2013.tgl.ru/admin/">&nbsp;б-р</a> Ленина, 15, каб. 17</p>
-<p align="center">телефон для консультаций 54-37-69</p>
-<p align="center">Приемные дни:&nbsp;<strong>понедельник - четверг</strong>&nbsp;с 8.00 до 12.00 и&nbsp;с 13.00 до 17.00</p>
-<p align="center">обед с 12.00 до 13.00</p>
-<p align="justify">&nbsp;</p>
-<p align="center"><strong>&nbsp;Этап 3. Судебное рассмотрение</strong></p>
-<p align="justify">(материалы подготовлены на основании главы 29 гражданско-процессуального кодекса РФ)&nbsp;</p>
-<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp; Усыновление ребенка производится федеральным судом по заявлению кандидатов в усыновители, которое подается ими лично в суд по месту нахождения (жительства) ребенка.&nbsp;</p>
-<p align="justify">&nbsp;&nbsp;&nbsp; В исковом заявлении в суд об установлении усыновления ребенка указываются:</p>
-<p align="justify">1. Фамилия, имя, отчество усыновителей, место их жительства, паспортные данные, сумма среднего ежемесячного заработка, дата вступления в брак, наличие детей.</p>
-<p align="justify">2. Фамилия, имя, отчество и дата рождения усыновляемого ребенка, его место жительства, сведения о родителях усыновляемого ребенка, наличии у него братьев, сестер.</p>
-<p align="justify">3. Обстоятельства, обосновывающие просьбу усыновителей об установлении усыновления ребенка и доказательства, подтверждающие эти обстоятельства.&nbsp;</p>
-<p align="justify">К заявлению в суд должны быть приложены все документы, представленные кандидатами в усыновители на этапе&nbsp;<strong>подготовки документов для получения заключения о возможности быть усыновителем, а так же документы на усыновляемого ребенка, подготовленные органами опеки и попечительства.</strong></p>
-<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Дела об усыновлении детей рассматриваются в ходе закрытого судебного заседания с обязательным участием усыновителей (усыновителя), представителя органа опеки и попечительства, прокурора, ребенка, достигшего возраста четырнадцати лет, а в исключительных случаях родителей, других заинтересованных лиц и самого ребенка в возрасте от десяти до четырнадцати лет.</p>
-<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Для обеспечения тайны усыновления по просьбе усыновителей могут быть изменены имя, фамилия, отчество, дата рождения усыновленного ребенка, но не более чем на три месяца, а также место его рождения.</p>
-<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp; Изменение даты рождения усыновленного ребенка допускается только при усыновлении ребенка в возрасте до года. По причинам, признанным судом уважительными, изменение даты рождения усыновленного ребенка может быть разрешено при усыновлении ребенка, достигшего возраста одного года и старше.</p>
-<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Решение об установлении усыновления вступает в законную силу через 10 дней с момента его вынесения.</p>
-<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp; Копия решения суда об установлении усыновления ребенка, выдается усыновителям лично на руки.</p>
-<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Граждане, усыновившие ребенка, самостоятельно предоставляют&nbsp;копии решения суда:</p>
-<p align="justify">- &nbsp;в органы опеки и попечительства;</p>
-<p align="justify">- &nbsp;в ЗАГС по месту вынесения решения для государственной регистрации усыновленного ребенка;</p>
-<p align="justify">- в государственное учреждение, где находился ребенок до вынесения решения об усыновлении;</p>
-<p align="justify">- &nbsp;в ГКУ СО &laquo;Областной Центр помощи детям, оставшимся без попечения родителей&raquo; для назначения и выплаты единовременного пособия при усыновлении</p>
-<p align="center">&nbsp;</p>
-<p align="center">&nbsp;<strong>Этап 4. Прием ребенка в семью</strong></p>
-<div>После вступления решения суда в законную силу усыновитель обязан лично забрать ребенка из детского дома (приюта, реабилитационного центра).</div>
-<div>Усыновленные дети по отношению к усыновителям приравниваются в личных неимущественных и имущественных правах и обязанностях к родственникам по происхождению.</div>
-<div>Усыновленные дети утрачивают личные неимущественные и имущественные права и освобождаются от обязанностей по отношению к своим родителям (своим родственникам).</div>
-<div>Ребенок, имеющий к моменту своего усыновления право на пенсию и пособия, полагающиеся ему в связи со смертью родителей, сохраняет это право и при его усыновлении.</div>
-<div>Органы опеки и попечительства в течение трех лет (а в случае возникновения особых обстоятельств и более) наблюдают за условиями содержания и воспитания усыновленного ребенка.</div>
-<div align="center">&nbsp;</div>
-<div align="center"><strong>При усыновлении ребенка гражданам РФ выплачивается единовременное пособие,</strong></div>
-<div align="center"><strong>в</strong>&nbsp;<strong>размере 26 759 руб. 09 коп.&nbsp;</strong>(размер пособия установлен на период 2018 года)</div>
-<div align="center">&nbsp;</div>
-<div style="text-align: center;" align="center"><span style="font-size: small;"><strong>&nbsp;В случае усыновления ребенка-инвалида, ребенка в возрасте старше семи лет, а также детей, являющихся братьями и (или) сестрами, размер этого пособия составляет 128 053,08 рублей на каждого такого ребенка</strong> - ст.ст. 12.1-12.2 Федерального закона РФ от 19.05.1995 № 81-ФЗ "О государственных пособиях гражданам, имеющим детей" (<span style="text-align: justify; line-height: 16px; widows: 1; text-transform: none; background-color: #ffffff; font-variant: normal; font-style: normal; text-indent: 0px; display: inline !important; font-family: Tahoma; white-space: normal; float: none; letter-spacing: normal; color: #000000; font-weight: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px;">выплата относится ко всем усыновлениям, судебные решения по которым вступили в силу после 1 января 2013 года.)</span></span></div>
-<div align="center">&nbsp;</div>
-<div>За назначением и выплатой единовременного пособия, гражданам,&nbsp;усыновившим детей, необходимо обращаться&nbsp;в&nbsp;</div>
-<div><strong>ГКУСО &laquo;Областной центр содействия семейному устройству детей-сирот и детей, оставшихся без попечения родителей, <strong>&laquo;</strong>Надежда&raquo;, расположенный по адресу: </strong></div>
-<div><strong>г. Самара, проспект К. Маркса, д. 448 А, тел. 8(846) 956 06 56</strong></div>
-<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&nbsp;8(846) 956 06 01</strong></div>
-<div><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8(846) 331 10 97</strong></div>
-<div>&nbsp;</div>
-<div>Маршрут проезда: автобус №№ 21,41, трамвай №№ 21,22,24,24к,25, маршрутное такси №№ 89,264,297 до остановки &ldquo;Рынок 15-го микрорайона&rdquo;</div>
-<div align="center">Ориентир:&nbsp; Психоневрологический диспансер (ул. Ташкентская, 100), рынок 15-го микрорайона</div>
-<div><strong>&nbsp;</strong></div>
-<div>К заявлению о назначении единовременного пособия усыновителям (одному из усыновителей) необходимо предоставить следующие документы:</div>
-<div>- копию вступившего в законную силу решения суда об усыновлении;</div>
-<div>- копию свидетельства о рождении усыновленного ребенка;</div>
-<div>- реквизиты лицевого счета заявления (копии сберкнижки, открытой в сбербанке РФ, реквизитов данного отделения Сбербанка РФ).</div>
-<p align="justify">&nbsp;</p>
-<hr />
-<p align="center">&nbsp;<strong>Органы, рассматривающие вопросы усыновления ребенка, оставшегося без попечения родителей</strong></p>
-<p>-<em> По вопросу усыновления ребенка, оставшегося без попечения родителей (<strong>из государственной организации</strong>)&nbsp;необходимо обратиться</em>:</p>
-<ul>
-<li>в департамент социального обеспечения администрации городского округа Тольятти расположенному по адресу:<a href="http://go.2gis.ru/yuyb" target="_blank">г. Тольятти,</a><a href="http://portal2013.tgl.ru/admin/">&nbsp;б-</a>р Ленина, 15, каб. 17, тел. 54-37-69.&nbsp;Приемные дни: понедельник - четверг, с 8.30 до 11.30 и&nbsp;с 13.00 до 16.30, перерыв на обед с 12.00 до 13.00</li>
-</ul>
-<p>При себе необходимо иметь следующие документы (оригинал):</p>
-<ul>
-<ul>
-<li>документ, удостоверяющие личность;</li>
-<li>свидетельство о регистрации брака;</li>
-<li>для одиноких граждан - свидетельство о рождении.</li>
-</ul>
-</ul>
-<blockquote>
-<p>Присутствие обоих супругов обязательно.</p>
-</blockquote>
-<p>&nbsp;-<em>&nbsp;За консультацией по вопросу усыновления ребенка&nbsp;<strong>одним из супругов</strong>&nbsp;(отчимом, мачехой) необходимо обратиться</em>:</p>
-<ul>
-<li>в департамент социального обеспечения администрации городского округа Тольятти расположенному по адресу:<a href="http://go.2gis.ru/yuyb" target="_blank">г. Тольятти,</a><a href="http://portal2013.tgl.ru/admin/">&nbsp;</a>б-р Ленина, 15, каб. 17, тел. 54-37-69.&nbsp;Приемные дни: понедельник - четверг, с 8.30 до 11.30 и&nbsp;с 13.00 до 16.30, перерыв на обед с 12.00 до 13.00</li>
-</ul>
-<p dir="ltr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; При себе необходимо иметь оригиналы документов:</p>
-<ul>
-<ul>
-<li>документы, удостоверяющие личность&nbsp;заявителей;</li>
-<li>свидетельство о рождении ребенка;</li>
-<li>
-<p>свидетельство о заключении брака;</p>
-</li>
-</ul>
-</ul>
-<blockquote>
-<p>В случае если ребенок рожден в браке,&nbsp;необходимо предоставить один из следующих документов:</p>
-</blockquote>
-<ul>
-<ul>
-<li>согласие родного отца/матери, удостоверенное нотариусом;</li>
-<li>свидетельство о смерти;</li>
-<li>решение суда о признании неизвестными;</li>
-<li>решение суда о признании безвестно отсутствующим;</li>
-<li>решение суда о признании недееспособным;</li>
-<li>решение суда о лишении родительских прав.</li>
-</ul>
-</ul>
-<blockquote dir="ltr">
-<blockquote dir="ltr">
-<p>В случае если ребенок рожден вне брака, документы не представляют.</p>
-</blockquote>
-<p>Присутствие обоих супругов обязательно.</p>
-</blockquote>
-<p>Согласно ст.269 Гражданского процессуального кодекса РФ,&nbsp;заявление об усыновлении или удочерении подается гражданами Российской Федерации, желающими усыновить ребенка, в районный суд по месту жительства или месту нахождения усыновляемого ребенка.</p>
-<p>В заявлении об усыновлении (ст. 270 ГПК РФ)&nbsp;должны быть указаны:&nbsp;</p>
-<ul>
-<li>фамилия, имя, отчество усыновителей (усыновителя), место их жительства;</li>
-<li>фамилия, имя, отчество и дата рождения усыновляемого ребенка, его место жительства или место нахождения, сведения о родителях усыновляемого ребенка, наличии у него братьев и сестер;</li>
-<li>обстоятельства, обосновывающие просьбу усыновителей (усыновителя) об усыновлении ребенка, и документы, подтверждающие эти обстоятельства;</li>
-<li>просьба об изменении фамилии, имени, отчества, места рождения усыновляемого ребенка, а также даты его рождения (при усыновлении ребенка в возрасте до года), о записи усыновителей (усыновителя) родителями (родителем) в записи акта о рождении.</li>
-</ul>
-<p>&nbsp;</p>
-<p>К заявлению об усыновлении должны быть приложены:</p>
-<ul>
-<li>копия свидетельства о браке усыновителя с матерью (отцом) усыновляемого ребенка;</li>
-<li>согласие матери (отца) на усыновление ребенка;</li>
-<li>медицинское заключение о состоянии здоровья усыновителя (утвержденное приказом министерства здравоохранения РФ от 18.06.2014 №290н);</li>
-<li>документ, подтверждающий право пользования жилым помещением или право собственности на жилое помещение.</li>
-</ul>
-<p>Суд при необходимости может затребовать и иные документы.</p>
-<p>Судья при подготовке дела к судебному разбирательству обязывает органы опеки и попечительства по месту жительства или месту нахождения усыновляемого ребенка представить в суд заключение об обоснованности и о соответствии усыновления интересам усыновляемого ребенка<br /><br /></p></div>
-<style>
-			#npoll h1 {text-align:center;}
-			#npoll h2 {font-size:13px; color:#0066b3; line-height:22px; margin-top:20px;}
-			#npoll h3 {font: italic bold 22px Georgia, serif; text-align:center; margin:10px 0;color:#0066b3; margin-bottom:30px;}
-			#npoll h4 {margin-bottom:20px; font-size:16px; margin-top:20px;}
-			
-			#npoll .polls {padding-left: 100px;}
-			#npoll .poll {background:#fff; margin:20px; padding:20px 40px 25px; border: 1px solid #d9d9d9; border-radius:3px;}
-			
-			#npoll .answer {margin-bottom:10px;}
-			#npoll .answer p {font-size:13px; margin-bottom:5px;}
-			#npoll .answer .counters {float:right;}
-			#npoll .bar {background:#ccc; height:4px; border-radius:1px;}
-			#npoll .bar span {background:#0066b3;height:4px;}
-			#npoll .year {margin-bottom:30px;}
-			#npoll .year p {
-				color:#0066b3;
-				font-weight:bold;
-				font-size:14px;
-				border:1px solid rgb(57, 153, 226);
-				display:inline-block;
-				padding:1px 4px;
-				border-radius:2px;
-				background:#fff;
-				cursor:default;
-				margin-bottom:0;
-			}
-			#npoll .titles li { margin-top:10px;}
-			#npoll label {font-size:12px;}
-			#npoll .show-result-poll {float:right; margin-top:7px;}
-			#npoll .counters {font-size:12px; color}
-			#npoll .poll {width:600px; margin:0 auto;}			
-		</style>
-<script>
-
-			function pollVote( id, poll ) {
-				var vote = $(poll).parent().serialize();
-				$.ajax({
-					url: '/poll/pollVoteAdm/',
-					type: 'POST',
-					data: {
-						poll_id: id,
-						vote: vote
-					},
-					success: function( d ) {
-						switch(d) {
-							case 'err_code_5' :
-								alert('Вы должны ответить на все вопросы.');
-								return false;
-								break;
-							case 'err_code_6' :
-								alert('Пожалуйста, заполните все поля');
-								return false;
-								break;
-							case 'err_code_7' :
-								alert('Ваш голос уже учтён');
-								return false;
-								break;
-							case 'err_code_8' :
-								alert('Неверный код подтверждения, повторите попытку');
-								$(poll).parent().find('img').attr('src', 'core/library/captcha/index.php?'+Math.random());
-								return false;
-								break;
-							case 'err_code_9':
-								alert('Имя пользователя может содержать не более 25 символов');
-								$(poll).parent().find('img').attr('src', 'core/library/captcha/index.php?'+Math.random());
-								return false;
-								break;
-							case 'err_code_10':
-								alert('Сообщение может содержать не более 250 символов');
-								$(poll).parent().find('img').attr('src', 'core/library/captcha/index.php?'+Math.random());
-								return false;
-								break;
-							case 'Спасибо за Ваш ответ!' :
-								alert('Спасибо за Ваш ответ!');
-								pollResult(id, poll);
-								break;
-							
-							case 'success_1' :
-								alert('Ваш коментарий будет опубликован после проверки модератором');
-								pollResult(id, poll);
-								break;
-							case 'success_0' :
-								pollResult(id, poll);
-								break;
-							default:
-								alert(d);
-						}
+<!--'start_frame_cache_video'--><!--'end_frame_cache_video'-->
 						
-
-						
-					}
-				});
-			}
-
-
-
-
-			function pollResult( id, poll ) {
-				$.ajax({
-					url: '/poll/pollResult/',
-					type: 'POST',
-					data: {
-						id: id
-					},
-					success: function( d ) {
-						$(poll).parent().hide().parent().append(d);
-						//$(poll).parent().hide().parent().parent().find('.pollresults').html(d);
-					}
-				});
-			}
-
-			function backToPoll( poll ) {
-				$(poll).parent().parent().parent();
-				$(ch).show();
-				$(poll).parent().parent().parent().detach();
-
-			}
-
-			function pageWithComments( element, offset, poll_id ) {
-				
-				$.ajax({
-					url: '/poll/pageWithComments/',
-					type: 'POST',
-					data: {
-						poll_id: poll_id,
-						offset: offset
-					},
-					success: function( d ) {
-						if(d == 'error1') return false;
-						if(!d) return false;
-						$(element).parent().hide().after(d);
-					}
-				});
-			}
-
-			function prevComment( element ) {
-					if ( $(element).parent().prev().is('div') ) {
-						$(element).parent().hide().prev().show();
-					}
-			}
-
-			$(document).ready(function() {
-				//$('.poll label').live('click', function() {
-				//	$('.comment-form').hide();
-				//});
-
-				$('.poll label').live('click', function() {
-					if ( $(this).find('input').hasClass('custom-answer') ) {
-						$(this).parent().parent().parent().find('.comment-form').removeClass('hide');
-						$(this).parent().parent().parent().find('.captcha-block').removeClass('hide');
-					} else {
-						$(this).parent().parent().parent().find('.comment-form').addClass('hide');
-						$(this).parent().parent().parent().find('.captcha-block').addClass('hide');
-					}
-				});	
 				
 				
-				$('.radio').click(function(){
-					name = $(this).find('input').attr('name')
-					if (name == 133) {
-						val = $(this).find('input').val()
-						console.log(val)
-						if(val == 475 || val == 476){
-							$('input[name=134]').attr('disabled','disabled')
-							$('input[name=135]').attr('disabled','disabled')
-						}
-						else{
-							$('input[name=134]').removeAttr('disabled')
-							$('input[name=135]').removeAttr('disabled')
-						}						
-					}
-					$('.checkbox input[name="'+name+'"]').removeAttr("checked");
-				})
 				
-				$('.checkbox').click(function(){
-					name = $(this).find('input').attr('name')
-					if (name == 70){
-						chk = $('input[name=70]:checked').length
-						if (chk > 3){
-							alert ("Вы можете выбрать только 3 варианта ответа!")
-							$(this).find('input').removeAttr("checked");
-						}
-					}
-					if (name == 74){
-						chk = $('input[name=74]:checked').length
-						if (chk > 2){
-							alert ("Вы можете выбрать только 2 варианта ответа!")
-							$(this).find('input').removeAttr("checked");
-						}
-					}
-					$('.radio input[name="'+name+'"]').removeAttr("checked");
-					console.log(name)
-				})
-			});	
-			
-		</script><div id="npoll" class="indexpoll clear"></div>
-<div class="press_question_polls"></div>
-<div class="questionary"></div>
+				
+				
+				
+				
+				
+					</div>
+	<div style="clear:both"></div>
+<div class="row">
+	<div class="col-md-6 share">
+			</div>
+	<div class="col-md-6">
+		<a class="back-url" href="/vopros-otvet/"><i class="fa fa-chevron-left"></i>Вернуться к списку</a>
+	</div>
+</div><br>
+ <!-- Yandex.RTB R-A-712449-8 -->
+<div id="yandex_rtb_R-A-712449-8">
 </div>
-<div class="rightCol">
-<div class="icons">
-<a href="/print/s/665//" class="print"></a><a href="#" class="bookmark" onclick="return addFav( this );" title="Добавить в закладки"></a><a href="#" class="mail"></a><img src="../i/senderror.png" title="Отправить сообщение об ошибке" alt="Отправить сообщение об ошибке" class="senderror" style="margin-top: 10px; display:block; cursor: pointer;"><div class="clearfix"> </div>
-</div>
-<a href="/structure/" class="but_gray goback"><span>Вернуться в структуру</span></a><div class="sidemenu"><ul><li><a href="/structure/department/about-departament-po-voprosam-semi-opeki-i-popechitelstva/"><i></i><u>О подразделении</u></a></li></li><li><a href="/documentation/?departments=6"><i></i><u>Нормативные правовые акты</u></a></li></li><li><a href="/structure/department/departament-po-voprosam-semi-opeki-i-popechitelstv-municipalnye-i-inye-programmy/"><i></i><u>Муниципальные и иные программы</u></a></li></li><li><a href="/services/searchparams/?departments=6"><i></i><u>Услуги</u></a></li></li><li><a href="/structure/department/poryadok-oformleniya-dokumentov/"><i></i><u>Порядок оформления документов</u></a></li></li><li><a href="/structure/department/formy-zayavleniy-blankov/"><i></i><u>Формы заявлений бланков</u></a></li></li><li><a href="/structure/department/opeka-i-popechitelstvo/"><i></i><u>Опека и попечительство</u></a></li></li><li><a href="/structure/department/dopolnitelnye-mery-socialnoy-podderzhki-naseleniya/"><i></i><u>Дополнительные меры социальной поддержки населения</u></a></li></li><li><a href="/structure/department/../../needfamily/"><i></i><u>Нам нужна семья</u></a></li></li><li><a href="/structure/department/departament-po-voprosam-semi-opeki-i-popechitelstva-informaciya-dlya-roditeley-detey-invalidov/"><i></i><u>Информация для маломобильных граждан</u></a></li></li><li><a href="/structure/department/zozh-novosti/"><i></i><u>Укрепление общественного здоровья, ЗОЖ</u></a></li></li><li><a href="/structure/department/besplatnaya-yuridicheskaya-pomosch/"><i></i><u>Бесплатная юридическая помощь</u></a></li></li><li><a href="http://63.rospotrebnadzor.ru"><i></i><u>Информация от Роспотребнадзора Самарской области</u></a></li></li></ul></div><a class="openPhoneHelperNew" href="https://tgl.ru/phonebook-employees/search/?last_name=&first_name=&middle_name=&phonenum=&id_divisions=170-176-177-178-179-181-182-183-294-315-336"> <u>Телефонный<br />справочник</u> </a></div>
-</div>
-</div></div></div>
-<div class="botmenuWrapper">
-<a class="showmenu"><u>Весь сайт</u></a><div class="botmenu"><div class="table">
-<div class="col">
-<p class="title"><a href="/togliatty/">О Тольятти</a></p>
-<ul>
-<li><a href="/tgl-in-figures/">Тольятти в цифрах</a></li>
-<li><a href="//"></a></li>
-<li><a href="/about/">О городе</a></li>
-<li><a href="/structure/department/ustav-gorodskogo-okruga-tolyatti//">Устав</a></li>
-<li><a href="/structure/department/gradostroitelstvo/">Градостроительство</a></li>
-<li><a href="/structure/department/departament-ekonomicheskogo-razvitiya-socialno-ekonomicheskoe-razvitie//">Социально-экономическое развитие</a></li>
-<li><a href="/history/">История</a></li>
-<li><a href="/symbolism/">Символы</a></li>
-<li><a href="/anniversaries/">Памятные даты</a></li>
-<li><a href="/sworn-brothers/">Города побратимы</a></li>
-<li><a href="/honorary/">Почетные граждане</a></li>
-<li><a href="/statistics/">Статистика</a></li>
-<li><a href="/http://emgis.ru//">Карта Тольятти</a></li>
-<li><a href="/tourism/">Туризм в Тольятти</a></li>
-<li><a href="/photogallery/">Фото города</a></li>
-</ul>
-</div>
-<div class="col">
-<p class="title"><a href="/rule/">Власть</a></p>
-<ul>
-<li><a href="/structure/department/meriaglavn/">Администрация г.о. Тольятти</a></li>
-<li><a href="//"></a></li>
-<li><a href="/structure/">Структура администрации</a></li>
-<li><a href="/mayor/">Глава г.о. Тольятти</a></li>
-<li><a href="/deputy-mayors/">Руководство администрации</a></li>
-<li><a href="/documentation/">Документы</a></li>
-<li><a href="/municipal-program/">Муниципальные и иные программы</a></li>
-<li><a href="/elections/">Выборы</a></li>
-<li><a href="/structure/department/prozrachnyy-byudzhet/">Бюджет для граждан</a></li>
-<li><a href="/ControlSection/control_types/">Контрольно-надзорная деятельность</a></li>
-<li><a href="/municipal-service/">Муниципальная служба</a></li>
-<li><a href="/public-discussions/">Публичные обсуждения</a></li>
-<li><a href="/AnticorruptionExpertise/">Независимая антикоррупционная экспертиза</a></li>
-<li><a href="/opendata/">Открытые данные</a></li>
-<li><a href="/structure/department/gorodproc-inform/">Прокуратура</a></li>
-<li><a href="/bdd/">ГИБДД УМВД России по г.Тольятти</a></li>
-<li><a href="/structure/department/antiterroristicheskaya-zaschischennost//">Противодействие терроризму</a></li>
-<li><a href="/structure/department/protivodeystvie-korrupcii/">Противодействие коррупции</a></li>
-</ul>
-</div>
-<div class="col">
-<p class="title"><a href="/activity/">Деятельность</a></p>
-<ul>
-<li><a href="/structure/department/otdel-municipalnogo-zemelnogo-kontrolya-rassmotrenie-del-ob-administrativnyh-pravonarusheniyah/">Административная практика</a></li>
-<li><a href="//"></a></li>
-<li><a href="/structure/department/about-administraciya-avtozavodskogo-rayona/">Администрация Автозаводского района</a></li>
-<li><a href="/structure/department/about-administraciya-centralnogo-rayona/">Администрация Центрального района</a></li>
-<li><a href="/structure/department/about-administraciya-komsomolskogo-rayona/">Администрация Комсомольского района</a></li>
-<li><a href="/structure/department/about-upravlenie-po-delam-arhivov/">Архивное дело</a></li>
-<li><a href="/structure/department/about-departament-gradostroitelnoy-deyatelnosti/">Архитектура и градостроительство</a></li>
-<li><a href="/../../structure/department/vzaimodeystvie-v-sfere-etnokonfessionalnyh-otnosheniy-novosti/">Вопросы этноконфессиональных отношений</a></li>
-<li><a href="/../../structure/department/about-upravlenie-vzaimodeystviya-s-obschestvennostyu/">Взаимодействие с общественностью</a></li>
-<li><a href="/structure/department/about-departament-gorodskogo-hozyaystva/">Городское хозяйство</a></li>
-<li><a href="/../structure/department/gradostroitelstvo/">Градостроительство</a></li>
-<li><a href="/structure/department/about-departament-dorozhnogo-hozyaystva-i-transporta/">Дорожное хозяйство и транспорт</a></li>
-<li><a href="/structure/department/zhilischnye-voprosy/">Жилищные вопросы</a></li>
-<li><a href="/structure/department/investoram//">Инвестиционная деятельность</a></li>
-<li><a href="/structure/department/about-departament-informacionnyh-tehnologiy-i-svyazi/">Информатизация и связь</a></li>
-<li><a href="/structure/department/about-departament-kultury/">Культура</a></li>
-<li><a href="/structure/department/about-upravlenie-mezhdunarodnyh-i-mezhregionalnyh-svyazey/">Международные и межрегиональные связи</a></li>
-<li><a href="/structure/department/interesnaya-informaciya-dlya-molodezhi//">Молодежная политика</a></li>
-<li><a href="/structure/department/about-upravlenie-municipalnoy-sluzhby-i-kadrovoy-politiki/">Муниципальная служба и кадровая политика</a></li>
-<li><a href="/structure/department/municipalniy-zemelniy-control/">Муниципальный земельный контроль</a></li>
-<li><a href="/structure/department/about-departament-obrazovaniya/">Образование</a></li>
-<li><a href="/structure/department/about-upravlenie-po-orgrabote-i-svyazyam-s-obschestvennostyu/">Организационная деятельность</a></li>
-<li><a href="/structure/department/about-upravlenie-organizacii-municipalnyh-torgov/">Организация муниципальных торгов</a></li>
-<li><a href="/structure/department/about-otdel-ohrany-truda/">Охрана труда</a></li>
-<li><a href="/structure/department/about-departament-obschestvennoy-bezopasnosti/">Правопорядок и общественная безопасность</a></li>
-<li><a href="/structure/department/upravlenie-po-orgrabote-i-svyazyam-s-obschestvennostyu-organizaciya-raboty-s-obrascheniyami-grazhdan/">Прием обращений граждан</a></li>
-<li><a href="/structure/department/about-otdel-razvitiya-potrebitelskogo-rynka//">Развитие потребительского рынка</a></li>
-<li><a href="/structure/department/predprinimatelyam/">Развитие предпринимательства</a></li>
-<li><a href="/structure/department/razvitie-turizma//">Развитие туризма</a></li>
-<li><a href="/structure/department/about-departament-po-voprosam-semi-opeki-i-popechitelstva/">Социальное обеспечение</a></li>
-<li><a href="/structure/department/about-departament-po-upravleniyu-municipalnym-imuschestvom/">Управление муниципальным имуществом</a></li>
-<li><a href="/structure/department/about-upravlenie-fizicheskoy-kultury-i-sporta/">Физическая культура и спорт</a></li>
-<li><a href="/structure/department/about-departament-finansov/">Финансы</a></li>
-<li><a href="/structure/department/ekologiya/">Экология</a></li>
-<li><a href="/structure/department/about-departament-ekonomicheskogo-razvitiya/">Экономика</a></li>
-</ul>
-</div>
-<div class="col"><p class="title"><a href="/services/">Услуги</a></p></div>
-<div class="col"><p class="title"><a href="/events/">Мероприятия</a></p></div>
-<div class="col">
-<p class="title"><a href="/press-center/">Пресс-центр</a></p>
-<ul>
-<li><a href="/poll/">Опросы</a></li>
-<li><a href="//"></a></li>
-<li><a href="/prezentacii/">Презентации</a></li>
-<li><a href="/news/">Новости</a></li>
-<li><a href="/foto/">Фотогалерея</a></li>
-<li><a href="/video/">Видео</a></li>
-<li><a href="/tlt-285/">Тольятти - 285</a></li>
-</ul>
-</div>
-<div class="col">
-<p class="title"><a href="/callback/">Обратная связь</a></p>
-<ul>
-<li><a href="/structure/department/o-gku-centr-zanyatosti-naseleniya-gorodskogo-okruga-tolyatti/">Центр занятости населения</a></li>
-<li><a href="//"></a></li>
-<li><a href="/dorozhnye-karty/">Дорожные карты</a></li>
-<li><a href="/phonebook-employees/">Контактная информация</a></li>
-<li><a href="/pravovoe-informirovanie-grazhdan/">Правовое информирование граждан</a></li>
-<li><a href="/blagotvoritelnost/">Организации, оказывающие благотворительную помощь</a></li>
-</ul>
-</div>
-</div></div>
-</div>
-</div>
-</div>
-<div class="footer">
-<div class="new_year" style=""></div>
-<div class="footerIn">
-<div class="logo_small"><img src="/i/logo_small.png" width="34" height="40"></div>
-<div class="copy">
-<p>
-					© 2004–2021. Администрация городского округа Тольятти<br>
-					445011 Россия, г. Тольятти, пл.Свободы, 4<br>
-					Факс: 8(8482)54-36-66<br>
-					Эл. почта: <a href="mailto:tgl@tgl.ru">tgl@tgl.ru</a><br>
-				 	Законодательная карта портала: <a href="/structure/department/zakonodatelnaya-karta-portala/">перейти</a><br><a href="/sitemap/">Карта сайта</a><br>
-				 	Техническая поддержка: <a href="mailto:portal@tgl.ru">portal@tgl.ru</a></p>
-				Все материалы сайта доступны по лицензии:<br><a href="http://creativecommons.org/licenses/by/4.0/deed.ru" target="_blank">Creative Commons Attribution 4.0 International</a><br><br>
-					Обнародование и дальнейшее использование изображения гражданина<br>(в том числе его фотографии, а также видеозаписи или произведения <br>изобразительного искусства, в которых он изображен) осуществляется<br>в соответствии с действующим законодательством<br>(Гражданским кодексом РФ, Федеральным законом от 27.07.2006г. №152-ФЗ "О персональных данных")
+																																</div>									<div class="col-md-3 col-sm-3 col-xs-4 right-menu-md">
+											<aside class="sidebar">
+		<ul class="nav nav-list side-menu">
+							<li class=" ">
+					<a href="/vopros-otvet/razvod/">Вопросы и ответы юриста по  разводу</a>
+													</li>
+							<li class=" ">
+					<a href="/vopros-otvet/razdel-imushchestva/">Вопросы раздела имущества  супругов</a>
+													</li>
+							<li class=" ">
+					<a href="/vopros-otvet/voprosy-o-razdele-kvartiry/">Вопросы о разделе квартиры</a>
+													</li>
+							<li class=" ">
+					<a href="/vopros-otvet/brakorazvodnom-protsesse/">Вопросы в бракоразводном процессе</a>
+													</li>
+							<li class=" ">
+					<a href="/vopros-otvet/brachnyy-dogovor/">Вопросы и ответы по брачному договору</a>
+													</li>
+							<li class=" ">
+					<a href="/vopros-otvet/vzyskanii-alimentov/">Вопросы и ответы по взысканию алиментов</a>
+													</li>
+							<li class=" ">
+					<a href="/vopros-otvet/alimentakh-rebenka/">Вопрос по алиментам на ребенка</a>
+													</li>
+							<li class=" ">
+					<a href="/vopros-otvet/alimenty-suprugov/">Вопросы по алиментам на супругов</a>
+													</li>
+							<li class=" ">
+					<a href="/vopros-otvet/vyplata-alimentov-roditelyam/">Вопросы уплаты алиментов родителям</a>
+													</li>
+							<li class=" ">
+					<a href="/vopros-otvet/ottsovstva-materinstva/">Вопросы отцовства и материнства</a>
+													</li>
+							<li class=" ">
+					<a href="/vopros-otvet/usynovleniya-detey/">Вопросы юристу по усыновлению детей</a>
+													</li>
+							<li class=" ">
+					<a href="/vopros-otvet/detyakh-razvod/">Вопрос о детях при расторжении брака</a>
+													</li>
+							<li class=" ">
+					<a href="/vopros-otvet/vyseleniyu/">Вопрос по выселению</a>
+													</li>
+							<li class=" ">
+					<a href="/vopros-otvet/priznaniya-braka-nedeystvitelnym/">Вопросы признания брака недействительным</a>
+													</li>
+					</ul>
+	</aside>
+										<div class="sidearea">
+																						<br>
+<!--'start_frame_cache_2DJmFo'--><!-- Yandex.RTB R-A-712449-1 -->
+<div id="yandex_rtb_R-A-712449-1"></div>
+<!--'end_frame_cache_2DJmFo'-->										</div>
+									</div>
+																					</div>						</div>															</div>							</div>		</div>		<footer id="footer">
+			<!--'start_frame_cache_footer-subscribe'-->			<div class="subscribe-block-wrapper">
+			<div class="row">
+				<div class="maxwidth-theme">
+					<div class="col-md-3 hidden-sm text">
+					Подписывайтесь на новости и акции:					</div>
+					<div class="col-md-9 col-sm-12">
+						<div class="row">
+							<div class="col-md-9 col-sm-9">
+								<div class="subscribe-edit">
+	<form action="/personal/subscribe/" method="post" class="subscribe-form">
+	<input type="hidden" name="sessid" id="sessid" value="afdfb2a9551046b6420c4b43cc9ff929" />	<input type="text" name="EMAIL" class="form-control subscribe-input email required" value="" size="30" maxlength="255" />
+			<input type="hidden" name="RUB_ID[]" value="2" />
+			<input type="hidden" name="RUB_ID[]" value="3" />
+		<input type="hidden" name="FORMAT" value="html" />
+	<input type="submit" name="Save" class="btn btn-default btn-md subscribe-btn" value="Подписаться" />
+	<input type="hidden" name="PostAction" value="Add" />
+	<input type="hidden" name="ID" value="" />
+</form>
+</div>							</div>
+							<div class="col-md-3 col-sm-3">
+								<div class="social-icons">
+	<!-- noindex -->
+	<ul>
+									<li class="vk">
+				<a href="https://vk.com/public201926809" target="_blank" rel="nofollow" title="Вконтакте">
+					Вконтакте					<i class="fa fa-vk"></i>
+					<i class="fa fa-vk hide"></i>
+				</a>
+			</li>
+											</ul>
+	<!-- /noindex -->
+</div>							</div>
+						</div>
+					</div>
 				</div>
-<div class="counters" style="margin-top: 15px;">
-<script type="text/javascript" src="/js/cLI.js"></script><script type="text/javascript" src="/js/cMail.js"></script><a href="https://metrika.yandex.ru/stat/?id=10434451" target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/10434451/1_0_FFFFFFFF_FFFFFFFF_0_pageviews" style="width:80px; height:15px; border:0;" alt="yainformer" title="countYandex"></a><script type="text/javascript">
-       (function(d, t, p) {
-           var j = d.createElement(t); j.async = true; j.type = "text/javascript";
-           j.src = ("https:" == p ? "https:" : "http:") + "//stat.sputnik.ru/cnt.js";
-           var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
-       })(document, "script", document.location.protocol);
-    </script><img height="31" src="http://stat.sputnik.ru/informer?domain=tgl.ru&amp;tz=240" title="Просмотры, визиты, посетители за текущие сутки" width="88">
-</div>
-</div>
-<div></div>
-</div>
-</div>
-<div class="popupWrapper" id="mailPopup"><div class="popup">
-<p class="title">Запомнить страницу</p>
-<a class="closePopup"></a><div class="newsSubscribe"><form method="post" action="" id="mailForm"><fieldset>
-<label for="emailMail">Ваша электронная почта</label><input type="text" name="emailMail" id="emailMail" size="20" class="inputbox"><input type="submit" class="button_send button" value="Отправить" disabled>
-</fieldset></form></div>
-</div></div>
-<div style="display:none;"><script type="text/javascript">
-	 (function(w, c) {
-		 (w[c] = w[c] || []).push(function() {
-			 try {
-				 w.yaCounter10434451 = new Ya.Metrika({id:10434451, enableAll: true});
-			 }
-			 catch(e) { }
-		 });
-	 })(window, "yandex_metrika_callbacks");
-	 </script></div>
-<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript" defer></script><noscript><div><img src="//mc.yandex.ru/watch/10434451" style="position:absolute; left:-9999px;" alt=""></div></noscript>
-</body></html>
+			</div>
+		</div>
+	<!--'end_frame_cache_footer-subscribe'-->			<div class="container">
+				<div class="row">
+					<div class="maxwidth-theme">
+						<div class="col-md-3 copy_wrapper">
+							<div class="copy">
+								&copy; 2023 Юридическая помощь в судебных спорах
+							</div>
+							<div id="bx-composite-banner"></div>
+						</div>
+						<div class="col-md-9 col-sm-12 menu_wrapper">
+							<div class="row">
+								<div class="col-md-9 col-sm-9">
+										<div class="bottom-menu">
+		<div class="items row">
+											<div class="col-md-4 col-sm-6">
+					<div class="item">
+						<div class="title">
+															<a href="/yuridicheskie-uslugi/">Юридические услуги</a>
+													</div>
+					</div>
+				</div>
+											<div class="col-md-4 col-sm-6">
+					<div class="item">
+						<div class="title">
+															<a href="/obrazets/">Образцы документов</a>
+													</div>
+					</div>
+				</div>
+											<div class="col-md-4 col-sm-6">
+					<div class="item">
+						<div class="title">
+															<a href="/sudebnye-dela/">Судебная практика</a>
+													</div>
+					</div>
+				</div>
+											<div class="col-md-4 col-sm-6">
+					<div class="item active">
+						<div class="title">
+															<a href="/vopros-otvet/">Ответы юриста</a>
+													</div>
+					</div>
+				</div>
+											<div class="col-md-4 col-sm-6">
+					<div class="item">
+						<div class="title">
+															<a href="/info/stock/">Специальные предложения</a>
+													</div>
+					</div>
+				</div>
+											<div class="col-md-4 col-sm-6">
+					<div class="item">
+						<div class="title">
+															<a href="/contacts/">Контакты</a>
+													</div>
+					</div>
+				</div>
+											<div class="col-md-4 col-sm-6">
+					<div class="item">
+						<div class="title">
+															<a href="/company/dogovor-oferta/">Договор оферта</a>
+													</div>
+					</div>
+				</div>
+											<div class="col-md-4 col-sm-6">
+					<div class="item">
+						<div class="title">
+															<a href="/company/requisites/">Реквизиты</a>
+													</div>
+					</div>
+				</div>
+											<div class="col-md-4 col-sm-6">
+					<div class="item">
+						<div class="title">
+															<a href="/price/">Прайс лист</a>
+													</div>
+					</div>
+				</div>
+					</div>
+	</div>
+								</div>
+								<div class="col-md-3 col-sm-3">
+									<div class="info">
+										<div class="phone">
+											<i class="fa fa-phone"></i>
+											<a href="https://wa.me/79191328708" target="_blank" rel="nofollow" title="+7 (919) 132-87-08">Консультация в WhatsApp<i style="font-size:10px" class="fa fa-whatsapp"></i> <i class="fa fa-whatsapp hide"></i> </a> <br>										</div>
+										<div class="email">
+											<i class="fa fa-envelope"></i>
+											<a href="mailto:info@semeynye-yuristy.ru">
+info@semeynye-yuristy.ru</a><br>
+ 115280, г. Москва, 3-й Автозаводский проезд, д. 4, оф 10<br>										</div>
+									</div>
+									<div class="social">
+																			</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="bx_areas">
+			<!-- Yandex.Metrika counter -->
+<!-- /Yandex.Metrika counter -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+		</div>
+			<script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script><script src="/bitrix/js/main/core/core.min.js?1626359819260887"></script><script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/core/core.js','/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+BX.setCSSList(['/bitrix/js/main/lazyload/dist/lazyload.bundle.css','/bitrix/js/main/parambag/dist/parambag.bundle.css']);</script>
+<script>(window.BX||top.BX).message({'pull_server_enabled':'N','pull_config_timestamp':'1593794578','pull_guest_mode':'N','pull_guest_user_id':'0'});(window.BX||top.BX).message({'PULL_OLD_REVISION':'Для продолжения корректной работы с сайтом необходимо перезагрузить страницу.'});</script>
+<script>(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','UTF_MODE':'Y','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1673187362','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'afdfb2a9551046b6420c4b43cc9ff929'});</script><script  src="/bitrix/cache/js/s1/aspro-scorp/kernel_main/kernel_main_v1.js?1663411226152284"></script>
+<script  src="/bitrix/cache/js/s1/aspro-scorp/kernel_main_polyfill_customevent/kernel_main_polyfill_customevent_v1.js?16620333681051"></script>
+<script src="/bitrix/js/ui/dexie/dist/dexie.bitrix.bundle.min.js?159379283160291"></script>
+<script src="/bitrix/js/main/core/core_ls.min.js?15937928297365"></script>
+<script src="/bitrix/js/main/core/core_frame_cache.min.js?161858140211082"></script>
+<script src="/bitrix/js/pull/protobuf/protobuf.min.js?159533993676433"></script>
+<script src="/bitrix/js/pull/protobuf/model.min.js?159533993614190"></script>
+<script src="/bitrix/js/rest/client/rest.client.min.js?16077634349240"></script>
+<script src="/bitrix/js/pull/client/pull.client.min.js?162635987043841"></script>
+<script src="/bitrix/js/main/jquery/jquery-1.8.3.min.js?159379282993637"></script>
+<script src="/bitrix/js/main/ajax.min.js?159379283122194"></script>
+<script>BX.setJSList(['/bitrix/js/main/core/core_fx.js','/bitrix/js/main/pageobject/pageobject.js','/bitrix/js/main/core/core_window.js','/bitrix/js/main/utils.js','/bitrix/js/main/session.js','/bitrix/js/main/date/main.date.js','/bitrix/js/main/core/core_date.js','/bitrix/js/main/polyfill/customevent/main.polyfill.customevent.js','/bitrix/templates/aspro-scorp/js/jquery.actual.min.js','/bitrix/templates/aspro-scorp/js/jquery.fancybox.js','/bitrix/templates/aspro-scorp/js/blink.js','/bitrix/templates/aspro-scorp/vendor/jquery.easing.js','/bitrix/templates/aspro-scorp/vendor/jquery.appear.js','/bitrix/templates/aspro-scorp/vendor/jquery.cookie.js','/bitrix/templates/aspro-scorp/vendor/bootstrap.js','/bitrix/templates/aspro-scorp/vendor/flexslider/jquery.flexslider-min.js','/bitrix/templates/aspro-scorp/vendor/jquery.validate.min.js','/bitrix/templates/aspro-scorp/js/jquery.uniform.min.js','/bitrix/templates/aspro-scorp/js/jqModal.js','/bitrix/templates/aspro-scorp/js/detectmobilebrowser.js','/bitrix/templates/aspro-scorp/js/general.js','/bitrix/templates/aspro-scorp/js/custom.js','/bitrix/components/bitrix/search.title/script.js','/bitrix/templates/aspro-scorp/js/jquery.inputmask.bundle.min.js','/bitrix/templates/aspro-scorp/components/bitrix/subscribe.edit/footer/script.js']);</script>
+<script>BX.setCSSList(['/bitrix/templates/aspro-scorp/css/bootstrap.css','/bitrix/templates/aspro-scorp/css/fonts/font-awesome/css/font-awesome.min.css','/bitrix/templates/aspro-scorp/vendor/flexslider/flexslider.css','/bitrix/templates/aspro-scorp/css/jquery.fancybox.css','/bitrix/templates/aspro-scorp/css/theme-elements.css','/bitrix/templates/aspro-scorp/css/theme-responsive.css','/bitrix/templates/aspro-scorp/css/animate.min.css','/bitrix/templates/.default/ajax/ajax.css','/bitrix/templates/aspro-scorp/styles.css','/bitrix/templates/aspro-scorp/template_styles.css','/bitrix/templates/aspro-scorp/css/responsive.css','/bitrix/templates/aspro-scorp/themes/1/colors.css','/bitrix/templates/aspro-scorp/css/custom.css']);</script>
+<script>var bxDate = new Date(); document.cookie="BITRIX_SM_TIME_ZONE="+bxDate.getTimezoneOffset()+"; path=/; expires=Mon, 01 Jan 2024 00:00:00 +0300"</script>
+<script>
+					(function () {
+						"use strict";
+
+						var counter = function ()
+						{
+							var cookie = (function (name) {
+								var parts = ("; " + document.cookie).split("; " + name + "=");
+								if (parts.length == 2) {
+									try {return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));}
+									catch (e) {}
+								}
+							})("BITRIX_CONVERSION_CONTEXT_s1");
+
+							if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME"))
+								return;
+
+							var request = new XMLHttpRequest();
+							request.open("POST", "/bitrix/tools/conversion/ajax_counter.php", true);
+							request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+							request.send(
+								"SITE_ID="+encodeURIComponent("s1")+
+								"&sessid="+encodeURIComponent(BX.bitrix_sessid())+
+								"&HTTP_REFERER="+encodeURIComponent(document.referrer)
+							);
+						};
+
+						if (window.frameRequestStart === true)
+							BX.addCustomEvent("onFrameDataReceived", counter);
+						else
+							BX.ready(counter);
+					})();
+				</script>
+<script>BX.message({'JS_REQUIRED':'Заполните это поле!','JS_FORMAT':'Неверный формат!','JS_FILE_EXT':'Недопустимое расширение файла!','JS_PASSWORD_COPY':'Пароли не совпадают!','JS_PASSWORD_LENGTH':'Минимум 6 символов!','JS_ERROR':'Неверно заполнено поле!','JS_RECAPTCHA_ERROR':'Пройдите проверку','JS_PROCESSING_ERROR':'Согласитесь с условиями!','JS_FILE_SIZE':'Максимальный размер 5мб!','JS_FILE_BUTTON_NAME':'Выберите файл','JS_FILE_DEFAULT':'Файл не найден','JS_DATE':'Некорректная дата!','JS_DATETIME':'Некорректная дата/время!','S_CALLBACK':'Заказать звонок','ERROR_INCLUDE_MODULE_SCORP_TITLE':'Ошибка подключения модуля &laquo;Аспро: Корпоративный сайт современной компании&raquo;','ERROR_INCLUDE_MODULE_SCORP_TEXT':'Ошибка подключения модуля &laquo;Аспро: Корпоративный сайт современной компании&raquo;.<br />Пожалуйста установите модуль и повторите попытку','S_SERVICES':'Наши услуги','S_SERVICES_SHORT':'Услуги','S_TO_ALL_SERVICES':'Все услуги','S_CATALOG':'Каталог товаров','S_CATALOG_SHORT':'Каталог','S_TO_ALL_CATALOG':'Весь каталог','S_CATALOG_FAVORITES':'Наши товары','S_CATALOG_FAVORITES_SHORT':'Товары','S_NEWS':'Новости','S_TO_ALL_NEWS':'Все новости','S_COMPANY':'О компании','S_OTHER':'Прочее','S_CONTENT':'Контент','T_JS_ARTICLE':'Артикул: ','T_JS_NAME':'Наименование: ','T_JS_PRICE':'Цена: ','T_JS_QUANTITY':'Количество: ','T_JS_SUMM':'Сумма: ','RECAPTCHA_TEXT':'Подтвердите, что вы не робот'})</script>
+<script  src="/bitrix/cache/js/s1/aspro-scorp/template_3dbe14693db1b410b7580081f4e88da9/template_3dbe14693db1b410b7580081f4e88da9_v1.js?1669406780249395"></script>
+<script  src="/bitrix/cache/js/s1/aspro-scorp/default_a0f16813492d7f7abe37e922aee566ee/default_a0f16813492d7f7abe37e922aee566ee_v1.js?1669406780448"></script>
+<script>var _ba = _ba || []; _ba.push(["aid", "8c7d21886ae6e1a1751a152518376145"]); _ba.push(["host", "semeynye-yuristy.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+<script>new Image().src='https://kipr-nedvizh.ru/bitrix/spread.php?s=QklUUklYX1NNX0dVRVNUX0lEATM0Mjg5OQExNzA0MjkxMzYyAS8BAQECQklUUklYX1NNX0xBU1RfVklTSVQBMDguMDEuMjAyMyAxNzoxNjowMgExNzA0MjkxMzYyAS8BAQEC&k=decb2a3bb481ceeb549f6045b934c974';
+new Image().src='https://trudovoy-yurist.ru/bitrix/spread.php?s=QklUUklYX1NNX0dVRVNUX0lEATM0Mjg5OQExNzA0MjkxMzYyAS8BAQECQklUUklYX1NNX0xBU1RfVklTSVQBMDguMDEuMjAyMyAxNzoxNjowMgExNzA0MjkxMzYyAS8BAQEC&k=decb2a3bb481ceeb549f6045b934c974';
+new Image().src='https://sudebnyy-yurist.ru/bitrix/spread.php?s=QklUUklYX1NNX0dVRVNUX0lEATM0Mjg5OQExNzA0MjkxMzYyAS8BAQECQklUUklYX1NNX0xBU1RfVklTSVQBMDguMDEuMjAyMyAxNzoxNjowMgExNzA0MjkxMzYyAS8BAQEC&k=decb2a3bb481ceeb549f6045b934c974';
+</script>
+
+
+<script>
+		var arBasketItems = {};
+		var arScorpOptions = ({
+			'SITE_DIR' : '/',
+			'SITE_ID' : 's1',
+			'SITE_TEMPLATE_PATH' : '/bitrix/templates/aspro-scorp',
+			'THEME' : ({
+				'THEME_SWITCHER' : 'N',
+				'BASE_COLOR' : '1',
+				'BASE_COLOR_CUSTOM' : 'e65100',
+				'TOP_MENU' : 'LIGHT',
+				'TOP_MENU_FIXED' : 'Y',
+				'COLORED_LOGO' : 'Y',
+				'SIDE_MENU' : 'RIGHT',
+				'SCROLLTOTOP_TYPE' : 'ROUND_COLOR',
+				'SCROLLTOTOP_POSITION' : 'PADDING',
+				'ADD_SITE_NAME_IN_TITLE' : 'N',
+				'USE_CAPTCHA_FORM' : 'IMAGE',
+				'DISPLAY_PROCESSING_NOTE' : 'Y',
+				'PROCESSING_NOTE_CHECKED' : 'Y',
+				'PHONE_MASK' : '+7 (999) 999-99-99',
+				'VALIDATE_PHONE_MASK' : '^[+][0-9] [(][0-9]{3}[)] [0-9]{3}[-][0-9]{2}[-][0-9]{2}$',
+				'DATE_MASK' : 'dd.mm.yyyy',
+				'DATE_PLACEHOLDER' : 'дд.мм.гггг',
+				'VALIDATE_DATE_MASK' : '^[0-9]{1,2}\.[0-9]{1,2}\.[0-9]{4}$',
+				'DATETIME_MASK' : 'dd.mm.yyyy H:s',
+				'DATETIME_PLACEHOLDER' : 'дд.мм.гггг чч:мм',
+				'VALIDATE_DATETIME_MASK' : '^[0-9]{1,2}\.[0-9]{1,2}\.[0-9]{4} [0-9]{1,2}\:[0-9]{1,2}$',
+				'VALIDATE_FILE_EXT' : 'png|jpg|jpeg|gif|doc|docx|xls|xlsx|txt|pdf|odt|rtf',
+				'SOCIAL_VK' : 'https://vk.com/public201926809',
+				'SOCIAL_FACEBOOK' : '',
+				'SOCIAL_TWITTER' : '',
+				'SOCIAL_YOUTUBE' : '',
+				'SOCIAL_ODNOKLASSNIKI' : '',
+				'SOCIAL_GOOGLEPLUS' : '',
+				'BANNER_WIDTH' : 'AUTO',
+				'TEASERS_INDEX' : 'PICTURES',
+				'CATALOG_INDEX' : 'N',
+				'CATALOG_FAVORITES_INDEX' : 'N',
+				'BIGBANNER_ANIMATIONTYPE' : 'SLIDE_HORIZONTAL',
+				'BIGBANNER_SLIDESSHOWSPEED' : '5000',
+				'BIGBANNER_ANIMATIONSPEED' : '600',
+				'PARTNERSBANNER_SLIDESSHOWSPEED' : '5000',
+				'PARTNERSBANNER_ANIMATIONSPEED' : '600',
+				'ORDER_VIEW' : 'N',
+				'ORDER_BASKET_VIEW' : 'HEADER',
+				'URL_BASKET_SECTION' : '/cart/',
+				'URL_ORDER_SECTION' : '/cart/order/',
+				'USE_YA_COUNTER' : 'Y',
+				'YA_COUNTER_ID' : '65569885',
+				'USE_FORMS_GOALS' : 'NONE',
+				'USE_SALE_GOALS' : 'N',
+				'USE_DEBUG_GOALS' : 'Y',
+			})
+		});
+
+		$(document).ready(function(){
+			if($.trim(arScorpOptions['THEME']['ORDER_VIEW']) === 'Y' && ($.trim(window.location.pathname) != $.trim(arScorpOptions['THEME']['URL_BASKET_SECTION'])) && ($.trim(window.location.pathname) != $.trim(arScorpOptions['THEME']['URL_ORDER_SECTION']))){
+				if(arScorpOptions['THEME']['ORDER_BASKET_VIEW'] === 'FLY'){
+					$.ajax({
+						url: arScorpOptions['SITE_DIR'] + 'ajax/basket_items.php',
+						type: 'POST',
+						success: function(html){
+							$('body').prepend('<div class="ajax_basket">' + html + '</div>');
+							setTimeout(function(){
+								$('.ajax_basket').addClass('ready');
+								$('.basket.fly>.wrap').addClass(arScorpOptions['THEME']['TOP_MENU']);
+								$('.basket_top.basketFlyTrue').removeClass('hidden').find('.count').text($('.basket .count').text());
+							}, 50);
+						}
+					});
+				}
+				else if(arScorpOptions['THEME']['ORDER_BASKET_VIEW'] === 'HEADER'){
+					$.ajax({
+						url: arScorpOptions['SITE_DIR'] + 'ajax/basket_items.php ',
+						type: 'POST',
+						success: function(html){
+							$('.mega-menu .table-menu.basketTrue table td.search-item>.wrap').append('<div class="ajax_basket">' + html + '</div>');
+							$('header .logo-row .top-callback').prepend('<div class="ajax_basket">' + html + '</div>');
+							setTimeout(function(){
+								$('.ajax_basket').addClass('ready');
+							}, 50);
+						}
+					});
+				}
+			}
+
+		});
+
+		</script>
+<script>
+	var jsControl = new JCTitleSearch({
+		//'WAIT_IMAGE': '/bitrix/themes/.default/images/wait.gif',
+		'AJAX_PAGE' : '/vopros-otvet/kak-usynovit-rebenka-muzha/',
+		'CONTAINER_ID': 'title-search',
+		'INPUT_ID': 'title-search-input',
+		'MIN_QUERY_LEN': 2
+	});
+</script><script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-712449-11',
+    blockId: 'R-A-712449-11'
+  })
+})</script>
+<script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-712449-9',
+    blockId: 'R-A-712449-9'
+  })
+})</script><script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-712449-10',
+    blockId: 'R-A-712449-10'
+  })
+})</script><script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-712449-8',
+    blockId: 'R-A-712449-8'
+  })
+})</script><script>window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    renderTo: 'yandex_rtb_R-A-712449-1',
+    blockId: 'R-A-712449-1'
+  })
+})</script><script >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(65569885, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S678PC443G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S678PC443G', {'debug_mode':true});
+</script></body>
+</html>

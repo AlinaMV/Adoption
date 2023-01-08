@@ -1,813 +1,749 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-	<meta charset="utf-8">
-	
-<title>Администрация ГО "Город Калининград". Усыновление (удочерение) детей</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="/bitrix/templates/gos_modern_blue_kg/favicon_klgd.png">
-	<script data-skip-moving="true">
-		function loadFont(t,e,n,o){function a(){if(!window.FontFace)return!1;var t=new FontFace("t",'url("data:application/font-woff2,") format("woff2")',{}),e=t.load();try{e.then(null,function(){})}catch(n){}return"loading"===t.status}var r=navigator.userAgent,s=!window.addEventListener||r.match(/(Android (2|3|4.0|4.1|4.2|4.3))|(Opera (Mini|Mobi))/)&&!r.match(/Chrome/);if(!s){var i={};try{i=localStorage||{}}catch(c){}var d="x-font-"+t,l=d+"url",u=d+"css",f=i[l],h=i[u],p=document.createElement("style");if(p.rel="stylesheet",document.head.appendChild(p),!h||f!==e&&f!==n){var w=n&&a()?n:e,m=new XMLHttpRequest;m.open("GET",w),m.onload=function(){m.status>=200&&m.status<400&&(i[l]=w,i[u]=m.responseText,o||(p.textContent=m.responseText))},m.send()}else p.textContent=h}}
-
-		loadFont('OpenSans', '/bitrix/templates/gos_modern_blue_kg/opensans.css', '/bitrix/templates/gos_modern_blue_kg/opensans-woff2.css');
-	</script>
-	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
-<script type="text/javascript" data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Windows/i.test(ua)){cl += ' bx-win';}else if (/Macintosh/i.test(ua)){cl += " bx-mac";}else if (/Linux/i.test(ua) && !/Android/i.test(ua)){cl += " bx-linux";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";var ieVersion = -1;if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if ((ieVersion = getIeVersion()) > 0){cl += " bx-ie bx-ie" + ieVersion;if (ieVersion > 7 && ieVersion < 10 && !isDoctype()){cl += " bx-quirks";}}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Gecko/.test(ua)){cl += " bx-firefox";}ht.className = htc ? htc + " " + cl : cl;function isDoctype(){if (d.compatMode){return d.compatMode == "CSS1Compat";}return d.documentElement && d.documentElement.clientHeight;}function getIeVersion(){if (/Opera/i.test(ua) || /Webkit/i.test(ua) || /Firefox/i.test(ua) || /Chrome/i.test(ua)){return -1;}var rv = -1;if (!!(w.MSStream) && !(w.ActiveXObject) && ("ActiveXObject" in w)){rv = 11;}else if (!!d.documentMode && d.documentMode >= 10){rv = 10;}else if (!!d.documentMode && d.documentMode >= 9){rv = 9;}else if (d.attachEvent && !/Opera/.test(ua)){rv = 8;}if (rv == -1 || rv == 8){var re;if (n.appName == "Microsoft Internet Explorer"){re = new RegExp("MSIE ([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}else if (n.appName == "Netscape"){rv = 11;re = new RegExp("Trident/.*rv:([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}}return rv;}})(window, document, navigator);</script>
-
-
-<link href="/bitrix/js/ui/design-tokens/dist/ui.design-tokens.css?167160500424336" type="text/css"  rel="stylesheet" />
-<link href="/bitrix/js/ui/fonts/opensans/ui.font.opensans.css?16716049132555" type="text/css"  rel="stylesheet" />
-<link href="/bitrix/js/main/popup/dist/main.popup.bundle.css?167160499428394" type="text/css"  rel="stylesheet" />
-<link href="/bitrix/js/altasib.errorsend/css/window.css?1564404629540" type="text/css"  rel="stylesheet" />
-<link href="/bitrix/my_style/tabmenu.css?1670401386129541" type="text/css"  rel="stylesheet" />
-<link href="/bitrix/templates/gos_modern_blue_kg/special_version.css?156155652179641" type="text/css"  data-template-style="true"  rel="stylesheet" />
-<link href="/bitrix/themes/.default/banner.css?14410098545024" type="text/css"  data-template-style="true"  rel="stylesheet" />
-<link href="/bitrix/templates/gos_modern_blue_kg/styles.css?16503765644260" type="text/css"  data-template-style="true"  rel="stylesheet" />
-<link href="/bitrix/templates/gos_modern_blue_kg/template_styles.css?1650376564111094" type="text/css"  data-template-style="true"  rel="stylesheet" />
-
-
-
-
-
-
-
-<!-- dev2fun module opengraph -->
-<meta property="og:url" content="https://www.klgd.ru/activity/education/protection/opeka-i-popechitelstvo-nad-nesovershennoletnimi/usynovlenie-udocherenie-detey.php">
-<meta property="og:type" content="website">
-<!-- /dev2fun module opengraph -->
-<link href='/bitrix/js/phpsolutions.backtotop/backtotop.css' type='text/css' rel='stylesheet' />
-</head>
-
-<body>
-<div class="mb-hide"></div>
-<div class="body-wrapper clearfix">
-    <div class="special-settings">
-        <div class="container special-panel-container">
-            <div class="content">
-                <div class="aa-block aaFontsize">
-                    <div class="fl-l">Размер:</div>
-                    <a class="aaFontsize-small" data-aa-fontsize="small" href="#" title="Уменьшенный размер шрифта">A</a><!--
-				 --><a class="aaFontsize-normal a-current" href="#" data-aa-fontsize="normal" title="Нормальный размер шрифта">A</a><!--
-				 --><a class="aaFontsize-big" data-aa-fontsize="big" href="#" title="Увеличенный размер шрифта">A</a>
-                </div>
-                <div class="aa-block aaColor">
-                    Цвет:
-                    <a class="aaColor-black a-current" data-aa-color="black" href="#" title="Черным по белому"><span>C</span></a><!--
-				 --><a class="aaColor-yellow" data-aa-color="yellow" href="#" title="Желтым по черному"><span>C</span></a><!--
-				 --><a class="aaColor-blue" data-aa-color="blue" href="#" title="Синим по голубому"><span>C</span></a>
-                </div>
-
-                <div class="aa-block aaImage">
-                    Изображения
-				<span class="aaImage-wrapper">
-					<a class="aaImage-on a-current" data-aa-image="on" href="#">Вкл.</a><!--
-					 --><a class="aaImage-off" data-aa-image="off" href="#">Выкл.</a>
-				</span>
-                </div>
-                <span class="aa-block"><a href="/?set-aa=normal" data-aa-off><i class="icon icon-special-version"></i> Обычная версия сайта</a></span>
-            </div>
-        </div> <!-- .container special-panel-container -->
-    </div> <!-- .special-settings -->
-
-	<header>
-
-		<div class="container container-top-header">
-			<div class="content">
-				<div class="col col-mb-5 col-3 col-dt-2 col-ld-3">
-
-					<a href="https://www.klgd.ru" class="logo-white">
-						 <img src="/upload/gerb.png">Калининград</a>
-				</div>
-				<div class="col col-mb-hide col-7 col-dt-8 col-ld-7">
-									</div>
-
-				<div class="col col-mb-7 col-2 col-dt-2">
-					<div class="top-header-right-side">
-<!--<span class="aa-hide" itemprop="Copy"><a class="fl-r top-header-link ta-center" href="/city/international_activity/twins/partner-cities.php"><img src="/upload/eng.png"></a>-->
-<a class="fl-r top-header-link ta-center" href="/?set-aa=special" data-aa-on><img src="/upload/glasses.png"></a>
-<a  class="top-header-hide fl-r top-header-link ta-center" target=_blank title="Версия для печати" href="/activity/education/protection/opeka-i-popechitelstvo-nad-nesovershennoletnimi/usynovlenie-udocherenie-detey.php?print=Y"><img src="/upload/printer.png"></a>
-</span>
-
-<div class="search-block fl-r">
-							<div class="search-button"><i class="icon icon-search"></i> </div>
-                            
-<div class="container container-search">
-    <div class="content">
-        <div class="col col-mb-12" id="searchTitle">
-	        <form action="/search/index.php">
-                <div class="search-form-block">
-                    <i class="icon icon-search-white"></i>
-                    <div class="search-close-button"><i class="icon icon-close"></i></div>
-                    <div class="ov-h">
-                        <input id="title-search-input" class="search-input" type="text" name="q" autocomplete="off">
-                    </div>
-                </div>
-            </form>
-            <div class="search-suggestions">
-                <a href="#" class="btn btn-cta">Все результаты</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-						</div>
-					</div>
-				</div> <!-- .col col-mb-7 col-2 col-dt-2 -->
-			</div> <!-- .content -->
-		</div> <!-- .container container-top-header -->
-
-
-
-		<div class="container container-top-navigation">
-			<div class="content">
-				<div class="col col-mb-hide col-12">
-					<div class="top-nav-block">
-                            <ul>
-                                                <li class="parent">
-                    <a tabindex="1" href="/administration/">Администрация</a>
-                    <div class="second-level container">
-                        <div class="content">
-                            <div class="col col-mb-12">
-                                <div class="content">
-                                    <ul class="clearfix">
-                                                            <li><a href="/administration/index.php">Администрация</a></li>
-                                                <li><a href="/administration/mayor/">Глава администрации</a></li>
-                                                <li><a href="/administration/reform/">Сфера муниципальных услуг</a></li>
-                                                <li><a href="/administration/structure/index.php">Структура администрации</a></li>
-                                                <li><a href="/administration/phones/index.php">Телефоны для справок</a></li>
-                                                <li><a href="/administration/kino/index.php">Прямая трансляция </a></li>
-                                                <li><a href="/administration/kadru/">Муниципальная служба</a></li>
-                                                <li><a href="/administration/kollegialnye_organy/">Коллегиальные органы</a></li>
-                                                <li><a href="/administration/nagradnaya-deyatelnost/">Наградная деятельность</a></li>
-                                                <li><a href="/press/">Пресс-служба администрации</a></li>
-                                                <li><a href="/administration/reception/">Прием граждан и юридических лиц</a></li>
-                                                <li><a href="/administration/texts/">Тексты официальных выступлений</a></li>
-                                                <li><a href="/administration/cooperation/">Взаимодействие с общественностью</a></li>
-                                                <li><a href="/administration/smi/">Сведения о СМИ, учрежденных администрацией</a></li>
-                                                <li><a href="/administration/systems/">Перечни информационных систем</a></li>
-                                                <li><a href="/administration/plan_adm/">План основных мероприятий администрации</a></li>
-                                        </ul></div></div></div></div></li>
-                                            <li class="parent">
-                    <a tabindex="1" href="/city/">Город</a>
-                    <div class="second-level container">
-                        <div class="content">
-                            <div class="col col-mb-12">
-                                <div class="content">
-                                    <ul class="clearfix">
-                                                            <li><a href="/city/index.php">Город</a></li>
-                                                <li><a href="/city/characters/">Символы</a></li>
-                                                <li><a href="/city/freemen/">Почетные граждане</a></li>
-                                                <li><a href="/city/international_activity/">Международная деятельность</a></li>
-                                                <li><a href="/city/streets/">Улицы города</a></li>
-                                                <li><a href="/city/tourism/">Туризм</a></li>
-                                                <li><a href="/city/history/">История</a></li>
-                                                <li><a href="/city/gallery/">Фотогалерея</a></li>
-                                                <li><a href="/city/pasport-goroda.php">Паспорт города</a></li>
-                                        </ul></div></div></div></div></li>
-                                            <li class="parent">
-                    <a tabindex="1" href="/docs/">Документы</a>
-                    <div class="second-level container">
-                        <div class="content">
-                            <div class="col col-mb-12">
-                                <div class="content">
-                                    <ul class="clearfix">
-                                                            <li><a href="/docs/index.php">Документы</a></li>
-                                                <li><a href="/docs/charter/">Устав города</a></li>
-                                                <li><a href="/docs/norms/729_06092021_03062022.pdf">Регламент администрации</a></li>
-                                                <li><a href="/docs/projects/">Проекты документов</a></li>
-                                                <li><a href="/docs/norms/">Информация о нормотворческой деятельности</a></li>
-                                                <li><a href="/docs/polozheniya/">Положения о структурных подразделениях</a></li>
-                                                <li><a href="/docs/forms/">Формы обращений, заявлений и иных документов</a></li>
-                                                <li><a href="/docs/form_otchet/">Формы отчетности некоммерческих организаций</a></li>
-                                                <li><a href="/docs/mnpa/">Оценка регулирующего воздействия проектов НПА</a></li>
-                                                <li><a href="/docs/activity_mp/">О деятельности муниципальных предприятий</a></li>
-                                                <li><a href="/docs/doklad-deyatelnost.php">Доклад о достигнутых значениях показателей для оценки эффективности деятельности администрации городского округа &quot;Город Калининград&quot;</a></li>
-                                                <li><a href="/docs/antimonopolnyy-komplaens.php">Антимонопольный комплаенс</a></li>
-                                        </ul></div></div></div></div></li>
-                                            <li class="parent">
-                    <a tabindex="1" href="/activity/">Направления деятельности</a>
-                    <div class="second-level container">
-                        <div class="content">
-                            <div class="col col-mb-12">
-                                <div class="content">
-                                    <ul class="clearfix">
-                                                            <li><a href="/activity/economy/">Экономика</a></li>
-                                                <li><a href="/activity/property/">Земля и имущество</a></li>
-                                                <li><a href="/activity/municipal_services/">Городское хозяйство</a></li>
-                                                <li><a href="/activity/construction/">Строительство</a></li>
-                                                <li><a href="/activity/social/">Социальная сфера</a></li>
-                                                <li><a href="/activity/education/">Образование</a></li>
-                                                <li><a href="/activity/architecture/">Архитектура</a></li>
-                                                <li><a href="/activity/transport_roads/">Транспорт и дороги</a></li>
-                                                <li><a href="/activity/control/">Контроль</a></li>
-                                                <li><a href="/activity/budget/">Бюджет</a></li>
-                                        </ul></div></div></div></div></li>
-                                            <li class="parent">
-                    <a tabindex="1" href="/uslugi/">Услуги</a>
-                    <div class="second-level container">
-                        <div class="content">
-                            <div class="col col-mb-12">
-                                <div class="content">
-                                    <ul class="clearfix">
-                                                            <li><a href="/uslugi/index.php">Услуги</a></li>
-                                                <li><a href="/uslugi/mun_uslugi/">Муниципальные услуги</a></li>
-                                                <li><a href="https://www.gosuslugi.ru/">Государственные услуги</a></li>
-                                                <li><a href="/uslugi/el_uslugi/">Перечень электронных услуг</a></li>
-                                                <li><a href="/uslugi/function/">Функции, исполняемые по заявлениям</a></li>
-                                                <li><a href="/uslugi/gosuslugi_mvd.php">Госуслуги, предоставляемые УМВД России по Калининградской области в электронном виде</a></li>
-                                                <li><a href="/uslugi/uchr_service.php">Перечень услуг, предоставляемых муниципальными учреждениями и иными организациями, в которых размещается муниципальное задание (заказ), и предоставляемых в электронном виде</a></li>
-                                        </ul></div></div></div></div></li>
-                                            <li class="parent">
-                    <a tabindex="1" href="/useful/">Полезная информация</a>
-                    <div class="second-level container">
-                        <div class="content">
-                            <div class="col col-mb-12">
-                                <div class="content">
-                                    <ul class="clearfix">
-                                                            <li><a href="/useful/index.php">Полезная информация</a></li>
-                                                <li><a href="/useful/hotline/">Горячие линии</a></li>
-                                                <li><a href="/useful/prokuratura/">Правовое просвещение</a></li>
-                                                <li><a href="/docs/law_map/">Карта сайта по 8-ФЗ</a></li>
-                                                <li><a href="/activity/social/dostupnaya_sreda/">&quot;Доступная среда&quot;</a></li>
-                                                <li><a href="/activity/social/protection/43.php">Земля - многодетным гражданам</a></li>
-                                                <li><a href="/activity/social/protection/25.php">Обеспечение жильем молодых семей</a></li>
-                                                <li><a href="/activity/social/protection/dop-mera-denezhn-vyplata.php">Дополнительная мера социальной поддержки в виде единовременной денежной выплаты гражданам, имеющих трех и более детей, в 2023 году</a></li>
-                                                <li><a href="/zags/">ЗАГС</a></li>
-                                                <li><a href="/useful/zhsk/">ЖСК для многодетных граждан</a></li>
-                                                <li><a href="https://medreg.gov39.ru/">Запись к врачу</a></li>
-                                                <li><a href="/opendata/">Открытые данные</a></li>
-                                                <li><a href="/press/subscribe/">Подписка</a></li>
-                                                <li><a href="/rss/index.php?rss=y">RSS</a></li>
-                                                <li><a href="/useful/zanyatost/">Федеральный проект «Содействие занятости» национального проекта «Демография»</a></li>
-                                                <li><a href="/useful/vzyskanie/">Взыскание по исполнительным листам</a></li>
-                                </ul></div></div></div></div></li>
-        </ul>
-					</div> <!-- .top-nav-block -->
-				</div> <!-- .col col-mb-hide col-12 -->
-			</div>
-		</div> <!-- .container container-top-navigation -->
-	</header>
-
-	
-	<div class="container container-main col-margin-top">
-		<div class="content">
-			<div class="col col-mb-12 col-9 col-margin-bottom">
-				<div class="content">
-
-					<div class="col col-12"><div class="breadcrumb"><ul><li><a href="/" title="Город Калининград">Город Калининград</a></li><li><span class="crumb_marker">&rsaquo;</span></li><li><a href="/activity/" title="Направления деятельности">Направления деятельности</a></li><li><span class="crumb_marker">&rsaquo;</span></li><li><a href="/activity/education/" title="Образование">Образование</a></li><li><span class="crumb_marker">&rsaquo;</span></li><li><a href="/activity/education/protection/" title="Защита и обеспечение прав и интересов детей">Защита и обеспечение прав и интересов детей</a></li><li><span class="crumb_marker">&rsaquo;</span></li><li><a href="/activity/education/protection/opeka-i-popechitelstvo-nad-nesovershennoletnimi/" title="Опека и попечительство над несовершеннолетними">Опека и попечительство над несовершеннолетними</a></li></ul></div></div>
-																<div class="col col-mb-12 col-margin-bottom">
-							<h1>Усыновление (удочерение) детей</h1>
-						</div> <!-- .col col-mb-12 col-margin-bottom -->
-									</div> <!-- .content -->
-                <div class="white-box padding-box "><img width="180" src="/activity/education/protection/opeka-i-popechitelstvo-nad-nesovershennoletnimi/logo.jpg" height="117" align="right"><p style="text-align: justify;">
-	 Усыновление или удочерение (далее - усыновление) является приоритетной формой устройства детей, оставшихся без попечения родителей (п. 1 ст. 124 СК РФ).
-</p>
-<p style="text-align: justify;">
-</p>
-<p style="text-align: justify;">
-	 Усыновление братьев и сестер разными лицами не допускается, за исключением случаев, когда усыновление отвечает интересам детей (п. 3 ст. 124 СК РФ).
-</p>
-<p style="text-align: justify;">
-</p>
-<p style="text-align: justify;">
-	 Усыновление детей иностранными гражданами или лицами без гражданства допускается только в случаях, если не представляется возможным передать этих детей на воспитание в семьи граждан Российской Федерации, постоянно проживающих на территории Российской Федерации, либо на усыновление родственникам детей независимо от гражданства и места жительства этих родственников (п. 4 ст. 124 СК РФ).
-</p>
-<p style="text-align: justify;">
-</p>
-<p style="text-align: justify;">
-	 Усыновление производится судом по заявлению лиц (лица), желающих усыновить ребенка. Рассмотрение дел об усыновлении ребенка производится судом в порядке особого производства по правилам, предусмотренным гражданским процессуальным законодательством (п. 1 ст. 125 СК РФ).
-</p>
-<p style="text-align: justify;">
-</p>
-<p style="text-align: justify;">
- <b>Порядок передачи детей на усыновление, а также осуществления контроля за условиями жизни и воспитания детей в семьях усыновителей на территории Российской Федерации определяется Постановлением Правительства РФ от 29.03.2000 № 275 «Об утверждении правил передачи детей на усыновление (удочерение) и осуществления контроля за условиями их жизни и воспитания в семьях усыновителей на территории Российской Федерации и Правил постановки на учет консульскими учреждениями Российской Федерации детей, являющихся гражданами Российской Федерации и усыновленных иностранными гражданами или лицами без гражданства».</b>
-</p>
-<p style="text-align: justify;">
-</p>
-<p style="text-align: justify;">
-	 Граждане Российской Федерации, желающие усыновить ребенка, подают в орган опеки и попечительства по месту своего жительства заявление с просьбой дать заключение о возможности быть усыновителями.
-</p>
-<p style="text-align: justify;">
-</p>
-<p style="text-align: justify;">
- <b>К заявлению прилагаются следующие документы:</b>
-</p>
-<p style="text-align: justify;">
-</p>
-<p style="text-align: justify;">
-</p>
-<ul class="menuspisok">
-	<li>краткая автобиография лица, желающего усыновить ребенка;</li>
-	<li>справка с места работы лица, желающего усыновить ребенка, с указанием должности и размера средней заработной платы за последние 12 месяцев и (или) иной документ, подтверждающий доход указанного лица, или справка с места работы супруга (супруги) лица, желающего усыновить ребенка, с указанием должности и размера средней заработной платы за последние 12 месяцев и (или) иной документ, подтверждающий доход супруга (супруги) указанного лица (действительна в течение года);</li>
-	<li>заключение о результатах медицинского освидетельствования граждан, намеревающихся усыновить (удочерить), взять под опеку (попечительство), в приемную или патронатную семью детей-сирот и детей, оставшихся без попечения родителей, оформленное в порядке, установленном Министерством здравоохранения Российской Федерации (действительна в течение 6 месяцев);&nbsp;</li>
-	<li>копия свидетельства о браке (если граждане, желающие усыновить ребенка, состоят в браке);</li>
-	<li>копия свидетельства о прохождении подготовки лиц, желающих принять на воспитание в свою семью ребенка, оставшегося без попечения родителей, на территории Российской Федерации в порядке, установленном п. 6 ст. 127 СК РФ (за исключением близких родственников ребенка, а также лиц, которые являются или являлись усыновителями и в отношении которых усыновление не было отменено, и лиц, которые являются или являлись опекунами (попечителями) детей и которые не были отстранены от исполнения возложенных на них обязанностей). Форма указанного свидетельства утверждается Министерством просвещения Российской Федерации.</li>
-</ul>
-<p>
-</p>
-<p style="text-align: justify;">
-</p>
-<p style="text-align: justify;">
- <b>Правила подбора, учёта и подготовки граждан, выразивших желание стать опекунами или попечителями несовершеннолетних граждан либо принять детей, оставшихся без попечения родителей, в семью на воспитание в иных установленных семейным законодательством Российской Федерации формах, утверждённые постановлением Правительства Российской Федерации от 18.05.2009 № 423, устанавливают, что:</b>
-</p>
-<p style="text-align: justify;">
-</p>
-<p style="text-align: justify;">
-	 1.&nbsp;Документ о доходах (справка с места работы и (или) иной документ, подтверждающий доход) может быть предоставлен супругом (супругой) лица, выразившего желание стать опекуном.
-</p>
-<p style="text-align: justify;">
-</p>
-<p style="text-align: justify;">
-	 2.&nbsp;Гражданин, выразивший желание стать опекуном, для получения заключения о возможности быть опекуном должен предоставить в органы опеки и попечительства копию пенсионного удостоверения, справку из территориального органа Пенсионного фонда Российской Федерации или иного органа, осуществляющего пенсионное обеспечение.
-</p>
-<p style="text-align: justify;">
-</p>
-<p style="text-align: justify;">
-	 В случае если гражданином не был самостоятельно представлен указанный документ, то он запрашивается органом опеки и попечительства в соответствующих уполномоченных органах посредством межведомственного информационного взаимодействия.
-</p>
-<p style="text-align: justify;">
-</p>
-<p style="text-align: justify;">
-	 3. Срок действия медицинского заключения о состоянии здоровья по результатам освидетельствования гражданина, выразившего желание стать опекуном, продлён до 6 месяцев.
-</p>                </div>             </div> <!-- .col col-mb-12 col-9 col-margin-bottom -->
-				<div class="col col-mb-12 col-3 col-margin-bottom">
-
-
-
-					
-<br>
-
-
-
-					    <div class="white-box col-margin primary-border-box clearfix">
-        <div class="sidebar-nav">
-            <ul>
-                                                                                <li><a href="/activity/education/protection/opeka-i-popechitelstvo-nad-nesovershennoletnimi/index.php">
-                                                                Опека и попечительство над несовершеннолетними                                            </a></li>
-                                                                                                                        <li><a href="/activity/education/protection/opeka-i-popechitelstvo-nad-nesovershennoletnimi/ponyatie-opeki.php">
-                                                                Понятие опеки и попечительства над несовершеннолетними, порядок их установления                                            </a></li>
-                                                                                                                        <li><a href="/activity/education/protection/opeka-i-popechitelstvo-nad-nesovershennoletnimi/prava-i-obyazannosti.php">
-                                                                Права и обязанности опекунов (попечителей) и подопечных                                            </a></li>
-                                                                                                                        <li><a href="/activity/education/protection/opeka-i-popechitelstvo-nad-nesovershennoletnimi/zakonodatelstvo-ob-opeke.php">
-                                                                Законодательство об опеке и попечительстве                                            </a></li>
-                                                                                                                        <li class="current"><a href="/activity/education/protection/opeka-i-popechitelstvo-nad-nesovershennoletnimi/usynovlenie-udocherenie-detey.php">
-                                                                Усыновление (удочерение) детей                                            </a></li>
-                                                                                                                        <li><a href="/activity/education/protection/opeka-i-popechitelstvo-nad-nesovershennoletnimi/ispolnenie-gos-funktsiy.php">
-                                                                Исполнение государственных функций отделом опеки и попечительства над несовершеннолетними                                            </a></li>
-                                                                                                                        <li><a href="https://www.ya-roditel.ru/parents/helpline/">
-                                                                Портал для ответственных мам, пап и всех, кто хочет ими стать                                            </a></li>
-                                                                                    </ul>
-        </div>
-    </div>
-
-
-					<div class="col-margin left-image-b-block">
-					
-
-<!--'start_frame_cache_y0XwfU'-->
-			
-			<a href="https://geoportal.klgd.ru/" title="Геоинформационный поисковый сервер" target="_blank" style="display:block;">
-		<img src="/upload/bx/6de/4thij6ofu3dvzo6jx8c97jutc6xl73wr.png" class="center-block img-responsive">
-			</a>
-				
-			<a href="/tenders/" title="Муниципальные закупки и торги" target="_self" style="display:block;">
-		<img src="/upload/bx/a54/a5403a1e2f023aa5a1ad5315e97a02cf.png" class="center-block img-responsive">
-			</a>
-				
-			<a href="http://nsklgd.ru/Strict/Token/1dcdae2f-5db1-49f2-b1e9-6d78507f2b37" title="Механизированная уборка города" target="_blank" style="display:block;">
-		<img src="/upload/bx/341/tkqvl6s13cfmj97ukx3ppn188hudvouf.png" class="center-block img-responsive">
-			</a>
-				
-			<a href="/reception/elektronnaya-priemnaya1/elektronnaya-priemnaya.php" title="Электронная приемная" target="_self" style="display:block;">
-		<img src="/upload/bx/bc7/6g7g8ufqi4ty9jqkbd5e4y4ooshsr7oj.png" class="center-block img-responsive">
-			</a>
-		
-<!--'end_frame_cache_y0XwfU'-->
-<br>
-
-                    </div>
-					
-
-
-
-
-                                    </div> <!-- .col col-mb-12 col-3 col-margin-bottom -->
-        </div> <!-- .content -->
-    </div> <!-- .container container-main col-margin-top -->
-
-</div> <!-- .body-wrapper clearfix -->
-
-<div class="footer-wrapper">
-	<footer class="container container-footer">
-
-		
-    <div class="content footer-menu-content">
-                                                                                                                                                                    </div>
-
-		<div class="content">
-			<div class="col col-mb-12 col-4">
-				&copy;
-				Администрация ГО "Город Калининград"<br>
-				<a href="/contacts/">Контакты</a>
-			</div> <!-- .col col-mb-12 col-4 -->
-
-			<div class="col col-mb-12 col-4">
-				236022,&nbsp;г.Калининград, пл.Победы, 1<br>
- +7 (4012) 31-10-31<br>
-e-mail: <a href="mailto:cityhall@klgd.ru">cityhall@klgd.ru</a><br>
-<br>			</div> <!-- .col col-mb-12 col-4 -->
-
-			<div class="col col-mb-12 col-4">
-				
-    <div class="social-networks">
-                    <a href="https://vk.com/public172046315" title="ВКонтакте" class="social-network"><i class="icon icon-social-vk"></i></a>
-                    <a href="https://ok.ru/group/54441535930433" title="ОК" class="social-network"><i class="icon icon-social-ok"></i></a>
-            </div>
-<div class="reception" align=left><small>Чтобы отправить сообщение об обнаруженной ошибке, выделите текст с ошибкой и нажмите Ctrl+Enter
-	</small></div>
-				<div id="bx-composite-banner"></div>
-			</div> <!-- .col col-mb-12 col-4 -->
-		</div>
-	</footer>
-</div> <!-- .footer-wrapper -->
-
-<!--'start_frame_cache_auth-area-bottom'--><div class="mobile-nav-wrapper">
-    <div class="mobile-nav">
-        <div class="content p20 pb0">
-	        		        <div class="col col-mb-8 pl0">
-			        
-		        </div>
-	                </div>
-    </div>
-</div>
-<!--'end_frame_cache_auth-area-bottom'-->
+		<meta name="author" content="Р РµРґР°РєС†РёСЏ Р¶СѓСЂРЅР°Р»Р° РќР°СѓРєР° Рё Р¶РёР·РЅСЊ">
+	<title>РЈСЃС‹РЅРѕРІР»РµРЅРёРµ | РќР°СѓРєР° Рё Р¶РёР·РЅСЊ</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="РќР°СѓРєР°, Р¶СѓСЂРЅР°Р», Р¶СѓСЂРЅР°Р» РќР°СѓРєР°, РЅРѕРІРѕСЃС‚Рё, РЅРѕРІРѕСЃС‚Рё РЅР°СѓРєРё, РёСЃС‚РѕСЂРёСЏ РЅР°СѓРєРё, РЅР°СѓРєР° РѕР±СЂР°Р·РѕРІР°РЅРёРµ, СЂР°Р·РІРёС‚РёРµ РЅР°СѓРєРё, С„РёР»РѕСЃРѕС„РёСЏ РЅР°СѓРєРё, СЂРѕСЃСЃРёР№СЃРєР°СЏ РЅР°СѓРєР°, РµСЃС‚РµСЃС‚РІРµРЅРЅС‹Рµ РЅР°СѓРєРё, РјРёСЂРѕРІРѕР·Р·СЂРµРЅРёРµ, С„РёР·РёРєР°, РјРµС‚РѕРґ, Р±РёРѕР»РѕРіРёСЏ, Р°СЃС‚СЂРѕРЅРѕРјРёСЏ, РёСЃС‚РѕСЂРёСЏ, СЃРѕРІСЂРµРјРµРЅРЅР°СЏ РЅР°СѓРєР°, Р°СЂС…РёРІ, РЅР°СѓС‡РЅРѕ-РїРѕРїСѓР»СЏСЂРЅС‹Р№, С„РѕСЂСѓРј, С‚РµС…РЅРёРєР°, РёСЃС‚РѕСЂРёСЏ С‚РµС…РЅРёРєРё, СЂР°Р·РІРёС‚РёРµ С‚РµС…РЅРёРєРё, С‚РµС…РЅРёРєР° С„РѕСЂСѓРј, РјР°С‚РµРјР°С‚РёРєР° forum, archive, РёРЅС‚РµСЂРІСЊСЋ, РёСЃС‚РѕСЂРёСЏ Р РѕСЃСЃРёРё, РѕР±СЂР°Р·РѕРІР°РЅРёРµ, С€РєРѕР»Р°" />
+<meta name="description" content="Р’ СЃРёР»Сѓ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёС… РїСЂРёС‡РёРЅ С‚РµРјР° СѓСЃС‹РЅРѕРІР»РµРЅРёСЏ (СѓРґРѕС‡РµСЂРµРЅРёСЏ) РґРµС‚РµР№ РЅРµ РѕСЃРѕР±РµРЅРЅРѕ Р°РєС‚СѓР°Р»СЊРЅР° СЃРµР№С‡Р°СЃ РґР»СЏ Р±РѕР»СЊС€РёРЅСЃС‚РІР° РіСЂР°Р¶РґР°РЅ РЅР°С€РµР№ СЃС‚СЂР°РЅС‹." />
+<link href="/bitrix/js/ui/design-tokens/dist/ui.design-tokens.css?166806748823393" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/ui/fonts/opensans/ui.font.opensans.css?16664728822555" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/main/popup/dist/main.popup.bundle.css?166806748328330" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/templates/nkj.kotico/components/bitrix/catalog.element/bootstrap2.0/style.css?16490121235121" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/components/nkj/image.slider/templates/swiper/style.css?15386038841641" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/templates/nkj.kotico/css/swiper.css?153860074511109" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/components/bitrix/main.share/templates/universal/style.css?15522143541318" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/components/nkj/issue.buy/templates/.default/style.css?16470909141941" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/templates/nkj.kotico/css/bootstrap.min.css?1568981318105974" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/nkj.kotico/css/glyphicons.css?151462810323832" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/nkj.kotico/css/noto_sans.css?15181187757294" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/panel/main/popup.css?166647295623229" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/nkj.kotico/components/bitrix/sale.basket.basket.small/small_basket/style.css?1514628103329" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/nkj.kotico/components/bitrix/menu/vertical_multilevel/style.css?15146281032878" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/nkj.kotico/components/bitrix/breadcrumb/bootstrap2.0/style.css?1514628104227" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/nkj.kotico/components/bitrix/news.line/.default/style.css?1518874505694" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/components/nkj/cookies/templates/.default/style.css?1608911741367" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/nkj.kotico/styles.css?166086220023460" type="text/css"  data-template-style="true"  rel="stylesheet" />
 <script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
-<script type="text/javascript">(window.BX||top.BX).message({'pull_server_enabled':'N','pull_config_timestamp':'0','pull_guest_mode':'N','pull_guest_user_id':'0'});(window.BX||top.BX).message({'PULL_OLD_REVISION':'Для продолжения корректной работы с сайтом необходимо перезагрузить страницу.'});</script>
-<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script><script type="text/javascript" src="/bitrix/js/main/core/core.js?1671604994488274"></script><script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/core/core.js','/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Р—Р°РіСЂСѓР·РєР°...','JS_CORE_NO_DATA':'- РќРµС‚ РґР°РЅРЅС‹С… -','JS_CORE_WINDOW_CLOSE':'Р—Р°РєСЂС‹С‚СЊ','JS_CORE_WINDOW_EXPAND':'Р Р°Р·РІРµСЂРЅСѓС‚СЊ','JS_CORE_WINDOW_NARROW':'РЎРІРµСЂРЅСѓС‚СЊ РІ РѕРєРЅРѕ','JS_CORE_WINDOW_SAVE':'РЎРѕС…СЂР°РЅРёС‚СЊ','JS_CORE_WINDOW_CANCEL':'РћС‚РјРµРЅРёС‚СЊ','JS_CORE_WINDOW_CONTINUE':'РџСЂРѕРґРѕР»Р¶РёС‚СЊ','JS_CORE_H':'С‡','JS_CORE_M':'Рј','JS_CORE_S':'СЃ','JSADM_AI_HIDE_EXTRA':'РЎРєСЂС‹С‚СЊ Р»РёС€РЅРёРµ','JSADM_AI_ALL_NOTIF':'РџРѕРєР°Р·Р°С‚СЊ РІСЃРµ','JSADM_AUTH_REQ':'РўСЂРµР±СѓРµС‚СЃСЏ Р°РІС‚РѕСЂРёР·Р°С†РёСЏ!','JS_CORE_WINDOW_AUTH':'Р’РѕР№С‚Рё','JS_CORE_IMAGE_FULL':'РџРѕР»РЅС‹Р№ СЂР°Р·РјРµСЂ'});</script>
+
+<script type="text/javascript" src="/bitrix/js/main/core/core.js?1668067483488224"></script>
+
+<script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/core/core.js','/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+BX.setCSSList(['/bitrix/js/main/lazyload/dist/lazyload.bundle.css','/bitrix/js/main/parambag/dist/parambag.bundle.css']);</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Р—Р°РіСЂСѓР·РєР°...','JS_CORE_NO_DATA':'- РќРµС‚ РґР°РЅРЅС‹С… -','JS_CORE_WINDOW_CLOSE':'Р—Р°РєСЂС‹С‚СЊ','JS_CORE_WINDOW_EXPAND':'Р Р°Р·РІРµСЂРЅСѓС‚СЊ','JS_CORE_WINDOW_NARROW':'РЎРІРµСЂРЅСѓС‚СЊ РІ РѕРєРЅРѕ','JS_CORE_WINDOW_SAVE':'РЎРѕС…СЂР°РЅРёС‚СЊ','JS_CORE_WINDOW_CANCEL':'РћС‚РјРµРЅРёС‚СЊ','JS_CORE_WINDOW_CONTINUE':'РџСЂРѕРґРѕР»Р¶РёС‚СЊ','JS_CORE_H':'С‡','JS_CORE_M':'Рј','JS_CORE_S':'СЃ','JSADM_AI_HIDE_EXTRA':'РЎРєСЂС‹С‚СЊ Р»РёС€РЅРёРµ','JSADM_AI_ALL_NOTIF':'РџРѕРєР°Р·Р°С‚СЊ РІСЃРµ','JSADM_AUTH_REQ':'РўСЂРµР±СѓРµС‚СЃСЏ Р°РІС‚РѕСЂРёР·Р°С†РёСЏ!','JS_CORE_WINDOW_AUTH':'Р’РѕР№С‚Рё','JS_CORE_IMAGE_FULL':'РџРѕР»РЅС‹Р№ СЂР°Р·РјРµСЂ'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'nkj','SERVER_TZ_OFFSET':'10800','UTF_MODE':'Y','SITE_ID':'ru','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1673187299','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'b5e166e43f6765ffa5dcbbd9e777a466'});</script>
+
+
+<script type="text/javascript" src="/bitrix/js/main/pageobject/pageobject.js?1595797957864"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_window.js?166647276098768"></script>
+<script type="text/javascript" src="/bitrix/js/main/popup/dist/main.popup.bundle.js?1668067483115184"></script>
+<script type="text/javascript">if (Intl && Intl.DateTimeFormat) document.cookie="nkj_TZ="+Intl.DateTimeFormat().resolvedOptions().timeZone+"; path=/; expires=Mon, 01 Jan 2024 00:00:00 +0300";</script>
+<script type="text/javascript" src="https://relap.io/api/v6/head.js?token=BNavoVnd2ybblJGU"></script>
+<meta property="og:title" content="РЈСЃС‹РЅРѕРІР»РµРЅРёРµ" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.nkj.ru/archive/articles/27290/" />
+<meta property="og:image" content="http://www.nkj.ru/upload/iblock/04b/04bfa069c5f8584108041c24d452c2e4.jpg" />
+
+
+
+<script type="text/javascript" src="/bitrix/templates/nkj.kotico/js/ajax_basket.js?15185232361045"></script>
+<script type="text/javascript" src="/bitrix/templates/nkj.kotico/script.js?15795250391094"></script>
+<script type="text/javascript" src="/bitrix/templates/nkj.kotico/js/swiper.min.js?1538592299124672"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "c5886eb7d620f828ff1bd06338ebf33a"]); _ba.push(["host", "www.nkj.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+<script>new Image().src='https://nkj.ru/bitrix/spread.php?s=bmtqX0dVRVNUX0lEATExMjI0NjA0OAExNzA0MjkxMjk5AS8BAQECbmtqX0xBU1RfVklTSVQBMDguMDEuMjAyMyAxNzoxNDo1OQExNzA0MjkxMjk5AS8BAQEC&k=99531307f10a45f67b3bdb044bfc6d8c';
 </script>
-<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'7200','UTF_MODE':'N','SITE_ID':'kg','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1673032156','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'0ff455825424e96b493424a0b745cab1'});</script><script type="text/javascript" src="/bitrix/js/pull/protobuf/protobuf.js?1635226500274055"></script>
-<script type="text/javascript" src="/bitrix/js/pull/protobuf/model.js?163522650070928"></script>
-<script type="text/javascript" src="/bitrix/js/main/core/core_promise.js?15614474125220"></script>
-<script type="text/javascript" src="/bitrix/js/rest/client/rest.client.js?155238058816090"></script>
-<script type="text/javascript" src="/bitrix/js/pull/client/pull.client.js?167160499981036"></script>
-<script type="text/javascript" src="/bitrix/js/main/jquery/jquery-2.2.4.min.js?166192850685578"></script>
-<script type="text/javascript" src="/bitrix/js/main/jquery/jquery-1.12.4.min.js?166192850697163"></script>
-<script type="text/javascript" src="/bitrix/js/phpsolutions.backtotop/backtotop.js?14805957573165"></script>
-<script type="text/javascript" src="/bitrix/js/main/popup/dist/main.popup.bundle.js?1671604994116769"></script>
+
+
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.nkj.ru/rss/">
+	<link rel="canonical" href="https://www.nkj.ru/archive/articles/27290/">
+	<link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.nkj.ru/archive/articles/27290/">
+	<!--[if lt IE 9]>
+	<script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script>
+	<![endif]-->
+	<script src="https://www.googletagmanager.com/gtag/js?id=UA-32767648-1" async></script>
+	<script>
+	// Google Analytics
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-32767648-1', { 'anonymize_ip': true });
+	</script>
+	<script async src="https://widget.svk-native.ru/js/loader.js"></script>
+	<script src="/jquery-1.11.0.min.js"></script>
+	<meta name="viewport" content="width=980px">
+	<link rel="shortcut icon" href="/bitrix/templates/nkj.kotico/images/favicon.ico">
+	    </head>
+<body>
+<div class="lead_photo" style="background-image:url('/upload/iblock/bce/bce78b271be8eaa068e24a786a708b15.jpg');">
+	<div class="top_ads">
+		<div class="container">
+			<!-- Top banner  -->
+			<div class="row">
+				<div id="top-banner" class="span12 padding-bottom5">
+					<div id="top_banner"></div>
+					<!-- R-100363-2 РЇРЅРґРµРєСЃ.RTB-Р±Р»РѕРє  -->
+					<!-- div id="yR2b"></div -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header_top">
+		<div class="container">
+			<div class="row-fluid">
+				<div class="span1">
+					<img class="p12" src="/bitrix/templates/nkj.kotico/images/12p.png" />
+				</div>
+				<div class="span4">
+					<form id="main_search" action="/search/" method="get" 
+					onsubmit="search_navigate(this.elements.text.value); if(event.preventDefault) {event.preventDefault();} else {event.returnValue = false;} return false;">
+						<div class="input-append input-block-level">
+							<input type="text" name="text" placeholder="РџРѕРёСЃРє РїРѕ СЃР°Р№С‚Сѓ" />
+							<button type="submit" class="btn btn-inverse">
+								<i class="icon-search"></i>
+							</button>
+						</div>
+					</form>
+				</div>
+
+				<div class="span3">
+					<div class="smmsp">
+						<a class="smm vkt" href="https://vk.com/public30698831" target="_blank"></a>
+						<a class="smm twt" href="https://twitter.com/naukaizhizn" target="_blank"></a>
+						<a class="smm od" href="https://ok.ru/group/52837335433288" target="_blank"></a>
+						<a class="smm zen" href="https://dzen.ru/nkj" target="_blank"></a>
+                        <a class="smm telegram" href="https://telegram.me/scienceandlife" target="_blank"></a>
+					</div>
+				</div>				<div class="span4 text-right">
+                    
+<a href="/personal/basket/" class="basket">
+	<span>РљРѕСЂР·РёРЅР°</span> (<span class="cnt">0</span>)
+</a>
+                                        <a class="auth" href="https://www.nkj.ru/in.php?backurl=/archive/articles/27290/index.php">Р’РѕР№С‚Рё</a>				</div>
+			</div>
+			<!-- Logo and search -->
+			<div class="row-fluid">
+								<div class="logo_container_inner">
+										<div class="span7">
+						<p class="number text-right">в„–01 СЏРЅРІР°СЂСЊ 2023</p>
+						<a href="/"><img src="/bitrix/templates/nkj.kotico/images/logo_big.png"/></a>
+					</div>
+					<div class="span5">
+						<p class="text-center subscr magazine"><a href="/magazine/">Рћ Р¶СѓСЂРЅР°Р»Рµ Р·Р° 60 СЃРµРєСѓРЅРґ</a></p>
+					</div>
+				</div>
+								<div class="span12 portal ">
+					<p>РџРѕСЂС‚Р°Р» С„СѓРЅРєС†РёРѕРЅРёСЂСѓРµС‚ РїСЂРё С„РёРЅР°РЅСЃРѕРІРѕР№ РїРѕРґРґРµСЂР¶РєРµ РњРёРЅРёСЃС‚РµСЂСЃС‚РІР° С†РёС„СЂРѕРІРѕРіРѕ СЂР°Р·РІРёС‚РёСЏ, СЃРІСЏР·Рё Рё РјР°СЃСЃРѕРІС‹С… РєРѕРјРјСѓРЅРёРєР°С†РёР№.</p>
+				</div>
+			</div>
+		</div>
+			</div>
+    
+
+    
+</div>
+
+<div class="menu_wrapper">
+	<div class="container">
+		
+<ul class="span9 top_menu">
+	<li class=""><a href="/news/">РќРѕРІРѕСЃС‚Рё</a></li>
+	<li class=""><a href="/info/">РЎРѕР±С‹С‚РёСЏ</a></li>
+	<li class=""><a href="/facts/">Р¤Р°РєС‚ РґРЅСЏ</a></li>
+	<li class=""><a href="/open/">РћС‚РєСЂС‹С‚С‹Р№ С„РѕСЂРјР°С‚</a></li>
+	<li class=""><a href="/prtnews/">РќРѕРІРѕСЃС‚Рё РїР°СЂС‚РЅРµСЂРѕРІ</a></li>
+	<li class="active"><a href="/archive/">РђСЂС…РёРІ</a></li>
+	<li class=""><a href="/video/">Р’РёРґРµРѕ</a></li>
+	<li class=""><a href="/shop/842/">РџРѕРґРїРёСЃРєР°</a></li>
+	<li class=""><a href="/shop/">РњР°РіР°Р·РёРЅ</a></li>
+	<li class=""><a href="/shop/library/">Р‘РёР±Р»РёРѕС‚РµРєРё</a></li>
+	<li class=""><a href="/advert/">Р РµРєР»Р°РјР°</a></li>
+	<li class=""><a href="/forum/">Р¤РѕСЂСѓРј</a></li>
+</ul>
+	</div>
+</div>
+
+<div class="container inner">
+	<div class="row-fluid">
+				<div class="span9">
+					<ul class="breadcrumb"><li><a href="/" title="РќРђРЈРљРђ Р Р–РР—РќР¬"><small>РќРђРЈРљРђ Р Р–РР—РќР¬</small></a><span class="divider">/</span></li><li><a href="/archive/" title="РђСЂС…РёРІ Р¶СѓСЂРЅР°Р»Р° В«РќРђРЈРљРђ Р Р–РР—РќР¬В»"><small>РђСЂС…РёРІ Р¶СѓСЂРЅР°Р»Р° В«РќРђРЈРљРђ Р Р–РР—РќР¬В»</small></a><span class="divider">/</span></li><li><a href="/articles/rubric/5/" title="РќР°СѓРєР° РЅР° РјР°СЂС€Рµ"><small>РќР°СѓРєР° РЅР° РјР°СЂС€Рµ</small></a><span class="divider">/</span></li><li class="active"><small>Р®СЂРёРґРёС‡РµСЃРєРёРµ С‡С‚РµРЅРёСЏ</small></li></ul>    <article class="archive" itemscope itemtype="http://schema.org/Article">
+        <header>
+            <div class="cover">
+                <a href="/archive/964/27276/">
+                    <img src="/upload/iblock/aa5/aa5112373f25abba153d17fb1e00456a.jpg" alt="РћР±Р»РѕР¶РєР° Р¶СѓСЂРЅР°Р»Р° В«РќР°СѓРєР° Рё Р¶РёР·РЅСЊВ» в„–11 Р·Р° 2015 Рі." title="РџРµСЂРµР№С‚Рё Рє РѕРіР»Р°РІР»РµРЅРёСЋ" width="162" height="256" />                    <time class="issue-time" datetime="2015-11">в„–11, 2015</time>
+                </a>
+            </div>
+            <h1 itemprop="name">РЈСЃС‹РЅРѕРІР»РµРЅРёРµ</h1>
+            <p class="author">РњР°СЂРёРЅР° РњР°РєР°СЂРѕРІР°, С„РµРґРµСЂР°Р»СЊРЅС‹Р№ СЃСѓРґСЊСЏ РІ РѕС‚СЃС‚Р°РІРєРµ</p>
+        </header>
+
+        <meta itemprop="image" content="/upload/iblock/04b/04bfa069c5f8584108041c24d452c2e4.jpg" />
+<div class="text" itemprop="articleBody">
+<b>Р’ СЃРёР»Сѓ СЌРєРѕРЅРѕРјРёС‡РµСЃРєРёС… РїСЂРёС‡РёРЅ С‚РµРјР° СѓСЃС‹РЅРѕРІР»РµРЅРёСЏ (СѓРґРѕС‡РµСЂРµРЅРёСЏ) РґРµС‚РµР№ РЅРµ РѕСЃРѕР±РµРЅРЅРѕ Р°РєС‚СѓР°Р»СЊРЅР° СЃРµР№С‡Р°СЃ РґР»СЏ Р±РѕР»СЊС€РёРЅСЃС‚РІР° РіСЂР°Р¶РґР°РЅ РЅР°С€РµР№ СЃС‚СЂР°РЅС‹. РЎРІРѕРёС… Р±С‹ РїСЂРѕРєРѕСЂРјРёС‚СЊ! РќРѕ Р±С‹РІР°РµС‚, С‡С‚Рѕ РєС‚Рѕ-С‚Рѕ РїРѕ С‚РѕР№ РёР»Рё РёРЅРѕР№ РїСЂРёС‡РёРЅРµ РЅРµ СЃРјРѕРі РѕР±Р·Р°РІРµСЃС‚РёСЃСЊ РґРµС‚СЊРјРё РёР»Рё, Рє РЅРµСЃС‡Р°СЃС‚СЊСЋ, РїРѕС‚РµСЂСЏР» РёС…. РРјРµРЅРЅРѕ С‚Р°РєРёРµ Р»СЋРґРё, РїРѕ СЃС‚Р°С‚РёСЃС‚РёРєРµ, РІ Р±РѕР»СЊС€РёРЅСЃС‚РІРµ СЃР»СѓС‡Р°РµРІ СѓСЃС‹РЅРѕРІР»СЏСЋС‚ РґРµС‚РµР№. Р­С‚Р° СЃС‚Р°С‚СЊСЏ РґР»СЏ РЅРёС…, Рё Р°РІС‚РѕСЂ Р±СѓРґРµС‚ РѕС‡РµРЅСЊ СЂР°Рґ, РµСЃР»Рё РёР·Р»РѕР¶РµРЅРЅР°СЏ Р·РґРµСЃСЊ РёРЅС„РѕСЂРјР°С†РёСЏ РїСЂРёРіРѕРґРёС‚СЃСЏ.</b> <p><div id="image_slider_6aa9" class="image-slider swiper-container">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide">
+			<div class="figure-placeholder" style="background-image: url(/upload/iblock/04b/04bfa069c5f8584108041c24d452c2e4.jpg)"></div>
+		</div><div class="swiper-slide">
+			<div class="figure-caption">Р¤РѕС‚Рѕ РќР°С‚Р°Р»СЊРё Р”РѕРјСЂРёРЅРѕР№.<div class="fullscreen-link">
+				<a href="/upload/iblock/04b/04bfa069c5f8584108041c24d452c2e4.jpg" target="_blank">РћС‚РєСЂС‹С‚СЊ РІ РїРѕР»РЅРѕРј СЂР°Р·РјРµСЂРµ</a>
+			</div></div>
+		</div>
+	</div>
+	<div class="swiper-button-prev">&lsaquo;</div>
+	<div class="swiper-button-next">&rsaquo;</div>
+</div>
 <script>
-				phpsolutions_backtotop_button_opacity='80';
-				phpsolutions_backtotop_image_width='48';
-				phpsolutions_backtotop_image_height='48';
-				phpsolutions_backtotop_selected_image='/bitrix/images/phpsolutions.backtotop/backtotop1.png';
-				phpsolutions_backtotop_position ='bottom-right';
-				phpsolutions_backtotop_skip = '1000';
-				phpsolutions_backtotop_scroll_speed = 'normal';
-				phpsolutions_backtotop_position_indent_x = '30';
-				phpsolutions_backtotop_position_indent_y = '30'
-				</script>
+window.imageSwiper_6aa9 = new Swiper('#image_slider_6aa9', {
+	speed: 400,
+	spaceBetween: 0,
+	watchOverflow: true,
+	loop: false,
+	slidesPerView: 1,
+	slidesPerColumn: 2,
+	navigation: {
+		nextEl: '#image_slider_6aa9 .swiper-button-next',
+		prevEl: '#image_slider_6aa9 .swiper-button-prev',
+	},
+	pagination: {
+		el: '#image_slider_6aa9 .swiper-pagination',
+		type: 'bullets',
+		clickable: true
+	},    
+	on: {
+		slideChange: function () {
+			var i = this.slides[this.realIndex*2].querySelector('.figure-placeholder');
+			var link = this.el.querySelector('.fullscreen-link a');
+			if (i && i.dataset.fullsizeUrl != '' && link)
+				link.href = i.dataset.fullsizeUrl;
+		},
+	}   
+});
+</script><p>
+<p>				РЈСЃС‹РЅРѕРІР»РµРЅРёРµ вЂ” РѕРґРЅР° РёР· С„РѕСЂРј РІРѕСЃРїРёС‚Р°РЅРёСЏ РґРµС‚РµР№, РѕСЃС‚Р°РІС€РёС…СЃСЏ Р±РµР· РїРѕРїРµС‡РµРЅРёСЏ СЂРѕРґРёС‚РµР»РµР№. РџСЂРѕС€Сѓ РЅРµ РїСѓС‚Р°С‚СЊ РµРіРѕ СЃ РїСЂРёС‘РјРЅРѕР№ СЃРµРјСЊС‘Р№. РџСЂРёС‘РјРЅР°СЏ СЃРµРјСЊСЏ вЂ” СЌС‚Рѕ С„Р°РєС‚РёС‡РµСЃРєРё РјРёРЅРёР°С‚СЋСЂРЅС‹Р№ РґРµС‚СЃРєРёР№ РґРѕРј, РіРґРµ РїСЂРёС‘РјРЅС‹Рµ СЂРѕРґРёС‚РµР»Рё (С‡РёС‚Р°Р№ вЂ” РІРѕСЃРїРёС‚Р°С‚РµР»Рё) РїРѕР»СѓС‡Р°СЋС‚ РѕС‚ РѕСЂРіР°РЅРѕРІ РѕРїРµРєРё Рё РїРѕРїРµС‡РёС‚РµР»СЊСЃС‚РІР° Р·Р°СЂРїР»Р°С‚Сѓ Р·Р° СЂР°Р±РѕС‚Сѓ РїРѕ РІРѕСЃРїРёС‚Р°РЅРёСЋ РґРµС‚РµР№. РЈСЃС‹РЅРѕРІР»РµРЅРёРµ Р¶Рµ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ Р±РµР· РєР°РєРѕР№-Р»РёР±Рѕ РѕРїР»Р°С‚С‹, Рё СѓСЃС‹РЅРѕРІР»С‘РЅРЅС‹Р№ СЂРµР±С‘РЅРѕРє СЋСЂРёРґРёС‡РµСЃРєРё РїРѕ РїСЂР°РІР°Рј РїСЂРёСЂР°РІРЅРёРІР°РµС‚СЃСЏ Рє Р±РёРѕР»РѕРіРёС‡РµСЃРєРѕРјСѓ.<p><div id="yandex_ad_R-100363-7" style="max-width:700px;overflow:hidden"></div>
+<script type="text/javascript" pagespeed_no_defer>
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-100363-7",
+                renderTo: "yandex_ad_R-100363-7",
+                async: true
+            });
+        });
+
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script><p>
+				Р”Р»СЏ СЃРІРµРґРµРЅРёСЏ: РїРѕ СЂРѕСЃСЃРёР№СЃРєРѕРјСѓ Р·Р°РєРѕРЅРѕРґР°С‚РµР»СЊСЃС‚РІСѓ СѓСЃС‹РЅРѕРІР»РµРЅРёРµ СЂРѕСЃСЃРёР№СЃРєРёС… РґРµС‚РµР№ РёРЅРѕСЃС‚СЂР°РЅС†Р°РјРё РґРѕРїСѓСЃРєР°РµС‚СЃСЏ, РЅРѕ С‚РѕР»СЊРєРѕ РІ СЃР»СѓС‡Р°СЏС…, РµСЃР»Рё РЅРµ РїСЂРµРґСЃС‚Р°РІР»СЏРµС‚СЃСЏ РІРѕР·РјРѕР¶РЅС‹Рј РїРµСЂРµРґР°С‚СЊ СЌС‚РёС… РґРµС‚РµР№ РЅР° РІРѕСЃРїРёС‚Р°РЅРёРµ РІ СЃРµРјСЊРё СЂРѕСЃСЃРёР№СЃРєРёС… РіСЂР°Р¶РґР°РЅ; РїРѕРїСЂРѕСЃС‚Сѓ РіРѕРІРѕСЂСЏ, РµСЃР»Рё СЂРµР±С‘РЅРѕРє СЃРµСЂСЊС‘Р·РЅРѕ Р±РѕР»РµРЅ РёР»Рё РµРіРѕ РїРѕ РєР°РєРёРј-С‚Рѕ РґСЂСѓРіРёРј РїСЂРёС‡РёРЅР°Рј РЅРёРєС‚Рѕ РЅРµ Р¶РµР»Р°РµС‚ СѓСЃС‹РЅРѕРІРёС‚СЊ РІ Р РѕСЃСЃРёРё. РћРґРЅР°РєРѕ РїРѕ РёР·РІРµСЃС‚РЅРѕРјСѓ В«Р·Р°РєРѕРЅСѓ Р”РёРјС‹ РЇРєРѕРІР»РµРІР°В» СѓСЃС‹РЅРѕРІР»РµРЅРёРµ СЂРѕСЃСЃРёР№СЃРєРёС… РґРµС‚РµР№ РіСЂР°Р¶РґР°РЅР°РјРё РЎРЁРђ РІ РЅР°СЃС‚РѕСЏС‰РµРµ РІСЂРµРјСЏ Р·Р°РїСЂРµС‰РµРЅРѕ.<p>
+				РСЃС…РѕРґСЏ РёР· СЃРІРѕРµРіРѕ РґР»РёС‚РµР»СЊРЅРѕРіРѕ РїСЂРѕС„РµСЃСЃРёРѕРЅР°Р»СЊРЅРѕРіРѕ Рё Р¶РёС‚РµР№СЃРєРѕРіРѕ РѕРїС‹С‚Р°, РїРѕР·РІРѕР»СЋ СЃРµР±Рµ РѕС‚РјРµС‚РёС‚СЊ, С‡С‚Рѕ СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅС‘РЅРЅРѕРµ РјРЅРµРЅРёРµ Рѕ С‚РѕРј, Р±СѓРґС‚Рѕ Р±СЂРѕС€РµРЅРЅС‹Рµ РґРµС‚Рё Р·Р°РІРµРґРѕРјРѕ Р±РѕР»СЊРЅС‹Рµ, СѓС‰РµСЂР±РЅС‹Рµ, РЅРёС‡РµРіРѕ С…РѕСЂРѕС€РµРіРѕ РёР· РЅРёС… РЅРµ РІС‹Р№РґРµС‚, С‚Р°Рє РєР°Рє Сѓ РЅРёС… В«РїР»РѕС…РёРµ РіРµРЅС‹В», РЅРµРІРµСЂРЅРѕ. РљРѕРЅРµС‡РЅРѕ, РіРµРЅС‹ РЅРёРєС‚Рѕ РЅРµ РѕС‚РјРµРЅСЏР». РќРѕ СЃРµР№С‡Р°СЃ Рё СЃРІРѕРё-С‚Рѕ РґРµС‚Рё СЂРµРґРєРѕ СЂРѕР¶РґР°СЋС‚СЃСЏ РїСЂР°РєС‚РёС‡РµСЃРєРё Р·РґРѕСЂРѕРІС‹РјРё, Р° РІСЃРїРѕРјРЅРёС‚Рµ, СЃРєРѕР»СЊРєРѕ СЃР»СѓС‡Р°РµРІ Р±С‹РІР°РµС‚ РІ Р¶РёР·РЅРё, РєРѕРіРґР° Сѓ С…РѕСЂРѕС€РёС… РґРѕР±СЂРѕРїРѕСЂСЏРґРѕС‡РЅС‹С… Р»СЋРґРµР№ РІС‹СЂР°СЃС‚Р°СЋС‚ РґРµС‚Рё вЂ” РјРѕСЂР°Р»СЊРЅС‹Рµ СѓСЂРѕРґС‹. Рђ СЃР»СѓС‡Р°РµС‚СЃСЏ Рё РЅР°РѕР±РѕСЂРѕС‚, Сѓ РіРѕСЂРµ-СЂРѕРґРёС‚РµР»РµР№ РІС‹СЂР°СЃС‚Р°СЋС‚ РґРѕСЃС‚РѕР№РЅС‹Рµ РіСЂР°Р¶РґР°РЅРµ. РўР°Рє С‡С‚Рѕ В«РїР»РѕС…РёРµВ» РіРµРЅС‹ РїРѕРґРґР°СЋС‚СЃСЏ РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєРµ, СЏ РІ СЌС‚РѕРј СѓРІРµСЂРµРЅР°.<p>
+				Р—Р°РєРѕРЅРѕРј Р·Р°РїСЂРµС‰РµРЅР° РІ РЅР°С€РµР№ СЃС‚СЂР°РЅРµ РїРѕСЃСЂРµРґРЅРёС‡РµСЃРєР°СЏ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚СЊ РїРѕ СѓСЃС‹РЅРѕРІР»РµРЅРёСЋ РґРµС‚РµР№. РџРѕСЌС‚РѕРјСѓ РЅРµ РёС‰РёС‚Рµ РЅРёРєР°РєРёС… Р°РіРµРЅС‚СЃС‚РІ РїРѕ СѓСЃС‹РЅРѕРІР»РµРЅРёСЋ, РґРµР№СЃС‚РІСѓР№С‚Рµ СЃР°РјРё.<p>
+				РџРѕСЃРєРѕР»СЊРєСѓ СѓСЃС‹РЅРѕРІР»РµРЅРёРµ РІ Р РѕСЃСЃРёРё РІ РєРѕРЅРµС‡РЅРѕРј РёС‚РѕРіРµ РїСЂРѕРёСЃС…РѕРґРёС‚ С‡РµСЂРµР· СЃСѓРґ, С‚Рѕ СЏ РїРѕСЃС‚Р°СЂР°СЋСЃСЊ РѕС‚СЂР°Р·РёС‚СЊ РѕСЃРЅРѕРІРЅС‹Рµ РїСЂР°РІРѕРІС‹Рµ Р°СЃРїРµРєС‚С‹ СѓСЃС‹РЅРѕРІР»РµРЅРёСЏ. <p>
+				РЎСѓС‰РµСЃС‚РІСѓСЋС‚ РѕРїСЂРµРґРµР»С‘РЅРЅС‹Рµ РїСЂР°РІРёР»Р°. РћРґРЅРѕ РёР· РЅРёС…: РїСЂРё СѓСЃС‹РЅРѕРІР»РµРЅРёРё СЂРѕРґРЅС‹Рµ Р±СЂР°С‚СЊСЏ Рё СЃС‘СЃС‚СЂС‹ РЅРµ РґРѕР»Р¶РЅС‹ СЂР°Р·Р»СѓС‡Р°С‚СЊСЃСЏ, С‚Рѕ РµСЃС‚СЊ РЅРµ РјРѕРіСѓС‚ Р±С‹С‚СЊ СѓСЃС‹РЅРѕРІР»РµРЅС‹ СЂР°Р·РЅС‹РјРё Р»РёС†Р°РјРё. РћРґРЅР°РєРѕ Р·Р°РєРѕРЅРѕРј РїСЂРµРґСѓСЃРјРѕС‚СЂРµРЅРѕ Рё РёСЃРєР»СЋС‡РµРЅРёРµ, РєРѕРіРґР° СЂРѕРґРЅС‹Рµ РјРµР¶РґСѓ СЃРѕР±РѕР№ РґРµС‚Рё РІСЃС‘-С‚Р°РєРё РјРѕРіСѓС‚ СѓСЃС‹РЅРѕРІР»СЏС‚СЊСЃСЏ СЂР°Р·РЅС‹РјРё Р»РёС†Р°РјРё, РЅРѕ РЅР° СЌС‚Рѕ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ РІРµСЃРєРёРµ РїСЂРёС‡РёРЅС‹. РќР°РїСЂРёРјРµСЂ, РґРµС‚Рё РІ СЃРёР»Сѓ СЂР°Р·РЅРёС†С‹ РІ РІРѕР·СЂР°СЃС‚Рµ, СЃРѕСЃС‚РѕСЏРЅРёСЏ Р·РґРѕСЂРѕРІСЊСЏ РёР»Рё РґСЂСѓРіРёС… РїСЂРёС‡РёРЅ РІРѕСЃРїРёС‚С‹РІР°Р»РёСЃСЊ РІ СЂР°Р·РЅС‹С… СѓСЃР»РѕРІРёСЏС… Рё РґР°Р¶Рµ РЅРµ Р·РЅР°Р»Рё Рѕ СЃРІРѕС‘Рј СЂРѕРґСЃС‚РІРµ. Р’ РѕР±С‰РµРј, РїРѕ-РІСЃСЏРєРѕРјСѓ Р±С‹РІР°РµС‚ РІ Р¶РёР·РЅРё, РґР»СЏ С‚РѕРіРѕ Рё СЂР°Р·СЂР°Р±РѕС‚Р°РЅС‹ РёСЃРєР»СЋС‡РµРЅРёСЏ РёР· РїСЂР°РІРёР». <p>
+				Р”Р°Р»РµРµ: СЂР°Р·РЅРёС†Р° РІ РІРѕР·СЂР°СЃС‚Рµ РјРµР¶РґСѓ СѓСЃС‹РЅРѕРІРёС‚РµР»РµРј Рё СѓСЃС‹РЅРѕРІР»СЏРµРјС‹Рј СЂРµР±С‘РЅРєРѕРј РґРѕР»Р¶РЅР° Р±С‹С‚СЊ РЅРµ РјРµРЅРµРµ 16 Р»РµС‚. РЈСЃС‹РЅРѕРІРёС‚РµР»РµРј РјРѕР¶РµС‚ СЃС‚Р°С‚СЊ Р»СЋР±РѕР№ РґРµРµСЃРїРѕСЃРѕР±РЅС‹Р№ СЃРѕРІРµСЂС€РµРЅРЅРѕР»РµС‚РЅРёР№ РіСЂР°Р¶РґР°РЅРёРЅ. РњР°РєСЃРёРјР°Р»СЊРЅРѕРіРѕ РѕРіСЂР°РЅРёС‡РµРЅРёСЏ РїРѕ РІРѕР·СЂР°СЃС‚Сѓ СѓСЃС‹РЅРѕРІРёС‚РµР»СЏ РІ Р·Р°РєРѕРЅРµ РЅРµС‚. РЈСЃС‹РЅРѕРІРёС‚РµР»СЏРјРё РјРѕРіСѓС‚ Р±С‹С‚СЊ Рё СЂРѕРґСЃС‚РІРµРЅРЅРёРєРё СЂРµР±С‘РЅРєР°, Рё РїРѕСЃС‚РѕСЂРѕРЅРЅРёРµ Р»СЋРґРё, РЅРµ СЃРѕСЃС‚РѕСЏС‰РёРµ СЃ РЅРёРј РІ СЂРѕРґСЃС‚РІРµ. РџСЂРё СѓСЃС‹РЅРѕРІР»РµРЅРёРё СЂРµР±С‘РЅРєР° РѕС‚ 10 Р»РµС‚ Рё СЃС‚Р°СЂС€Рµ РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ С‚СЂРµР±СѓРµС‚СЃСЏ РµРіРѕ СЃРѕРіР»Р°СЃРёРµ. Р•РіРѕ РІСЃРµРіРґР° СЃРїСЂР°С€РёРІР°СЋС‚ РІ СЃСѓРґРµ. РќРѕ СЌС‚Рѕ СЃРѕРІСЃРµРј РЅРµ РѕР·РЅР°С‡Р°РµС‚, С‡С‚Рѕ РµСЃР»Рё СЂРµР±С‘РЅРєСѓ РјРµРЅСЊС€Рµ РґРµСЃСЏС‚Рё, С‚Рѕ РµРіРѕ РјРЅРµРЅРёРµ РЅРµ РґРѕР»Р¶РЅРѕ СѓС‡РёС‚С‹РІР°С‚СЊСЃСЏ. Р‘РµР·СѓСЃР»РѕРІРЅРѕ, РІ РґР°РЅРЅРѕРј СЃР»СѓС‡Р°Рµ РєР°Рє РЅРёРіРґРµ РІР°Р¶РЅС‹ РґРѕРІРµСЂРёС‚РµР»СЊРЅС‹Рµ РѕС‚РЅРѕС€РµРЅРёСЏ РјРµР¶РґСѓ СѓСЃС‹РЅРѕРІРёС‚РµР»РµРј Рё СѓСЃС‹РЅРѕРІР»СЏРµРјС‹Рј. РџСЂРѕСЃС‚Рѕ С„РѕСЂРјР°Р»СЊРЅРѕ СЃС‡РёС‚Р°РµС‚СЃСЏ, С‡С‚Рѕ СЃ 10 Р»РµС‚ РґРµС‚Рё СЃРїРѕСЃРѕР±РЅС‹ РѕСЃРјС‹СЃР»РµРЅРЅРѕ РІС‹СЂР°Р·РёС‚СЊ СЃРІРѕРё РІР·РіР»СЏРґС‹ РїРѕ РІСЃРµРј РІРѕРїСЂРѕСЃР°Рј, Р·Р°С‚СЂР°РіРёРІР°СЋС‰РёРј РёС… РїСЂР°РІР°.<p>
+				РњРЅРѕРіРёРµ СЃРїСЂР°С€РёРІР°СЋС‚: РјРѕРіСѓС‚ Р»Рё РѕРґРёРЅРѕРєРёРµ (РЅРµ СЃРѕСЃС‚РѕСЏС‰РёРµ РІ Р±СЂР°РєРµ) Р¶РµРЅС‰РёРЅС‹ Рё РјСѓР¶С‡РёРЅС‹ Р±С‹С‚СЊ СѓСЃС‹РЅРѕРІРёС‚РµР»СЏРјРё. РњРѕРіСѓС‚! РќРµ Р·Р°РєР»СЋС‡Р°С‚СЊ Р¶Рµ РёРј СЂР°РґРё СЌС‚РѕРіРѕ С„РёРєС‚РёРІРЅС‹Р№ Р±СЂР°Рє. <p>
+				РРЅРѕРіРґР° С‚РѕР»СЊРєРѕ РѕРґРёРЅ РёР· Р·Р°РєРѕРЅРЅС‹С… СЃСѓРїСЂСѓРіРѕРІ С…РѕС‡РµС‚ СЃС‚Р°С‚СЊ СѓСЃС‹РЅРѕРІРёС‚РµР»РµРј, Р° РґСЂСѓРіРѕР№ вЂ” РЅРµС‚. Р’ СЌС‚РѕРј СЃР»СѓС‡Р°Рµ С‚СЂРµР±СѓРµС‚СЃСЏ РЅРѕС‚Р°СЂРёР°Р»СЊРЅРѕ Р·Р°РІРµСЂРµРЅРЅРѕРµ РїРёСЃСЊРјРµРЅРЅРѕРµ СЃРѕРіР»Р°СЃРёРµ РІС‚РѕСЂРѕРіРѕ СЃСѓРїСЂСѓРіР°.<p>
+				РљС‚Рѕ Р¶Рµ РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ СѓСЃС‹РЅРѕРІРёС‚РµР»РµРј? <p><script type="text/javascript" data-key="2df9225a03b1cfd5294697afe5cbcd91" async>
+    (function(w, a) {
+        (w[a] = w[a] || []).push({
+            'script_key': '2df9225a03b1cfd5294697afe5cbcd91',
+            'settings': {
+                'w': 18403,
+                'sid': 11267,
+                'type': 'lenta',
+            }
+        });
+        window['_SVKNativeLoader'].initWidgets();
+    })(window, '_svk_native_widgets');
+</script><p>
+<p>				РќРµ РјРѕРіСѓС‚ Р±С‹С‚СЊ СѓСЃС‹РЅРѕРІРёС‚РµР»СЏРјРё Р»РёС†Р°, Р»РёС€С‘РЅРЅС‹Рµ РІ РѕС‚РЅРѕС€РµРЅРёРё СЃРІРѕРёС… СЂРѕРґРЅС‹С… РґРµС‚РµР№ СЂРѕРґРёС‚РµР»СЊСЃРєРёС… РїСЂР°РІ, РѕРіСЂР°РЅРёС‡РµРЅРЅС‹Рµ РІ СЂРѕРґРёС‚РµР»СЊСЃРєРёС… РїСЂР°РІР°С…, Р»РёС†Р°, РѕС‚СЃС‚СЂР°РЅС‘РЅРЅС‹Рµ РѕС‚ РІС‹РїРѕР»РЅРµРЅРёСЏ РѕРїРµРєСѓРЅСЃРєРёС… РѕР±СЏР·Р°РЅРЅРѕСЃС‚РµР№ Р·Р° РёС… РЅРµРІС‹РїРѕР»РЅРµРЅРёРµ, Р±С‹РІС€РёРµ СѓСЃС‹РЅРѕРІРёС‚РµР»Рё, РІ РѕС‚РЅРѕС€РµРЅРёРё РєРѕС‚РѕСЂС‹С… СѓСЃС‹РЅРѕРІР»РµРЅРёРµ Р±С‹Р»Рѕ РѕС‚РјРµРЅРµРЅРѕ РїРѕ РёС… РІРёРЅРµ. РўР°РєР¶Рµ РЅРµ РјРѕРіСѓС‚ СЃС‚Р°С‚СЊ СѓСЃС‹РЅРѕРІРёС‚РµР»СЏРјРё РіСЂР°Р¶РґР°РЅРµ, СЃС‚СЂР°РґР°СЋС‰РёРµ СЃРµСЂСЊС‘Р·РЅС‹РјРё С…СЂРѕРЅРёС‡РµСЃРєРёРјРё Р·Р°Р±РѕР»РµРІР°РЅРёСЏРјРё, С‚Р°РєРёРјРё РєР°Рє С‚СѓР±РµСЂРєСѓР»С‘Р·, РѕРЅРєРѕР»РѕРіРёС‡РµСЃРєРёРµ Р±РѕР»РµР·РЅРё, РїСЃРёС…РёС‡РµСЃРєРёРµ Р·Р°Р±РѕР»РµРІР°РЅРёСЏ, Рё РёРЅРІР°Р»РёРґС‹, РЅРµ СЃРїРѕСЃРѕР±РЅС‹Рµ С‚СЂСѓРґРёС‚СЊСЃСЏ. РќР° СЌС‚РѕС‚ СЃС‡С‘С‚ СЃСѓС‰РµСЃС‚РІСѓРµС‚ РїРѕСЃС‚Р°РЅРѕРІР»РµРЅРёРµ РџСЂР°РІРёС‚РµР»СЊСЃС‚РІР° Р Р¤, РіРґРµ СѓРєР°Р·Р°РЅ РїРѕР»РЅС‹Р№ РїРµСЂРµС‡РµРЅСЊ С‚Р°РєРёС… Р·Р°Р±РѕР»РµРІР°РЅРёР№. <p>
+<ul class="article_nav">
+<li><b>1</b></li><li><a class="tablebodylink" href="/archive/articles/27290/index.php?PAGEN_2=2&amp;ELEMENT_ID=27290#nav_start_2">2</a></li><li><a class="tablebodylink" href="/archive/articles/27290/index.php?PAGEN_2=3&amp;ELEMENT_ID=27290#nav_start_2">3</a></li><li><a class="btn default" rel="next" href="/archive/articles/27290/index.php?PAGEN_2=2&amp;ELEMENT_ID=27290#nav_start_2">РЎР»РµРґСѓСЋС‰Р°СЏ СЃС‚СЂР°РЅРёС†Р°</a></li></ul>
+</div>
+            <aside>
+                <div style="float: right">
+	<ul class="main-share">
+		<li class="main-share-icon">
+	<a
+		href="http://twitter.com/home/?status=https%3A%2F%2Fwww.nkj.ru%3A80%2Farchive%2Farticles%2F27290%2F+%D0%A3%D1%81%D1%8B%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5"
+		onclick="window.open(this.href,'','toolbar=0,status=0,width=711,height=437');return false;"
+		target="_blank"
+		class="main-share-twitter"
+		rel="nofollow"
+		title="Twitter"
+	></a>
+</li><li class="main-share-icon">
+<a
+	href="https://connect.ok.ru/offer?url=https%3A%2F%2Fwww.nkj.ru%3A80%2Farchive%2Farticles%2F27290%2F&title=%D0%A3%D1%81%D1%8B%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5"
+	onclick="window.open(this.href,'','toolbar=0,status=0,width=626,height=436');return false;"
+	target="_blank"
+	class="main-share-odnoklassniki"
+	rel="nofollow"
+	title="РћРґРЅРѕРєР»Р°СЃСЃРЅРёРєРё"
+></a>
+</li><li class="main-share-icon">
+<a
+	href="http://vkontakte.ru/share.php?url=https%3A%2F%2Fwww.nkj.ru%3A80%2Farchive%2Farticles%2F27290%2F&title=%D0%A3%D1%81%D1%8B%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5"
+	onclick="window.open(this.href,'','toolbar=0,status=0,width=626,height=436');return false;"
+	target="_blank"
+	class="main-share-vk"
+	rel="nofollow"
+	title="Р’РљРѕРЅС‚Р°РєС‚Рµ"
+></a>
+</li>	</ul>
+	                </div>
+            </aside>
+<div class="partial_hint">
+	<p class="text">Р§РёС‚Р°Р№С‚Рµ РІ Р»СЋР±РѕРµ РІСЂРµРјСЏ</p>
+		<div class="shop_action" id="shop_action_27276">
+			<a rel="nofollow" class="btn btn-info buy-btn" href="/shop/773/" onclick="basket_add(27275, (function(el){return function(){ $('#shop_action_27276').hide(); $('#msg_basket_added_27276').show(); }})(this) ); return false;" >
+				РљСѓРїРёС‚СЊ PDF Р·Р° <span class="price">90</span> СЂ			</a>
+			<a rel="nofollow" class="btn btn-info buy-btn telegram" href="https://t.me/nkj_bot">
+				Р‘РµСЃРїР»Р°С‚РЅС‹Р№ РґРµРјРѕ-РЅРѕРјРµСЂ РІ РўРµР»РµРіСЂР°Рј <span style="width: 20px;height: 20px;display: inline-block;background-image: url(/bitrix/templates/nkj.kotico/images/tg_logo.png);background-size: 20px;margin-left: 0.25em;">&nbsp;</span>
+			</a>
+		</div>
+		<div class="shop_action inline_msg" id="msg_basket_added_27276">
+			Р–СѓСЂРЅР°Р» РґРѕР±Р°РІР»РµРЅ РІ РєРѕСЂР·РёРЅСѓ.<br/>
+			<a href="/personal/basket/" class="btn btn-info buy-btn">
+				РћС„РѕСЂРјРёС‚СЊ Р·Р°РєР°Р·
+			</a>
+		</div>
+	<div class="shop_action">
+<a class="subscribe" href="/shop/842/">РћС„РѕСЂРјРёС‚СЊ РїРѕРґРїРёСЃРєСѓ</a>
+	</div>
+</div>
+ 
+
+            <p style="text-align: right">
+                    <a href="/articles/rubric/498/">
+                        Р”СЂСѓРіРёРµ СЃС‚Р°С‚СЊРё РёР· СЂСѓР±СЂРёРєРё &laquo;Р®СЂРёРґРёС‡РµСЃРєРёРµ С‡С‚РµРЅРёСЏ&raquo;
+                    </a>
+            </p>
+                                                
+        <aside>
+
+        <!-- Related articles -->
+        </aside>
+
+    </article>
+<script type="text/javascript" pagespeed_no_defer>
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-100363-7",
+                renderTo: "yandex_ad_R-100363-7",
+                async: true
+            });
+}); 
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script><script>
+if ( typeof window['addEventListener'] == 'function' ) {
+window.addEventListener( 'copy', function (e) {
+    if (typeof window.getSelection == "undefined") return; //IE8 or earlier...
+
+    var body_element = document.getElementsByTagName('body')[0];
+    var selection = window.getSelection();
+
+    //if the selection is short let's not annoy our users
+    if (("" + selection).length < 70) return;
+
+    var newdiv = document.createElement('div');
+    newdiv.style.position = 'absolute';
+    newdiv.style.left = '-99999px';
+    body_element.appendChild(newdiv);
+    newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+    var docTitle = document.title.split('|')[0];
+    if ( docTitle != '' )
+        docTitle = ', ' + docTitle.replace(/^\s+|\s+$/gm, '');
+
+    var sig = '<br/>РџРѕРґСЂРѕР±РЅРµРµ СЃРј.: ' + '<a href="' + document.location.href + '">'
+        + document.location.href + '</a>' + ' (РќР°СѓРєР° Рё Р¶РёР·РЅСЊ' + docTitle + ')';
+
+    //we need a <pre> tag workaround
+    //otherwise the text inside "pre" loses all the line breaks!
+    if (selection.getRangeAt(0).commonAncestorContainer.nodeName == "PRE") {
+        newdiv.innerHTML = '<pre>' + newdiv.innerHTML + '</pre>' + sig;
+    }
+    else
+        newdiv.innerHTML += '<br />' + sig;
+
+    selection.selectAllChildren(newdiv);
+    window.setTimeout(function () { body_element.removeChild(newdiv); }, 200);
+}); }
+</script>
+
+
+		</div>
+				            <div class="span3" id="right"> 
+			<section class="magazine_right">
+				<p class="text-center">
+					<a href="/archive/1099/46842/">
+						<span class="read_in text-center">Р§РёС‚Р°Р№С‚Рµ<br/>РІ РЅРѕРјРµСЂРµ</span>
+						<div class="cover_wrap">
+							<img src="/upload/iblock/391/4wy4xypsgxb92clslalxvfbgx24ic29p.jpg" class="cover" />
+						</div>
+					</a>
+				</p>
+				<div class="shop_action">
+                    <div class="wide-btn">
+                        <div data-id="46840" rel="nofollow" class="btn buy_item" style="font-size: 12px">РљСѓРїРёС‚СЊ Р±СѓРјР°Р¶РЅС‹Р№ Р¶СѓСЂРЅР°Р»</div>
+                    </div>
+                    <div class="btn-group pull-left">
+						<a href="/shop/842/" rel="nofollow" class="btn btn-success buy-btn2" style="font-size: 12px">РџРѕРґРїРёСЃР°С‚СЊСЃСЏ</a>
+					</div> 
+					<div class="btn-group pull-right">
+                        						<a href="/shop/773/" rel="nofollow" class="btn btn buy-btn2" style="font-size: 12px" onclick="basket_add(46839, function(){ document.getElementById('msg_basket_added_right').style.display = 'block'; } ); return false;" >РљСѓРїРёС‚СЊ PDF</a>
+					</div>
+					<div class="inline_msg" id="msg_basket_added_right">
+						Р–СѓСЂРЅР°Р» РґРѕР±Р°РІР»РµРЅ РІ РєРѕСЂР·РёРЅСѓ.<br/>
+						<a href="/personal/basket/" class="btn btn-info buy-btn">РћС„РѕСЂРјРёС‚СЊ Р·Р°РєР°Р·</a>
+					</div>
+					<p style="clear: both; margin: 0px" />
+				</div>
+ 
+			</section>
+
+			<div align="center">
+	<div id="b_right_above_facts"></div>
+</div>
+
+
+
+                            <section class="fact-of-the-day">
+                        <div class="border" id="fact-of-the-day">
+        <span>Р¤Р°РєС‚ РґРЅСЏ</span>
+        <p>РЈ С‚РёРіСЂРѕРІ РІ Р·РѕРѕРїР°СЂРєР°С… С‡РµСЂРµРї СЃС‚Р°РЅРѕРІРёС‚СЃСЏ С€РёСЂРµ</p>
+        <a href="/facts/47112">Р§РёС‚Р°С‚СЊ РїРѕРґСЂРѕР±РЅРµРµ</a>
+    </div>
+
+    <style type="text/css">
+        #fact-of-the-day:before {
+            background: #fff url(/upload/resize_cache/iblock/803/40_40_1/hpgau7iikef0yww6cb2hby3pdhtfc1vc.jpg) center center no-repeat;
+            width: 43px;
+            height: 45px;
+        }
+    </style>
+                </section>
+            
+	  <br/>
+  <div align="center"></div><br/>
+
+  <div id="grf_nkjru_2"></div><br/>
+
+  <div align="center"></div><br/>
+
+  <div align="center"> </div><br/>
+
+  <div align="center"> </div>
+
+  <div align="center"> </div>
+
+
+
+  <div align="center"></div>
+ 
+  
+
+
+
+
+<!-- R-100363-1 РЇРЅРґРµРєСЃ.RTB-Р±Р»РѕРє  -->
+<div id="y_R-100363-1"></div>
+<script type="text/javascript" pagespeed_no_defer>
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-100363-1",
+                renderTo: "y_R-100363-1",
+                async: true
+            });
+        });  
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script>
+
+<div align="center"></div><br/>
+
+
+
+  <div align="center"></div><br/> 
+
+
+
+  <div align="center">В </div><br/>
+
+
+
+  <div align="center"> </div><br/>
+
+
+
+
+
+<!-- R-100363-3 РЇРЅРґРµРєСЃ.RTB-Р±Р»РѕРє  -->
+<div id="y_R-100363-3"></div>
+<script type="text/javascript" pagespeed_no_defer>
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-100363-3",
+                renderTo: "y_R-100363-3",
+                async: true
+            });
+        });
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script>
+
+</div>
+					</div>
+</div>
+
+<div class="footer_social">
+	<div class="container">
+		<div class="span3">
+			<h4>Р РµРґР°РєС†РёСЏ</h4>
+			<p>РџРѕСЂС‚Р°Р» Р¶СѓСЂРЅР°Р»Р°<br/>В«РќР°СѓРєР° Рё Р¶РёР·РЅСЊВ» В© 2005вЂ“2023</p>
+			<p>РђРќРћ Р РµРґР°РєС†РёСЏ Р¶СѓСЂРЅР°Р»Р°<br/>В«РќР°СѓРєР° Рё Р¶РёР·РЅСЊВ»</p>
+			<p><a href="https://www.nkj.ru/">https://www.nkj.ru/</a></p>
+			<p><a href="mailto:mail@nkj.ru" class="email">mail@nkj.ru</a></p>
+			<p>РўРµР»РµС„РѕРЅ: <span class="tel">+7 495 624-18-35</span></p>
+			<p>Р¤Р°РєСЃ: +7 495 625-05-90</p>
+			<p class="adr">РђРґСЂРµСЃ: <a rel="nofollow" href="http://maps.yandex.ru/?ol=biz&amp;oid=1096658455" target="_blank">
+				<span class="postal-index">101000</span> <span class="locality">Рі. РњРѕСЃРєРІР°</span>,<br/><span class="street-address">СѓР». РњСЏСЃРЅРёС†РєР°СЏ, Рґ. 24/7, СЃС‚СЂ.1</span></a>
+			</p>
+			<p class="small_p">РЎРІРёРґРµС‚РµР»СЊСЃС‚РІРѕ Рѕ СЂРµРіРёСЃС‚СЂР°С†РёРё Р­Р› в„–Р¤РЎ 77-20213 РѕС‚ 14.12.2004 РІС‹РґР°РЅРѕ Р¤РµРґРµСЂР°Р»СЊРЅРѕР№ СЃР»СѓР¶Р±РѕР№ РїРѕ РЅР°РґР·РѕСЂСѓ Р·Р° СЃРѕР±Р»СЋРґРµРЅРёРµРј Р·Р°РєРѕРЅРѕРґР°С‚РµР»СЊСЃС‚РІР° РІ СЃС„РµСЂРµ РјР°СЃСЃРѕРІС‹С… РєРѕРјРјСѓРЅРёРєР°С†РёР№ Рё РѕС…СЂР°РЅРµ РєСѓР»СЊС‚СѓСЂРЅРѕРіРѕ РЅР°СЃР»РµРґРёСЏ.</p>
+		</div>
+		<div class="span3">
+			<div id="vk_groups"></div>
+			<script type="text/javascript">
+				var f = function() {
+					VK.Widgets.Group("vk_groups", {mode: 0, width: "220", height: "310"}, 30698831);
+				}
+				if ( typeof VK == 'undefined' ) {
+					window.vkAsyncCallbacks = window.vkAsyncCallbacks || [];
+					window.vkAsyncCallbacks.push(f);
+				} else { f(); }
+			</script>
+		</div>
+		<div class="span3">
+			<a class="twitter-timeline" data-lang="ru" data-width="220" data-height="310" href="https://twitter.com/naukaizhizn?ref_src=twsrc%5Etfw">РўРІРёС‚С‹ РѕС‚ @naukaizhizn</a>
+		</div>
+	</div>	
+</div>
+
+<div class="footer_menu">
+	<div class="container">
+		<ul class="bottom_menu">
+			<li><img src="/bitrix/templates/nkj.kotico/images/logo_footer.png"></li>
+			<li><a href="/partners/">РџР°СЂС‚РЅРµСЂС‹</a></li>
+			<li><a href="/projects/">РџСЂРѕРµРєС‚С‹</a></li>
+			<li><a href="/blogs/">Р‘Р»РѕРіРё</a></li>
+			<li><a href="/fun/konkurs/">РљРѕРЅРєСѓСЂСЃС‹</a></li>
+			<li><a href="/games/crossword/">РљСЂРѕСЃСЃРІРѕСЂРґС‹</a></li>
+			<li><a href="/about/">Рћ Р¶СѓСЂРЅР°Р»Рµ</a></li>
+			<li><a href="/photo/">Р¤РѕС‚РѕРіР°Р»РµСЂРµСЏ</a></li>
+			<li><a href="/search/">РџРѕРёСЃРє</a></li>
+			<li><a href="/about/cookies/">Р¤Р°Р№Р»С‹ cookie</a></li>
+								</ul>
+	</div>
+</div>
+
+<div class="footer">
+	<div class="container">
+		<div class="span3">
+			<p>Р’СЃРµ РјР°С‚РµСЂРёР°Р»С‹ СЃР°Р№С‚Р° РїСЂРёРЅР°РґР»РµР¶Р°С‚ СЂРµРґР°РєС†РёРё Р¶СѓСЂРЅР°Р»Р° В«РќР°СѓРєР° Рё Р¶РёР·РЅСЊВ»</p>
+		</div>
+		<div class="span6 text-center">
+		<noindex>
+    <!-- Yandex -->
+	<a href="https://webmaster.yandex.ru/siteinfo/?site=https://www.nkj.ru"><img width="88" height="31" alt="РРљРЎ РЇРЅРґРµРєСЃ" border="0" src="https://yandex.ru/cycounter?https://www.nkj.ru&theme=light&lang=ru"/></a>
+    <!-- /Yandex -->
+        <!--LiveInternet counter-->
+    <span id="_live_internet"></span>
+
+    <script type="text/javascript" pagespeed_no_defer><!--
+        (function(d, id, s, a, i) {
+            i = d.createElement('img');
+            i.src = "//counter.yadro.ru/hit?t11.6;r" + escape(d.referrer) + (( typeof (s) == "undefined") ? "" : ";s" + s.width + "*" + s.height + "*" + (s.colorDepth ? s.colorDepth : s.pixelDepth)) + ";u" + escape(d.URL) + ";h" + escape(d.title.substring(0,150)) + ";" + Math.random();
+            i.alt = '';
+            i.title = 'LiveInternet: РїРѕРєР°Р·Р°РЅРѕ С‡РёСЃР»Рѕ РїСЂРѕСЃРјРѕС‚СЂРѕРІ Р·Р° 24 С‡Р°СЃР°, РїРѕСЃРµС‚РёС‚РµР»РµР№ Р·Р° 24 С‡Р°СЃР° Рё Р·Р° СЃРµРіРѕРґРЅСЏ';
+            i.width = 88;
+            i.height = 31;
+            a = d.createElement('a');
+            a.href = 'https://www.liveinternet.ru/click';
+            a.target = '_blank';
+            a.appendChild(i);
+            d.getElementById(id).appendChild(a);
+        })(document, '_live_internet', screen);
+        //-->
+    </script>
+    <!--/LiveInternet counter-->
+    <!-- Rating@Mail.ru logo -->
+    <a href="http://top.mail.ru/jump?from=1829300"> <img src="//top-fwz1.mail.ru/counter?id=1829300;t=479;l=1"
+    style="border:0;" height="31" width="88" alt="Р РµР№С‚РёРЅРі@Mail.ru" /></a>
+    <!-- //Rating@Mail.ru logo -->
+	<!-- Rambler's Top 100 -->
+    <span id="top100nkj_counter"></span>
+	<!-- //Rambler's Top 100 -->
+
+	<noscript><img src="https://vk.com/rtrg?p=VK-RTRG-922967-gAzjA" style="position:fixed; left:-999px;" alt=""/></noscript>
+</noindex>
+
+<span style="font-size: 0.8em; text-align: left; margin-left: 1em; display:inline-block; width: 5em; bottom:-10px;margin-top:-10px;position:relative;"><a href="http://rambler.ru">РџР°СЂС‚РЅРµСЂ Р Р°РјР±Р»РµСЂР°</a></span>
+
+		</div>
+		<div class="span3">
+			<p class="text-right">РџРѕРґРґРµСЂР¶РєР° Рё СЂР°Р·РІРёС‚РёРµ СЃР°Р№С‚Р°<br/><a href="http://ktc.bz" style="text-decoration:underline;" target="_blank">KTC Digital Production</a></p>
+		</div>
+	</div>
+	<div class="container">
+		<div class="span12 text-center">
+			<a href="https://m.nkj.ru/archive/articles/27290/?ELEMENT_ID=27290">РњРѕР±РёР»СЊРЅР°СЏ РІРµСЂСЃРёСЏ</a>
+		</div>
+	</div>
+</div>
+<div class="cookies-usage" id="cookies-popup">
 <script type="text/javascript">
-var ALXerrorSendMessages={
-        'head':'Найденная Вами ошибка в тексте',
-        'footer':'<b>Послать сообщение об ошибке автору?</b><br/><span style="font-size:10px;color:#7d7d7d">(ваш браузер останется на той же странице)</span>',
-        'comment':'Комментарий для автора (необязательно)',
-        'TitleForm':'Сообщение об ошибке',
-        'ButtonSend':'Отправить',
-        'LongText':'Вы выбрали слишком большой объем текста.',
-        'LongText2':'Попробуйте ещё раз.',
-        'cancel':'Отмена',
-        'senderror':'Ошибка отправки сообщения!',
-        'close':'Закрыть',
-        'text_ok':'Ваше сообщение отправлено.',
-        'text_ok2':'Спасибо за внимание!'
+function setCookie(name, value, days = 7, path = '/') {
+	var expires = new Date(Date.now() + days * 864e5).toUTCString();
+	document.cookie = name + '=' + encodeURIComponent(value) + '; expires=' + expires + '; path=' + path
+}
+
+function getCookie(name) {
+	return document.cookie.split('; ').reduce((r, v) => {
+		var parts = v.split('=');
+		return parts[0] === name ? decodeURIComponent(parts[1]) : r
+	}, '')
+}
+
+function deleteCookie(name, path) {
+	setCookie(name, '', -1, path)
+}
+
+function acceptCookies() {
+	setCookie('nkj_CookiePolicyAccepted', 'yes', 365);
+	document.getElementById('cookies-popup').style.display = 'none';
 }
 </script>
-<script type='text/javascript' async src='/bitrix/js/altasib.errorsend/error.js'></script>
+	<table><tr>
+		<td>РџРѕСЂС‚Р°Р» Р¶СѓСЂРЅР°Р»Р° В«РќР°СѓРєР° Рё Р¶РёР·РЅСЊВ» РёСЃРїРѕР»СЊР·СѓРµС‚ С„Р°Р№Р»С‹ cookie.
+	РџСЂРѕРґРѕР»Р¶Р°СЏ РїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ РїРѕСЂС‚Р°Р»РѕРј, РІС‹ СЃРѕРіР»Р°С€Р°РµС‚РµСЃСЊ СЃ С…СЂР°РЅРµРЅРёРµРј Рё РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј
+	РїРѕСЂС‚Р°Р»РѕРј Рё РїР°СЂС‚РЅС‘СЂСЃРєРёРјРё СЃР°Р№С‚Р°РјРё С„Р°Р№Р»РѕРІ cookie РЅР° РІР°С€РµРј СѓСЃС‚СЂРѕР№СЃС‚РІРµ.
+	<a href="/about/cookies">РџРѕРґСЂРѕР±РЅРµРµ</a>
+		</td><td>
+			<button class="btn btn-lg" onclick="acceptCookies()">РџРѕРЅСЏС‚РЅРѕ, СЃРїР°СЃРёР±Рѕ</button>
+		<td>
+	</tr></table>
+</div><div class="modal_basket"></div>
 
+<noscript>
+	<div><img src="//mc.yandex.ru/watch/22120951" style="position:absolute; left:-9999px;" alt="" /></div>
+	<div style="position:absolute;left:-10000px;"><img src="//top-fwz1.mail.ru/counter?id=1829300;js=na" style="border:0;" height="1" width="1" alt="Р РµР№С‚РёРЅРі@Mail.ru" /></div>
+</noscript>
 
+<div class="basket_info" style="display: none;">
+    <h3>РўРѕРІР°СЂ РґРѕР±Р°РІР»РµРЅ РІ <a href="/personal/basket/">РєРѕСЂР·РёРЅСѓ</a></h3>
+    <a href="/shop/order.php" class="all-news">РћС„РѕСЂРјРёС‚СЊ Р·Р°РєР°Р·</a>
+    <p>РёР»Рё <span class="close_a">РїСЂРѕРґРѕР»Р¶РёС‚СЊ РїРѕРєСѓРїРєРё</span></p>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
 
-<script type="text/javascript" src="/bitrix/templates/gos_modern_blue_kg/js/-jquery.min.js?156155652184319"></script>
-<script type="text/javascript" src="/bitrix/templates/gos_modern_blue_kg/js/js.cookie.min.js?15615565211783"></script>
-<script type="text/javascript" src="/bitrix/templates/gos_modern_blue_kg/js/jquery.shorten.js?15615565216270"></script>
-<script type="text/javascript" src="/bitrix/templates/gos_modern_blue_kg/js/jquery.formstyler.min.js?156155652118746"></script>
-<script type="text/javascript" src="/bitrix/templates/gos_modern_blue_kg/js/jquery.matchHeight-min.js?15615565213045"></script>
-<script type="text/javascript" src="/bitrix/templates/gos_modern_blue_kg/js/jquery.mobileNav.min.js?15615565211915"></script>
-<script type="text/javascript" src="/bitrix/templates/gos_modern_blue_kg/js/jquery.tabsToSelect.min.js?15615565212069"></script>
-<script type="text/javascript" src="/bitrix/templates/gos_modern_blue_kg/js/owl.carousel.min.js?156155652140401"></script>
-<script type="text/javascript" src="/bitrix/templates/gos_modern_blue_kg/js/perfect-scrollbar.jquery.min.js?156155652122422"></script>
-<script type="text/javascript" src="/bitrix/templates/gos_modern_blue_kg/js/responsive-tables.js?15615565211742"></script>
-<script type="text/javascript" src="/bitrix/templates/gos_modern_blue_kg/js/special_version.js?15615565214482"></script>
-<script type="text/javascript" src="/bitrix/templates/gos_modern_blue_kg/js/main.js?156155652115798"></script>
-<script type="text/javascript" src="/bitrix/components/bitrix/search.title/script.js?15614473729847"></script>
-<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "70d665d74b49da50217a60d6c63ba792"]); _ba.push(["host", "www.klgd.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+        $('.buy_item').click(function(e){
+            e.preventDefault();
 
+            var modal = $(this).parents('.modal');
+            if (modal.length){
+                modal.modal('hide');
+            }
 
+            $.ajax({
+                type: "POST",
+                url: '/personal/add2basket.php?RND=',
+                data: {'item_id': $(this).data('id') },
+                success: function(data){
+                    $('.basket .cnt').html(data);
+                    $('.basket_info').hide().fadeIn();
+                    $('.modal_basket').hide().fadeIn();
+                }
+            });
+        });
 
+        $('.close_a').click(function(e){
+            $(this).parents('.basket_info').hide();
+            $('.modal_basket').hide();
+        });
+    });
+</script>
 
+<script type="text/javascript" pagespeed_no_defer>
+// Yandex.Metrika
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-<script>
+   ym(22120951, "init", {
+        id:22120951,
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:!(false || navigator.doNotTrack || navigator.msDoNotTrack || window.doNotTrack)
+   });
 
-function JCTitleSearchModern(arParams)
-{
-	var _this = this;
+// Rating@Mail.ru counter -->
+var _tmr = _tmr || [];
+_tmr.push({id: "1829300", type: "pageView", start: (new Date()).getTime()});
 
-	this.arParams = {
-		'AJAX_PAGE': arParams.AJAX_PAGE,
-		'CONTAINER_ID': arParams.CONTAINER_ID,
-		'INPUT_ID': arParams.INPUT_ID,
-		'MIN_QUERY_LEN': parseInt(arParams.MIN_QUERY_LEN)
+// Rambler's Top 100 -->
+var _top100q = _top100q || [];
+
+_top100q.push(["setAccount", "956805"]);
+_top100q.push(["trackPageviewByLogo", document.getElementById("top100nkj_counter")]);
+
+// VK async
+window.vk_init = false;
+window.vkAsyncInit = function() {
+	VK.init({ apiId: 3932598, onlyWidgets: false });
+	window.vk_init = true;
+	(function(){VK.Retargeting.Init("VK-RTRG-922967-gAzjA"),VK.Retargeting.Hit()})();
+	( window.vkAsyncCallbacks || [] ).forEach( function(x){ x(); } );
+};
+
+var inscript = function(d, s, id, src) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (''!=id && d.getElementById(id)) return;
+	js = d.createElement(s); if (''!=id) js.id = id; js.src = src; js.async = true;
+	var f = function(){ fjs.parentNode.insertBefore(js, fjs); };
+	if (window.opera == "[object Opera]") {
+		d.addEventListener("DOMContentLoaded", f, false);
+	} else { f(); }
+}
+document.addEventListener('DOMContentLoaded', function(){
+	window.setTimeout(function(){
+		inscript(document, 'script', 'twitter-wjs', 'https://platform.twitter.com/widgets.js');
+		inscript(document, 'script', 'vk_api_js', 'https://vk.com/js/api/openapi.js?169');
+	}, 4000);
+});
+inscript(document, 'script', '', 'https://st.top100.ru/top100/top100.js');
+inscript(document, 'script', '', 'https://top-fwz1.mail.ru/js/code.js');
+inscript(document, 'script', '', 'https://an.yandex.ru/system/context.js');
+</script>
+<script> !function (w, d, t) {
+	w.TiktokAnalyticsObject=t;
+	var ttq=w[t]=w[t]||[];
+	ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){
+		t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}
 	};
-	if(arParams.WAIT_IMAGE)
-		this.arParams.WAIT_IMAGE = arParams.WAIT_IMAGE;
-	if(arParams.MIN_QUERY_LEN <= 0)
-		arParams.MIN_QUERY_LEN = 1;
-
-	this.cache = [];
-	this.cache_key = null;
-
-	this.startText = '';
-	this.currentRow = -1;
-	this.RESULT = null;
-	this.CONTAINER = null;
-	this.INPUT = null;
-	this.WAIT = null;
-
-	this.ShowResult = function(result)
-	{
-		var suggestions = document.getElementsByClassName('search-suggestions');
-		suggestions[0].innerHTML = result;
-	}
-
-	this.onKeyPress = function(keyCode)
-	{
-		var tbl = BX.findChild(_this.RESULT, {'tag':'div','class':'search-result'}, true);
-		if(!tbl)
-			return false;
-
-		var cnt = tbl.rows.length;
-
-		switch (keyCode)
-		{
-			case 27: // escape key - close search div
-				_this.RESULT.style.display = 'none';
-				_this.currentRow = -1;
-				_this.UnSelectAll();
-				return true;
-
-			case 40: // down key - navigate down on search results
-				if(_this.RESULT.style.display == 'none')
-					_this.RESULT.style.display = 'block';
-
-				var first = -1;
-				for(var i = 0; i < cnt; i++)
-				{
-					if(!BX.findChild(tbl.rows[i], {'class':'title-search-separator'}, true))
-					{
-						if(first == -1)
-							first = i;
-
-						if(_this.currentRow < i)
-						{
-							_this.currentRow = i;
-							break;
-						}
-						else if(tbl.rows[i].className == 'title-search-selected')
-						{
-							tbl.rows[i].className = '';
-						}
-					}
-				}
-
-				if(i == cnt && _this.currentRow != i)
-					_this.currentRow = first;
-
-				tbl.rows[_this.currentRow].className = 'title-search-selected';
-				return true;
-
-			case 38: // up key - navigate up on search results
-				if(_this.RESULT.style.display == 'none')
-					_this.RESULT.style.display = 'block';
-
-				var last = -1;
-				for(var i = cnt-1; i >= 0; i--)
-				{
-					if(!BX.findChild(tbl.rows[i], {'class':'title-search-separator'}, true))
-					{
-						if(last == -1)
-							last = i;
-
-						if(_this.currentRow > i)
-						{
-							_this.currentRow = i;
-							break;
-						}
-						else if(tbl.rows[i].className == 'title-search-selected')
-						{
-							tbl.rows[i].className = '';
-						}
-					}
-				}
-
-				if(i < 0 && _this.currentRow != i)
-					_this.currentRow = last;
-
-				tbl.rows[_this.currentRow].className = 'title-search-selected';
-				return true;
-
-			case 13: // enter key - choose current search result
-				if(_this.RESULT.style.display == 'block')
-				{
-					for(var i = 0; i < cnt; i++)
-					{
-						if(_this.currentRow == i)
-						{
-							if(!BX.findChild(tbl.rows[i], {'class':'title-search-separator'}, true))
-							{
-								var a = BX.findChild(tbl.rows[i], {'tag':'a'}, true);
-								if(a)
-								{
-									window.location = a.href;
-									return true;
-								}
-							}
-						}
-					}
-				}
-				return false;
-		}
-
-		return false;
-	}
-
-	this.onTimeout = function()
-	{
-		_this.onChange(function(){
-			setTimeout(_this.onTimeout, 500);
-		});
-	}
-
-	this.onChange = function(callback)
-	{
-		if(_this.INPUT.value != _this.oldValue && _this.INPUT.value != _this.startText)
-		{
-			_this.oldValue = _this.INPUT.value;
-			if(_this.INPUT.value.length >= _this.arParams.MIN_QUERY_LEN)
-			{
-				_this.cache_key = _this.arParams.INPUT_ID + '|' + _this.INPUT.value;
-				if(_this.cache[_this.cache_key] == null)
-				{
-					if(_this.WAIT)
-					{
-						var pos = BX.pos(_this.INPUT);
-						var height = (pos.bottom - pos.top)-2;
-						_this.WAIT.style.top = (pos.top+1) + 'px';
-						_this.WAIT.style.height = height + 'px';
-						_this.WAIT.style.width = height + 'px';
-						_this.WAIT.style.left = (pos.right - height + 2) + 'px';
-						_this.WAIT.style.display = 'block';
-					}
-
-					BX.ajax.post(
-						_this.arParams.AJAX_PAGE,
-						{
-							'ajax_call':'y',
-							'INPUT_ID':_this.arParams.INPUT_ID,
-							'q':_this.INPUT.value,
-							'l':_this.arParams.MIN_QUERY_LEN
-						},
-						function(result)
-						{
-							_this.cache[_this.cache_key] = result;
-							_this.ShowResult(result);
-							_this.currentRow = -1;
-							_this.EnableMouseEvents();
-							if(_this.WAIT)
-								_this.WAIT.style.display = 'none';
-							if (!!callback)
-								callback();
-						}
-					);
-					return;
-				}
-				else
-				{
-					_this.ShowResult(_this.cache[_this.cache_key]);
-					_this.currentRow = -1;
-					_this.EnableMouseEvents();
-				}
-			}
-			else
-			{
-				_this.RESULT.style.display = 'none';
-				_this.currentRow = -1;
-				_this.UnSelectAll();
-			}
-		}
-		if (!!callback)
-			callback();
-	}
-
-	this.UnSelectAll = function()
-	{
-		var tbl = BX.findChild(_this.RESULT, {'tag':'div','class':'search-result'}, true);
-		if(tbl)
-		{
-			var cnt = tbl.rows.length;
-			for(var i = 0; i < cnt; i++)
-				tbl.rows[i].className = '';
-		}
-	}
-
-	this.EnableMouseEvents = function()
-	{
-		var tbl = BX.findChild(_this.RESULT, {'tag':'div','class':'search-result'}, true);
-		if(tbl)
-		{
-			var cnt = tbl.rows.length;
-			for(var i = 0; i < cnt; i++)
-				if(!BX.findChild(tbl.rows[i], {'class':'title-search-separator'}, true))
-				{
-					tbl.rows[i].id = 'row_' + i;
-					tbl.rows[i].onmouseover = function (e) {
-						if(_this.currentRow != this.id.substr(4))
-						{
-							_this.UnSelectAll();
-							this.className = 'title-search-selected';
-							_this.currentRow = this.id.substr(4);
-						}
-					};
-					tbl.rows[i].onmouseout = function (e) {
-						this.className = '';
-						_this.currentRow = -1;
-					};
-				}
-		}
-	}
-
-	this.onFocusLost = function(hide)
-	{
-		setTimeout(function(){_this.RESULT.style.display = 'none';}, 250);
-	}
-
-	this.onFocusGain = function()
-	{
-		if(_this.RESULT.innerHTML.length)
-			_this.ShowResult();
-	}
-
-	this.onKeyDown = function(e)
-	{
-		if(!e)
-			e = window.event;
-
-		if (_this.RESULT.style.display == 'block')
-		{
-			if(_this.onKeyPress(e.keyCode))
-				return BX.PreventDefault(e);
-		}
-	}
-
-	this.Init = function()
-	{
-		this.CONTAINER = document.getElementById(this.arParams.CONTAINER_ID);
-		this.RESULT = document.body.appendChild(document.createElement("DIV"));
-		this.RESULT.className = 'search-suggestions';
-		this.INPUT = document.getElementById(this.arParams.INPUT_ID);
-		this.startText = this.oldValue = this.INPUT.value;
-		BX.bind(this.INPUT, 'focus', function() {_this.onFocusGain()});
-		BX.bind(this.INPUT, 'blur', function() {_this.onFocusLost()});
-
-		if(BX.browser.IsSafari() || BX.browser.IsIE())
-			this.INPUT.onkeydown = this.onKeyDown;
-		else
-			this.INPUT.onkeypress = this.onKeyDown;
-
-		if(this.arParams.WAIT_IMAGE)
-		{
-			this.WAIT = document.body.appendChild(document.createElement("DIV"));
-			this.WAIT.style.backgroundImage = "url('" + this.arParams.WAIT_IMAGE + "')";
-			if(!BX.browser.IsIE())
-				this.WAIT.style.backgroundRepeat = 'none';
-			this.WAIT.style.display = 'none';
-			this.WAIT.style.position = 'absolute';
-			this.WAIT.style.zIndex = '1100';
-		}
-
-		BX.bind(this.INPUT, 'bxchange', function() {_this.onChange()});
-	}
-
-	BX.ready(function (){_this.Init(arParams)});
-}
-
-	BX.ready(function(){
-		new JCTitleSearchModern({
-			'AJAX_PAGE' : '/activity/education/protection/opeka-i-popechitelstvo-nad-nesovershennoletnimi/usynovlenie-udocherenie-detey.php',
-			'CONTAINER_ID': 'searchTitle',
-			'INPUT_ID': 'title-search-input',
-			'MIN_QUERY_LEN': 2
-		});
-	});
-</script>
+	for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);
+	ttq.instance=function(t){
+		for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++ )ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){
+		var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};
+		n=document.createElement("script");
+		n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;
+		e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)
+	}; 
+	ttq.load('C6QH6V448LJFHF7EMQNG'); ttq.page(); 
+}(window, document, 'ttq'); </script> 
 </body>
 </html>
