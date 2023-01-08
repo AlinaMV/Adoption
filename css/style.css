@@ -467,7 +467,8 @@ a:focus {
 }
 
 .w-100 {
-  width: 100% !important;
+  width: !important;
+  height: 500px;
 }
 
 .btn-group-toggle input[type=radio] {
