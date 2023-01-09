@@ -42,6 +42,13 @@ En gros, on a suivi les étapes suivantes afin d'obtenir les résultats présent
 
 ## Nos hypothèses
 
+Il est suggéré que les champs lexicaux du mot choisi sont différents dans chacune de nos trois langues. Cette hypothèse nous paraît naturelle, car, ayant pris le mot adoption dans le sens de la création d'un lien de filiation, nous n'avons pas pu ignorer la polysémie du terme en polonais et en portugais. En effet, le mot n'est monosémique que dans la langue russe qui se traduit d'ailleurs soit comme усыновление, s'il s'agit de l'adoption d'un garçon, soit comme удочерение lorsqu'on parle d'une fille. Tandis qu'en polonais et en portugais on peut également parler de l'adoption d'un animal ou d'une loi. Qui plus est, il existe dans la langue portugaise une autre signification, plus métaphorique, qui peut se traduire comme utilisation de quelque chose.
+L'hypothèse est à tester au cours de notre travail, puisque les recherches préliminaires montrent déjà que les champs lexicaux en polonais et en russe sont quasiment identiques. Il faut donc explorer la fréquence de l'apparition du mot dans des contextes différents. 
+Une autre question intéressante est de savoir quel mot russe s'utilise le plus. Pour l'instant, on suppose que усыновление est plus courant. Reste à réunir plus de contextes.
+
+
 ## Répartition du travail
+
+En tant qu'une équipe bien soudée, nous avons travaillé ensemble sur la création du site et du script bash permettant de traiter les URLs. Ensuite, chacune de nous a analysé le mot dans sa langue (Alina : russe, Luísa : portugais, Sandra : polonais) et présenté ses résultats. 
 
 ## Analyse
